@@ -1,12 +1,66 @@
-# main links
+# main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "<b>Прошивка<br>WiiU, PS Vita</b>"
+    url: http://customfw.xyz
+  - title: "<i>Купить<br>прошитую</i>"
+    url: https://3dscfw.olx.ua/
+  - title: "Обновление<br>Luma3DS"
+    url: /update-luma3ds
+  - title: "Переход с<br>a9lh на b9s"
+    url: /a9lh-to-b9s
+  - title: "Обновление<br>b9s"
+    url: /updating-b9s
+  - title: "NTRBoot"
+    url: /ntrboot
+  - title: "Хардмод"
+    url: /making-hardmod
+  - title: "Полезные<br>инструкции"
+    url: /addons
+  - title: "Список ПО"
+    url: /soft
+  - title: "FAQ"
+    url: /faq
+  - title: "Проблемы и<br>их решения"
+    url: /troubleshooting
+  - title: "Freeshop"
+    url: /freeshop
+  - title: "Интеграция<br>FBI"
+    url: /fbi
+  - title: "Навигация по сайту"
+    url: /site-navigation
+  - title: "Пожертвования"
+    url: /donations
+  - title: "Благодарности"
+    url: /credits               
+            
+addons:
+  - title: "FAQ"
+    url: /faq
+  - title: "Дополнительный FAQ"
+    url: /faq-3ds
+  - title: "Установка приложений и игр"
+    url: /games
+  - title: "Установка и использование тем"
+    url: /themes
+  - title: "Установка и использование жетонов"
+    url: /badges
+  - title: "Обновление Luma3DS"
+    url: /update-luma3ds
+  - title: "Переход с a9lh на b9s"
+    url: /a9lh-to-b9s
+  - title: "Обновление b9s"
+    url: /updating-b9s
+  - title: "Использование GodMode9"
+    url: /godmode9-usage
+  - title: "Конвертация 3DS-ромов в CIA"
+    url: /godmode9-usage#convert_3ds
+  - title: "Создание, редактирование и восстанавление резервных копий сохранения игр (англ.)"
+    url: https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/
+  - title: "Эмуляция языка и региона в Luma3DS"
+    url: /lumalocales
+  - title: "Смена региона"
+    url: /region-changing
+  - title: "DSi / DS игры не работают после завершения руководства"
+    url: /troubleshooting#dsi--ds-игры-не-работают-после-завершения-руководства
+  - title: "Я потерял все данные на SD-карте. Что нужно делать, чтобы восстановить работоспособность?"
+    url: /clean_sd
