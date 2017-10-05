@@ -7,7 +7,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: 'test3'
+excerpt: 'test4'
 ---
 
 {% include toc title="Разделы" %}
