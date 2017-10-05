@@ -11,20 +11,21 @@
       {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
       {% else %}
-        <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
+        <center><img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image"></center>
       {% endif %}
     </div>
   {% endif %}
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    <h3 class="author__name" itemprop="name">{{ author.name }}</h3><br>
     {% if author.bio %}
       <p class="author__bio" itemprop="description">
         {{ author.bio }}
       </p>
     {% endif %}
   </div>
-
+  
+  
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
@@ -33,7 +34,10 @@
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
         </li>
       {% endif %}
+	<hr class="style-two">
 
+      {% include author-profile-custom-links.html %}
+	
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url">
@@ -243,7 +247,8 @@
         </li>
       {% endif %}
 
-      {% include author-profile-custom-links.html %}
+
     </ul>
   </div>
 </div>
+

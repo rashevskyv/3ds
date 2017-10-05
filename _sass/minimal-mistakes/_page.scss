@@ -16,7 +16,7 @@
           animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 85%;
   }
 }
 
@@ -94,7 +94,7 @@
   a:not(.btn) {
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);

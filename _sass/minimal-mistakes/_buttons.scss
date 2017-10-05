@@ -28,6 +28,7 @@
     margin-left: -0.5em; /* override for hidden text*/
   }
 
+ 
   /* button colors */
   $buttoncolors:
   (primary, $primary-color),
@@ -49,11 +50,11 @@
         border: 1px solid $border-color;
       }
       @if ($buttoncolor == light-outline) {
-        border: 1px solid #fff;
+        border: 2px solid $light-gray;
       }
 
       &:hover {
-        @include yiq-contrasted(mix(#000, $color, 20%));
+        @include yiq-contrasted(mix(#000, $color, 80%));
       }
 
       &:visited {
@@ -61,6 +62,8 @@
       }
     }
   }
+  
+  
 
   /* fills width of parent container */
   &--block {
