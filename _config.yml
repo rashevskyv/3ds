@@ -8,19 +8,19 @@
 minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "ru-RU"
+title                    : "Взлом 3DS"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+name                     : "Plailect, xHR"
+description              : "Инструкция по установке arm9loaderhax и кастомной прошивки на 3DS"
+url                      : "https://3ds.customfw.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "rashevskyv/3ds" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -31,33 +31,28 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-reCaptcha:
-  siteKey                :
-  secret                 :
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE
 alexa_site_verification  :
 yandex_site_verification :
-naver-site-verification  :
 
 # Social Sharing
 twitter:
@@ -76,42 +71,42 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-92824803-1"
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "xHR"
+  avatar           : "/images/bio-photo.png"
+  location         : "Кривой рог, Украина"
+  email            : "rashevsky.v@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
+  vk               : "rashevskyv"
+  vk_group         : "3ds_cfw"
   flickr           :
   facebook         :
   foursquare       :
-  github           :
-  gitlab           :
+  github           : "rashevskyv"
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  lastfm           : 
+  linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
   tumblr           :
-  twitter          :
+  twitter          : "xHR_"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          :
 
 
 # Reading Files
@@ -240,14 +235,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
