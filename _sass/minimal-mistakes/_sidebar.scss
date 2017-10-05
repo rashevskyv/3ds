@@ -18,26 +18,40 @@
     z-index: 10;
   }
 
+
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
 
-    &:hover {
-      opacity: 1;
+
+  a {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: $text-color;
+    font-size: $type-size-5;
+    text-decoration: none; 
+
+	&:hover {
+      opacity: 0.5;
     }
 
+	}
+	
     &.sticky {
       overflow-y: auto;
       /* calculate height of nav list */
-      height: calc(100vh - 90px - 2em); // viewport height - approx. masthead height - main content top margin
+
     }
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} - 3em);
   }
 
   h2, h3, h4, h5, h6 {
@@ -60,8 +74,8 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: absolute;
-    top: 0;
+    position: sticky;
+    top: 2em;
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
@@ -72,8 +86,21 @@
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
     margin-right: -1 * $right-sidebar-width;
+
+
+
+
+
+
+
+	float: right;
   }
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list */
+    }
 }
+
 
 .splash .sidebar__right {
 
@@ -257,7 +284,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
