@@ -492,9 +492,9 @@
      ========================================================================== */
 
   .toc {
-    font-family: $sans-serif-narrow;
+    font-family: Arial, Helvetica, sans-serif;
     color: $gray;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     background-color: $background-color;
     border: 1px solid $border-color;
@@ -515,7 +515,7 @@
     padding: 0;
     width: 100%;
     list-style: none;
-    font-size: 0.8rem;
+    font-size: $type-size-4;
 
     a {
       display: block;
