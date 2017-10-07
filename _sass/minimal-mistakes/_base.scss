@@ -283,7 +283,7 @@ svg:not(:root) {
 nav {
   ul {
     margin: 0;
-    padding: 0;
+    padding: 0px 10px 0px 10px;
   }
 
   li {
@@ -314,3 +314,4 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+

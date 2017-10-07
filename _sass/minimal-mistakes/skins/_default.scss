@@ -3,7 +3,7 @@
    ========================================================================== */
    
 $gray                       : #7a8288 !default;
-$darkest-gray                  : mix(#000, $gray, 20%) !default;
+$darkest-gray               : mix(#000, $gray, 20%) !default;
 $dark-gray                  : mix(#000, $gray, 40%) !default;
 $darker-gray                : mix(#000, $gray, 60%) !default;
 $light-gray                 : mix(#fff, $gray, 50%) !default;
@@ -221,22 +221,9 @@ figure.highlight {
     color: $text-color;
 
 	&:hover {
-      opacity: 0.5;
+        color: $gray;
     }
   }
-}
-
-.toc__menu {
-  font-size: 0.60rem;
-  
-    a {
-        color: $text-color !important;
-
-      &:hover {
-        color: $text-color;
-		opacity: 0.5;
-      }
-    }
 }
 
 .page__content {
@@ -250,25 +237,60 @@ figure.highlight {
   font-size: $type-size-5 !important;
 }
 
-  .toc {
+   .toc {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: lowercase;
 	line-height: 60%;
-	padding: 5 5 5 5;
 
     .nav__title {
 	  text-transform: uppercase;
+      padding: 0.3rem 0.8rem 0.3rem 0.8rem !important;
+    }
+
+   a {
+       padding: 0.3rem 0.8rem 0.3rem 0.8rem !important;
+       color: $text-color !important;
+	      
+ 	  &:hover {
+        color: $light-gray !important;
+      }
     }
   }
-
-  .toc__menu {
-    font-size: $type-size-4;
-	
-    a {
-      padding: 0.3rem 0.8rem;
-    }
+  
+nav {
+  ul {
+    margin: 0;
+    padding: 0px 10px 0px 10px !important;
   }
 
-  
-  
-  
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* override white-space for nested lists */
+  ul li,
+  ol li {
+    margin-bottom: 0;
+  }
+
+  li ul,
+  li ol {
+    margin-top: 0;
+  }
+}
+
+.scrollup {
+	width:40px;
+	height:40px;
+	opacity:0.3;
+	position:fixed;
+	bottom:30px;
+	right:50px;
+	display:none;
+	text-indent:-9999px;
+	background: url('top.png') no-repeat;
+}

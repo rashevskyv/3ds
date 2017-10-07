@@ -3,11 +3,10 @@ title: "FAQ"
 permalink: /faq.html
 author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Это основной faq, который следует прочесть до взлома. После взлома рекомендую ознакомиться с этим разделом - [Дополнительный FAQ](faq-3ds)
 {: .notice--success}
-
-{% include toc title="Разделы" %}
 
 #### **В:** *Если все делать по гайду брик не получу?*    
 <a name="brick" />
