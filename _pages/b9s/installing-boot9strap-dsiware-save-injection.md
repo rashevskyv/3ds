@@ -7,13 +7,10 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
-{: .notice--info}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
 
 Прежде чем продолжить, убедитесь, вы прочитали все уведомления и предупреждения в [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware)
-{: .notice--danger}
 
 Если вы не будете использовать корректный `.firm`, соответствующий целевой 3DS, вы получите БРИК! Убедитесь что скачали и используете правильный!
 {: .notice--danger}
@@ -35,17 +32,22 @@ author_profile: true
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
-* 11.4.0/11.5.0/11.6.0 `.firm` соответствующий **целевой 3DS** (они идентичны таковым от прошивки 11.4, пусть это вас не смущает)
+* 11.4.0/11.5.0/11.6.0 `.firm` соответствующий **целевой 3DS** (они идентичны таковым у 11.4, 11.5, 11.6, пусть это вас не смущает)
   + <i class="fa fa-magnet" aria-hidden="true" title="Это магнитная ссылка. Используйте торрент-клиент для работы с ней."></i> - [`2.54-0_11.4_OLD.firm`](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
   + <i class="fa fa-magnet" aria-hidden="true" title="Это магнитная ссылка. Используйте торрент-клиент для работы с ней."></i> - [`2.54-0_11.4_NEW.firm`](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
 ## Инструкция
 
-#### Часть I - Подготовительные работы
+### Часть I - Подготовительные работы
 
 Используйте [save manager](https://github.com/J-D-K/JKSM/releases/latest) для того, чтобы сделать резервные копии всех важных сохранений на *целевой 3DS* (приставка будет отформатирована!)
 {: .notice--warning}
 
+Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
+{: .notice--info}
+
+1. Выключите **исходную 3DS**
+1. Вставьте SD-карту **исходной 3DS** в компьютер
 1. Скопируйте `GodMode9.firm` (или `GodMode9.bin` для пользователей arm9loaderhax) из `.zip-архива`GodMode9 в папку `/luma/payloads/` на SD-карте **исходной 3DS**
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `public.sav` из папки `/dsiware/(8-ми значный ID)/` из `.zip-архива` 3ds_dsiwarehax_installer, в корень SD-карты **исходной 3DS**
@@ -73,7 +75,7 @@ author_profile: true
 1. Вставьте SD-карты обратно в соответствующие 3DS
 1. Нажмите (START) на **исходной 3DS** для перезагрузки
 
-#### Часть II - Установка сохранения
+### Часть II - Установка сохранения
 
 1. Включите **исходную 3DS** кнопкой питания, держа нажатой кнопку (START), чтобы запустить GodMode9
 1. Перейдите в `[0:] SDCARD`
@@ -97,6 +99,7 @@ author_profile: true
 1. Нажмите (B), если появится запрос, чтобы не восстанавливать запрет на запись в раздел
 1. Нажмите (Y) чтобы вставить файл `public.sav`
 1. Выберите "Copy path(s)"
+																								  
 1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
 1. Запустите DSiWare-игру на **исходной 3DS**
 1. Проверьте, работает ли сохранение
@@ -104,11 +107,11 @@ author_profile: true
   + **Legends of Exidia**: после того, как нажмёте (A) или (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
   + **Guitar Rock Tour**: листайте ВНИЗ и перейдите в High-Scores -> Drums -> Easy    
   + **The Legend of Zelda: Four Swords**: Просто начните игру
-  + Если игра завершается с ошибкой о `boot.nds`, либо просто появляется белый экран, **значит эксплойт сработал успешно!**
+  + Если игра завершается с ошибкой, касающейся `boot.nds`, или просто в белый экран, **значит эксплойт работает и все в порядке!**
   + Если игра работает нормально безо всяких ошибок, значит вам следует остановится и выяснить на каком этапе вы допустили оплошность
-  + Если появляется черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#dsi--ds-игры-не-работают-после-завершения-руководства)
+  + Если появляется черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#dsids-игры-не-работают-на-прошитой-приставке)
 
-#### Часть III - Перенос системы
+### Часть III - Перенос системы
 
 1. **Сохраните файлы с обеих SD-карт в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда!)**
 1. Вставьте SD-карты обратно в соответствующие 3DS
@@ -126,7 +129,7 @@ author_profile: true
 		+ Медленный способ: Выберите "Беспроводная передача данных (все данные)" (Wireless Transfer) для полного переноса **всего** содержимого SD-карты в целевую приставку по WiFi.
 1. Перейдите по [этой ссылке](http://www.nintendo.ru/-/Nintendo-2DS-Nintendo-3DS/-Nintendo-3DS-Nintendo-3DS-XL-/-Nintendo-3DS-Nintendo-3DS-XL/-Nintendo-3DS-Nintendo-3DS-XL-592201.html) ([та же информация, но на английском](http://en-americas-support.nintendo.com/app/answers/detail/a_id/227/)) и следуйте официальным инструкциям от nintendo, держа в голове то, что вы прочитали чуть выше
 
-#### Часть IV - Восстановление исходной 3DS
+### Часть IV - Восстановление исходной 3DS
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
 {: .notice--info}
@@ -147,8 +150,9 @@ author_profile: true
 	+ Этот процесс займет некоторое время
 1. По завершению процесса, нажмите (A)
 1. Нажмите (A) чтобы восстановить запрет на запись, если появится запрос1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
+1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
 
-#### Часть V - Резервное копирование FIRM целевой 3DS
+### Часть V - Резервное копирование FIRM целевой 3DS
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `boot.nds` (B9STool) в корень SD-карты **целевой 3DS**
@@ -156,7 +160,6 @@ author_profile: true
 1. Создайте папку `boot9strap` в корне SD-карты **целевой 3DS**
 1. Скопируйте `.firm` от 11.4.0/11.5.0/11.6.0, соответствующий **целевой 3DS** в папку `boot9strap`на SD-карте **целевой 3DS**
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
-1. Запустите установленную DSiWare игру на **целевой 3DS**
 1. Запустите b9sTool, используя инфицированную DSiWare-игру
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
   + **Legends of Exidia**: после того, как нажмёте (A) или (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
@@ -168,13 +171,12 @@ author_profile: true
 1. Вставьте SD-карту в компьютер и скопируйте `F0F1_NEW3DS.bin` или `F0F1_OLD3DS.bin`(в зависимости от типа вашего устройства) из папки `bot9strap` в безопасное место; сделайте их резервные копии в нескольких местах; эти файлы помогут вам восстановить приставку в случае брика, если что-то пойдет не так
 1. Вставьте SD-карту обратно в *целевую 3DS*
 
-#### Часть VI - Прошивка FIRM целевой 3DS
+### Часть VI - Прошивка FIRM целевой 3DS
 
 **Используйте b9sTool ТОЛЬКО на целевой приставке. Использование этой программы на консоли с arm9loaderhax приведет к БРИКУ!**
 {: .notice--danger}
 
-1. Запустите DSiWare игру на **целевой 3DS**
-1. Запустите b9sTool, используя DSiWare игру
+1. Откройте b9sTool, запустив DSiWare игру на **целевой 3DS**
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
   + **Legends of Exidia**: После нажатия (A), либо (START) на двух первых экранах, выберите первый слот и нажмите "continue"
   + **Guitar Rock Tour**: пролистайте ВНИЗ и перейдите в High-Scores -> Drums -> Easy
@@ -184,27 +186,12 @@ author_profile: true
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
 1. Включите приставку
 
-#### Часть VII - Настройка Luma3DS
+### Часть VII - Настройка Luma3DS
 
-1. Устройство загрузится в меню настройки Luma3DS
-  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#черный-экран-при-загрузке-sysnand-после-установки-b9s)
-1. Нажимая (A) выберите следующие пункты:    
-  + **"Enable game patching"**
-  + **"Show NAND or user string in System Settings"**
-1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
-  + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
-    + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
-    + Если какие-либо игры работают некорректно, отключите эту опцию
-	
-    ![]({{ base_path }}/images/screenshots/luma-settings.png)
-	{: .text-center}
-    {: .notice--info}
-	
-1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
+{% include /inc/luma_setup.txt %}
   + Если появляется ошибка, просто переходите к следующей странице
 
 ___
 
 Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--success}
-

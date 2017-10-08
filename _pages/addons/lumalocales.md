@@ -9,18 +9,18 @@ author_profile: true
 
 ## Что понадобится
 
-Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то у вас уже b9d со всеми необходимыми программами. Ищите их в папке System
+{% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](a9lh-to-b9s)
+* Установленный и рабочий [b9s](update-to-b9s)
 * Установленный и рабочий [FBI](fbi)
 * Установленный и рабочий [lumalocaleswitcher](https://github.com/Possum/lumalocaleswitcher/releases) *(`.cia`-файл)* (NIGHTLY для luma3ds 7.0 и выше)
 
 ## Инструкция
 
-#### Включение патчей в настройках luma3ds
+### Включение патчей в настройках luma3ds
 
-Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то у вас уже активирована эта настройка
+{% include /inc/olx_vk.txt %}
 {: .notice--info}
 
 1. Выключите приставку
@@ -29,10 +29,10 @@ author_profile: true
 1. Нажмите (START), чтобы сохранить настройки и перезагрузить приставку
 
 
-#### lumalocaleswitcher
+### lumalocaleswitcher
 
 1. Установите `lumalocaleswitcher` через FBI (как это сделать описано [здесь](games))
-	+ Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то программа уже установлена и находится в папке "System" 
+	+ {% include /inc/olx_vk.txt %}
 1. Запустите `lumalocaleswitcher` из меню Home
 1. Перейдите в пункт меню "Choose Locales Directory ""
 1. Выберите `/luma/locales/titles/%s/locale.txt` и нажмите (A) для подтверждения выбора, а затем еще раз (A), чтобы вернуться на главный экран программы
@@ -48,4 +48,3 @@ author_profile: true
 
 Для каждой отдельной игры эту манипуляцию следует выполнить всего один раз
 {: .notice--success}
-

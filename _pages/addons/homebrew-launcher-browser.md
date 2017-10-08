@@ -18,12 +18,12 @@ author_profile: true
 
 ## Инструкция
 
-#### Подготовительные работы
+### Подготовительные работы
 
 1. Скопируйте _содержимое_ папки starter из архива `starter.zip` в корень вашей карты памяти.   
 2. Вставьте карту памяти в приставку.
 
-#### Блокировка conntest.nintendowifi.net
+### Блокировка conntest.nintendowifi.net
 
 Эта часть полезна только для New 3DS с версией прошивки 10.7.0 и 11.0.0
 {: .notice--info}
@@ -58,7 +58,7 @@ author_profile: true
 1. Скачайте [ropbin](https://smealum.github.io/3ds/#otherapp) соответствующий вашей системе и текущей прошивке. 
 1. Переименуйте скачанный файл в `browserhax_hblauncher_ropbin_payload.bin` и поместите его в корень карты памяти. 
 
-#### browserhax
+### browserhax
 
 1. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php`, либо его сокращенной  версии - `https://goo.gl/d0YhK9`.
 
@@ -71,12 +71,11 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 
-	+ Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
+	+ Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#Не-работает-эксплойт-на-основе-браузера).
 1. Приставка должна загрузиться в Homebrew Launcher.
 	+ Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в Homebrew launcher.
 	
 ___
 
 Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
-{: .notice--primary}
-
+{: .notice--success}

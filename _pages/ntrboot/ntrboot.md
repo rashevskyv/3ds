@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-#### Общая информация
+## Общая информация
 
 Если вы уже прошили ntrboot на ваш флешкартридж, вы можете перейти к странице [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot) для получения инструкций о том, как его использовать.
 {: .notice--success}
@@ -47,7 +47,7 @@ author_profile: true
 
 ___
 
-#### Прошивка ntrboot (одна консоль 3DS)
+## Прошивка ntrboot (одна консоль 3DS)
 
 {% capture notice-2 %}   
 [Этот метод](flashing-ntrboot-3ds-single-system) не требует ничего кроме вашей обычной не прошитой 3DS.
@@ -65,22 +65,22 @@ ___
 {% endcapture %}
 <div class="notice--success">{{ notice-2 | markdownify }}</div>
 
-#### Прошивка ntrboot (несколько консолей 3DS)
+## Прошивка ntrboot (несколько консолей 3DS)
 
 [Этот метод](flashing-ntrboot-3ds-multi-system) требует временный доступ ко второй консоли семейства 3DS с установленным boot9strap или arm9loaderhax.
 {: .notice--success}
 
-#### Прошивка ntrboot (NDS)
+## Прошивка ntrboot (NDS)
 
 [Этот метод](flashing-ntrboot-nds) требует временного доступа к Nintendo DS или Nintendo DS Lite, совместимых с вашим флешкартриджем.
 {: .notice--success}
 
-#### Прошивка ntrboot (DSi)
+## Прошивка ntrboot (DSi)
 
 [Этот метод](flashing-ntrboot-dsi) требует временного доступа к Nintendo DSi, совместимой с вашим флешкартриджем.
 {: .notice--success}
 
-#### Картридж с уже прошитым ntrboot 
+## Картридж с уже прошитым ntrboot 
 {% capture notice-2 %}   
 
 В данный момент на рынке только один картридж, идущий с уже зашитым ntrboot - [R4i-B9S от R4i-sdhc.com](http://R4i-sdhc.com). Имея на руках такой картридж, можно сразу переходить к [установке boot9strap](installing-boot9strap-ntrboot) в приставку, минуя установку ntrboot на картридж. 

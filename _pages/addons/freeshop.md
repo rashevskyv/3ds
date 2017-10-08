@@ -6,9 +6,9 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-#### Что понадобится
+## Что понадобится
 
-Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то у вас уже есть все необходимые программы. Ищите их в папке Система (System)
+{% include /inc/olx_vk.txt %}
 {: .notice--info}
 
 * Прошитая приставка 
@@ -17,7 +17,7 @@ author_profile: true
 
 Действия для обновления и установки freeshop идентичны
 
-#### Часть I - Установка freeshop
+## Часть I - Установка freeshop
 
 1. [Установите freeshop](games) любым удобным методом
 	+ Отсканируйте QR-код, если решите воспользоваться методом установки через QR
@@ -26,7 +26,7 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 
-#### Часть II - Настройка freeshop
+## Часть II - Настройка freeshop
 
 Приложение работает только при включенном интернете!
 {: .notice--info}

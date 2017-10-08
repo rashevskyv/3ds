@@ -5,6 +5,7 @@ permalink: installing-boot9strap-ntrboot.html
 author_profile: true
 ---
 {% include toc title="Разделы" %}
+
 ## Что понадобится
 
 * Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
@@ -16,7 +17,7 @@ author_profile: true
 
 ## Инструкция
 
-#### Часть I - Подготовительные работы
+### Часть I - Подготовительные работы
 
 1. Выключите консоль
 1. Вставьте SD-карту из приставки в компьютер
@@ -31,7 +32,7 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-#### Часть II - ntrboot
+### Часть II - ntrboot
 
 1. Используйте магнит, чтобы найти место на консоли, где срабатывает датчик режима ожидания
   + Этот шаг не требуется выполнять для консоли old 2DS (которая имеет переключатель режима ожидания)
@@ -43,7 +44,7 @@ author_profile: true
   + Может потребоваться несколько попыток
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
-#### Часть III - Установка boot9strap
+### Часть III - Установка boot9strap
 
 1. Дождитесь окончания всех проверок безопасности
 1. Уберите магнит от устройства
@@ -52,18 +53,9 @@ author_profile: true
 1. После завершения принудительно выключите консоль, удерживая кнопку питания
   + Ваша консоль будет загружаться только в SafeB9SInstaller до выполнения следующей части
 
-#### Часть IV - Настройка Luma3DS
+### Часть IV - Настройка Luma3DS
 
-1. Вставьте SD-карту в компьютер
-1. Удалите файл `boot.firm` из корня SD-карты
-1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Вставьте SD-карту обратно в консоль
-1. Включите консоль
-1. Ваша консоль должна загрузиться в меню конфигурации Luma3DS
-  + Если экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#черный-экран-при-загрузке-sysnand-после-установки-b9s)
-1. Нажимая (A) выберите следующие пункты:    
-  + **"Show NAND or user string in System Settings"**
-1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
+{% include /inc/luma_setup.txt %}
   + Если появляется ошибка, просто переходите к следующей странице
 
 ___
@@ -85,9 +77,9 @@ ___
 
 Не приступайте к этой части, пока вы не выполнили остальные инструкции на этой странице.
 
-##### Часть V - Удаление ntrboot
+### Часть V - Удаление ntrboot
 
-###### Что понадобится
+#### Что понадобится
 
 * Свежая версия [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 * Резервная копия прошивки, соответствующая вашему флешкартриджу 
@@ -101,7 +93,7 @@ ___
   + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`Acekard_2i_(HW_44)-Flashrom.zip`](magnet:?xt=urn:btih:d12b46b1bfadc6b03ff260ab90dcb136d890fd39&dn=Acekard_2i_%28HW_44%29-Flashrom.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`R4i_Ultra-Flashrom.zip`](magnet:?xt=urn:btih:614e9951a6c26145e68de34ed8c23a44bf190728&dn=R4i_Ultra-Flashrom.zip&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce)
 
-###### Инструкции
+#### Инструкции
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер

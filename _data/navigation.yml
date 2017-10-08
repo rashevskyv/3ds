@@ -4,12 +4,14 @@ main:
     url: http://customfw.xyz
   - title: "<i>Купить<br>прошитую</i>"
     url: https://3dscfw.olx.ua/
+  - title: "Проблемы и<br>их решения"
+    url: /troubleshooting
+  - title: "FAQ"
+    url: /faq
   - title: "Обновление<br>Luma3DS"
     url: /update-luma3ds
   - title: "Переход с<br>a9lh на b9s"
     url: /a9lh-to-b9s
-  - title: "Обновление<br>b9s"
-    url: /updating-b9s
   - title: "NTRBoot"
     url: /ntrboot
   - title: "Хардмод"
@@ -18,12 +20,10 @@ main:
     url: /addons
   - title: "Список ПО"
     url: /soft
-  - title: "FAQ"
-    url: /faq
-  - title: "Проблемы и<br>их решения"
-    url: /troubleshooting
   - title: "Freeshop"
     url: /freeshop
+  - title: "Обновление<br>b9s"
+    url: /updating-b9s
   - title: "Интеграция<br>FBI"
     url: /fbi
   - title: "Навигация по сайту"
@@ -38,6 +38,8 @@ addons:
     url: /faq
   - title: "Дополнительный FAQ"
     url: /faq-3ds
+  - title: "Установка freeshop"
+    url: /freeshop
   - title: "Установка приложений и игр"
     url: /games
   - title: "Установка и использование тем"
@@ -62,5 +64,5 @@ addons:
     url: /region-changing
   - title: "DSi / DS игры не работают после завершения руководства"
     url: /troubleshooting#dsi--ds-игры-не-работают-после-завершения-руководства
-  - title: "Я потерял все данные на SD-карте. Что нужно делать, чтобы восстановить работоспособность?"
+  - title: "Форматирование приставки или SD-карты"
     url: /clean_sd

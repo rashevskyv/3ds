@@ -9,12 +9,12 @@ author_profile: true
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 
-Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (Start) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций. 
+Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций. 
 
 Для продолжения, у вас уже ДОЛЖНА быть установлена Luma3DS и boot9strap или arm9loaderhax
 {: .notice--danger}
 
-#### Что понадобится
+## Что понадобится
 
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.3dsx-файл`)*
@@ -30,9 +30,9 @@ author_profile: true
 	+ <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [Old 3DS или 2DS - 11.5.0 - JPN - CTRTransfer](magnet:?xt=urn:btih:d8913b4c0da224e8852fa2f685c41ddbce5310bc&dn=11.5.0-38J_ctrtransfer_o3ds.zip&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce) 
 	+ <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [Old 3DS или 2DS - 11.5.0 - USA - CTRTransfer](magnet:?xt=urn:btih:2708089605ca47387fa64e996a699eedd18031e8&dn=11.5.0-38U_ctrtransfer_o3ds.zip&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce)
 
-#### Инструкция
+## Инструкция
 
-##### Часть I - Подготовительные работы
+### Часть I - Подготовительные работы
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -44,7 +44,7 @@ author_profile: true
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 
-##### Часть II - CTRTransfer
+### Часть II - CTRTransfer
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций. 
 {: .notice--info}
@@ -75,20 +75,11 @@ author_profile: true
 	+ Обновление консоли с установленным B9S + Luma (установленых у вас) безопасно
 	+ При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
 
-##### Часть III - Запуск FBI
+### Часть III - Запуск FBI
 
-1. Запустите приложение Загружаемая игра
-1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
-1. Выберите "Miscellaneous options"
-1. Выберите "Switch the hb. title to the current app."
-1. Нажмите (B), чтобы продолжить
-1. Нажмите (B) для возврата в главное меню Rosalina
-1. Нажмите (B) для выхода из главного меню Rosalina
-1. Нажмите (HOME), затем закройте приложение Загружаемая игра
-1. Запустите приложение Загружаемая игра
-1. Консоль должна загрузиться в Homebrew Launcher
+{% include /inc/fbi.txt %}
 
-##### Часть IV - Переустановка тикетов
+### Часть IV - Переустановка тикетов
 
 Если скрипт не нашел пользовательских ticket-файлов и просил вас пропустить эту часть (Skip the 'Reinstalling Tickets' section), пропустите эту часть
 {: .notice--info}
@@ -108,12 +99,12 @@ author_profile: true
 	+ Нажмите (B) для отмены установки тикетов из CDN.
 1. Нажмите (HOME) для выхода из FBI
 
-##### Часть V - Удаление образа CTRTransfer
+### Часть V - Удаление образа CTRTransfer
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций. 
 {: .notice--info}
 
-1. Запустите GodMode9, держа нажатой кнопку (Start) во время загрузки
+1. Запустите GodMode9, держа нажатой кнопку (START) во время загрузки
 1. Перейдите в `[0:] SDCARD` -> `gm9`
 1. Нажмите (X), выделив файл `.bin` CTRTransfer чтобы удалить его
 1. Нажмите (A) для подтверждения

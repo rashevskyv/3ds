@@ -1,6 +1,7 @@
 ---
 title: "Благодарности"
 permalink: /credits.html
+author_profile: true
 ---
 
 **Отдельное спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) (англ.) за то, что они потрясающие!**
@@ -91,7 +92,7 @@ permalink: /credits.html
 {% capture notice-2 %}**Отдельная благодарность**        
 <br>
 	• dimakuz26      
-	• [Антон Вишневский](https://vk.com/cr0ssfire)
+	• [Антон Вишневский](https://vk.com/cr0ssfire)     
 	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность    
 	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте
 {% endcapture %}

@@ -9,8 +9,6 @@ $darker-gray                : mix(#000, $gray, 60%) !default;
 $light-gray                 : mix(#fff, $gray, 50%) !default;
 $lighter-gray               : mix(#fff, $gray, 90%) !default;
 $border-color               : $lighter-gray !default;
-$type-size-5                : 0.9em !default;      // ~16px
-$type-size-4                : 1.25em !default;   // ~20px
 $body-color                 : #fff !default;
 $background-color           : #fff !default;
 $code-background-color      : #fafafa !default;
@@ -27,20 +25,94 @@ $link-color-hover           : mix(#000, $link-color, 25%) !default;
 $link-color-visited         : mix(#fff, $link-color, 25%) !default;
 $masthead-link-color        : $primary-color !default;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%) !default;
+$medium-wide                : 900px !default;
+
+/* type scale */
+$type-size-1                  : 2.441em !default;  // ~39.056px
+$type-size-2                  : 1.953em !default;  // ~31.248px
+$type-size-3                  : 1.563em !default;  // ~25.008px
+$type-size-4                  : 1.25em !default;   // ~20px
+$type-size-5                  : 0.8rem !default;      // ~16px
+$type-size-6                  : 0.75em !default;   // ~12px
+$type-size-7                  : 0.6875em !default; // ~11px
+$type-size-8                  : 0.8em !default;  // ~10px
    
+// Шрифт на странице
+#main {
+  font-size: .9em;
+}
+
+// Ссылки на странице
+a {
+	text-decoration: none !important;
+	color: inherit;
+
+	&:focus {
+		@extend %tab-focus;
+	}
+
+	&:visited {
+		  color: $link-color-visited;
+	}
+	
+	&:visited:hover {
+		  color: $link-color-hover;
+	}
+
+	&:hover,
+	&:active {
+		color: $link-color-hover;
+		outline: 0;
+	}
+
+}
+
+// Полоса прокрутки 
+html::-webkit-scrollbar
+{
+	width: 13px;
+	background-color: #F5F5F5;
+	height: 0px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #999;
+}
+  
+.toc::-webkit-scrollbar //Ширина скроллбара в toc
+{
+	width: 4px !important;
+}
+
+// Таблицы 
 thead {
   border: 2px solid mix(#000, $border-color, 25%) !important;
   background-color: $lighter-gray;
 }
 
 td {
-  border: 1px solid mix(#000, $border-color, 25%) !important;
+	border: 1px solid mix(#000, $border-color, 25%);
+
+	a {
+      color: #52adc8 !important;
+	  
+ 	  &:hover {
+        color: mix(#000, #52adc8, 30%) !important;
+      }
+    }
 }
-   
-a {
-	text-decoration: none !important;
-	}
-   
+ 
+// Кнопки 
 .btn {
   &--inversed {
     color: $dark-gray !important;
@@ -55,11 +127,12 @@ a {
   }
   &--short {
     color: $dark-gray !important;
+    font-size: $type-size-4 !important;
     border: 2px solid $light-gray !important; /* override*/
     background-color: #fff;
 	width: 110px;
 	display: inline-block !important;
-	padding: 0.25em 0.5em 0.25em 0.5em!important;
+	padding: 0.25em 0.5em 0.39em 0.5em!important;
     text-align: center !important;
 
     &:hover {
@@ -70,28 +143,17 @@ a {
   }
 }
 
-
+// Фон и обводка футера
 .page__footer {
   color: mix(#fff, $gray, 25%);
   background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  border-top: 1px solid $light-gray; // Верхняя линия футера
 }
 
-  a {
-    color: inherit;
-  }
 
+// Верхнее меню 
 .masthead__menu-item {
-  font-size: 75%;
-  display: flex !important;
-  align-items: center !important;
-}
-
-.pagination {
-      &.current {
-        color: #fff;
-        background: $primary-color;
-      }
+  font-size: 75%; // Ширина верхнего меню
 }
 
 .greedy-nav {
@@ -105,15 +167,22 @@ a {
   .visible-links {
 	text-align: center;
 	margin-left: 20px;
-	margin-right: 20px;
-	padding-right: 20px !important;
-	
+	margin-right: 0px !important;
+	padding-right: 5px !important;
+	// Эти две строчки центрируют меню по вертикали
+	display: flex !important;
+	align-items: center !important;
+
     a {
       position: relative;
 	  margin-left: 10px;
 	  margin-right: 10px;
-		}
-	  }
+	  
+	  &:hover {
+        color: $masthead-link-color-hover;
+      }
+	}
+  }
   
   .hidden-links {
     background: #fff;
@@ -143,6 +212,7 @@ a {
 }
 
 
+// Цвет ссылокв в notice
 @mixin notice($notice-color) {
   font-weight: normal;
   background-color: mix(#fff, $notice-color, 90%);
@@ -161,67 +231,60 @@ a {
   }
 }
 
+// Размер шрифта notice
 .notice {
-  @include notice($light-gray);
+  font-size: 1em !important;
 }
-
-/* Primary notice */
 
 .notice--primary {
-  @include notice($primary-color);
+  font-size: 1em !important;
+  
+	a {
+      color: $primary-color !important; // цвет ссылки в notice-primary
+	  
+ 	  &:hover {
+        color: mix(#fff, $primary-color, 40%) !important;
+      }
+    }
 }
 
-#main {
-  font-size: .9em;
+.notice--info {
+  font-size: 1em !important;
 }
 
-   /* Полоса прокрутки */   
-::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
-	height: 0px; /* for horizontal scrollbars */
+.notice--warning {
+  font-size: 1em !important;
 }
 
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 3px;
-	background-color: #F5F5F5;
+.notice--success {
+  font-size: 1em !important;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 3px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #999;
+.notice--danger {
+  font-size: 1em !important;
+}
+
+@mixin notice($notice-color) {
+  margin: 1.5em 0 !important;  // Вертикальные маргины между нотайсами
 }
   
-  
-div.highlighter-rouge,
-figure.highlight {
-
-  &:before {
-    background-color: $lighter-gray;
+// Ширина текстового поля в шапке страницы home
+.page__hero {
+  &--overlay {
+	 padding-bottom: 35px !important;
+	 
+    .page__lead {
+      max-width: 900px !important;
+    }
   }
 }
 
-.navicon {
-  background: #fff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 
-  &:before,
-  &:after {
-    background: #fff;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-}
-
+// Сайдбар
 .sidebar {
   a {
     color: $text-color;
+	font-size: 0.9em !important; // Размер шрифта авторских ссылок
 
 	&:hover {
         color: $gray;
@@ -232,38 +295,47 @@ figure.highlight {
 .page__content {
 
   p, li, dl {
-    font-size: $type-size-5 !important;
+    font-size: 1em !important;
   }
 }
 
 @mixin notice($notice-color) {
-  font-size: $type-size-5 !important;
+  font-size: 1em !important;
 }
 
-   .toc {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: none !important;
-    letter-spacing: 0.4px !important;
+// toc
+.toc {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none !important;
+	letter-spacing: 0.4px !important;
 	max-height: 80vh !important;
 	min-height: auto !important; 
 	overflow-y: auto !important;
-/*     position: fixed !important;
- */
-    .nav__title {
+	
+	.nav__title {
 	  text-transform: uppercase;
-      padding: 0.3rem 0.8rem 0.3rem 0.8rem !important;
-    }
+	  padding: 0.3rem 0.8rem 0.3rem 0.8rem !important;
+	}
 
-   a {
-       padding: 0.5rem 0.2rem 0.5rem 0.8rem !important;
-       color: $text-color !important;
-	      
- 	  &:hover {
-        color: $light-gray !important;
+	a {
+	   padding: 0.3rem 0.2rem 0.3rem 0.8rem !important;
+	   color: $text-color !important;
+		  
+	  &:hover {
+		color: $light-gray !important;
+	  }
+	}
+}
+
+  .toc__menu {
+
+    a {
+      font-size: 0.85em !important;
       }
     }
-  }
+
   
+// Отступы в toc  
 nav {
   ul {
     margin: 0;
@@ -276,6 +348,9 @@ nav {
 
   a {
     text-decoration: none;
+	  &:hover {
+        color: $gray !important;
+      }
   }
 
   /* override white-space for nested lists */
@@ -290,14 +365,24 @@ nav {
   }
 }
 
+// Стиль кнопки наверх
 .scrollup {
 	width:40px;
 	height:40px;
-	opacity:0.3;
+	opacity:0.6;
 	position:fixed;
 	bottom:30px;
 	right:50px;
 	display:none;
 	text-indent:-9999px;
 	background: url('top.png') no-repeat;
+	
+  &:hover {
+	opacity:1;
+  }
 }
+
+  .nav__sub-title {
+    font-size: $type-size-5 !important; //ссылки в аддонах
+  }
+
