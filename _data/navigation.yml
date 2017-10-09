@@ -66,3 +66,11 @@ addons:
     url: /troubleshooting#dsi--ds-игры-не-работают-после-завершения-руководства
   - title: "Форматирование приставки или SD-карты"
     url: /clean_sd
+    
+bottom:
+  -
+    title: Если вам помогло или просто понравилось это руководство, то я принимаю <a href="/donations">пожертвования</a> на карту Visa, или Bitcoin.
+  -
+    title: По вопросам, касающимся взлома обращайтесь в <a href="https://vk.com/3ds_cfw">группу в вконтакте</a>, <a href="https://discord.gg/h2s4aP7">Discord</a> или <a href="https://t.me/homebrew_group">Telegram</a>.
+  -
+    title: Об ошибках и неточностях просьба писать в <a href="https://vk.com/3ds_cfw">группу руководства</a>, <a href="https://discord.gg/h2s4aP7">Discord</a> или <a href="https://t.me/rashevskyv">Telegram</a>.

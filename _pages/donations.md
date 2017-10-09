@@ -31,6 +31,11 @@ ___
 {: .text-center}
 {: .notice--info}
 
+[![Bitcoin]({{ "/images/bitcoin.png" | absolute_url }}){:height="73px" width="256px"}{: style="padding-bottom: .35em"}](bitcoin:3DaocuRd9iBfiyKfDLMJSDmnPZBEewoSjE){: .align-center}
+3DaocuRd9iBfiyKfDLMJSDmnPZBEewoSjE
+{: .text-center}
+{: .notice--info}
+
 [![3ds_CFW]({{ "/images/3ds_cfw.png" | absolute_url }}){:height="64px" width="256px"}{: style="padding-bottom: .35em"}](http://vk.com/3ds_cfw){: .align-center}
 Перевод делался для группы [VK:3ds_CFW](http://vk.com/3ds_cfw)
 {: .text-center}
