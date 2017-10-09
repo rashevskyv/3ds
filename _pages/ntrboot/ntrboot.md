@@ -24,8 +24,8 @@ author_profile: true
   + [R4i Gold 3DS Starter](http://r4ids.cn)
   + [R4 3D Revolution](http://r4idsn.com)
   + [Infinity 3 R4i](http://r4infinity.com)
-  + DSTT ([лишь некоторые из них!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
-  
+  + [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) ([лишь некоторые из них!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+   
   ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
   {: .text-center}
   {: .notice--info}
@@ -60,7 +60,7 @@ ___
   + [R4i Gold 3DS Starter](http://r4ids.cn) : 4.1.0 - 4.5.0
   + [R4 3D Revolution](http://r4idsn.com)
   + [Infinity 3 R4i](http://r4infinity.com) : <= 11.6.0
-  + DSTT ([лишь некоторые из них!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+  + [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) ([лишь некоторые из них!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
 {% endcapture %}
 <div class="notice--success">{{ notice-2 | markdownify }}</div>

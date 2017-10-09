@@ -18,6 +18,7 @@ author_profile: true
     • ashinnblunts
     • AuroraWright
     • b1l1s
+    • BernardoGiordano
     • Cartman123
     • Cell9
     • coder65535

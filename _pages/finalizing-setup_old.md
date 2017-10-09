@@ -17,6 +17,7 @@ author_profile: true
 
 +  **FBI** *(установщик приложений и игр в формате CIA)*
 +  **Anemone3DS** *(установка пользовательских тем)*
++  **Checkpoint** *(резервное копирование и восстановление сохранений для игр 3DS и DS)*
 +  **Luma3DS Updater** *(Удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
 +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
@@ -26,6 +27,7 @@ author_profile: true
 ## Что понадобится
 
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(`.cia`-файл)*
+* Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(`.cia`-файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
@@ -48,6 +50,7 @@ author_profile: true
 1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `Anemone3DS.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `Checkpoint.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `DSP1.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `FBI.cia` в папку `/cias/` на SD-карты
