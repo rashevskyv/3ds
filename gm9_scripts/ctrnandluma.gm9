@@ -1,0 +1,10 @@
+# Easy copy Luma to CTRNAND
+# Created 16.07.2017
+# Hello from Russia
+# By Jjck
+
+# Copying Luma folder (payloads also) 
+cp -w -n 0:/luma 1:/rw/luma
+# Copying boot.firm
+cp -w -n 0:/boot.firm 1:/boot.firm
+# End

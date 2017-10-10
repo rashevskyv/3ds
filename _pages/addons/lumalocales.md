@@ -12,7 +12,7 @@ author_profile: true
 {% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](update-to-b9s)
+* Установленный и рабочий [b9s](updating-b9s.md)
 * Установленный и рабочий [FBI](fbi)
 * Установленный и рабочий [lumalocaleswitcher](https://github.com/Possum/lumalocaleswitcher/releases) *(`.cia`-файл)* (NIGHTLY для luma3ds 7.0 и выше)
 
