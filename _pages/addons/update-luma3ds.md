@@ -45,13 +45,7 @@ author_profile: true
 
 ## Часть II - Установка Luma3DS Updater
 
-1. Перейдите в Системные настройки (System Settings), Управление данными (Data Managment), Nintendo 3DS, Программы (Software) и удалите Luma3DS Updater
-1. Закройте настройки и вернитесь в меню Home
-1. Запустите FBI
-1. Перейдите в `SD` -> `cias`
-1. Выберите `lumaupdater.cia`
-1. Выберите "Install CIA", затем нажмите (A) для подтверждения
-1. Нажмите (HOME) для выхода из FBI
+{% include /inc/luma_updater.txt %}
 
 ## Часть III - Обновление Luma3DS удобным для вас способом
 

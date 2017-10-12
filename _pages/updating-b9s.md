@@ -94,11 +94,7 @@ author_profile: true
 
 ### Часть VII - Установка Luma3DS Updater
 
-1. Запустите FBI
-1. Перейдите в `SD` -> `cias`
-1. Выберите `lumaupdater.cia`
-1. Выберите "Install CIA", затем нажмите (A) для подтверждения
-1. Нажмите (HOME) для выхода из FBI
+{% include /inc/luma_updater.txt %}
 
 ### Часть VIII - CTRNAND Luma3DS
 

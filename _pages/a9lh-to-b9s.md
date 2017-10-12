@@ -101,18 +101,7 @@ author_profile: true
 
 ### Часть VI - Установка Luma3DS Updater
 
-Эта версия Luma3DS Updater позволяет работать с boot9strap, путем загрузки и распаковки последнего Luma3DS `boot.firm`.
-{: .notice--info}
-
-1. Запустите FBI
-1. Перейдите в `Titles`
-1. Выберите существующий Luma3DS Updater кнопкой (A)
-1. Выберите опцию "Delete Title And Ticket" и нажмите (A) для подтверждения
-1. Нажмите (B) для возврата в главное меню
-1. Перейдите в `SD` -> `cias`
-1. Выберите `lumaupdater.cia`
-1. Выберите "Install CIA", затем нажмите (A) для подтверждения
-1. Нажмите (HOME) для выхода из FBI
+{% include /inc/luma_updater.txt %}
   
 ### Часть VII - CTRNAND Luma3DS
 
