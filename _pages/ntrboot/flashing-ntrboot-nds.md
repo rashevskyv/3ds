@@ -28,7 +28,7 @@ author_profile: true
 * Две консоли семейства 3DS:
 	+ **Исходная NDS / NDSL**: Nintendo DS или Nintendo DS Lite, совместимая с вашим флешкартриджем
 	+ **Целевая 3DS**: консоль семейства 3DS с официальной прошивкой
-* Предыдущая версия [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/tag/v2.3) *(стандартная версия; `dsi-версия` не подходит)*
+* Свежая версия [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(стандартная версия; `dsi-версия` не подходит)*
 
 ## Инструкция
 
