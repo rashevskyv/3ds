@@ -29,8 +29,8 @@ author_profile: true
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
@@ -58,22 +58,22 @@ author_profile: true
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
-1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Создайте папку `cias` в корне SD-карты
+1. Скопируйте _содержимое_ `starter.zip` в корень вашей SD-карты
+1. Скопируйте файл `boot.firm` из `.7z-архива` свежей версии Luma3DS в корень SD-карты
+1. Создайте папку `cias` в корне SD-карты, если таковой нет
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Создайте папку `boot9strap` в корне SD-карты
+1. Удалите все существующие `.bin` приложения в папке `/luma/payloads/` на SD-карте, так как они не будут совместимы с boot9strap совместимыми версиями Luma3DS
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
-1. Удалите все существующие `.bin` приложения в папке `/luma/payloads/` на SD-карте, так как они не будут совместимы с boot9strap-совместимыми версиями Luma3DS
-1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
+1. Скопируйте папку `gm9` из `.zip-архива` GodMode9 в корень SD-карты
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
-1. Переименуйте`SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `start_SafeB9SInstaller.bin`
-1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
+1. Переименуйте `SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `start_SafeB9SInstaller.bin`
+1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
 1. **Только для пользователей New 3DS:** Скопируйте `secret_sector.bin` в папку `/boot9strap/` на SD-карте
 
-    ![]({{ base_path }}/images/screenshots/updating-to-b9s-file-layout.png)
+    ![]({{ "/images/screenshots/updating-to-b9s-file-layout.png" | absolute_url }})
 	{: .text-center}
     {: .notice--info}
 

@@ -12,13 +12,13 @@ author_profile: true
 {% capture notice-1 %}   
 Обратите внимание, что на новых версиях прошивки DSi заблокирован доступ к некоторым флешкартриджам. Поэтому они не смогут запустить `.nds` файл для прошивки эксплойта на новых версиях. Эксплойт ntrboot совместим ТОЛЬКО со следующими флешкартриджами **(даже не спрашивайте про другие; совместимы только два конкретно этих типа картриджей)**:
 
-  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) (HW-44, HW-81), жители РФ могут купить [здесь](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629)
-  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) (A5/A6/A7), жители РФ могут купить [здесь](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936)
-  + [R4i Ultra](http://r4ultra.com)
-  + [R4i Gold 3DS Starter](http://r4ids.cn)
-  + [R4 3D Revolution](http://r4idsn.com)
-  + [Infinity 3 R4i](http://r4infinity.com)
-  + [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) ([лишь некоторые из них!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160), **купить**: [![]({{"http://flags.fmcdn.net/data/flags/h20/ru.png" | absolute_url }})](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629) : <= 1.4.4
+  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149), **купить**: [![]({{"http://flags.fmcdn.net/data/flags/h20/ru.png" | absolute_url }})](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936) : <= 1.4.5
+  + R4i Gold 3DS "Starter" : <= 1.4.5
+  + [R4i-sdhc](http://R4i-sdhc.com), **купить**: [![]({{"http://flags.fmcdn.net/data/flags/h20/ua.png" | absolute_url }})](https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176) : <= 1.4.5
+  + [R4isdhc](http://R4isdhc.com) : <= 1.4.5
+  + R4i Ultra : <= 1.4.1
+  + Infinity 3 R4i : <= 1.4.5
 
 {% endcapture %}
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -30,19 +30,19 @@ author_profile: true
 
 * Флешкартридж, совместимый с ntrboot
 * Две консоли 
-	+ **Исходная DSi**: Nintendo DSi, совместимая с вашим флешкартриджем
-	+ **Целевая 3DS**: консоль семейства 3DS с официальной прошивкой* Флешкартридж, совместимый с ntrboot
+  + **Исходная DSi**: Nintendo DSi, совместимая с вашим флешкартриджем
+  + **Целевая 3DS**: консоль семейства 3DS с официальной прошивкой
 * Свежая версия [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi`-версия; стандартная версия не подходит)*
 
 ## Инструкция
 
 ### Часть I - Подготовительные работы
 
-1. Выключите *целевую* консоль
+1. Выключите **исходную DSi**
 1. Вставьте SD-карту флешкартриджа в компьютер
 1. Скопируйте `ak2i_ntrcardhax_flasher_dsi.nds` на SD-карту флешкартриджа
 1. Вставьте SD-карту флешкартриджа обратно во флешкартридж
-1. Вставьте в консоль ваш DS / DSi флешкартридж, совместимый с ntrboot, в *целевую* консоль
+1. Вставьте ваш DS / DSi флешкартридж, совместимый с ntrboot, в **исходную DSi**
 
 ### Часть II - Прошивка ntrboot
 

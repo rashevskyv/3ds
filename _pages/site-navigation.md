@@ -75,7 +75,7 @@ author_profile: true
 + [Установка ntrboot (NDS)](flashing-ntrboot-nds)
 + [Установка ntrboot (Powersaves)](flashing-ntrboot-powersaves)
 + [Установка ntrboot (несколько 3DS)](flashing-ntrboot-3ds-multi-system)
-+ [Установка ntrboot (одна 3DS)](flashing-ntrboot-3ds-single-system)
++ [Установка ntrboot (на не прошитой 3DS)](flashing-ntrboot-3ds-single-system)
 + [Установка и использование тем](themes)
 + [Установка и использование жетонов (badges)](badges)
 + [Установка приложений](games)

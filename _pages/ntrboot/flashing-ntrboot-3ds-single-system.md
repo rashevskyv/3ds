@@ -1,5 +1,5 @@
 ---
-title: "Прошивка ntrboot (одна 3DS)"
+title: "Прошивка ntrboot (на не прошитой 3DS)"
 lang: ru
 permalink: flashing-ntrboot-3ds-single-system.html
 author_profile: true
@@ -12,15 +12,9 @@ author_profile: true
 {% capture notice-1 %}   
 Обратите внимание, что на более поздних версиях 3DS заблокирован доступ к некоторым флешкартриджам, а некоторые из них на 3DS никогда не работали. Поэтому они не смогут запустить `.nds- файл` для прошивки эксплойта на новых версиях. Флешкартриджи, совместимые с ntrboot, способные запускать `.nds-файлы` на 3DS указаны ниже (с указанием версии совместимой прошивки) **(даже не спрашивайте про другие; совместимы только конкретно эти типы картриджей)**:
 
-  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) (HW-44, HW-81), жители РФ могут купить [здесь](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629) : <= 4.3.0
-  + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) (A5/A6/A7), жители РФ могут купить [здесь](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936) : <= 11.6.0
-  + [R4i Ultra](http://r4ultra.com) : <= 4.3.0
-  + [R4i Gold 3DS Starter](http://r4ids.cn) : 4.1.0 - 4.5.0
-  + [R4 3D Revolution](http://r4idsn.com)
-  + [Infinity 3 R4i](http://r4infinity.com) : <= 11.6.0
-  + [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) ([лишь некоторые из них!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
-  
-{% endcapture %}
+{% include /inc/ntrboot_fw.txt %}
+
+  {% endcapture %}
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 Перед тем как продолжить, убедитесь, что ваш картридж корректно запускается. Убедитесь в наличии ядра или прошивки на SD-карте вашего флешкартриджа. За подробностями обратитесь к инструкции картриджа.

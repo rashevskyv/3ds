@@ -22,7 +22,7 @@ author_profile: true
 1. [Установите freeshop](games) любым удобным методом
 	+ Отсканируйте QR-код, если решите воспользоваться методом установки через QR
 	
-    ![]({{ base_path }}/images/QR/freeshop.jpg)
+    ![]({{"/images/QR/freeshop.jpg" | absolute_url }})
 	{: .text-center}
     {: .notice--info}
 
@@ -34,17 +34,17 @@ author_profile: true
 1. Запустите консоль
 1. Запустите приложение freeshop из меню Home
 1. Дождитесь пока программа обновится
-1. Перейдите в настройки программы. Для этого на нижнем экране нажмите ![]({{ base_path }}/images/fs/settings.png)
+1. Перейдите в настройки программы. Для этого на нижнем экране нажмите ![]({{"/images/fs/settings.png" | absolute_url }})
 1. Перейдите во вкладку "Обновление" (Update)
 1. Поставьте галочку напротив первого пункта - "Авто-обновление ключей приложения через URL" (Auto-update title keys from URL)
-	+ Если галочка уже стоит и там вписан URL-адрес, нажмите на ![]({{ base_path }}/images/fs/trash.png), чтобы его удалить
-1. Нажмите на ![]({{ base_path }}/images/fs/qr.png) и отсканируйте QR 
+	+ Если галочка уже стоит и там вписан URL-адрес, нажмите на ![]({{"/images/fs/trash.png" | absolute_url }}), чтобы его удалить
+1. Нажмите на ![]({{"/images/fs/qr.png" | absolute_url }}) и отсканируйте QR 
 
-    ![]({{ base_path }}/images/QR/freeshop_keys.png)
+    ![]({{"/images/QR/freeshop_keys.png" | absolute_url }})
 	{: .text-center}
     {: .notice--info}
 
-	+ Если у вас не работает клавиатура, нажмите на ![]({{ base_path }}/images/fs/kb.png) и вручную введите `http://3ds.titlekeys.gq/downloadenc`
+	+ Если у вас не работает клавиатура, нажмите на ![]({{"/images/fs/kb.png" | absolute_url }}) и вручную введите `http://3ds.titlekeys.gq/downloadenc`
 
 1. Нажмите кнопку "Обновить кэш"
 1. Перезагрузите freeshop

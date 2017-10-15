@@ -28,13 +28,14 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть III - Запуск FBI
+### Часть III - Запуск Homebrew Launcher
 
-{% include /inc/fbi.txt %}
+{% include /inc/hbl.txt %}
 
 ### Часть IV - Установка CIA
 
-1. Находясь в FBI перейдите в `SD` -> `cias`
+1. Выберите в списке Homebrew FBI и запустите его
+1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
