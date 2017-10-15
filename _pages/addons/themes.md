@@ -70,7 +70,7 @@ author_profile: true
 * Установленный и рабочий [b9s](updating-b9s) последней версии 
 * Установленный и рабочий [FBI](fbi)
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(`.cia`-файл)*
-	+ Скачиваем необходимые темы с [этого сайта](https://themeplaza.eu/)
+	+ Скачиваем необходимые темы с [этого сайта](https://3dsthem.es/)
 
 ### Инструкция
 
