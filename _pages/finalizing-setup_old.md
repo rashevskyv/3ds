@@ -18,7 +18,7 @@ author_profile: true
 +  **FBI** *(установщик приложений и игр в формате CIA)*
 +  **Anemone3DS** *(установка пользовательских тем)*
 +  **Checkpoint** *(резервное копирование и восстановление сохранений для игр 3DS и DS)*
-+  **Luma3DS Updater** *(Удобное обновление CFW)*
++  **Luma3DS Updater** *(удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
 +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
 +  **Homerew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
@@ -76,13 +76,12 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть III - Запуск Homebrew Launcher
+### Часть III - Запуск OCS
 
-{% include /inc/hbl.txt %}
+{% include /inc/hbl.txt content="OCS" %}
 
 ### Часть IV - Установка CIA
 
-1. Выберите FBI в списке Homebrew
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
@@ -93,13 +92,12 @@ author_profile: true
 1. Запустите приложение DSP1
 1. После завершения работы программы, нажмите (B), чтобы автоматически удалить программу из меню Home
 
-### Часть V - CTRNAND Luma3DS
+### Часть VI - CTRNAND Luma3DS
 
 {% include /inc/ctrnand_luma.txt %}
 
-### Часть VI - Резервное копирование SysNAND
+### Часть VII - Резервное копирование SysNAND
 
-1. Дважды нажмите (B) для возврата в главное меню
 1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "Scripts..."
 1. Выберите "Backup SysNAND"
@@ -114,7 +112,7 @@ author_profile: true
 1. После копирования удалите `<YYMMDD>_<serialnumber>_sysnand_###.bin` из папки `/gm9/out/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 
-### Часть VII - Очистка SD-карты
+### Часть VIII - Очистка SD-карты
 
 1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "Scripts..."
@@ -128,7 +126,7 @@ author_profile: true
 ![]({{ base_path }}/images/screenshots/final-file-layout.png)
 {: .text-center}
 
-### Часть VIII - Дополнительные материалы
+### Часть IX - Дополнительные материалы
 
 Теперь ваша приставка прошита и вы можете пользоваться всеми благами кастомной прошивки
 

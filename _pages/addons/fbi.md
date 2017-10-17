@@ -30,7 +30,7 @@ author_profile: true
 
 ### Часть III - Запуск Homebrew Launcher
 
-{% include /inc/hbl.txt %}
+{% include /inc/hbl.txt content="Homebrew Launcher" %}
 
 ### Часть IV - Установка CIA
 

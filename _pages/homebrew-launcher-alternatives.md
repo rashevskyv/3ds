@@ -51,7 +51,7 @@ Homebrew Launcher имеет множество точек входа, или м
     | <sub>[RPwnG](https://mrnbayoh.github.io/rpwng/) | <sub>[*RPG Maker Player*](http://www.nintendo.com/games/detail/rpg-maker-player-3ds) | <sub>eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>1.1.4 (EUR) / 1.1.2 (JPN/USA) | <sub>9.0.0-X и выше, включая 11.5.0-X |
     {: .notice--info}
 	
-1. Консоль должна загрузиться в OSC
+1. Консоль должна загрузиться в OCS
 1. Больше информации - [https://3dbrew.org/wiki/Homebrew_Exploits](https://3dbrew.org/wiki/Homebrew_Exploits)
 
 ___

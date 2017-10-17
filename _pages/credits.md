@@ -96,6 +96,7 @@ author_profile: true
 	• [Антон Вишневский](https://vk.com/cr0ssfire)     
 	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность    
 	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте
+	• [Ігор Джулай](https://vk.com/ighor) за незамыленый взгляд
 {% endcapture %}
 
 <div class="notice--success">{{ notice-2 | markdownify }}</div>

@@ -87,14 +87,14 @@ author_profile: true
 
 ### Часть III - Запуск Homebrew Launcher
 
-{% include /inc/hbl.txt %}
+{% include /inc/hbl.txt content="Homebrew Launcher" %}
 
 ### Часть IV - Переустановка тикетов
 
 Если скрипт, запускавшийся выше, не нашел пользовательских тикетов на консоли, и предложил вам пропустить эту часть - так и поступите
 {: .notice--info}
 
-1. Выберите FBI в списке Homebrew
+1. Выберите FBI в списке Homebrew и запустите его
 1. Перейдите в `SD` -> `cias`
 1. Нажмите (B), чтобы вернуться в папку "SD"
 1. Выберите "gm9"

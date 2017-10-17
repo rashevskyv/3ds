@@ -75,7 +75,7 @@ author_profile: true
 
 {% capture notice-7 %}
 
-**Легенда таблицы:**
+**Методы, подходящие для всех версий прошивки:**
 
 <a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
 	<img src="/images/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)

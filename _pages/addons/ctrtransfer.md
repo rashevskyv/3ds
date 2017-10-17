@@ -77,14 +77,14 @@ author_profile: true
 
 ### Часть III - Запуск Homebrew Launcher
 
-{% include /inc/hbl.txt %}
+{% include /inc/hbl.txt content="Homebrew Launcher" %}
 
 ### Часть IV - Переустановка тикетов
 
 Если скрипт не нашел пользовательских ticket-файлов и просил вас пропустить эту часть (Skip the 'Reinstalling Tickets' section), пропустите эту часть
 {: .notice--info}
 
-1. Выберите FBI в списке Homebrew
+1. Выберите в списке Homebrew FBI и запустите его
 1. Перейдите в `SD` -> `cias`
 1. Нажмите (B), чтобы вернуться в папку "SD"
 1. Выберите "gm9"
