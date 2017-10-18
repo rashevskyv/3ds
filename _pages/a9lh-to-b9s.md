@@ -6,15 +6,15 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
+Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+{: .notice--success}
+
 Эта страница предназначена для пользователей arm9loaderhax, чтобы обновить их устройства до boot9strap.
 
 Все будущие релизы Luma3DS будут только в формате `.firm`, который будет совместим только с boot9strap и sighax. Это означает, что для того, чтобы продолжать получать последние обновления Luma3DS, вы должны использовать эту страницу для обновления установки.
 
 Если в Luma3DS вы используете PIN-код, то при работе SafeB9SInstaller вы получите ошибку "OTP Crypto Fail". Для решения этой проблемы временно откажитесь от использования PIN-кода (вы сможете включить его обратно после обновления).
 {: .notice--warning}
-
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
 
 ## Что понадобится
 

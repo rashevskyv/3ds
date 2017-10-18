@@ -73,7 +73,6 @@ author_profile: true
 + [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list)
 + [Установка ntrboot (DSi)](flashing-ntrboot-dsi)
 + [Установка ntrboot (NDS)](flashing-ntrboot-nds)
-+ [Установка ntrboot (Powersaves)](flashing-ntrboot-powersaves)
 + [Установка ntrboot (несколько 3DS)](flashing-ntrboot-3ds-multi-system)
 + [Установка ntrboot (на не прошитой 3DS)](flashing-ntrboot-3ds-single-system)
 + [Установка и использование тем](themes)

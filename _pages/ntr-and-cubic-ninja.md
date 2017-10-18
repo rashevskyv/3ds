@@ -5,7 +5,8 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+{: .notice--success}
 
 Этот метод работает ТОЛЬКО на японских New 3DS!
 

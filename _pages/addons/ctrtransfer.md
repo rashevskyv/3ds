@@ -5,13 +5,14 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Это дополнительный раздел, рассказывающий об установке образа 11.5.0 CTRTransfer на ваше устройство.
+Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+{: .notice--success}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+Это дополнительный раздел, рассказывающий об установке образа 11.5.0 CTRTransfer на ваше устройство.
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций. 
 
-Для продолжения, у вас уже ДОЛЖНА быть установлена Luma3DS и boot9strap или arm9loaderhax
+Для продолжения, у вас уже ДОЛЖНА быть установлена Luma3DS и boot9strap.
 {: .notice--danger}
 
 ## Что понадобится

@@ -111,6 +111,11 @@ td {
       }
     }
 }
+
+th {
+  border: 2px solid mix(#000, $border-color, 25%) !important;
+  text-align: center !important;
+}
  
 // Кнопки 
 .btn {
@@ -212,7 +217,7 @@ td {
 }
 
 
-// Цвет ссылокв в notice
+// Цвет ссылок в notice
 @mixin notice($notice-color) {
   font-weight: normal;
   background-color: mix(#fff, $notice-color, 90%);

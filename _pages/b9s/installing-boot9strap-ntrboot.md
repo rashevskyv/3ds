@@ -4,7 +4,11 @@ lang: ru
 permalink: installing-boot9strap-ntrboot.html
 author_profile: true
 ---
+
 {% include toc title="Разделы" %}
+
+Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+{: .notice--success}
 
 ## Что понадобится
 
