@@ -93,10 +93,10 @@ author_profile: true
 {% capture notice-2 %}**Отдельная благодарность**        
 <br>
 	• dimakuz26      
-	• [Антон Вишневский](https://vk.com/cr0ssfire)     
-	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность    
-	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте     
-	• [Ігор Джулай](https://vk.com/ighor) за незамыленый взгляд
+	• [Антон Вишневский](https://vk.com/cr0ssfire)<br>
+	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность<br>
+	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте<br>
+	• [Ігор Джулай](https://vk.com/ighor) за незамыленый взгляд<br>
 {% endcapture %}
 
 <div class="notice--success">{{ notice-2 | markdownify }}</div>
