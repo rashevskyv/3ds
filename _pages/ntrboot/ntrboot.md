@@ -88,7 +88,7 @@ author_profile: true
       <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">₴600</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank">₽1200</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">₴400</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank">₽1200</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
