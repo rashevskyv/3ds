@@ -17,23 +17,126 @@ author_profile: true
 
 Имейте в виду, что картриджи с так называемой "Time Bomb" (немалая часть DSTT-клонов по истечению определенной даты на системных часах приставки перестают работать) так же не смогут запускать `.*nds-файлы` после срабатывания "бомбы". Один из способов это обойти - перевести часы на несколько лет назад. 
 
-| Название картриджа | Примерная стоимость | "Time Bomb" | Версия 3DS | Версия DSi | Версия NDS | Примечания |
-|-|-:|:-:|:-:|:-:|:-:|-|
-| [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157) | $9.99 | Нет | - | - | Все | Только модели с определенными [чипами памяти](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42) совместимы с ntrboot. |
-| [R4i-SDHC 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=146) | $13.99 | Возможно (дата неизвестна) | <= 11.6.0 | <= 1.4.5 | Все | |
-| [R4i-SDHC 3DS b9s](http://R4i-sdhc.com) [![]({{"/images/ua.png" | absolute_url }})](https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176) | $9.99 | Возможно (дата неизвестна) | <= 11.6.0 | <= 1.4.5 | Все | Картридж продается с предустановленнмы ntrboot |
-| [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) [![]({{"/images/ru.png" | absolute_url }})](https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830) [![]({{"/images/ru.png" | absolute_url }})](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936) | $19.99 | Нет | <= 11.6.0 | <= 1.4.5 | Все | |
-| [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) [![]({{"/images/ru.png" | absolute_url }})](https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629) | $20.99 | Нет | <= 4.3.0 | <= 1.4.4 | Все | |
-| [R4iSDHC GOLD Pro 20XX](http://www.nds-card.com/ProShow.asp?ProID=490) [![]({{"/images/ua.png" | absolute_url }})](https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176) | $9.99 | 3.9b: 3 сентября, 2019 | <= 11.6.0 | <= 1.4.5 | Все | Все R4iSDHC 20XX идентичны. |
-| [R4iSDHC RTS LITE 20XX](http://www.nds-card.com/ProShow.asp?ProID=450) | $13.99 | 3.9b: 3 сентября, 2019 | <= 11.6.0 | <= 1.4.5 | Все | Все R4iSDHC 20XX идентичны. |
-| Infinity 3 R4i |  | Нет | <= 11.6.0 | <= 1.4.5 | Все | |
-| R4 3D Revolution |  | Нет | - | - | Все | |
-| R4i Gold 3DS Deluxe "Starter" |  | Нет | 4.1.0 - 4.5.0 | <= 1.4.5 | Все | |
-| R4i Ultra |  | Нет | <= 4.3.0 | <= 1.4.5 | Все | |
-  
-  ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
-  {: .notice--info}
-  {: .text-center}
+Картриджи могут отличаться цветом корпуса, поэтому внимательно смотрите на наклейку. Обращайте внимание на сайт, указанный на наклейке. Рынок переполнен клонами китайских клонов, поэтому не удивляйтесь, если картридж, который должен работать - не работает. Возможно у вас клон, либо в картридже установлен чип, который в данный момент не поддерживается.
+
+<table>
+  <colgroup>
+    <col span="1" style="width: 20%;">
+    <col span="1" style="width: 12%;">
+    <col span="1" style="width: 8%;">
+    <col span="1" style="width: 8%;">
+    <col span="1" style="width: 8%;">
+    <col span="1" style="width: 44%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Картридж</th>
+      <th style="text-align: center; font-weight: bold;">Внешний вид</th>
+      <th style="text-align: center; font-weight: bold;">Версия 3DS</th>
+      <th style="text-align: center; font-weight: bold;">Версия DSi</th>
+      <th style="text-align: center; font-weight: bold;">Версия NDS</th>
+      <th style="text-align: center; font-weight: bold;">Примечания</th>
+	  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">DSTT<br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=157" target="blank">$9.99</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/dstt.png"><img src="/images/flashcarts/dstt.png"></a>&nbsp;<a href="/images/flashcarts/dstt2.png"><img src="/images/flashcarts/dstt2.png"></a></td>
+      <td style="text-align: center;"><i>?</i></td>
+      <td style="text-align: center;"><i>?</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Только модели с определенными <a href="https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42" target="blank">чипами памяти</a> совместимы с ntrboot</td>
+	</tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank">₽1500</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts.png"></a></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank">₽1500</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard.png"></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2.png"></a></td>
+      <td style="text-align: center;"><i>≤4.3.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.4</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Может запускать DS-игры на взломаной приставке даже с установленным ntrboot и не требует удаления последнего.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts.png"></a></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"></td>
+	  </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank">₴600</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s.png"></a></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Картридж продается с предустановленнмы ntrboot</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-dc.png"><img src="/images/flashcarts/r4isdhc-dc.png"></a></td>
+      <td style="text-align: center;"><i>≤4.3.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.4</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">₴600</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank">₽1200</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2.png"></a></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-lite.png"><img src="/images/flashcarts/r4isdhc-lite.png"></a></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/infinity.png"><img src="/images/flashcarts/infinity.png"></a></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">R4 3D Revolution</td>
+      <td style="text-align: center;"><a href="/images/flashcarts/3d_rev.png"><img src="/images/flashcarts/3d_rev.png"></a></td>
+      <td style="text-align: center;"><i>?</i></td>
+      <td style="text-align: center;"><i>?</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Аппаратный клон R4i Gold 3DS RTS ревизии HW A6</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">Gold 3DS Deluxe "Starter"</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/starter.png"><img src="/images/flashcarts/starter.png"></a>&nbsp;<a href="/images/flashcarts/starter_b.png"><img src="/images/flashcarts/starter_b.png"></a></td>
+      <td style="text-align: center;"><i>4.1.0 - 4.5.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">R4i Ultra</td>
+      <td style="text-align: center;"><a href="/images/flashcarts/ultra.png"><img src="/images/flashcarts/ultra.png"></a></td>
+      <td style="text-align: center;"><i>≤4.3.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"></td>
+    </tr>
+	</tbody>
+</table>
   
 Убедитесь, что ваш картридж корректно запускается. Убедитесь в наличии ядра или прошивки на SD-карте вашего флешкартриджа. За подробностями обратитесь к инструкции картриджа.
   
@@ -55,6 +158,8 @@ ___
 
 [Этот метод](flashing-ntrboot-3ds-single-system) не требует ничего кроме одной не прошитой консоли 3DS и совместимого флешкартриджа. Суть метода в запуске флешера формата `*.nds` через флешкартридж. Поэтому в первую очередь необходимо, чтобы флешкартридж виделся и запускался на вашей 3DS. Некоторые флешкартриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии. 
 
+Этот метод не совершенен и иногда с его помощью не прошиваются картриджи, которые прошиваются без проблем [этим методом](flashing-ntrboot-3ds-multi-system).
+
 ## Прошивка ntrboot (с привлечением прошитой 3DS)
 
 [Этот метод](flashing-ntrboot-3ds-multi-system) требует временный доступ ко второй консоли семейства 3DS с установленной кастомной прошивкой и b9s (если у вас a9lh, то вы не сможете запустить инсталлер, [переходите на boot9strap](a9lh-to-b9s)). Метод не требует, чтобы выбранный картридж был совместим с какой-либо определенной прошивкой. 
@@ -63,9 +168,13 @@ ___
 
 [Этот метод](flashing-ntrboot-nds) требует временного доступа к Nintendo DS или Nintendo DS Lite, совместимой с вашим флешкартриджем. Суть метода в запуске флешера формата `*.nds` через флешкартридж. Поэтому в первую очередь необходимо, чтобы флешкартридж виделся и запускался на вашей 3DS. Некоторые флешкартриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии. 
 
+Этот метод не совершенен и иногда с его помощью не прошиваются картриджи, которые прошиваются без проблем [этим методом](flashing-ntrboot-3ds-multi-system).
+
 ## Прошивка ntrboot (DSi)
 
 [Этот метод](flashing-ntrboot-dsi) требует временного доступа к Nintendo DSi, совместимой с вашим флешкартриджем. Суть метода в запуске флешера формата `*.nds` через флешкартридж. Поэтому в первую очередь необходимо, чтобы флешкартридж виделся и запускался на вашей 3DS. Некоторые флешкартриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии.
+
+Этот метод не совершенен и иногда с его помощью не прошиваются картриджи, которые прошиваются без проблем [этим методом](flashing-ntrboot-3ds-multi-system).
 
 ## Картридж с уже прошитым ntrboot 
 

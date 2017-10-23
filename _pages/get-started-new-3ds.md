@@ -43,8 +43,8 @@ author_profile: true
   <tbody>
     <tr>
         <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
-        <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
-      <td style="text-align: center; font-weight: bold;" rowspan="10">
+        <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
+      <td style="text-align: center;" rowspan="10">
 		<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
 			<img src="/images/ntrhax.png">
 		</a>
@@ -56,17 +56,17 @@ author_profile: true
 		</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
+      <td style="text-align: center;"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-        <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
+        <td style="text-align: center;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.6.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a></td>
+      <td style="text-align: center;"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a></td>
     </tr>
     <tr>
     </tr>
