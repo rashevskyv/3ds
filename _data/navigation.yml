@@ -34,9 +34,9 @@ main:
     url: /credits               
             
 addons:
-  - title: "FAQ"
+  - title: "FAQ для непрошитых"
     url: /faq
-  - title: "Дополнительный FAQ"
+  - title: "FAQ для прошитых"
     url: /faq-3ds
   - title: "Установка freeshop"
     url: /freeshop
