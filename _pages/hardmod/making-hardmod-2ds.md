@@ -6,7 +6,12 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-{% include inc/hardmod.txt content="2DS" %}
+{% include inc/hardmod.txt 
+
+	console="2DS" 
+
+	screwdriver="" 
+%}
 
 ### Часть II - Разбираем консоль
 

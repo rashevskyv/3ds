@@ -6,7 +6,12 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-{% include inc/hardmod.txt content="New 3DS XL" %}
+{% include inc/hardmod.txt 
+
+	console="New 3DS XL" 
+
+	screwdriver="" 
+%}
 
 ### Часть II - Разбираем консоль
 

@@ -6,7 +6,12 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-{% include inc/hardmod.txt content="2DS XL" %}
+{% include inc/hardmod.txt 
+
+	console="2DS XL" 
+
+	screwdriver=" и отвертка типа [Tri-wing Y00](https://www.ebay.com/sch/i.html?_sacat=0&_nkw=tri+wing+screwdriver&_frs=1)" 
+%}
 
 ### Часть II - Разбираем консоль
 

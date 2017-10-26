@@ -1,4 +1,4 @@
-Это руководство для тех, кто хочет выполнить хардмод и снять дамп NAND с {{ include.content }}. Руководство по внедрению bootstrap в уже снятый дамп находится [здесь](installing-boot9strap-hardmod)
+Это руководство для тех, кто хочет выполнить хардмод и снять дамп NAND с {{ include.console }}. Руководство по внедрению bootstrap в уже снятый дамп находится [здесь](installing-boot9strap-hardmod)
 {: .notice--info}
 
 {% capture notice-1 %}   
@@ -19,7 +19,7 @@
 * Паяльник: один с тонким наконечником
 * Пайка: я использую паяльник с флюсосодержащим припоем с соотношением олова к свинцу 60/40. Не используйте припой, содержащий кислотный флюс, так как это вызывает коррозию материнской платы и может все повредить
 * Паяльный флюс
-* Крестовая отвертка [Phillips #000](https://ru.ifixit.com/Store/Tools/Phillips-000-Screwdriver/IF145-030-3) или [JIS #000](https://ru.ifixit.com/Store/Tools/JIS-Driver-Set/IF145-115-1): рекомендуется отвертка [Phillips #000](https://ru.ifixit.com/Store/Tools/Phillips-000-Screwdriver/IF145-030-3) или [JIS #000](https://ru.ifixit.com/Store/Tools/JIS-Driver-Set/IF145-115-1). Вы также можете использовать [Phillips #00](https://ru.ifixit.com/Store/Tools/Phillips-00-Screwdriver/IF145-006-3) или [JIS #00](https://ru.ifixit.com/Store/Tools/JIS-Driver-Set/IF145-115-1), но рискуете сломать винты, если не будете осторожны<br>
+* Крестовая отвертка [Phillips #000](https://www.ebay.com/sch/i.html?_odkw=ph000+screwdriver&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.TRS0&_nkw=ph000+screwdriver&_sacat=0){{ include.screwdriver }}<br>
 Я использую вот такой набор: [Kalaidun  25 in 1](https://ru.aliexpress.com/item/Screwdriver-Set-25-in-1-Torx-Screwdriver-Repair-Tool-Set-For-iPhone-Cellphone-Tablet-PC-Worldwide/32696703618.html?ws_ab_test=searchweb0_0,searchweb201602_3_10152_10065_10151_10068_5400011_5430020_5410020_10307_10303_10137_10060_10155_10154_10056_10055_10054_10059_100031_10099_10103_10102_10052_10053_10142_10107_10050_10051_10170_5380020_5390020_10084_10083_10119_5370020_10080_10082_10081_10110_10111_10112_10113_10114_10311_10312_10313_10314_10315_10078_10079_10073_10120_5420011_10125-10102_10120,searchweb201603_5,ppcSwitch_5&btsid=0c9deb2d-e096-48cc-86fe-3162777cb23d&algo_expid=809042af-9533-4303-8d8c-9e18df48c770-0&algo_pvid=809042af-9533-4303-8d8c-9e18df48c770&transAbTest=ae803_2)
 * Программа [win32diskimager](https://sourceforge.net/projects/win32diskimager/) на вашем компьютере
 * Программа [3DS NAND Checker](https://gbatemp.net/threads/2ds-3ds-nand-checker.439170/)
