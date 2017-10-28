@@ -58,11 +58,11 @@ author_profile: true
 1. **Помните, что ещё не следует копировать boot.firm от Luma 8.0, мы сделаем это в следующей части**
 1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Создайте папку `boot9strap` в корне SD-карты
+1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
+1. Скопируйте `SafeB9SInstaller.firm` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
-1. Скопируйте `SafeB9SInstaller.firm` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
-1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Создайте папку `cias` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
@@ -83,10 +83,12 @@ author_profile: true
 
 ### Часть V - Обновление Luma3DS
 
+1. Отключите приставку
 1. Вставьте SD-карту в компьютер
 1. Удалите файл `boot.firm` из корня SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
+1. Включите приставку
 
 ### Часть VI - Настройка Luma3DS
 
