@@ -23,7 +23,7 @@ author_profile: true
 * Две консоли 
   + **Исходная DSi**: Nintendo DSi, совместимая с вашим флешкартриджем
   + **Целевая 3DS**: консоль семейства 3DS с официальной прошивкой
-* Свежая версия [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi`-версия; стандартная версия не подходит)*
+{% include /inc/files/ntrboot_flasher_nds.txt %} *(`dsi`-версия; **стандартная версия не подходит**)*
 
 ## Инструкция
 

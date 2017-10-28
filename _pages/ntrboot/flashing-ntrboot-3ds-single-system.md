@@ -20,7 +20,7 @@ author_profile: true
 ## Что понадобится
 
 * Флешкартридж, совместимый с ntrboot
-* Свежая версия [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi`-версия; стандартная версия не подходит)*
+{% include /inc/files/ntrboot_flasher_nds.txt %} *(`dsi`-версия; **стандартная версия не подходит**)*
 
 ## Инструкция
 

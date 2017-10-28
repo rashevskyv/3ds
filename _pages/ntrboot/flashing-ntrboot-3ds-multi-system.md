@@ -19,8 +19,8 @@ author_profile: true
 * Две консоли семейства 3DS 
 	+ **Исходная 3DS**: консоль семейства 3DS с boot9strap
 	+ **Целевая 3DS**: консоль с официальной прошивкой
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; не `devkit-файл`)*
-* Свежая версия [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; **`devkit-файл` не подходит**)*
+{% include /inc/files/ntrboot_flasher_firm.txt %}
 
 ## Инструкция
 

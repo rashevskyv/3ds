@@ -1,0 +1,1 @@
+* Свежая версия [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest)
