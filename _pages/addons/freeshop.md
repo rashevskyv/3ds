@@ -44,7 +44,7 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 
-	+ Если у вас не работает клавиатура, нажмите на ![]({{"/images/fs/kb.png" | absolute_url }}) и вручную введите `http://3ds.titlekeys.gq/downloadenc`
+	+ Если у вас не работает камера, нажмите на ![]({{"/images/fs/kb.png" | absolute_url }}) и вручную введите `http://3ds.titlekeys.gq/downloadenc`
 
 1. Нажмите кнопку "Обновить кэш"
 1. Перезагрузите freeshop
