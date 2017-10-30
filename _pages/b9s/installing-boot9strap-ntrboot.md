@@ -68,13 +68,8 @@ author_profile: true
 ___
 
 
-{% capture notice-6 %}   
-
 Следующий шаг: [Завершение установки](finalizing-setup)
-
-{% endcapture %}
-
-<div class="notice--success">{{ notice-6 | markdownify }}</div>
+{: .notice--success}
 
 ___
 
@@ -222,3 +217,8 @@ ___
 1. Дождитесь окончания процесса
 1. Нажмите (A) для возврата в главное меню
 1. Нажмите (B) чтобы выключить консоль
+
+___
+
+Следующий шаг: [Завершение установки](finalizing-setup)
+{: .notice--success}
