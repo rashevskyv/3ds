@@ -26,7 +26,7 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту из приставки в компьютер
 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
-1. Скопируйте `SafeB9SInstaller.firm` в корень SD-карты и переименуйте его в `boot.firm`
+1. Скопируйте `SafeB9SInstaller.firm` из архива с SafeB9SInstaller в корень SD-карты и переименуйте его в `boot.firm`
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 
