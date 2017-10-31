@@ -41,7 +41,7 @@ author_profile: true
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">DSTT<br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=157" target="blank">$9.99</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/dstt.png"><img src="/images/flashcarts/dstt.png"></a>&nbsp;<a href="/images/flashcarts/dstt2.png"><img src="/images/flashcarts/dstt2.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/dstt.png"><img src="/images/flashcarts/dstt_small.png"></a>&nbsp;<a href="/images/flashcarts/dstt2.png"><img src="/images/flashcarts/dstt2_small.png"></a></td>
       <td style="text-align: center;"><i>?</i></td>
       <td style="text-align: center;"><i>?</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -49,7 +49,7 @@ author_profile: true
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank">₽1500</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -57,7 +57,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank">₽1500</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard.png"></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard_small.png"></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2_small.png"></a></td>
       <td style="text-align: center;"><i>≤4.3.0</i></td>
       <td style="text-align: center;"><i>≤1.4.4</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -65,7 +65,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -73,7 +73,7 @@ author_profile: true
 	  </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank">₴600</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -81,7 +81,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-dc.png"><img src="/images/flashcarts/r4isdhc-dc.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-dc.png"><img src="/images/flashcarts/r4isdhc-dc_small.png"></a></td>
       <td style="text-align: center;"><i>≤4.3.0</i></td>
       <td style="text-align: center;"><i>≤1.4.4</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -89,7 +89,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">₴400</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank">₽1200</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp_small.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -97,7 +97,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-lite.png"><img src="/images/flashcarts/r4isdhc-lite.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-lite.png"><img src="/images/flashcarts/r4isdhc-lite_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -105,7 +105,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/infinity.png"><img src="/images/flashcarts/infinity.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/infinity.png"><img src="/images/flashcarts/infinity_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -113,7 +113,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">R4 3D Revolution</td>
-      <td style="text-align: center;"><a href="/images/flashcarts/3d_rev.png"><img src="/images/flashcarts/3d_rev.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/3d_rev.png"><img src="/images/flashcarts/3d_rev_small.png"></a></td>
       <td style="text-align: center;"><i>?</i></td>
       <td style="text-align: center;"><i>?</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -121,7 +121,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">Gold 3DS Deluxe "Starter"</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/starter.png"><img src="/images/flashcarts/starter.png"></a>&nbsp;<a href="/images/flashcarts/starter_b.png"><img src="/images/flashcarts/starter_b.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/starter.png"><img src="/images/flashcarts/starter_small.png"></a>&nbsp;<a href="/images/flashcarts/starter_b.png"><img src="/images/flashcarts/starter_b_small.png"></a></td>
       <td style="text-align: center;"><i>4.1.0 - 4.5.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
@@ -129,7 +129,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">R4i Ultra</td>
-      <td style="text-align: center;"><a href="/images/flashcarts/ultra.png"><img src="/images/flashcarts/ultra.png"></a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/ultra.png"><img src="/images/flashcarts/ultra_small.png"></a></td>
       <td style="text-align: center;"><i>≤4.3.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
