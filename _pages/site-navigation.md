@@ -69,7 +69,6 @@ author_profile: true
 + [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
 + [Установка boot9strap (Браузер)](installing-boot9strap-browser)
 + [Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-dsiware-game-injection)
-+ [Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-dsiware-game-injection)
 + [Установка boot9strap (Инъекция в сохранения DSiWare)](installing-boot9strap-dsiware-save-injection)
 + [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list)
 + [Установка ntrboot (DSi)](flashing-ntrboot-dsi)
