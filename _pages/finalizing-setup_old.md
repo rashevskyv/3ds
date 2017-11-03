@@ -76,16 +76,17 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть III - Запуск OCS
+### Часть III - Запуск HBL
 
-{% include /inc/hbl.txt content="OCS" %}
+{% include /inc/hbl.txt content="Homebrew Launcher" %}
 
 ### Часть IV - Установка CIA
 
+1/ Запустите FBI
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
-1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
+1. Нажмите (HOME) для возврата в меню Home
 
 ### Часть V - DSP Dump
 
