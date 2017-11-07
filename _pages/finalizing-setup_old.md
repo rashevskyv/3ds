@@ -1,5 +1,5 @@
 ---
-title: "Завершение установки" #
+title: "Завершение установки вручную" #
 lang: ru
 permalink:  finalizing-setup_old.html
 author_profile: true
@@ -26,15 +26,15 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia`-файл)*
-* Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(`.cia`-файл)*
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
-* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл`и `.3dsx-файл`)*
-* Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
-* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(`.cia`-файл)*
+* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл` и `.3dsx-файл`)*
+* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
+* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
+* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia`-файл)*
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
 * [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
@@ -44,16 +44,17 @@ author_profile: true
 
 1. Отключите приставку
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ архива `starter.zip` в корне SD-карты
+1. Скопируйте boot.3dsx из архива `starter.zip` в корень SD-карты
+1. Создайте папку `3ds` в корне SD-карты
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
 1. Создайте папку `cias` в корне SD-карты, если таковой нет
-1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
-1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
-1. Скопируйте `Anemone3DS.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `Checkpoint.cia` в папку `/cias/` на SD-карты
-1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `DSP1.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `FBI.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
+1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
+1. Скопируйте `Themely.cia` в папку `/cias/` на SD-карты
 
     ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }})
 	{: .text-center}
@@ -84,7 +85,7 @@ author_profile: true
 
 ### Часть IV - Установка CIA
 
-1/ Запустите FBI
+1. Запустите FBI
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
