@@ -31,6 +31,13 @@ rm -o -s 0:/3ds/safehax.3dsx
 rm -o -s 0:/3ds/udsploit.3dsx
 rm -o -s 0:/safehaxpayload.bin
  
+#MSET
+rm -o -s 0:/Launcher.dat
+rm -o -s 0:/SafeB9SInstaller.dat
+ 
+#OCS
+rm -o -s 0:/ocs.log
+ 
 #DSiWareHax
 rm -o -s 0:/public.sav
 rm -o -s 0:/boot.nds

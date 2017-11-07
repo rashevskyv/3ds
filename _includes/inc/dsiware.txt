@@ -17,7 +17,7 @@
 {{ include.needed_list }}
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
+{% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 {% include /inc/files/ocs.txt %}
 * 11.4.0/11.5.0/11.6.0 `.firm` соответствующий **целевой 3DS** (они идентичны таковым у 11.4, 11.5, 11.6, пусть это вас не смущает)

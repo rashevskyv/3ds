@@ -9,7 +9,7 @@ author_profile: true
 ## Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) (**стандартный boot9strap**; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)
+{% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 {% include /inc/files/ocs.txt %}
 

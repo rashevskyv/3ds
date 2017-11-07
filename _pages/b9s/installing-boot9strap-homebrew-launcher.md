@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.). Позже мы перенесем все данные из EmuNAND в SysNAND.
+{% include /inc/emunand_note.txt %}
 
 ## Инструкция
 

@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.). Позже мы перенесем все данные из EmuNAND в SysNAND.
+{% include /inc/emunand_note.txt %}
 
 Убедитесь, что на устройстве включена беспроводная связь и есть стабильное подключение к интернету. safehax требует интернет для работы.
 
@@ -16,7 +16,7 @@ author_profile: true
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest)
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest)
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл`)*
+{% include /inc/files/bootstrap_standart.txt %}
 
 ## Инструкция
 

@@ -18,7 +18,7 @@ author_profile: true
 ## Что понадобится
 
 * Полученный с помощью [хардмода](making-hardmod) образ NAND
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
+{% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/) для запуска `.py-файлов`
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*

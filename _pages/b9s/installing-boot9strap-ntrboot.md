@@ -15,7 +15,7 @@ author_profile: true
 * Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
 * Флешкартридж с прошитым ntrboot
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл`)*
+{% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 {% include /inc/files/ocs.txt %}
 
@@ -32,7 +32,7 @@ author_profile: true
 
     ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
     {: .notice--info}
-    {: .text--center}
+	{: .text-center}
 
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль

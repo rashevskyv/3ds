@@ -26,7 +26,7 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(`.cia`-файл)*
+* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia`-файл)*
 * Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(`.cia`-файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
@@ -73,6 +73,8 @@ author_profile: true
 1. Включите приставку
 
 ### Часть II - Обновление системы
+Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), перед выполнением этой части.
+{: .notice--info}
 
 {% include /inc/sys_update.txt %}
 
