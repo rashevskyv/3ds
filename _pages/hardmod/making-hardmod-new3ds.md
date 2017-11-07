@@ -33,7 +33,7 @@ author_profile: true
 
 1. Открутите винты, удерживающие крышку приставки
 
-    ![]({{ base_path }}/images/ifixit/3dsxl/3.png)
+    ![]({{ base_path }}/images/ifixit/new3ds/3.png)
 	{: .text-center}
     {: .notice--info}
 

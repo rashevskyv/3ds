@@ -13,7 +13,7 @@ author_profile: true
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
+{% include /inc/files/ocs.txt %}
 * Любой флешкартридж для DS, работающий на вашей версии прошивки
 
 ## Инструкция

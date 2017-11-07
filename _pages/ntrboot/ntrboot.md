@@ -19,6 +19,8 @@ author_profile: true
 
 Картриджи могут отличаться цветом корпуса, поэтому внимательно смотрите на наклейку. Обращайте внимание на сайт, указанный на наклейке. Рынок переполнен клонами китайских клонов, поэтому не удивляйтесь, если картридж, который должен работать - не работает. Возможно у вас клон, либо в картридже установлен чип, который в данный момент не поддерживается.
 
+## Список совместимых картриджей
+
 <table>
   <colgroup>
     <col span="1" style="width: 20%;">
@@ -48,7 +50,7 @@ author_profile: true
       <td style="text-align: center;">Только модели с определенными <a href="https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42" target="blank">чипами памяти</a> совместимы с ntrboot</td>
 	</tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank">₽1500</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank"><img src="/images/ru.png">₽1500</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
@@ -56,7 +58,7 @@ author_profile: true
       <td style="text-align: center;"></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank">₽1500</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank"><img src="/images/ru.png">₽1500</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard_small.png"></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2_small.png"></a></td>
       <td style="text-align: center;"><i>≤4.3.0</i></td>
       <td style="text-align: center;"><i>≤1.4.4</i></td>
@@ -64,7 +66,7 @@ author_profile: true
       <td style="text-align: center;">Может запускать DS-игры на взломаной приставке даже с установленным ntrboot и не требует удаления последнего.</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ua.png">₴500</a><br><img src="/images/ru.png"><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank">₽1400</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
@@ -72,7 +74,7 @@ author_profile: true
       <td style="text-align: center;"></td>
 	  </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank">₴600</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
@@ -88,7 +90,7 @@ author_profile: true
       <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">₴400</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank">₽1200</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png">₽1200</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp_small.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>

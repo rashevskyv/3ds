@@ -16,7 +16,7 @@ Homebrew Launcher имеет множество точек входа, или м
 
 ## Что понадобится
 
-* Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
+{% include /inc/files/ocs.txt %}
 * [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 ## Инструкция

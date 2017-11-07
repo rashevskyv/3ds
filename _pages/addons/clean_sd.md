@@ -94,13 +94,14 @@ author_profile: true
 #### Что понадобится
 
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
+{% include /inc/files/ocs.txt %}
 
 #### I. Установка и настройка Luma3DS
 
 1. Выключите приставку
 1. Вставьте SD-карту из приставки в ПК
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Скопируйте boot.3dsx (OCS) в корень SD-карты
 1. Верните SD-карту в приставку и включите её
 {% include /inc/luma_setup.txt %}
   + Если появляется ошибка, просто переходите к следующей странице

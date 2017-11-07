@@ -22,7 +22,7 @@ author_profile: true
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/) для запуска `.py-файлов`
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
+{% include /inc/files/ocs.txt %}
 * `.firm`, соответствующий версии вашего устройства и версии ПО:
 
 | Версия(и) | Kernel | Old 3DS или Old 2DS | New 3DS или New 2DS|

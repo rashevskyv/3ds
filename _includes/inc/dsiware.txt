@@ -19,7 +19,7 @@
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
+{% include /inc/files/ocs.txt %}
 * 11.4.0/11.5.0/11.6.0 `.firm` соответствующий **целевой 3DS** (они идентичны таковым у 11.4, 11.5, 11.6, пусть это вас не смущает)
   + <i class='fa fa-magnet' aria-hidden='true' title='Это магнитная ссылка. Используйте торрент-клиент для работы с ней.'></i> - [`2.54-0_11.4_OLD.firm`](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
   + <i class='fa fa-magnet' aria-hidden='true' title='Это магнитная ссылка. Используйте торрент-клиент для работы с ней.'></i> - [`2.54-0_11.4_NEW.firm`](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -46,6 +46,7 @@
 1. Выберите 'Backup SysNAND'
 1. Нажмите (A) для подтверждения
 	+ Этот процесс займет некоторое время
+	+ Если во время выполнения процесса произошла ошибка, помните, что без этого бекапа вы не сможете восстановить исходную консоль, а так же выполнить все заново, если в процессе прошивки целевой 3DS что-то пойдет не так, например, не будет запускаться эксплойт
 1. Нажмите (A), чтобы продолжить
 1. Удерживая (R) нажмите (B) для того, чтобы извлечь SD-карту **исходной 3DS**
 1. Вставьте SD-карту **исходной 3DS** в компьютер
@@ -84,7 +85,7 @@
 1. Выполните одно из следующих действий
 	+ Продолжайте выполнять оставшуюся часть инструкции для **целевой 3DS**, а затем подождите неделю *(не восстанавливайте бэкап NAND до переноса данных)* и выполните Передачу данных уже с **целевой 3DS** на **исходную** *(помните, что вы не можете перенести данные с New 3DS или New 2DS на Old 3DS или Old 2DS)*
     + Позвоните в Nintendo и скажите им, что у вас больше нет доступа к устройству, к которому привязан ваш NNID (в нашем случае, это уже **целевая 3DS**) и вы бы хотели привязать аккаунт к новому устройству (в нашем случае, это **исходная 3DS**)
-	+ Просто продолжайте выполнять инструкцию. После восстановления **исходной 3DS** из бекапа [удалите NNID](https://3ds.customfw.xyz/godmode9-usage#удаление-nnid-без-форматирования-устройства) из неё. NNID, который на ней был изначально теперь будет находиться на **целевой 3DS**
+	+ Просто продолжайте выполнять инструкцию. После восстановления **исходной 3DS** из бекапа [удалите NNID](https://3ds.customfw.xyz/godmode9-usage#удаление-nnid-без-форматирования-устройства) из неё. NNID, который на ней был изначально теперь будет находиться на **целевой 3DS**. [Восстановите все необходимое ПО](https://3ds.customfw.xyz/clean_sd#часть-iii---установка-программного-обеспечения) на **исходной**
 1. Включите **исходную 3DS** кнопкой питания, держа нажатой кнопку (START), чтобы запустить GodMode9
 1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) сделать это, затем нажмите (A) чтобы продолжить после завершения
 1. Если вам предложат выставить RTC дату и время, нажмите (A) чтобы сделать это, настройте дату и время, затем нажмите (A) чтобы продолжить
@@ -106,7 +107,7 @@
 1. Скопируйте `boot.nds` (B9STool) в корень SD-карты **целевой 3DS**
 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты **целевой 3DS**
-1. Скопируйте `.firm` от 11.4.0/11.5.0/11.6.0, соответствующий **целевой 3DS** в папку `boot9strap`на SD-карте **целевой 3DS**
+1. Скопируйте `.firm` от 11.4.0/11.5.0/11.6.0, соответствующий **целевой 3DS** в папку `boot9strap` на SD-карте **целевой 3DS**
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Верните SD-карту обратно в приставку
 1. Запустите b9sTool, используя инфицированную DSiWare-игру
@@ -114,12 +115,12 @@
 1. Выберите 'Dump f0f1', чтобы сделать резервную копию FIRM **целевой 3DS**
 1. Закройте b9sTool
   + При необходимости выключите приставку, удерживая кнопку питания
-1. Вставьте SD-карту в компьютер и скопируйте `F0F1_NEW3DS.bin` или `F0F1_OLD3DS.bin`(в зависимости от типа вашего устройства) из папки `bot9strap` в безопасное место; сделайте их резервные копии в нескольких местах; эти файлы помогут вам восстановить приставку в случае брика, если что-то пойдет не так
+1. Вставьте SD-карту в компьютер и скопируйте `F0F1_NEW3DS.bin` или `F0F1_OLD3DS.bin` (в зависимости от типа вашего устройства) из папки `bot9strap` в безопасное место; сделайте их резервные копии в нескольких местах; эти файлы помогут вам восстановить приставку в случае брика, если что-то пойдет не так
 1. Вставьте SD-карту обратно в *целевую 3DS*
 
 ### Часть VI - Прошивка FIRM целевой 3DS
 
-**Используйте b9sTool ТОЛЬКО на целевой приставке. Использование этой программы на консоли с arm9loaderhax приведет к БРИКУ!**
+**Используйте b9sTool ТОЛЬКО на целевой приставке. Использование этой программы на прошитой консоли приведет к БРИКУ!**
 {: .notice--danger}
 
 1. Откройте b9sTool, запустив DSiWare игру на **целевой 3DS**

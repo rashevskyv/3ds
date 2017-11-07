@@ -17,7 +17,7 @@ author_profile: true
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
-* Свежая версия [OCS](https://github.com/Pirater12/ocs/releases/latest)
+{% include /inc/files/ocs.txt %}
 
 ## Инструкция
 
@@ -32,6 +32,7 @@ author_profile: true
 
     ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
     {: .notice--info}
+    {: .text--center}
 
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
@@ -40,7 +41,7 @@ author_profile: true
 
 1. Используйте магнит, чтобы найти место на консоли, где срабатывает датчик режима ожидания
   + Этот шаг не требуется выполнять для консоли old 2DS (которая имеет переключатель режима ожидания)
-1. Выключите консоль
+1. **Выключите консоль**
 1. Вставьте ваш флешкартридж в консоль
 1. Поместите магнит на место, где срабатывает датчик режима ожидания
   + На консоли old 2DS вместо этого включите переключатель режима ожидания
