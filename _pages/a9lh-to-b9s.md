@@ -38,7 +38,7 @@ author_profile: true
 Сначала нужно убедиться, что у вас действительно a9lh. 
 
 1. Отключите 3DS
-1. Загрузите приставку с зажатой кнопкой (SELECT)
+1. Загрузите приставку с зажатой кнопкой {% include inc/btn.txt btn="SELECT" %}
 1. Обратите внимание на первую строчку, там написана версия Luma3DS
   + Если Luma3DS меньше, или равна 7.0.5, то у вас a9lh - выполняйте указания из этой инструкции, чтобы перейти на b9s актуальной версии
   + Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до актуальной версии](updating-b9s)
@@ -76,14 +76,14 @@ author_profile: true
 
 ### Часть III - Установка boot9strap
 
-1. Включите консоль кнопкой питания, держа нажатой кнопку (START), чтобы запустить меню Luma3DS chainloader
+1. Включите консоль кнопкой питания, держа нажатой кнопку {% include inc/btn.txt btn="START" %}, чтобы запустить меню Luma3DS chainloader
   + Некоторые версии Luma3DS будут напрямую запускать любое приложение, начинающееся со `start_`. Если вместо меню chainloader запускается SafeB9SInstaller, просто следуйте инструкции.
-1. Запустите SafeB9SInstaller, нажав кнопку (A) на нём
+1. Запустите SafeB9SInstaller, нажав кнопку {% include inc/btn.txt btn="A" %} на нём
   + При возникновении ошибки попробуйте использовать другую SD-карту, или отформатировать имеющуюся (предварительно сделав резервную копию всего её содержимого)
 1. Дождитесь окончания всех проверок безопасности
   + Если вы получаете сообщение об ошибке "OTP Crypto Fail", скачайте <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), поместите этот файл в папку `/boot9strap/` на SD-карте и попробуйте снова
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
-1. После завершения процесса, нажмите (A) для перезагрузки.
+1. После завершения процесса, нажмите {% include inc/btn.txt btn="A" %} для перезагрузки.
   + Если ваше устройство выключается при загрузке, убедитесь что вы скопировали `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 
 ### Часть IV - Настройка Luma3DS
@@ -91,6 +91,8 @@ author_profile: true
 {% include /inc/luma_setup.txt %}
   
 ### Часть V - Обновление системы
+Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), перед выполнением этой части.
+{: .notice--info}
 
 {% include /inc/sys_update.txt %}
 
@@ -118,10 +120,10 @@ author_profile: true
 
 ### Часть VIII - OCS
 
-1. Нажмите (A), для начала работы программы
+1. Нажмите {% include inc/btn.txt btn="A" %}, для начала работы программы
 1. Дождитесь окончания загрузки и установки
-1. Нажмите (START) по запросу для выхода из программы 
-1. Нажмите (HOME) для выхода из HBL
+1. Нажмите {% include inc/btn.txt btn="START" %} по запросу для выхода из программы 
+1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из HBL
   
 ### Часть IV - CTRNAND Luma3DS
 
@@ -129,13 +131,13 @@ author_profile: true
 
 ### Часть X - Создание бэкапа SysNAND
 
-1. Нажмите кнопку (HOME) для вызова меню
+1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
 1. Выберите "Scripts..."
 1. Выберите "Backup SysNAND"
-1. Нажмите (A) для подтверждения
+1. Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 	+ Этот процесс займет некоторое время
-1. Нажмите (A), чтобы продолжить
-1. Удерживая (R) нажмите (B) для того, чтобы извлечь SD-карту
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
+1. Удерживая {% include inc/btn.txt btn="R" %} нажмите {% include inc/btn.txt btn="B" %} для того, чтобы извлечь SD-карту
 1. Вставьте SD-карту в компьютер
 1. Скопируйте `<YYMMDD>_<serialnumber>_sysnand_###.bin` из папки `/gm9/out/` на SD-карте в безопасное место на вашем компьютере
 	+ Сделайте несколько резервных копий в нескольких местах (например в облачном хранилище)
@@ -149,12 +151,12 @@ author_profile: true
 Помните, что скрипт, используемый ниже, удалит папки `/boot9strap/` и `/cias/` с SD-карты!
 {: .notice--danger}
 
-1. Нажмите кнопку (HOME) для вызова меню
+1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
 1. Выберите "Scripts..."
 1. Выберите "cleanup_sd_card"
-1. При появлении запроса, нажмите (A) для продолжения
-1. Нажмите (A), чтобы продолжить
-1. Нажмите (START) для перезагрузки
+1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
+1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 
 После работы скрипта корень SD-карты будет выглядеть следующим образом: 
 

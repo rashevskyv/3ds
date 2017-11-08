@@ -29,7 +29,7 @@ author_profile: true
 
 1. Установите GYTB. Как это сделать [написано здесь](https://3ds.customfw.xyz/games#способ-ii---fbi)
 1. Запустите программу из меню Home
-1. Нажмите (X), программа начнет копировать жетоны
+1. Нажмите {% include inc/btn.txt btn="X" %}, программа начнет копировать жетоны
 
 ### Способ II: Для тех, у кого не работает GTYB
 
@@ -43,7 +43,7 @@ author_profile: true
 1. Перейдите в `SD` -> `Badges`
 1. Выберите "\<current directory>"
 1. Выберите "Copy all content"
-1. Вернитесь на стартовый экран FBI, нажимая кнопку (B)
+1. Вернитесь на стартовый экран FBI, нажимая кнопку {% include inc/btn.txt btn="B" %}
 1. Перейдите в `Ext Save Data` -> `00000000000014D1` -> `Browse User Save Data`
 1. Выберите "\<current directory>" -> `Paste`
 1. Закройте FBI 

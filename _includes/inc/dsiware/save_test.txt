@@ -1,0 +1,4 @@
+  + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
+  + **Legends of Exidia**: после того, как нажмёте {% include inc/btn.txt btn="A" %} или {% include inc/btn.txt btn="START" %} и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
+  + **Guitar Rock Tour**: листайте ВНИЗ и перейдите в High-Scores -> Drums -> Easy
+  + **The Legend of Zelda: Four Swords**: просто начните игру

@@ -24,9 +24,9 @@ author_profile: true
 {: .notice--info}
 
 1. Выключите приставку
-1. Включите приставку, удерживая (SELECT)
-1. Нажимая (A) выберите **"Enable game patching"**
-1. Нажмите (START), чтобы сохранить настройки и перезагрузить приставку
+1. Включите приставку, удерживая {% include inc/btn.txt btn="SELECT" %}
+1. Нажимая {% include inc/btn.txt btn="A" %} выберите **"Enable game patching"**
+1. Нажмите {% include inc/btn.txt btn="START" %}, чтобы сохранить настройки и перезагрузить приставку
 
 
 ### lumalocaleswitcher
@@ -35,13 +35,13 @@ author_profile: true
 	+ {% include /inc/olx_vk.txt %}
 1. Запустите `lumalocaleswitcher` из меню Home
 1. Перейдите в пункт меню "Choose Locales Directory ""
-1. Выберите `/luma/locales/titles/%s/locale.txt` и нажмите (A) для подтверждения выбора, а затем еще раз (A), чтобы вернуться на главный экран программы
+1. Выберите `/luma/locales/titles/%s/locale.txt` и нажмите {% include inc/btn.txt btn="A" %} для подтверждения выбора, а затем еще раз {% include inc/btn.txt btn="A" %}, чтобы вернуться на главный экран программы
 1. Перейдите в меню "Titles "
 1. Выберите игру, язык которой вы хотите поменять
 1. Выберите пункт "Change Region", затем "EUR"
 1. Выберите пункт "Change Language", затем "RU"
-1. Нажмите два раза (B), чтобы вернуться в главное меню программы 
-1. Нажмите (START), чтобы закрыть программу
+1. Нажмите два раза {% include inc/btn.txt btn="B" %}, чтобы вернуться в главное меню программы 
+1. Нажмите {% include inc/btn.txt btn="START" %}, чтобы закрыть программу
 
 После этого вы сможете играть на русском языке в игры от Nintendo даже на консоли не европейского региона
 {: .notice--success}

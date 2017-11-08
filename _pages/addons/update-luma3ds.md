@@ -18,7 +18,7 @@ author_profile: true
 Определить какая версия взлома стоит на вашей приставке достаточно просто: 
 
 1. Выключите приставку
-1. Зажмите кнопку (SELECT) и, удерживая её, включите консоль
+1. Зажмите кнопку {% include inc/btn.txt btn="SELECT" %} и, удерживая её, включите консоль
 1. Запустится меню конфигурации Luma3DS
 
     ![]({{ base_path }}/images/screenshots/luma.png)
@@ -52,9 +52,9 @@ author_profile: true
 ### Способ I - Luma3ds Updater
 
 1. Запустите lumaupdater из меню Home
-1. Выберите "Install stable version" и нажмите (A)
-1. Нажмите (A) + (X) для установки Luma3DS на SD-карту и в CTRNAND
-1. При появлении надписи "Update complite", нажмите (START) для перезагрузки
+1. Выберите "Install stable version" и нажмите {% include inc/btn.txt btn="A" %}
+1. Нажмите {% include inc/btn.txt btn="A" %} + {% include inc/btn.txt btn="X" %} для установки Luma3DS на SD-карту и в CTRNAND
+1. При появлении надписи "Update complite", нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 
 ### Способ II - Обновление Luma3ds вручную
   
