@@ -97,6 +97,8 @@ author_profile: true
 	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность<br>
 	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте<br>
 	• [Ігор Джулай](https://vk.com/ighor) за незамыленый взгляд<br>
+	• [Юрий Маркин](https://vk.com/ashirogi_muto) за шикарные кнопки<br>
+
 {% endcapture %}
 
 <div class="notice--success">{{ notice-2 | markdownify }}</div>
