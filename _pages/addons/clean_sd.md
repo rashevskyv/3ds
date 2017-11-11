@@ -82,7 +82,7 @@ author_profile: true
 {: .notice--info}
 
 1. Вставьте SD-карту в компьютер
-1. Отформатируйте её с помощью [SD Memory Card Formatter
+1. Отформатируйте её с помощью [`SD Memory Card Formatter`
 ](https://www.sdcard.org/downloads/formatter_4/eula_windows/SD_CardFormatter0500SetupEN.exe) с параметрами по-умолчанию
 1. Отформатируйте её с помощью [`GUIFormat FAT32`](http://www.ridgecrop.demon.co.uk/guiformat.exe) с параметрами по-умолчанию
 

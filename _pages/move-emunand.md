@@ -31,12 +31,8 @@ author_profile: true
 ### Часть II - Бэкап сохранений DSiWare из SysNAND
 
 Если у вас нет игр DSiWare или важных для вас сохранений, пропустите эту часть.
-{: .notice--info}
 
-1. Включите **исходную 3DS** кнопкой питания, держа нажатой кнопку {% include inc/btn.txt btn="START" %}, чтобы запустить GodMode9
-1. Если вам предложат создать бэкап важных файлов, нажмите кнопку {% include inc/btn.txt btn="A" %} сделать это, затем нажмите {% include inc/btn.txt btn="A" %} чтобы продолжить после завершения
-1. Если вам предложат выставить RTC дату и время, нажмите {% include inc/btn.txt btn="A" %} чтобы сделать это, настройте дату и время, затем нажмите {% include inc/btn.txt btn="A" %} чтобы продолжить
-	+ Обратите внимание, что если вы выставили RTC дату и время, вам также придется настроить время в Системных настройках после этого руководства
+{% include inc/launch_godmode9.txt console="на **исходной 3DS**" %}
 1. Перейдите в `[2:] SYSNAND TWLN` -> `title`
 1. Удерживая {% include inc/btn.txt btn="R" %}, нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать папку `00030004`, затем выберите "Copy to 0:/gm9/out"
   + Этот процесс может занять некоторое время, если у вас много DSiWare игр
@@ -57,21 +53,21 @@ author_profile: true
 Чтобы идентифицировать Title ID в имени файла `<TitleID>.gbavc.sav`, вы можете посмотреть список всех установленных игр и соответствующих им Title ID. Выделите диск `[A:] SYSNAND SD`, затем удерживая {% include inc/btn.txt btn="R" %}, нажмите {% include inc/btn.txt btn="A" %} и выберите "Search for titles".
 {: .notice--info}
 
-1. Выполните действия ниже для каждой игры GBA VC, для сохранений которых вы хотите создать бэкап:
-+ Запустите игру GBA VC
-+ Выйдите из игры GBA VC
-+ Включите консоль кнопкой питания, держа нажатой кнопку {% include inc/btn.txt btn="START" %}, чтобы запустить меню Luma3DS chainloader
-+ Запустите GodMode9, нажав кнопку {% include inc/btn.txt btn="A" %}
-+ Перейдите в `[S:] SYSNAND VIRTUAL`
-+ Нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать файл `agbsave.bin`
-+ Выберите "AGBSAVE options..."
-+ Выберите "Dump GBA VC save"
-+ Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-+ Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
+Выполните действия ниже для каждой игры GBA VC, для сохранений которых вы хотите создать бэкап:
+1. Запустите игру GBA VC
+1.  Выйдите из игры GBA VC
+
+{% include inc/launch_godmode9.txt console="на **исходной 3DS**" %}
+1. Перейдите в `[S:] SYSNAND VIRTUAL`
+1. Нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать файл `agbsave.bin`
+1. Выберите "AGBSAVE options..."
+1. Выберите "Dump GBA VC save"
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
+1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 
 ### Часть IV - Копирование EmuNAND в SysNAND
 
-1. Включите 3DS кнопкой питания, держа нажатой кнопку {% include inc/btn.txt btn="START" %}, чтобы запустить GodMode9
+{% include inc/launch_godmode9.txt console="на **исходной 3DS**" %}
 1. Перейдите в `[E:] EMUNAND VIRTUAL`
 1. Нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать файл `nand.bin`, затем выберите "NAND image options...", затем "Restore SysNAND (safe)"
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND и введите указанную комбинацию кнопок

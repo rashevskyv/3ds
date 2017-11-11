@@ -55,13 +55,7 @@ author_profile: true
 
 ### Часть II - CTRTransfer
 
-Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки {% include inc/btn.txt btn="START" %} при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку {% include inc/btn.txt btn="A" %} для выбора "GodMode9" при выполнении этих инструкций.
-{: .notice--info}
-
-1. Запустите GodMode9, удерживая {% include inc/btn.txt btn="START" %} во время включения приставки
-1. Если вам предложат создать бэкап важных файлов, нажмите кнопку {% include inc/btn.txt btn="A" %} сделать это, затем нажмите {% include inc/btn.txt btn="A" %} чтобы продолжить после завершения
-1. Если вам предложат выставить RTC дату и время, нажмите {% include inc/btn.txt btn="A" %} чтобы сделать это, настройте дату и время, затем нажмите {% include inc/btn.txt btn="A" %} чтобы продолжить
-	+ Обратите внимание, что если вы выставили RTC дату и время, вам также придется настроить время в Системных настройках после этого руководства
+{% include inc/launch_godmode9.txt console="" %}
 1. Перейдите в `[0:] SDCARD` -> `gm9`
 1. Нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать файл `.bin` CTRTransfer
 1. Выберите "CTRNAND options..."
