@@ -86,7 +86,7 @@ ___
 #### Что понадобится
 
 {% include /inc/files/ntrboot_flasher_firm.txt %}
-	+ **ТОЛЬКО для R4i-SDHC.com b9s**: <i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - [b9s-flasher-v1.0.zip](magnet:?xt=urn:btih:CE7DB5641C9B469B484F226928C0CEDF0A1634AA&dn=b9s-flasher-v1.0.zip&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
+	+ **ТОЛЬКО для R4i-SDHC.com b9s**: <i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - [b9s-flasher.zip](/files/b9s-flasher.zip)
 * Резервная копия прошивки, соответствующая вашему флешкартриджу 
   + Обратите внимание, что если вы следовали инструкции [Прошивка ntrboot (с привлечением прошитой 3DS)](https://3ds.customfw.xyz/flashing-ntrboot-3ds-multi-system), резервная копия уже существует в нужном месте, и скачивать ее не требуется
   + Если вы не знаете HW revision вашего флешкартриджа, просто попробуйте их все. Только правильная версия позволит запустить флешкартридж из меню HOME, но прошивка неправильной версии не испортит картридж:
@@ -147,7 +147,7 @@ ___
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank">₴600</a></td>
       <td style="text-align: center;">-</td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png"></a></td>
-      <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="/files/b9s-flasher-v1.0.zip" target="blank">b9s-flasher-v1.0.zip</a></i></td>
+      <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="/files/b9s-flasher.zip" target="blank">b9s-flasher.zip</a></i></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></td>
@@ -200,10 +200,10 @@ ___
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `ntrboot` в корне SD-карты
 1. Скопируйте `backup.bin` из `.zip-архива` с резервной копией прошивки вашего картриджа в папку `/ntrboot/` в корне SD-карты
-	+ Пользователи R4i-SDHC.com b9s копируют `r4i-sdhc.bin` из архива `b9s-flasher-v1.0.zip` в папку `/ntrboot/` в корне SD-карты
+	+ Пользователи R4i-SDHC.com b9s копируют `r4i-sdhc.bin` из архива `b9s-flasher.zip` в папку `/ntrboot/` в корне SD-карты
 1. Создайте папку `payloads` внутри папки `luma` на SD-карте 
 1. Скопируйте `ntrboot_flasher.firm` из `.zip-архива` ntrboot_flasher в папку `/luma/payloads/` на SD-карте
-	+ Пользователи R4i-SDHC.com b9s копируют `r4i-sdhc.firm` из архива `b9s-flasher-v1.0.zip` в папку `/luma/payloads/` в корне SD-карты
+	+ Пользователи R4i-SDHC.com b9s копируют `r4i-sdhc.firm` из архива `b9s-flasher.zip` в папку `/luma/payloads/` в корне SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Вставьте в консоль ваш DS / DSi флешкартридж, совместимый с ntrboot
 1. Удерживайте кнопку {% include inc/btn.txt btn="START" %} во время загрузки приставки, чтобы запустить luma chainloader
