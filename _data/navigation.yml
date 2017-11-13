@@ -18,6 +18,8 @@ main:
     url: /making-hardmod
   - title: "Полезные<br>инструкции"
     url: /addons
+  - title: "Установка<br>игр"
+    url: /games
   - title: "Список ПО"
     url: /soft
   - title: "Freeshop"
