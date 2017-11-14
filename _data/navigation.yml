@@ -57,7 +57,7 @@ addons:
   - title: "Использование GodMode9"
     url: /godmode9-usage
   - title: "Конвертация 3DS-ромов в CIA"
-    url: /godmode9-usage#convert_3ds
+    url: /godmode9-usage#конвертация-из-3ds-в-cia
   - title: "Создание, редактирование и восстанавление резервных копий сохранения игр (англ.)"
     url: https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/
   - title: "Эмуляция языка и региона в Luma3DS"
