@@ -8,10 +8,10 @@ author_profile: true
 
 ## Общая информация
 
-Если вы уже прошили ntrboot на ваш флешкартридж, вы можете перейти к странице [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot) для получения инструкций о том, как его использовать.
+Если вы уже прошили ntrboot на ваш флешкартридж, вы можете перейти к странице [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot) для получения инструкций об установке b9s в приставку.
 {: .notice--success}
 
-Для установки boot9strap при помощи ntrboot требуется совместимый NDS / DSi флешкартридж, на который можно прошить ntrboot.
+Для установки boot9strap при помощи ntrboot требуется совместимый NDS / DSi флешкартридж, на который можно прошить ntrboot. Имейте ввиду, что некоторые производители картриджей продают их уже с прошитым ntrboot. 
 
 Несмотря на то, что сам ntrboot работает вне зависимости от версии системного ПО приставки, ntrboot flasher (программа, с помощью которой идет установка ntrboot на картридж) работает на определенной версии прошивки, которая зависит от типа картриджа, на который происходит установка. Это означает, что некоторые картриджи можно прошить лишь на определенной версии системного ПО, если у вас не прошитая консоль. В случае с прошитой приставкой версия прошивки системы значения не имеет. 
 
@@ -44,6 +44,22 @@ author_profile: true
   </thead>
   <tbody>
     <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank"><img src="/images/ru.png"><br>₽1500</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard_small.png"></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2_small.png"></a></td>
+      <td style="text-align: center;"><i>≤4.3.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.4</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;">Может запускать DS-игры на взломаной приставке даже с установленным ntrboot и не требует удаления последнего.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="https://gbatemp.net/threads/review-ace3ds-x.487871/" target="blank">Ace3DS X</a><br><br>Цена:<br><a href="http://3ds-flashcard.com/home/65-ace3ds-x-supports-3dsds-mode.html" target="blank">$41</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/ace3dsx.png"><img src="/images/flashcarts/ace3dsx_small.png"></a></td>
+      <td style="text-align: center;"><i>≤4.3.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.4</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"><i>Не требует перепрошивки. Для смены режима работы используйте переключатель.</i></td>
+    </tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">DSTT<br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=157" target="blank">$9.99</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/dstt.png"><img src="/images/flashcarts/dstt_small.png"></a>&nbsp;<a href="/images/flashcarts/dstt2.png"><img src="/images/flashcarts/dstt2_small.png"></a></td>
       <td style="text-align: center;"><i>?</i></td>
@@ -51,6 +67,14 @@ author_profile: true
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;">Только модели с определенными <a href="https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42" target="blank">чипами памяти</a> совместимы с ntrboot</td>
 	</tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/r4ids-e.htm" target="blank">R4i Gold 3DS Plus</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=575" target="blank">$19</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4igold3ds+.png"><img src="/images/flashcarts/r4igold3ds+_small.png"></a></td>
+      <td style="text-align: center;"><i>≤4.3.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.4</i></td>
+      <td style="text-align: center;"><i>Все</i></td>
+      <td style="text-align: center;"><i>Не требует перепрошивки. Для смены режима работы используйте переключатель.</i></td>
+    </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank"><img src="/images/ru.png"><br>₽1500</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts_small.png"></a></td>
@@ -60,23 +84,23 @@ author_profile: true
       <td style="text-align: center;"></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank"><img src="/images/ru.png"><br>₽1500</a></td>
-      <td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard_small.png"></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2_small.png"></a></td>
-      <td style="text-align: center;"><i>≤4.3.0</i></td>
-      <td style="text-align: center;"><i>≤1.4.4</i></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ua.png" align="bottom"><br>₴500</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ru.png"><br>₽1500</a></td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png" ></a><br><b>+ b9s</b></td>
+      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Может запускать DS-игры на взломаной приставке даже с установленным ntrboot и не требует удаления последнего.</td>
-    </tr>
+      <td style="text-align: center;"></td>
+	</tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ua.png" align="bottom"><br>₴500</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ru.png"><br>₽1400</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS<br>с установленным b9s<br>и магнитом</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ua.png" align="bottom"><br>₴400</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ru.png"><br>₽1300</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png" ></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;"></td>
-	  </tr>
+	</tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=574" target="blank">$15.99</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
@@ -89,15 +113,15 @@ author_profile: true
       <td style="text-align: center;"><i>≤4.3.0</i></td>
       <td style="text-align: center;"><i>≤1.4.4</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?w=product-125012133_1122131%2Fquery" target="blank">$9.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=490" target="blank">$9.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp_small.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2_small.png"></a></td>
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
@@ -105,7 +129,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Год на картридже может отличаться<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>
@@ -124,7 +148,7 @@ author_profile: true
       <td style="text-align: center;">Аппаратный клон R4i Gold 3DS RTS ревизии HW A6</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">Gold 3DS Deluxe "Starter"</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">R4 iGold 3DS Deluxe "Starter"</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/starter.png"><img src="/images/flashcarts/starter_small.png"></a>&nbsp;<a href="/images/flashcarts/starter_b.png"><img src="/images/flashcarts/starter_b_small.png"></a></td>
       <td style="text-align: center;"><i>4.1.0 - 4.5.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
