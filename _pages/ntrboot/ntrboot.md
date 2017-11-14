@@ -89,7 +89,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;"><br>Продается с предустановленным b9s</td>
+      <td style="text-align: center;">Картридж продается с предустановленнмы ntrboot</td>
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS<br>с установленным b9s<br>и магнитом</a><br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ua.png" align="bottom"><br>₴400</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ru.png"><br>₽1300</a></td>
