@@ -59,6 +59,7 @@ author_profile: true
 1. Запустите FBI
 1. Выберите пункт "Remote Install", а затем "Scan QR code" 
 1. Отсканируйте необходимый QR-код 
+	+ QR-коды можно взять на [3ds.titlekeys.gq](http://3ds.titlekeys.gq/)
 
 ### Установка с ПК по беспроводному соединению
 
