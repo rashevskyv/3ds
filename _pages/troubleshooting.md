@@ -48,7 +48,12 @@ author_profile: true
 
 Нужно перекачать тикеты
 
-1. Скачайте [tikShop](https://github.com/DanTheMan827/tikShop/releases/download/v1.0.3/tikShop.zip). 
+1. Установите tikShop через FBI, отсканировав нижеприведенный QR-код 
+
+    ![[tikShop]](/images/QR/tikshop.png)
+	{: .text-center}
+    {: .notice--info}
+
 1. Извлеките из архива с программой `.cia-файл` и положите его в удобную для вас папку на SD-карте приставки. 
 1. Установите tikShop. Как это сделать [написано здесь](https://3ds.customfw.xyz/games#способ-ii---fbi)
 1. Запустите программу. Программа просканирует систему и скачает недостающие тикеты, после чего автоматически запустит eShop. 
