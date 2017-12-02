@@ -4,7 +4,7 @@
 1. Вставьте припаянный переходник в кардридер и включите приставку. **КАРТРИДЕР ДОЛЖЕН БЫТЬ ОТКЛЮЧЕН ОТ КОМПЬЮТЕРА!!!**
 1. Оба экрана должны светиться синим
 
-    ![]({{ base_path }}/images/ifixit/bsod.jpg)
+    ![]({{ base_path }}/images/ifixit/bsod.jpg){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 

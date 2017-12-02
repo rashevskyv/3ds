@@ -17,9 +17,9 @@ author_profile: true
 Если на вашей **целевой 3DS** установлена прошивка 11.4 или 11.5 - обновите ее до последней версии через системные настройки: Системные настройки (System Settings), затем “Прочие настройки” (Other Settings), затем листайте ВПРАВО до конца и выберите пункт “Обновление” (System Update). Так же следует обновить и исходную. 
 {: .notice--warning}
 
-Оба этих метода используют "FIRM partitions known-plaintext" exploit описаный [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws) (англ.), и уязвимость, позволяющую DSiWare тайтлам читать и записывать что угодно в зашифрованном NAND.
+Оба этих метода используют "FIRM partitions known-plaintext" exploit описаный [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws){:target="_blank"} (англ.), и уязвимость, позволяющую DSiWare тайтлам читать и записывать что угодно в зашифрованном NAND.
 
-Оба этих метода требуют от вас произвести Передачу данных системы ([System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/)) из приставки с кастомной прошивкой на приставку со стоковой прошивкой. Перенос данных будет работать *только* в одном из следующих направлений:    
+Оба этих метода требуют от вас произвести Передачу данных системы ([System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/){:target="_blank"}) из приставки с кастомной прошивкой на приставку со стоковой прошивкой. Перенос данных будет работать *только* в одном из следующих направлений:    
 
   + New 3DS или New 2DS -> New 3DS или New 2DS    
   + Old 3DS или Old 2DS -> Old 3DS или Old 2DS    
@@ -48,7 +48,7 @@ author_profile: true
 Пиратские копии игры *не* будут работать.
 Все эти игры уже были отозваны из eShop. Если у вас нет легально купленных копий одной из этих игр, этот метод вам не подходит. 
 
-[Подробная инструкция по использованию этого метода](installing-boot9strap-dsiware-save-injection)
+[Подробная инструкция по использованию этого метода](installing-boot9strap-dsiware-save-injection){:target="_blank"}
 
 {% endcapture %}
 
@@ -58,11 +58,11 @@ author_profile: true
 
 {% capture notice-1 %}
 
-Этот метод требует, чтобы на исходной 3DS была установлена легальная копия игры, присутствующая в списке на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list).
+Этот метод требует, чтобы на исходной 3DS была установлена легальная копия игры, присутствующая в списке на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list){:target="_blank"}.
 
 Пиратская копия игры *не* будет работать. То есть игру нееобходимо будет купить в eShop, или, если она уже куплена, скачать её в *исходную 3DS*.
 
-[Подробная инструкция по использованию этого метода](installing-boot9strap-dsiware-game-injection)
+[Подробная инструкция по использованию этого метода](installing-boot9strap-dsiware-game-injection){:target="_blank"}
 
 {% endcapture %}
 

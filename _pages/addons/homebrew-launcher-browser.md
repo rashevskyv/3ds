@@ -5,7 +5,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-**Это рудиментарная инструкция! В данный момент наиболее простым способом запуска Hombrew Launcher на прошивках от 9.0.0 до 11.3 включительно, является [Soundhax](homebrew-launcher-soundhax)**
+**Это рудиментарная инструкция! В данный момент наиболее простым способом запуска Hombrew Launcher на прошивках от 9.0.0 до 11.3 включительно, является [Soundhax](homebrew-launcher-soundhax){:target="_blank"}**
 {: .notice--warning}
 
 **Browserhax работает для приставок следующих регионов:  EUR / JPN / USA / KOR.**
@@ -13,7 +13,7 @@ author_profile: true
 
 ## Что понадобится
 
-+ The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
++ The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"}
 + Настроенное и рабочее интернет-соединение. 
 
 ## Инструкция
@@ -31,14 +31,14 @@ author_profile: true
 Описанный метод не работает на приставках японского региона!
 {: .notice--warning}
 
-[Ознакомьтесь](https://github.com/Plailect/Guide/issues/684)
+[Ознакомьтесь](https://github.com/Plailect/Guide/issues/684){:target="_blank"}
 {: .notice--info}
 
 Для использования этого метода необходимо уметь добавлять адреса в блоклист своего роутера. Воспользуйтесь гуглом, если не знаете как это делать. Для каждой модели роутера инструкция может быть сугубо индивидуальной. 
 {: .notice--info}
 
 1. Если вы счастливый владелец телефона на Android
-  + установите на свой смартфон приложение [AFWall+](https://play.google.com/store/apps/details?id=dev.ukanth.ufirewall&hl=ru).
+  + установите на свой смартфон приложение [AFWall+](https://play.google.com/store/apps/details?id=dev.ukanth.ufirewall&hl=ru){:target="_blank"}.
   + Зайдите в меню > Set Custom Script и впишите следующую команду `$IPTABLES -A FORWARD -D 69.25.139.140 -j DROP`.
   + Нажмите `Enable Firewall`.
 1. Если у вас нет телефона на Android, можете добавить адрес 69.25.139.140 в блоклист вашего роутера. Например, для роутера на DDWRT это будет выглядеть так: 
@@ -55,7 +55,7 @@ author_profile: true
   + Отформатируйте 3DS через системное меню (Системное меню -> Прочие настройки -> Форматирование).
   + Произведите первичную настройку приставки.
   + Включите добавленное правило.
-1. Скачайте [ropbin](https://smealum.github.io/3ds/#otherapp) соответствующий вашей системе и текущей прошивке. 
+1. Скачайте [ropbin](https://smealum.github.io/3ds/#otherapp){:target="_blank"} соответствующий вашей системе и текущей прошивке. 
 1. Переименуйте скачанный файл в `browserhax_hblauncher_ropbin_payload.bin` и поместите его в корень карты памяти. 
 
 ### browserhax
@@ -67,11 +67,11 @@ author_profile: true
 
 	+ Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно {% include inc/btn.txt btn="L" %}+{% include inc/btn.txt btn="R" %}, находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:<br>
 	
-    ![[browserhax_auto]](http://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
+    ![[browserhax_auto]](http://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
-	+ Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#Не-работает-эксплойт-на-основе-браузера).
+	+ Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#Не-работает-эксплойт-на-основе-браузера){:target="_blank"}.
 1. Приставка должна загрузиться в Homebrew Launcher.
 	+ Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в Homebrew launcher.
 	

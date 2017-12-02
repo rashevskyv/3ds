@@ -10,7 +10,7 @@ author_profile: true
 
 	console="2DS XL" 
 
-	screwdriver=" и отвертка типа [Tri-wing Y00](https://www.ebay.com/sch/i.html?_sacat=0&_nkw=tri+wing+screwdriver&_frs=1)" 
+	screwdriver=" и отвертка типа [Tri-wing Y00](https://www.ebay.com/sch/i.html?_sacat=0&_nkw=tri+wing+screwdriver&_frs=1){:target='_blank'}" 
 %}
 
 ### Часть II - Разбираем консоль
@@ -23,7 +23,7 @@ author_profile: true
 Особое внимание обратите на шлейфы, что отмечены зеленым - **защелки такой конструкции не нужно открывать!!** Просто вытащите шлейф пинцетом прямо из защелки. Обратно он вставляется сходным образом - просто вставьте и затолкните до упора. 
 {: .notice--warning}
 
-![]({{ base_path }}/images/ifixit/new2dsxl/warning.png)
+![]({{ base_path }}/images/ifixit/new2dsxl/warning.png){:target='_blank'}
 {: .text-center}
 {: .notice--info}
 	
@@ -32,7 +32,7 @@ author_profile: true
 {% capture notice-2 %}
 Припаивать мы будем 4 основных контакта. **DAT0 (Data Zero)**, **CMD** и **CLK (CLOCK)** находятся на нижней части платы. **GND (Ground или заземление)** находятся на верхней (корпус слота картриджа). Обратите внимание, что его контактные точкиа очень маленьких размеров. Будьте внимательны и не замкните случайно соседние контакты. 
 
-![]({{ base_path }}/images/ifixit/new2dsxl/new2dsxl_tp.png)
+![]({{ base_path }}/images/ifixit/new2dsxl/new2dsxl_tp.png){:target='_blank'}
 {: .text-center}
 
 {% endcapture %}
@@ -54,5 +54,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
+Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod){:target='_blank'}
 {: .notice--success}

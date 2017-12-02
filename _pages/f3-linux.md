@@ -10,11 +10,11 @@ author_profile: true
 
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 
-Этот раздел предназначен только для пользователей Linux. Если у вас не Linux, воспользуйтесь [H2testw (windows)](h2testw-windows) или [F3X (mac)](f3x-mac).
+Этот раздел предназначен только для пользователей Linux. Если у вас не Linux, воспользуйтесь [H2testw (windows)](h2testw-windows){:target="_blank"} или [F3X (mac)](f3x-mac){:target="_blank"}.
 
 #### Что понадобится
 
-* Свежая версия [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* Свежая версия [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip){:target="_blank"}
 
 #### Инструкция
 

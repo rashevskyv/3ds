@@ -7,16 +7,16 @@ author_profile: true
 
 {% include toc title="Разделы" %}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme){:target="_blank"}-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download){:target="_blank"}.
 {: .notice--success}
 
 ## Что понадобится
 
 * Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
 * Флешкартридж с прошитым ntrboot
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z-архив`)*
 {% include /inc/files/ocs.txt %}
 
 ## Инструкция
@@ -30,7 +30,7 @@ author_profile: true
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 
-    ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
+    ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 	{: .text-center}
 

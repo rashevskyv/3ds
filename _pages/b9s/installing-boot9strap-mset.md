@@ -10,9 +10,9 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
 {% include /inc/files/ocs.txt %}
 * Любой флешкартридж для DS, работающий на вашей версии прошивки
 
@@ -28,7 +28,7 @@ author_profile: true
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `SafeB9SInstaller.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
 
-    ![]({{ "/images/screenshots/boot9strap-mset-file-layout.png" | absolute_url }})
+    ![]({{ "/images/screenshots/boot9strap-mset-file-layout.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 
 1. Вставьте SD-карту обратно в консоль

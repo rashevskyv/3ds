@@ -11,7 +11,7 @@ author_profile: true
 
 Файл `boot.firm` - это то, что boot9strap запускает после загрузки из NAND, и этот файл может быть любым arm9-приложением. Этот файл может быть заменён когда угодно, однако Luma3DS позволяет запускать другие arm9 приложения в FIRM формате, используя свой загрузчик.
 
-Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/), чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
+Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/){:target="_blank"}, чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
 
 В процессе мы установим и настроим следующие программы:    
 
@@ -26,17 +26,17 @@ author_profile: true
 
 ## Что понадобится
 
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(`.cia`-файл)*
-* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл` и `.3dsx-файл`)*
-* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
-* Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia`-файл)*
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
+* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"}
+* Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} *(`.cia`-файл)*
+* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(`.cia-файл` и `.3dsx-файл`)*
+* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
+* Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest){:target="_blank"} *(`.cia`-файл)*
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} *(`.zip`-архив)*
+* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:target="_blank"}
+* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
@@ -56,7 +56,7 @@ author_profile: true
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `Themely.cia` в папку `/cias/` на SD-карты
 
-    ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }})
+    ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
@@ -66,7 +66,7 @@ author_profile: true
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
 
-    ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }})
+    ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
@@ -74,7 +74,7 @@ author_profile: true
 1. Включите приставку
 
 ### Часть II - Обновление системы
-Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), перед выполнением этой части.
+Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand){:target="_blank"}, перед выполнением этой части.
 {: .notice--info}
 
 {% include /inc/sys_update.txt %}
@@ -115,16 +115,16 @@ author_profile: true
 
 После работы скрипта корень SD-карты будет выглядеть следующим образом: 
 
-![]({{ base_path }}/images/screenshots/final-file-layout.png)
+![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
 {: .text-center}
 
 ### Часть IX - Дополнительные материалы
 
 Теперь ваша приставка прошита и вы можете пользоваться всеми благами кастомной прошивки
 
-1. Можете [установить freeshop](freeshop) для скачивания игр бесплатно прямо на консоли
-1. Можете украсить приставку [жетонами](badges) и [темами](themes)
-1. Ознакомится с остальным [списком полезных инструкций](addons)
+1. Можете [установить freeshop](freeshop){:target="_blank"} для скачивания игр бесплатно прямо на консоли
+1. Можете украсить приставку [жетонами](badges){:target="_blank"} и [темами](themes){:target="_blank"}
+1. Ознакомится с остальным [списком полезных инструкций](addons){:target="_blank"}
 
 ___
 

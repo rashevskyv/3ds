@@ -4,10 +4,10 @@ permalink: /credits.html
 author_profile: true
 ---
 
-**Отдельное спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) (англ.) за то, что они потрясающие!**
+**Отдельное спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey){:target="_blank"} (англ.) за то, что они потрясающие!**
 {: .notice--primary}
 
-**Отдельное спасибо всем [переводчикам](https://translate.3ds.guide/) за их работу!**
+**Отдельное спасибо всем [переводчикам](https://translate.3ds.guide/){:target="_blank"} за их работу!**
 {: .notice--primary}
 
 Если я кого-то забыл, свяжитесь со мной и я добавлю ваше имя.
@@ -74,18 +74,18 @@ author_profile: true
 
 {% capture notice-1 %}**Люди, переводившие руководство:**        
 <br>
-	• [Zloebot](https://crowdin.com/profile/Aibot)   
-	• [Unrael](https://crowdin.com/profile/Unrael)   
-	• [Lost_gamer](https://crowdin.com/profile/Lost_gamer)   
-	• [CrazySolo](https://crowdin.com/profile/CrazySolo)   
-	• [Nezd](https://crowdin.com/profile/yanpalis)   
-	• [Vir](https://crowdin.com/profile/admiin159)   
-	• [Smarter-san](https://crowdin.com/profile/Smarter-san)   
-	• [Bullsquid](https://crowdin.com/profile/Bullsquid)   
-	• [mstrVLT](https://crowdin.com/profile/mstrVLT)   
-	• [Metalik](https://crowdin.com/profile/Metalik)   
-	• [jkcgs](https://crowdin.com/profile/jkcgs)   
-	• [xHR](https://crowdin.com/profile/rashevskyv)   
+	• [Zloebot](https://crowdin.com/profile/Aibot){:target="_blank"}   
+	• [Unrael](https://crowdin.com/profile/Unrael){:target="_blank"}   
+	• [Lost_gamer](https://crowdin.com/profile/Lost_gamer){:target="_blank"}   
+	• [CrazySolo](https://crowdin.com/profile/CrazySolo){:target="_blank"}   
+	• [Nezd](https://crowdin.com/profile/yanpalis){:target="_blank"}   
+	• [Vir](https://crowdin.com/profile/admiin159){:target="_blank"}   
+	• [Smarter-san](https://crowdin.com/profile/Smarter-san){:target="_blank"}   
+	• [Bullsquid](https://crowdin.com/profile/Bullsquid){:target="_blank"}   
+	• [mstrVLT](https://crowdin.com/profile/mstrVLT){:target="_blank"}   
+	• [Metalik](https://crowdin.com/profile/Metalik){:target="_blank"}   
+	• [jkcgs](https://crowdin.com/profile/jkcgs){:target="_blank"}   
+	• [xHR](https://crowdin.com/profile/rashevskyv){:target="_blank"}   
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
@@ -93,11 +93,11 @@ author_profile: true
 {% capture notice-2 %}**Отдельная благодарность**        
 <br>
 	• dimakuz26      
-	• [Антон Вишневский](https://vk.com/cr0ssfire)<br>
-	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность<br>
-	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте<br>
-	• [Ігор Джулай](https://vk.com/ighor) за незамыленый взгляд<br>
-	• [Юрий Маркин](https://vk.com/ashirogi_muto) за шикарные кнопки<br>
+	• [Антон Вишневский](https://vk.com/cr0ssfire){:target="_blank"}<br>
+	• [Максим Терещенко](https://vk.com/jackhuman){:target="_blank"} за внимательность<br>
+	• [Сергей Кашин](https://vk.com/seresworld){:target="_blank"} за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте<br>
+	• [Ігор Джулай](https://vk.com/ighor){:target="_blank"} за незамыленый взгляд<br>
+	• [Юрий Маркин](https://vk.com/ashirogi_muto){:target="_blank"} за шикарные кнопки<br>
 
 {% endcapture %}
 

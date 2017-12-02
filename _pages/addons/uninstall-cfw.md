@@ -7,19 +7,19 @@ author_profile: true
 
 Эта инструкция служит для полного удаления кастомной прошивки с вашего устройства, включая Boot9Strap и Luma3DS, в целях восстановления оригинального состояния консоли. Если вы удалите CFW, то прошивать приставку придется с самого начала.
 
-Любые неподписанные (нелегальные) игры перестанут работать и могут быть удалены вручную с помощью раздела Управление данными (Data Management) в Системных настройках (System Settings). Используйте [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) чтобы создать резервные копии любых важных для вас сохранений этих неподписанных (нелегальных) игр.
+Любые неподписанные (нелегальные) игры перестанут работать и могут быть удалены вручную с помощью раздела Управление данными (Data Management) в Системных настройках (System Settings). Используйте [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} чтобы создать резервные копии любых важных для вас сохранений этих неподписанных (нелегальных) игр.
 
 Это не повлияет на ваш NNID, любые законно приобретенные игры или сохранения этих законно приобретенных игр.
 
-Удаление CFW оставит вас на той же прошивке, что вы и были, но FIRM приставки будут заменены на самые новые, что означает невозможность вернуться к CFW без помощи [ntrboot](ntrboot)-, [hardmod](making-hardmod)- или [dsiware](installing-boot9strap-dsiware)-методов. 
+Удаление CFW оставит вас на той же прошивке, что вы и были, но FIRM приставки будут заменены на самые новые, что означает невозможность вернуться к CFW без помощи [ntrboot](ntrboot){:target="_blank"}-, [hardmod](making-hardmod){:target="_blank"}- или [dsiware](installing-boot9strap-dsiware){:target="_blank"}-методов. 
 {: .notice--danger}
 
 ## Что понадобится
 
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Скрипт для удаления кастомной прошивки, соответствующий вашему устройству:
-  + [`uninstall_hax_retail_NEW.gm9`]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }})
-  + [`uninstall_hax_retail_OLD.gm9`]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }})
+  + [`uninstall_hax_retail_NEW.gm9`]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:target="_blank"}
+  + [`uninstall_hax_retail_OLD.gm9`]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 

@@ -10,10 +10,10 @@ author_profile: true
 {% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии 
-* Установленный и рабочий [FBI](fbi)
-* Установленный [freeshop](freeshop)
-* Свежая версия [BOOP](https://github.com/miltoncandelero/Boop/releases/latest) (запускается на вашем ПК)
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Установленный [freeshop](freeshop){:target="_blank"}
+* Свежая версия [BOOP](https://github.com/miltoncandelero/Boop/releases/latest){:target="_blank"} (запускается на вашем ПК)
 
 ## Инструкция
 
@@ -53,13 +53,13 @@ author_profile: true
 
 ### Установка с помощью QR-кода 
 
-Если у вас нет указанных пунктов, обновите FBI! Для этого воспользуйтесь пунктом "Update" в его меню. В случае, если FBI у вас установлен с помощью инъекции в приложение "Информация о здоровье и безопасности" (Health & Safety), то при обновлении его иконка дублируется. Для того, чтобы этого избежать, восстановите приложение ["Информация о здоровье и безопасности"](https://3ds.customfw.xyz/godmode9-usage#восстановление-приложения-информация-о-здоровье-и-безопасности)
+Если у вас нет указанных пунктов, обновите FBI! Для этого воспользуйтесь пунктом "Update" в его меню. В случае, если FBI у вас установлен с помощью инъекции в приложение "Информация о здоровье и безопасности" (Health & Safety), то при обновлении его иконка дублируется. Для того, чтобы этого избежать, восстановите приложение ["Информация о здоровье и безопасности"](https://3ds.customfw.xyz/godmode9-usage#восстановление-приложения-информация-о-здоровье-и-безопасности){:target="_blank"}
 {: .notice--info}
 
 1. Запустите FBI
 1. Выберите пункт "Remote Install", а затем "Scan QR code" 
 1. Отсканируйте необходимый QR-код 
-	+ QR-коды можно взять на [3ds.titlekeys.gq](http://3ds.titlekeys.gq/)
+	+ QR-коды можно взять на [3ds.titlekeys.gq](http://3ds.titlekeys.gq/){:target="_blank"}
 
 ### Установка с ПК по беспроводному соединению
 
@@ -68,7 +68,7 @@ author_profile: true
 1. Запускаем Boop.exe
 1. В открывшемся окне снимите галочку с пункта "Magically gues 3DS IP adress?"
 1. В графе 3DS IP Adress введите IP, написанный на нижнем экране приставки. 
-1. Убедитесь, что в графе "Computer IP Adress" указан именно ваш локальный IP (обратитесь в [Google](http://bfy.tw/D0PN), если не знаете как его узнать)
+1. Убедитесь, что в графе "Computer IP Adress" указан именно ваш локальный IP (обратитесь в [Google](http://bfy.tw/D0PN){:target="_blank"}, если не знаете как его узнать)
 1. Перетащите CIA, которые вы хотите установить в приставку в окно программы, либо выберите их, нажав на кнопку "Pick files"
 1. Нажмите на кнопку "BOOP"
 1. На нижнем экране 3DS должны появиться две кнопки. Нажмите на {% include inc/btn.txt btn="A" %} для подтверждения установки. 
@@ -78,7 +78,7 @@ author_profile: true
 {: .notice--info}
 
 ## Где брать игры? 
-1. [freeshop](finalizing-setup#freeshop)
-2. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads)
-3. [Все игры на русском](https://cloud.mail.ru/public/FfNX/u1oCpVmf3) от [VK: skotnikovnn](https://vk.com/skotnikovnn)
-4. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds)
+1. [freeshop](finalizing-setup#freeshop){:target="_blank"}
+2. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
+3. [Все игры на русском](https://cloud.mail.ru/public/FfNX/u1oCpVmf3){:target="_blank"} от [VK: skotnikovnn](https://vk.com/skotnikovnn){:target="_blank"}
+4. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds){:target="_blank"}

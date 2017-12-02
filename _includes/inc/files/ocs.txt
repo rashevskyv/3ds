@@ -1,1 +1,1 @@
-* Свежая версия [OCS](https://github.com/rashevskyv/ocs/releases/latest)
+* Свежая версия [OCS](https://github.com/rashevskyv/ocs/releases/latest){:target="_blank"}

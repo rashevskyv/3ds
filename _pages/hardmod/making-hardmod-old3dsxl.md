@@ -21,31 +21,31 @@ author_profile: true
 	**Примечание:** Винты не откручиваются полностью, они остаются прикрепленными к задней крышке. Открепите заднюю крышку, потянув её наверх.
 	{: .notice--info}
 
-    ![]({{ base_path }}/images/ifixit/3dsxl/1.png)
+    ![]({{ base_path }}/images/ifixit/3dsxl/1.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1.	После этого вам необходимо вытащить батарею из консоли
 
-    ![]({{ base_path }}/images/ifixit/3dsxl/2.png)
+    ![]({{ base_path }}/images/ifixit/3dsxl/2.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Осторожно удалите резиновые ножки - под ними два винта. Я для этого использую пинцет
 
-    ![]({{ base_path }}/images/ifixit/3dsxl/3.png)
+    ![]({{ base_path }}/images/ifixit/3dsxl/3.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1.	Теперь открутите винты, которые удерживают заднюю панель и положите их в безопасное место.
 
-    ![]({{ base_path }}/images/ifixit/3dsxl/4.png)
+    ![]({{ base_path }}/images/ifixit/3dsxl/4.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Когда вы открутите все винты и начнете открывать крышку, вы увидите печатную плату (PCB), **НЕ ПРИМЕНЯЙТЕ СИЛУ ДЛЯ ОТКРЫТИЯ ПАНЕЛИ**. Под крышкой находятся два шлейфа от боковых кнопок. Аккуратно отсоедините их от материнской платы и отложите крышку в сторону.
 
-    ![]({{ base_path }}/images/ifixit/3dsxl/5.png)
+    ![]({{ base_path }}/images/ifixit/3dsxl/5.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
@@ -54,7 +54,7 @@ author_profile: true
 {% capture notice-2 %}
 Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. **DAT0 (Data Zero)**, **CMD**, **CLK (CLOCK)** и **GND (Ground или заземление)** находятся на одной стороне платы и расположены так удобно, что плату даже не придется снимать. Другие DAT-контакты (DAT1, DAT2 и DAT3) вам не потребуются, и в этом гайде вы их не найдете, однако, вы можете припаять провода и к ним, если вам нужна более высокая скорость передачи для записи и чтения NAND'а. Это опциональная операция и в этом гайде не используется, поскольку чип и так дампится достаточно быстро. Выигрыш в пару минут не стоит времени, затраченного на пайку дополнительных контактов.
 
-![]({{ base_path }}/images/ifixit/3dsxl/o3dsxl_tp.png)
+![]({{ base_path }}/images/ifixit/3dsxl/o3dsxl_tp.png){:target='_blank'}
 {: .text-center}
 
 {% endcapture %}
@@ -79,5 +79,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
+Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod){:target='_blank'}
 {: .notice--success}

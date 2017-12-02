@@ -10,11 +10,11 @@ author_profile: true
 
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 
-Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-windows) или [F3 (Linux)](f3-linux).
+Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-windows){:target="_blank"} или [F3 (Linux)](f3-linux){:target="_blank"}.
 
 #### Что понадобится
 
-* Свежая версия [F3X](https://github.com/insidegui/F3X/releases/latest)
+* Свежая версия [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
 #### Инструкция
 

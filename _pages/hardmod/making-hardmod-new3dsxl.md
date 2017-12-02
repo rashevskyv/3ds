@@ -21,25 +21,25 @@ author_profile: true
 	**Примечание:** Винты не откручиваются полностью, они остаются прикрепленными к задней крышке. Открепите заднюю крышку, потянув её наверх.
 	{: .notice--info}
 
-    ![]({{ base_path }}/images/ifixit/new3dsxl/1.png)
+    ![]({{ base_path }}/images/ifixit/new3dsxl/1.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1.	После этого вам необходимо вытащить батарею из консоли и аккуратно убрать резиновые заглушки, отмеченные зеленым (я использую для этого пинцет, либо острую иглу). Под ними еще два винта. Открутите все винты и положите их в надежное место.
 
-    ![]({{ base_path }}/images/ifixit/new3dsxl/2.png)
+    ![]({{ base_path }}/images/ifixit/new3dsxl/2.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Когда вы открутите все винты и начнете открывать крышку, вы увидите печатную плату (PCB), **НЕ ПРИМЕНЯЙТЕ СИЛУ ДЛЯ ОТКРЫТИЯ ПАНЕЛИ**. Под крышкой находятся два шлейфа. 
 
-    ![]({{ base_path }}/images/ifixit/new3dsxl/3.png)
+    ![]({{ base_path }}/images/ifixit/new3dsxl/3.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1. Осторожно отсоедините отмеченные шлейфы (9 штук). Особое внимание обратите на те, что отмечены зеленым - **защелки такой конструкции не нужно открывать!!** Просто вытащите шлейф пинцетом прямо из защелки. Обратно он вставляется сходным образом - просто вставьте и затолкните до упора. Шлейф отмеченный синим - наиболее уязвим в этой материнской плате. В нем находится 50 контактных ножек, которые очень легко повредить. Будьте внимательны и осторожны! После всех манипуляций, переверните плату.
 
-    ![]({{ base_path }}/images/ifixit/new3dsxl/4.png)
+    ![]({{ base_path }}/images/ifixit/new3dsxl/4.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
@@ -48,9 +48,9 @@ author_profile: true
 {% capture notice-2 %}
 Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. **DAT0 (Data Zero)** и **CMD** находятся на нижней части платы. **GND (Ground или заземление)**, мы будем припаивать к металлическому корпусу слота для картриджей или SD-карты, который находится на верхней части материнской платы. **CLK (CLOCK)** находится там же, рядом с широким шлейфом. 
 
-![]({{ base_path }}/images/ifixit/new3dsxl/new3dsxl_tp_1.png)
+![]({{ base_path }}/images/ifixit/new3dsxl/new3dsxl_tp_1.png){:target='_blank'}
 {: .text-center}
-![]({{ base_path }}/images/ifixit/new3dsxl/new3dsxl_tp_2.png)
+![]({{ base_path }}/images/ifixit/new3dsxl/new3dsxl_tp_2.png){:target='_blank'}
 {: .text-center}
 
 {% endcapture %}
@@ -75,5 +75,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
+Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod){:target='_blank'}
 {: .notice--success}

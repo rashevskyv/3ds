@@ -10,9 +10,9 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
 {% include /inc/files/ocs.txt %}
 
 ## Инструкция
@@ -27,7 +27,7 @@ author_profile: true
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `SafeB9SInstaller.dat` и `Launcher.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
 
-    ![]({{ "/images/screenshots/boot9strap-browser-file-layout.png" | absolute_url }})
+    ![]({{ "/images/screenshots/boot9strap-browser-file-layout.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 
 1. Вставьте SD-карту обратно в консоль
@@ -45,14 +45,14 @@ author_profile: true
 	Для того, чтобы попасть в QR-scanner, нажмите одновременно {% include inc/btn.txt btn="L" %}+{% include inc/btn.txt btn="R" %}, находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
 	{: .notice--info}
 
-	![]({{ "/images/QR/dukeGithub.png" | absolute_url }})	![]({{ "/images/QR/gateway.png" | absolute_url }})
+	![]({{ "/images/QR/dukeGithub.png" | absolute_url }}){:target="_blank"}	![]({{ "/images/QR/gateway.png" | absolute_url }}){:target="_blank"}
 	<br>
-	![]({{ "/images/QR/goReboot.png" | absolute_url }})	![]({{ "/images/QR/dukeDynu.png" | absolute_url }})
+	![]({{ "/images/QR/goReboot.png" | absolute_url }}){:target="_blank"}	![]({{ "/images/QR/dukeDynu.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
 	{: .notice--info}
 	  
 	+ В случае, если первая ссылка не сработала, попробуйте все остальные (некоторое консоли не могут использовать первую ссылку, в то время как другие не могут использовать последние три)
-	+ При возникновении ошибки, обратитесь к разделу [проблемы и их решения](troubleshooting#не-работает-эксплойт-на-основе-браузера)
+	+ При возникновении ошибки, обратитесь к разделу [проблемы и их решения](troubleshooting#не-работает-эксплойт-на-основе-браузера){:target="_blank"}
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
 ### Часть III - Установка boot9strap

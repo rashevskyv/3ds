@@ -22,8 +22,8 @@ author_profile: true
 
 ### Что понадобится
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии 
-* Установленный и рабочий [FBI](fbi)
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
 
 ### Инструкция
 
@@ -34,7 +34,7 @@ author_profile: true
 
 1. Запускаем FBI
 2. Переходим к пункту "Remote Install", а затем "Scan QR Code"
-3. На компьютере переходим на сайт [3ds.titlekeys.gq](http://3ds.titlekeys.gq/)
+3. На компьютере переходим на сайт [3ds.titlekeys.gq](http://3ds.titlekeys.gq/){:target="_blank"}
 4. В строке поиска (Search) пишем "Home Menu"
 5. Находим строку, соответствующую региону вашей приставки
 6. В третьем столбце нажимаем на кнопку с иконкой QR-кода в выбранной строке
@@ -51,8 +51,8 @@ author_profile: true
 {% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии 
-* Установленный [freeshop](finalizing-setup#freeshop)
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
+* Установленный [freeshop](finalizing-setup#freeshop){:target="_blank"}
 
 ### Инструкция
 
@@ -75,14 +75,14 @@ author_profile: true
 {% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии 
-* Установленный и рабочий [FBI](fbi)
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia`-файл)*
-	+ Скачиваем необходимые темы с [этого сайта](https://3dsthem.es)
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest){:target="_blank"} *(`.cia`-файл)*
+	+ Скачиваем необходимые темы с [этого сайта](https://3dsthem.es){:target="_blank"}
 
 ### Инструкция
 
-1. [Устанавливаем через FBI](games) `Themely.cia`
+1. [Устанавливаем через FBI](games){:target="_blank"} `Themely.cia`
 1. Кладем скачанные темы в папку Themes в корне SD-карты. Если такой папки нет - создайте ее.
 1. Запустите Themely.
 1. Выбираем понравившуюся тему и нажимаем {% include inc/btn.txt btn="A" %} для установки. Если нужен предпросмотр - {% include inc/btn.txt btn="X" %}.

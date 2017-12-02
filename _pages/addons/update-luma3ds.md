@@ -7,11 +7,11 @@ author_profile: true
 
 ## Что понадобится
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
-* Установленный и рабочий [FBI](fbi)
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) (`lumaupdater.cia`)
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии (*если уже делали, то повторно делать не нужно*)
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
+* Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} (`lumaupdater.cia`)
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 
 ## Определение типа и версии взлома 
 
@@ -21,16 +21,16 @@ author_profile: true
 1. Зажмите кнопку {% include inc/btn.txt btn="SELECT" %} и, удерживая её, включите консоль
 1. Запустится меню конфигурации Luma3DS
 
-    ![]({{ base_path }}/images/screenshots/luma.png)
+    ![]({{ base_path }}/images/screenshots/luma.png){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
 1. Обратите внимание на версию Luma3DS и перейдите по ссылке, соответствующей вашей версии:
-	+ Если Luma3DS меньше, или равна 7.0.5, то у вас a9lh - [перейдите на b9s актуальной версии](a9lh-to-b9s)
-	+ Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до актуальной версии](updating-b9s)
-	+ Если Luma3DS 8 и выше, то b9s 1.2 или выше (можете [обновить b9s до актуальной версии](updating-b9s), если вы не знаете какая именно у вас стоит сейчас) - обновите Luma3DS по инструкции ниже, одним из удобных для вас способов
+	+ Если Luma3DS меньше, или равна 7.0.5, то у вас a9lh - [перейдите на b9s актуальной версии](a9lh-to-b9s){:target="_blank"}
+	+ Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до актуальной версии](updating-b9s){:target="_blank"}
+	+ Если Luma3DS 8 и выше, то b9s 1.2 или выше (можете [обновить b9s до актуальной версии](updating-b9s){:target="_blank"}, если вы не знаете какая именно у вас стоит сейчас) - обновите Luma3DS по инструкции ниже, одним из удобных для вас способов
 	
-Если вы обновили Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет, обратитесь к [этой части руководства](troubleshooting#3ds-не-включается-после-обновления-через-luma3ds-updater---загорается-синий-диод-и-тухнет).
+Если вы обновили Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет, обратитесь к [этой части руководства](troubleshooting#3ds-не-включается-после-обновления-через-luma3ds-updater---загорается-синий-диод-и-тухнет){:target="_blank"}.
 {: .notice--warning}
 	
 ## Часть I - Подготовительные работы
@@ -62,7 +62,7 @@ author_profile: true
 1. Скопируйте `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты, **соглашаясь на перезапись файлов**
 1. Вставляем SD-карту в приставку
 1. Включите 3DS
-  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#черный-экран-при-загрузке-sysnand-после-установки-b9s)   
+  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#черный-экран-при-загрузке-sysnand-после-установки-b9s){:target="_blank"}   
 
 ## Часть IV - Настройка Luma3DS
 

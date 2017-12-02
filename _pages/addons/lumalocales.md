@@ -12,9 +12,9 @@ author_profile: true
 {% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](updating-b9s)
-* Установленный и рабочий [FBI](fbi)
-* Установленный и рабочий [lumalocaleswitcher](https://github.com/Possum/lumalocaleswitcher/releases) *(`.cia`-файл)* (NIGHTLY для luma3ds 7.0 и выше)
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"}
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Установленный и рабочий [lumalocaleswitcher](https://github.com/Possum/lumalocaleswitcher/releases){:target="_blank"} *(`.cia`-файл)* (NIGHTLY для luma3ds 7.0 и выше)
 
 ## Инструкция
 
@@ -31,7 +31,7 @@ author_profile: true
 
 ### lumalocaleswitcher
 
-1. Установите `lumalocaleswitcher` через FBI (как это сделать описано [здесь](games))
+1. Установите `lumalocaleswitcher` через FBI (как это сделать описано [здесь](games){:target="_blank"})
 	+ {% include /inc/olx_vk.txt %}
 1. Запустите `lumalocaleswitcher` из меню Home
 1. Перейдите в пункт меню "Choose Locales Directory ""

@@ -21,50 +21,50 @@ author_profile: true
 	**Примечание:** Винты не откручиваются полностью, они остаются прикрепленными к задней крышке. Открепите заднюю крышку, потянув её наверх.
 	{: .notice--info}
 
-    ![]({{ base_path }}/images/ifixit/3ds/1.png)
+    ![]({{ base_path }}/images/ifixit/3ds/1.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1.	После этого вам необходимо вытащить батарею из консоли
 
-    ![]({{ base_path }}/images/ifixit/3ds/2.png)
+    ![]({{ base_path }}/images/ifixit/3ds/2.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Теперь открутите винты, которые удерживают заднюю панель и положите их в безопасное место.
 
-    ![]({{ base_path }}/images/ifixit/3ds/3.png)
+    ![]({{ base_path }}/images/ifixit/3ds/3.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Когда вы открутите все винты и начнете открывать крышку, вы увидите печатную плату (PCB), **НЕ ПРИМЕНЯЙТЕ СИЛУ ДЛЯ ОТКРЫТИЯ ПАНЕЛИ**. Под крышкой находятся два шлейфа от боковых кнопок. Аккуратно отсоедините их от материнской платы и продолжайте разбор.
 
-    ![]({{ base_path }}/images/ifixit/3ds/4.png)
+    ![]({{ base_path }}/images/ifixit/3ds/4.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1. Аккуратно отсоедините WiFi- и ИК-модуль. 
 
-    ![]({{ base_path }}/images/ifixit/3ds/5.png)
+    ![]({{ base_path }}/images/ifixit/3ds/5.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1. Открутите винты, удерживающие аналоговый джойстик и плату картридера. Осторожно открепите защелку, которая удерживает шлейф аналога и аккуратно отложите его в сторону. Будьте предельно осторожны - защелки очень хрупкие! 
 Отогните кардридер. Нет нужды его снимать полностью. Достаточно просто приподнять его, открыв как крышку (одной частью он накрепко примонтажен к плате). При желании можно снять его совсем, отсоединив его от металлической пластины, к которой он приклеен двусторонним скотчем.
 
-    ![]({{ base_path }}/images/ifixit/3ds/6.png)
+    ![]({{ base_path }}/images/ifixit/3ds/6.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1. Открутите оставшиеся винты и аккуратно отстегните отмеченные синим защелки и уберите шлейфы.
 
-    ![]({{ base_path }}/images/ifixit/3ds/7.png)
+    ![]({{ base_path }}/images/ifixit/3ds/7.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1. Осоторжно переверните плату.
 
-    ![]({{ base_path }}/images/ifixit/3ds/8.png)
+    ![]({{ base_path }}/images/ifixit/3ds/8.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
@@ -73,7 +73,7 @@ author_profile: true
 {% capture notice-2 %}
 Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. **DAT0 (Data Zero)**, **CMD** и **CLK (CLOCK)** находятся на нижней части платы. **GND (Ground или заземление)**, мы будем припаивать к металлическому корпусу слота для картриджей или SD-карты, который находится на верхней части материнской платы. Другие DAT-контакты (DAT1, DAT2 и DAT3) вам не потребуются, и в этом гайде вы их не найдете, однако, вы можете припаять провода и к ним, если вам нужна более высокая скорость передачи для записи и чтения NAND'а. Это опциональная операция и в этом гайде не используется, поскольку чип и так дампится достаточно быстро. Выигрыш в пару минут не стоит времени, затраченного на пайку дополнительных контактов.
 
-![]({{ base_path }}/images/ifixit/3ds/o3ds_tp.png)
+![]({{ base_path }}/images/ifixit/3ds/o3ds_tp.png){:target='_blank'}
 {: .text-center}
 
 {% endcapture %}
@@ -98,5 +98,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
+Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod){:target='_blank'}
 {: .notice--success}

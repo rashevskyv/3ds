@@ -7,18 +7,18 @@ author_profile: true
 
 <h3>Самая свежая версия b9s - 1.3 от 06.09.2017</h3>
 
-Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - перейдите на [b9s](a9lh-to-b9s). Если вы еще не прошили приставку, вернитесь в [начало гайда](/) и прошейте. 
+Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - перейдите на [b9s](a9lh-to-b9s){:target="_blank"}. Если вы еще не прошили приставку, вернитесь в [начало гайда](/){:target="_blank"} и прошейте. 
 
 ## Что понадобится
 
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z-архив`)*
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"}
+* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:target="_blank"}
+* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
@@ -30,10 +30,10 @@ author_profile: true
 1. Загрузите приставку с зажатой кнопкой {% include inc/btn.txt btn="SELECT" %}
 1. Обратите внимание на первую строчку, там написана версия Luma3DS
   + Если Luma3DS меньше, или равна 7.0.5, то у вас a9lh - выполняйте указания из этой инструкции, чтобы перейти на b9s актуальной версии
-  + Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до актуальной версии](updating-b9s)
-  + Если версия Luma3DS выше, или равна 8.0, у вас b9s 1.2 или выше. Можете [обновить его до актуальной версии](updating-b9s), если вы не знаете какая именно у вас стоит сейчас
+  + Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до актуальной версии](updating-b9s){:target="_blank"}
+  + Если версия Luma3DS выше, или равна 8.0, у вас b9s 1.2 или выше. Можете [обновить его до актуальной версии](updating-b9s){:target="_blank"}, если вы не знаете какая именно у вас стоит сейчас
 
-    ![]({{ base_path }}/images/screenshots/luma.png)
+    ![]({{ base_path }}/images/screenshots/luma.png){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
@@ -45,7 +45,7 @@ author_profile: true
 {% capture notice-10 %}
 **Не копируйте** в этой части boot.firm от Luma3DS 8, если у вас b9s 1.0! Если вы сделали это следуйте следующим рекомендациям: 
 <br><br>
-[Cкачайте Luma3DS 7.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.1), и скопируйте boot.firm из архива с прошивкой на SD-карту, согласившись на замену. 
+[Cкачайте Luma3DS 7.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.1){:target="_blank"}, и скопируйте boot.firm из архива с прошивкой на SD-карту, согласившись на замену. 
 Обновление Luma3DS до актуальной версии будет произведено в следующей части. 
 Если у вас b9s 1.2, то вреда от копирования не будет.
 {% endcapture %}
@@ -116,7 +116,7 @@ author_profile: true
 
 После работы скрипта корень SD-карты будет выглядеть следующим образом: 
 
-![]({{ base_path }}/images/screenshots/final-file-layout.png)
+![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
 {: .text-center}
 
 ___

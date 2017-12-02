@@ -12,17 +12,17 @@ author_profile: true
 {: .notice--info}
 
 * Прошитая приставка 
-* Установленный и рабочий [FBI](fbi)
-* Свежая версия [freeshop](https://notabug.org/Paul_GameDev/freeShop/releases) *(`.cia` файл)*
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Свежая версия [freeshop](https://notabug.org/Paul_GameDev/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 
 Действия для обновления и установки freeshop идентичны
 
 ## Часть I - Установка freeshop
 
-1. [Установите freeshop](games) любым удобным методом
+1. [Установите freeshop](games){:target="_blank"} любым удобным методом
 	+ Отсканируйте QR-код, если решите воспользоваться методом установки через QR
 	
-    ![]({{"/images/QR/freeshop.jpg" | absolute_url }})
+    ![]({{"/images/QR/freeshop.jpg" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
@@ -34,22 +34,22 @@ author_profile: true
 1. Запустите консоль
 1. Запустите приложение freeshop из меню Home
 1. Дождитесь пока программа обновится
-1. Перейдите в настройки программы. Для этого на нижнем экране нажмите ![]({{"/images/fs/settings.png" | absolute_url }})
+1. Перейдите в настройки программы. Для этого на нижнем экране нажмите ![]({{"/images/fs/settings.png" | absolute_url }}){:target="_blank"}
 1. Перейдите во вкладку "Обновление" (Update)
 1. Поставьте галочку напротив первого пункта - "Авто-обновление ключей приложения через URL" (Auto-update title keys from URL)
-	+ Если галочка уже стоит и там вписан URL-адрес, нажмите на ![]({{"/images/fs/trash.png" | absolute_url }}), чтобы его удалить
-1. Нажмите на ![]({{"/images/fs/qr.png" | absolute_url }}) и отсканируйте QR 
+	+ Если галочка уже стоит и там вписан URL-адрес, нажмите на ![]({{"/images/fs/trash.png" | absolute_url }}){:target="_blank"}, чтобы его удалить
+1. Нажмите на ![]({{"/images/fs/qr.png" | absolute_url }}){:target="_blank"} и отсканируйте QR 
 
-    ![]({{"/images/QR/freeshop_keys.png" | absolute_url }})
+    ![]({{"/images/QR/freeshop_keys.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
-	+ Если у вас не работает камера, нажмите на ![]({{"/images/fs/kb.png" | absolute_url }}) и вручную введите `http://3ds.titlekeys.gq/downloadenc`
+	+ Если у вас не работает камера, нажмите на ![]({{"/images/fs/kb.png" | absolute_url }}){:target="_blank"} и вручную введите `http://3ds.titlekeys.gq/downloadenc`
 
 1. Нажмите кнопку "Обновить кэш"
 1. Перезагрузите freeshop
 
-Если у вас freeshop ругается на неверные или отсутствующие ключи, скачайте предложенный [`zip-архив`](files/freeShop_data.zip) и распакуйте его содержимое с заменой в папку `/3ds/data` на вашей SD-карте (должно получится так: `/3ds/data/freeshop/файлы`).
+Если у вас freeshop ругается на неверные или отсутствующие ключи, скачайте предложенный [`zip-архив`](files/freeShop_data.zip){:target="_blank"} и распакуйте его содержимое с заменой в папку `/3ds/data` на вашей SD-карте (должно получится так: `/3ds/data/freeshop/файлы`).
 {: .notice--warning}
 
 Установка приложений из freeshop происходит с помощью кнопки {% include inc/btn.txt btn="X" %}. Приложение умеет устанавливать игры в режиме ожидания. Для этого нужно выбрать желаемую игру в списке кнопкой {% include inc/btn.txt btn="Y" %}, выйти из freeshop и перевести приставку в режим ожидания. Через время игра будет загружена. 

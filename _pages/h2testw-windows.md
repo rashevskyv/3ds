@@ -9,12 +9,12 @@ author_profile: true
 
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 
-Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-linux) или [F3X (mac)](f3x-mac).
+Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-linux) или [F3X (mac)](f3x-mac){:target="_blank"}.
 
 ## Что понадобится
 <a name="what_need" /> 
 
-* Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip){:target="_blank"}
 
 ## Инструкция
 

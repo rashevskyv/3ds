@@ -18,7 +18,7 @@ author_profile: true
 1. Нажмите кнопку "Вид" в меню 
 1. Установите флажок "Расширения имен файлов"
 
-    ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
+    ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
@@ -27,18 +27,18 @@ author_profile: true
 1. Откройте меню Пуск, нажав на него, или с помощью клавиши Windows
 1. Введите в поле для поиска "Параметры папок" и выберите соответствующий результат
 
-    ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
+    ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
 1. Нажмите на вкладку "Вид" в верхней части окна Параметры папок
 1. Снимите флажок "Скрывать расширения для зарегистрированных типов файлов"
 
-    ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
+    ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 
 ___
 	
-Вернитесь к [Началу](get-started)
+Вернитесь к [Началу](get-started){:target="_blank"}
 {: .notice--success}

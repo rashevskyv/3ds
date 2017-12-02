@@ -12,10 +12,10 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases)
-* Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest)
-* Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest)
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases){:target="_blank"}
+* Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}
+* Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
 
 ## Инструкция
@@ -33,7 +33,7 @@ author_profile: true
 1. Скопируйте `udsploit.3dsx` в папку `/3ds/` на SD-карте
 1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в корень SD-карты и переименуйте `SafeB9SInstaller.bin` в `safehaxpayload.bin`
 
-    ![]({{ "/images/screenshots/boot9strap-hb-file-layout.png" | absolute_url }})
+    ![]({{ "/images/screenshots/boot9strap-hb-file-layout.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 	{: .text-center}
 
@@ -44,7 +44,7 @@ author_profile: true
 
 1. Запустите приложение Звук Nintendo 3DS (Nintendo 3DS Sound)
 
-    ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
+    ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 	{: .text-center}
 
@@ -55,13 +55,13 @@ author_profile: true
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
   + Если вы видите красный экран, убедитесь что вы скопировали _содержимое_ папки `starter` в корень вашей SD-карты
 
-    ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
+    ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 	{: .text-center}
 
 1. Консоль должна загрузиться в Homebrew Launcher
 
-    ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
+    ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }}){:target="_blank"}
     {: .notice--info}
 	{: .text-center}
 	
@@ -75,7 +75,7 @@ author_profile: true
 1. Выберите safehax в списке Homebrew
   + Вам может потребоваться пролистать список ВНИЗ, чтобы увидеть нужный пункт
   + Если появляется ошибка "PM INIT FAILED", убедитесь, что используете safehax со включенным WiFi
-  + Если "PM INIT FAILED" *всё ещё* появляется, попробуйте использовать [safehax версии r19](https://github.com/TiniVi/safehax/releases/tag/r19)
+  + Если "PM INIT FAILED" *всё ещё* появляется, попробуйте использовать [safehax версии r19](https://github.com/TiniVi/safehax/releases/tag/r19){:target="_blank"}
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 

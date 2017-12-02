@@ -10,5 +10,5 @@
 
 ___
 
-Следующий шаг: [Завершение установки](finalizing-setup)
+Следующий шаг: [Завершение установки](finalizing-setup){:target="_blank"}
 {: .notice--success}

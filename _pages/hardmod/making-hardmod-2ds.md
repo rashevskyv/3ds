@@ -21,50 +21,50 @@ author_profile: true
 	**Примечание:** Винты не откручиваются полностью, они остаются прикрепленными к задней крышке. Открепите заднюю крышку, потянув её наверх.
 	{: .notice--info}
 
-    ![]({{ base_path }}/images/ifixit/2ds/1.png)
+    ![]({{ base_path }}/images/ifixit/2ds/1.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1.	После этого вам необходимо вытащить батарею из консоли
 
-    ![]({{ base_path }}/images/ifixit/2ds/2.png)
+    ![]({{ base_path }}/images/ifixit/2ds/2.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Теперь открутите винты, которые удерживают заднюю панель и положите их в безопасное место.
 
-    ![]({{ base_path }}/images/ifixit/2ds/3.png)
+    ![]({{ base_path }}/images/ifixit/2ds/3.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1.	Когда вы открутите все винты и начнете открывать крышку, вы увидите печатную плату (PCB), **НЕ ПРИМЕНЯЙТЕ СИЛУ ДЛЯ ОТКРЫТИЯ ПАНЕЛИ**. Под крышкой находится плоский шлейф, идущий от камеры к материнской плате. Открутите камеру от задней крышки, затем отложите крышку в сторону
 
-    ![]({{ base_path }}/images/ifixit/2ds/4.png)
+    ![]({{ base_path }}/images/ifixit/2ds/4.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1.	Снимите пластиковые элементы и отложите в сторону. 
 1. Открутите 4 винта, отмеченных на фото и снимите пластиковую деталь. Аккуратно переверните джойстик - он прикреплен к материнской плате шлейфом, не повредите его. 
 
-    ![]({{ base_path }}/images/ifixit/2ds/5.png)
+    ![]({{ base_path }}/images/ifixit/2ds/5.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1. Осторожно поднимите защелку шлейфа и аккуратно выдерните шлейф
 
-    ![]({{ base_path }}/images/ifixit/2ds/6.png)
+    ![]({{ base_path }}/images/ifixit/2ds/6.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 
 1. Проделайте эту же процедуру с двумя широкими шлейфами в центре приставки. Вытащите джойстик и отсоедините WiFi антенну. 
 
-    ![]({{ base_path }}/images/ifixit/2ds/7.png)
+    ![]({{ base_path }}/images/ifixit/2ds/7.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
 1. Открутите 12 винтов и снимите материнскую плату
 
-    ![]({{ base_path }}/images/ifixit/2ds/8.png)
+    ![]({{ base_path }}/images/ifixit/2ds/8.png){:target='_blank'}
 	{: .text-center}
     {: .notice--info}
 	
@@ -73,7 +73,7 @@ author_profile: true
 {% capture notice-2 %}
 Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. **DAT0 (Data Zero)**, **CMD** и **CLK (CLOCK)** находятся на нижней части платы. **GND (Ground или заземление)**, мы будем припаивать к металлическому корпусу слота для картриджей или SD-карты, который находится на верхней части материнской платы. Другие DAT-контакты (DAT1, DAT2 и DAT3) вам не потребуются, и в этом гайде вы их не найдете, однако, вы можете припаять провода и к ним, если вам нужна более высокая скорость передачи для записи и чтения NAND'а. Это опциональная операция и в этом гайде не используется, поскольку чип и так дампится достаточно быстро. Выигрыш в пару минут не стоит времени, затраченного на пайку дополнительных контактов.
 
-![]({{ base_path }}/images/ifixit/2ds/2ds_tp.png)
+![]({{ base_path }}/images/ifixit/2ds/2ds_tp.png){:target='_blank'}
 {: .text-center}
 
 {% endcapture %}
@@ -97,5 +97,5 @@ author_profile: true
 {% include inc/read_nand.txt content="2DS" %}
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
+Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod){:target='_blank'}
 {: .notice--success}

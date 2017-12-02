@@ -12,10 +12,10 @@ author_profile: true
 {% include /inc/olx_vk.txt %}
 {: .notice--info}
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии 
-* Свежая версия [GYTB](https://github.com/chaoskagami/GYTB/releases/download/alt-rel1/GYTB.cia) 
-* Установленный и рабочий [FBI](fbi)
-* Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
+* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
+* Свежая версия [GYTB](https://github.com/chaoskagami/GYTB/releases/download/alt-rel1/GYTB.cia){:target="_blank"} 
+* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH){:target="_blank"}, можете поискать [тут](https://badges.3dsthem.es/){:target="_blank"} или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/){:target="_blank"}.
 
 ## Часть I - Подготовительные работы
 
@@ -27,16 +27,16 @@ author_profile: true
 
 ### Способ I: Установка жетонов через GTYB
 
-1. Установите GYTB. Как это сделать [написано здесь](https://3ds.customfw.xyz/games#способ-ii---fbi)
+1. Установите GYTB. Как это сделать [написано здесь](https://3ds.customfw.xyz/games#способ-ii---fbi){:target="_blank"}
 1. Запустите программу из меню Home
 1. Нажмите {% include inc/btn.txt btn="X" %}, программа начнет копировать жетоны
 
 ### Способ II: Для тех, у кого не работает GTYB
 
-Этот способ установит мой пак жетонов. После выполнения этого способа, GTYB снова будет работать и вы сможете добавить жетоны по вашему вкусу, используя [Способ I](badges#part2a)
+Этот способ установит мой пак жетонов. После выполнения этого способа, GTYB снова будет работать и вы сможете добавить жетоны по вашему вкусу, используя [Способ I](badges#part2a){:target="_blank"}
 {: .notice--info}
 
-1. Скачайте архив с файлами жетонов с [Я.Диска](https://yadi.sk/d/2mwMKtaZ3Kt4Hm) или [MEGA](https://mega.nz/#!0h0B2TaQ!95bjmMWYN1VHomezFLvtN9ThJATJfgxDQKd4_gGMbNk)
+1. Скачайте архив с файлами жетонов с [Я.Диска](https://yadi.sk/d/2mwMKtaZ3Kt4Hm){:target="_blank"} или [MEGA](https://mega.nz/#!0h0B2TaQ!95bjmMWYN1VHomezFLvtN9ThJATJfgxDQKd4_gGMbNk){:target="_blank"}
 1. Распакуйте архив `Badges.zip`, скачанный выше, в корень SD-карты вашей приставки
 1. Вставьте SD-карту в приставку и запустите 3DS
 1. Запустите FBI
