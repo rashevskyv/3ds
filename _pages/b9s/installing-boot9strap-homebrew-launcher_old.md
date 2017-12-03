@@ -12,6 +12,7 @@ author_profile: true
 
 ## Что понадобится
 
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases){:target="_blank"}
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}

@@ -91,9 +91,7 @@ author_profile: true
 {% include /inc/luma_setup.txt %}
   
 ### Часть V - Обновление системы
-Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand){:target="_blank"}, перед выполнением этой части.
-{: .notice--info}
-
+{% include /inc/if_emunand.txt %}
 {% include /inc/sys_update.txt %}
 
 ### Часть VI - Установка Luma3DS Updater

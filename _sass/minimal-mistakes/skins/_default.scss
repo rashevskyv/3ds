@@ -39,7 +39,7 @@ $type-size-8                  : 0.8em !default;  // ~10px
    
 // Шрифт на странице
 #main {
-  font-size: .9em;
+  font-size: .8em;
 }
 
 body {
@@ -310,7 +310,7 @@ th {
 .sidebar {
   a {
     color: $text-color;
-	font-size: 0.9em !important; // Размер шрифта авторских ссылок
+	font-size: 1.15em !important; // Размер шрифта авторских ссылок
 
 	&:hover {
         color: $gray;
