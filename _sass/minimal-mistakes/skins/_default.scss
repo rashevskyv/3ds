@@ -33,7 +33,7 @@ $type-size-2                  : 1.953em !default;  // ~31.248px
 $type-size-3                  : 1.563em !default;  // ~25.008px
 $type-size-4                  : 1.25em !default;   // ~20px
 $type-size-5                  : 0.8rem !default;      // ~16px
-$type-size-6                  : 0.75em !default;   // ~12px
+$type-size-6                  : .9em !default;   // ~12px
 $type-size-7                  : 0.6875em !default; // ~11px
 $type-size-8                  : 0.8em !default;  // ~10px
    
@@ -310,7 +310,7 @@ th {
 .sidebar {
   a {
     color: $text-color;
-	font-size: 1.15em !important; // Размер шрифта авторских ссылок
+	font-size: .8em !important; // Размер шрифта авторских ссылок
 
 	&:hover {
         color: $gray;
