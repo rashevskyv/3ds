@@ -8,7 +8,7 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 {% include /inc/dsiware/1.txt %}
-{% include /inc/dsiware/game_needed.txt %}
+{% include /inc/dsiware/save_needed.txt %}
 {% include /inc/dsiware/2.txt %}
 {% include /inc/dsiware/save_part1.txt %}
 {% include /inc/dsiware/3.txt %}
