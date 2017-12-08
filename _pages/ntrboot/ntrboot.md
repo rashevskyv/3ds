@@ -91,7 +91,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Картридж продается с предустановленнмы ntrboot</td>
+      <td style="text-align: center;">Картридж продается с предустановленным ntrboot</td>
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ua.png" align="bottom"><br>₴400</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
@@ -107,7 +107,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Картридж продается с предустановленнмы ntrboot</td>
+      <td style="text-align: center;">Картридж продается с предустановленным ntrboot</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></td>
