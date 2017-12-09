@@ -44,6 +44,8 @@ addons:
     url: /freeshop
   - title: "Установка приложений и игр"
     url: /games
+  - title: "Использование читов"
+    url: /cheats
   - title: "Установка и использование тем"
     url: /themes
   - title: "Установка и использование жетонов"

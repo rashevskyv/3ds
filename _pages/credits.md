@@ -98,6 +98,7 @@ author_profile: true
 	• [Сергей Кашин](https://vk.com/seresworld){:target="_blank"} за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте<br>
 	• [Ігор Джулай](https://vk.com/ighor){:target="_blank"} за незамыленый взгляд<br>
 	• [Юрий Маркин](https://vk.com/ashirogi_muto){:target="_blank"} за шикарные кнопки<br>
+	• [Егор Орехов](https://vk.com/nezhny_robert){:target="_blank"} за инструкцию по использованию читов<br>
 
 {% endcapture %}
 

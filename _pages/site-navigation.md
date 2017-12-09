@@ -39,6 +39,7 @@ author_profile: true
 + [Запуск и установка FBI](fbi)
 + [Зачем реклама?](why-ads)
 + [Использование SoundHax для запуска Hombrew Launcher](homebrew-launcher-soundhax)
++ [Использование читов в 3DS-играх](cheats)
 + [Информация об OTP](otp)
 + [Использование GodMode9](godmode9-usage)
 + [Начнем (New 3DS)](get-started-new-3ds)
