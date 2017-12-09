@@ -99,7 +99,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;"></td>
+      <td style="text-align: center;">"<strong>Timebomb</strong>":<br><strong>1.87</strong>: 3.09.19</td>
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=574" target="blank">$15.99</a></td>
@@ -107,7 +107,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Картридж продается с предустановленным ntrboot</td>
+      <td style="text-align: center;">Картридж продается с предустановленным ntrboot<br><br>"<strong>Timebomb</strong>":<br><strong>1.87</strong>: 3.09.19</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></td>
@@ -115,7 +115,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤4.3.0</i></td>
       <td style="text-align: center;"><i>≤1.4.4</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>":<br><strong>3.9b</strong>: 3.09.19</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=490" target="blank">$9.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
@@ -123,7 +123,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>":<br><strong>3.9b</strong>: 3.09.19</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
@@ -131,7 +131,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤11.6.0</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>": 3.9b: 3.09.19</td>
+      <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>":<br><strong>3.9b</strong>: 3.09.19</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>

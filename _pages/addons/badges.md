@@ -27,7 +27,7 @@ author_profile: true
 
 ### Способ I: Установка жетонов через GTYB
 
-1. Установите GYTB. Как это сделать [написано здесь](https://3ds.customfw.xyz/games#способ-ii---fbi){:target="_blank"}
+1. Установите GYTB. Как это сделать [написано здесь](games#способ-ii---fbi){:target="_blank"}
 1. Запустите программу из меню Home
 1. Нажмите {% include inc/btn.txt btn="X" %}, программа начнет копировать жетоны
 
