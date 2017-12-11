@@ -80,7 +80,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank"><img src="/images/ru.png"><br>₽1500</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts_small.png"></a></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;"></td>
@@ -88,7 +88,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br>с установленным b9s<br>и магнитом<br><br>Цена:<br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ua.png" align="bottom"><br>₴500</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1058176" target="blank"><img src="/images/ru.png"><br>₽1400</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png" ></a><br><b>+ b9s</b></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;">Картридж продается с предустановленным ntrboot</td>
@@ -96,7 +96,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ua.png" align="bottom"><br>₴400</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png" ></a></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;">"<strong>Timebomb</strong>":<br><strong>1.87</strong>: 3.09.19</td>
@@ -104,7 +104,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=574" target="blank">$15.99</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png"></a></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;">Картридж продается с предустановленным ntrboot<br><br>"<strong>Timebomb</strong>":<br><strong>1.87</strong>: 3.09.19</td>
@@ -120,7 +120,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=490" target="blank">$9.99</a><br><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp_small.png"></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2_small.png"></a></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>":<br><strong>3.9b</strong>: 3.09.19</td>
@@ -128,7 +128,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-lite.png"><img src="/images/flashcarts/r4isdhc-lite_small.png"></a></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;">Все картриджи r4i SDHC 20XX одинаковые<br><br>"<strong>Timebomb</strong>":<br><strong>3.9b</strong>: 3.09.19</td>
@@ -136,7 +136,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>
       <td style="text-align: center;"><a href="/images/flashcarts/infinity.png"><img src="/images/flashcarts/infinity_small.png"></a></td>
-      <td style="text-align: center;"><i>≤11.6.0</i></td>
+      <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
       <td style="text-align: center;"></td>

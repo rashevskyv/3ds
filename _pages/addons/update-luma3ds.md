@@ -5,6 +5,8 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
+## Последняя версия Luma3DS: {% include /vars/luma_version.txt %}
+
 ## Что понадобится
 
 * Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии (*если уже делали, то повторно делать не нужно*)

@@ -48,6 +48,7 @@ author_profile: true
 + [Обновление Luma3DS](update-luma3ds)
 + [Обновление boot9strap](updating-b9s)
 + [Обновление с помощью картриджа](cart-update)
++ [Обновление системного ПО приставки](update-system)
 + [Пайка хардмода в 2DS](making-hardmod-2ds)
 + [Пайка хардмода в New 2DS XL](making-hardmod-new2dsxl)
 + [Пайка хардмода в New 3DS](making-hardmod-new3ds)
