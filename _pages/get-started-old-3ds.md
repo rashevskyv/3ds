@@ -25,7 +25,7 @@ author_profile: true
 Помните, что для использования [альтернативной точки входа в HBL](homebrew-launcher-alternatives){:target="_blank"} вам в большинстве случаев понадобится вторая уже прошитая приставка (либо устройство [Powersaves](https://amzn.to/2fb3VY7){:target="_blank"}) для записи кода эксплойта в картридж с игрой, который тоже, ясное дело, должен у вас быть (допускается использование sky3ds). 
 <br><br>
 Например, вы остановили свой выбор на oothax. Для его работы следует обновить приставку до версии ПО от 9.0.0 до 11.3 с помощью картриджа и следовать инструкции на сайте эксплойта. В определенный момент вам понадобится вторая приставка, или Powersave для записи эксплойта прямо в картридж. С другой стороны freakyhax или Ninjhax 2 не потребуют ничего, кроме самих картриджей, либо sky3ds, эмулирующий картриджи с указанными играми.
-+ Использование [Hardmode](making-hardmod){:target="_blank"} или [ntrboot](ntrboot){:target="_blank"}, что требует определенных навыков работы с паяльником, или [совместимый с ntrboot картридж](ntrboot#Список-совместимых-картриджей){:target="_blank"} соответственно.        
++ Использование [hardmod](making-hardmod){:target="_blank"} или [ntrboot](ntrboot){:target="_blank"}, что требует определенных навыков работы с паяльником, или [совместимый с ntrboot картридж](ntrboot#Список-совместимых-картриджей){:target="_blank"} соответственно.        
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -65,26 +65,26 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
 	  <td style="text-align: center; font-weight: bold;">2.0.0</td>
-      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)"><img src="/images/hardmode.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 4.0-4.5 или 6.0-6.3</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 4.0-4.5 или 6.0-6.3</td>
       <td style="text-align: center;" rowspan="10">
 		<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
 			<img src="/images/ntrhax.png">
 		</a>
 		<br><br>
-		<a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
-			<img src="/images/hardmode.png">
+		<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
+			<img src="/images/hardmod.png">
 		</a>
 	  </td>
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
-      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)"><img src="/images/hardmode.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 4.0-4.5 или 6.0-6.3</td>
+      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 4.0-4.5 или 6.0-6.3</td>
       <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
       <td style="text-align: center; font-weight: bold;"	>3.1.0</td>
-      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)"><img src="/images/hardmode.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 4.0-4.5 или 6.0-6.3</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 4.0-4.5 или 6.0-6.3</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
@@ -95,7 +95,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)"><img src="/images/hardmode.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 6.0-6.3</td>
+      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/cart_update.png"></a> до 6.0-6.3</td>
       <td style="text-align: center;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
     </tr>
     <tr>
@@ -107,7 +107,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)"><img src="/images/hardmode.png"></a></td>
+      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/hardmod.png"></a></td>
       <td style="text-align: center;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
     </tr>
     <tr>
@@ -131,8 +131,8 @@ author_profile: true
 	<img src="/images/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
 </a>
 <br>
-<a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
-	<img src="/images/hardmode.png"> - установка через hardmode (необходимы навыки работы с паяльником)
+<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
+	<img src="/images/hardmod.png"> - установка через hardmod (необходимы навыки работы с паяльником)
 </a>
 
 {% endcapture %}
