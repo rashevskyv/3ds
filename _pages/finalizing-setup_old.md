@@ -16,7 +16,7 @@ author_profile: true
 В процессе мы установим и настроим следующие программы:    
 
 +  **FBI** *(установщик приложений и игр в формате CIA)*
-+  **Themely** *(установка пользовательских тем)*
++  **Anemone3DS** *(установка пользовательских тем)*
 +  **Checkpoint** *(резервное копирование и восстановление сохранений для игр 3DS и DS)*
 +  **Luma3DS Updater** *(удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
@@ -33,7 +33,7 @@ author_profile: true
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(`.cia` файл)*
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest){:target="_blank"} *(`.cia`-файл)*
+* Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} *(`.zip`-архив)*
 * [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:target="_blank"}
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:target="_blank"}
@@ -54,7 +54,7 @@ author_profile: true
 1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
-1. Скопируйте `Themely.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `Anemone3DS.cia` в папку `/cias/` на SD-карты
 
     ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}

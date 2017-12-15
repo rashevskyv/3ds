@@ -91,7 +91,7 @@ author_profile: true
       <td style="text-align: center;"><i>≤{% include /vars/sys_version.txt %}</i></td>
       <td style="text-align: center;"><i>≤1.4.5</i></td>
       <td style="text-align: center;"><i>Все</i></td>
-      <td style="text-align: center;">Картридж продается с предустановленным ntrboot</td>
+      <td style="text-align: center;">Картридж продается с предустановленным ntrboot<br><br>"<strong>Timebomb</strong>":<br><strong>1.87</strong>: 3.09.19</td>
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br><br>Цена:<br><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ua.png" align="bottom"><br>₴400</a><br><a href="https://vk.com/market-125012133?section=album_3&w=product-125012133_1122131" target="blank"><img src="/images/ru.png"><br>₽1200</a></td>
