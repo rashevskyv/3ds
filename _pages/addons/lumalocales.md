@@ -34,8 +34,6 @@ author_profile: true
 1. Установите `lumalocaleswitcher` через FBI (как это сделать описано [здесь](games){:target="_blank"})
 	+ {% include /inc/olx_vk.txt %}
 1. Запустите `lumalocaleswitcher` из меню Home
-1. Перейдите в пункт меню "Choose Locales Directory ""
-1. Выберите `/luma/locales/titles/%s/locale.txt` и нажмите {% include inc/btn.txt btn="A" %} для подтверждения выбора, а затем еще раз {% include inc/btn.txt btn="A" %}, чтобы вернуться на главный экран программы
 1. Перейдите в меню "Titles "
 1. Выберите игру, язык которой вы хотите поменять
 1. Выберите пункт "Change Region", затем "EUR"
