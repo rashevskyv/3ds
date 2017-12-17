@@ -136,7 +136,11 @@ author_profile: true
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
-## Игры часто зависают с ошибкой
+## Игры часто выкидывает с ошибкой
+
+    ![]({{ base_path }}/images/error.png){:target="_blank"}
+	{: .text-center}
+    {: .notice--info}
 
 Если у вас приставка линейки New, убедитесь, что в настройках Luma3DS отключен разгон: 
 

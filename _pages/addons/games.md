@@ -79,6 +79,7 @@ author_profile: true
 
 ## Где брать игры? 
 1. [freeshop](finalizing-setup#freeshop){:target="_blank"}
-2. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
-3. [Все игры на русском](https://cloud.mail.ru/public/FfNX/u1oCpVmf3){:target="_blank"} от [VK: skotnikovnn](https://vk.com/skotnikovnn){:target="_blank"}
-4. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds){:target="_blank"}
+1. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
+1. [3dscia](http://www.3dscia.com/)
+1. [Все игры на русском](https://cloud.mail.ru/public/FfNX/u1oCpVmf3){:target="_blank"} от [VK: skotnikovnn](https://vk.com/skotnikovnn){:target="_blank"}
+1. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds){:target="_blank"}
