@@ -138,9 +138,8 @@ author_profile: true
 
 ## Игры часто выкидывает с ошибкой
 
-    ![]({{ base_path }}/images/error.png){:target="_blank"}
-	{: .text-center}
-    {: .notice--info}
+![]({{ base_path }}/images/screenshots/error.png){:target="_blank"}
+{: .text-center}
 
 Если у вас приставка линейки New, убедитесь, что в настройках Luma3DS отключен разгон: 
 
