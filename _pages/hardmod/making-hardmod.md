@@ -46,8 +46,8 @@ NAND - это вид используемой флеш памяти, наход�
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-old3ds"><img src="/images/old3ds.png"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-new3ds"><img src="/images/new3ds.png"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-old3ds"><img src="/images/consoles/old3ds.png"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-new3ds"><img src="/images/consoles/new3ds.png"></a></td>
     </tr>
   </tbody>
   <thead>
@@ -58,8 +58,8 @@ NAND - это вид используемой флеш памяти, наход�
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-old3dsxl"><img src="/images/old3dsxl.png"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-new3dsxl"><img src="/images/new3dsxl.png"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-old3dsxl"><img src="/images/consoles/old3dsxl.png"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-new3dsxl"><img src="/images/consoles/new3dsxl.png"></a></td>
     </tr>
   </tbody>
   <thead>
@@ -70,8 +70,8 @@ NAND - это вид используемой флеш памяти, наход�
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-2ds"><img src="/images/2ds.png"></a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-new2dsxl"><img src="/images/new2dsxl.png"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-2ds"><img src="/images/consoles/2ds.png"></a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="making-hardmod-new2dsxl"><img src="/images/consoles/new2dsxl.png"></a></td>
     </tr>
   </tbody>
 </table>

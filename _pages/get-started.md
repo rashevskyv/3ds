@@ -38,24 +38,24 @@ author_profile: true
     <tr>
       <td style="text-align: center">
 	    <a href="get-started-new-3ds">
-	      <img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;">
+	      <img src="{{ base_path }}/images/consoles/new3ds.png" style="padding: 0.5em;">
 		</a> 
 		<a href="get-started-new-3ds">
-		  <img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;">
+		  <img src="{{ base_path }}/images/consoles/new3dsxl.png" style="padding: 0.5em;">
 		</a> 
 		<a href="get-started-new-3ds">
-		  <img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;">
+		  <img src="{{ base_path }}/images/consoles/new2dsxl.png" style="padding: 0.5em;">
 		</a>
 	  </td>
       <td style="text-align: center">
 	    <a href="get-started-old-3ds">
-		  <img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;">
+		  <img src="{{ base_path }}/images/consoles/old3ds.png" style="padding: 0.5em;">
 		</a>
 		<a href="get-started-old-3ds">
-		  <img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;">
+		  <img src="{{ base_path }}/images/consoles/old3dsxl.png" style="padding: 0.5em;">
 		</a>
 		<a href="get-started-old-3ds">
-		  <img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;">
+		  <img src="{{ base_path }}/images/consoles/2ds.png" style="padding: 0.5em;">
 		</a>
 	  </td>
     </tr>

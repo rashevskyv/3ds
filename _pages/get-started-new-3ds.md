@@ -46,11 +46,11 @@ author_profile: true
         <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
       <td style="text-align: center;" rowspan="10">
 		<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
-			<img src="/images/ntrhax.png">
+			<img src="/images/consoles/ntrhax.png">
 		</a>
 		<br><br>
 		<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
-			<img src="/images/hardmod.png">
+			<img src="/images/consoles/hardmod.png">
 		</a>
 	  </td>
 		</tr>
@@ -78,11 +78,11 @@ author_profile: true
 **Методы, подходящие для всех версий прошивки:**
 
 <a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
-	<img src="/images/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
+	<img src="/images/consoles/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
 </a>
 <br>
 <a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
-	<img src="/images/hardmod.png"> - установка через hardmod (необходимы навыки работы с паяльником)
+	<img src="/images/consoles/hardmod.png"> - установка через hardmod (необходимы навыки работы с паяльником)
 </a>
 
 {% endcapture %}
