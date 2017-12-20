@@ -52,7 +52,7 @@ author_profile: true
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `ctrtransfer_ticket_copy.gm9` в папку `/gm9/scripts/` на SD-карте
-1. Скопируйте файл `.bin` из `.zip-архива` с CTRTransfer-образом 11.5.0 в папку `/gm9out/` на SD-карте
+1. Скопируйте файл `.bin` из `.zip-архива` с CTRTransfer-образом 11.5.0 в папку `/gm9/` на SD-карте
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` в корне SD-карты
 1. Вставьте SD-карту обратно в консоль
 
@@ -68,6 +68,8 @@ author_profile: true
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
   + Этот процесс займет некоторое время
 1. По завершению процесса, нажмите {% include inc/btn.txt btn="A" %}
+1. Нажмите {% include inc/btn.txt btn="X" %}, выделив файл `.bin` CTRTransfer чтобы удалить его
+1. Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="B" %}, если появится запрос, чтобы не восстанавливать запрет на запись в раздел
 1. Дважды нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
 1. Нажмите {% include inc/btn.txt btn="HOME" %}, чтобы попасть в меню действий
@@ -113,17 +115,6 @@ author_profile: true
 1. Выберите страну из вашего нового региона
 1. При появлении запроса о штате указывать его не нужно
 1. Обновите SysNAND нового региона до последней версии
-
-### Часть VI - Удаление образа CTRTransfer
-
-Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки {% include inc/btn.txt btn="START" %} при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку {% include inc/btn.txt btn="A" %} для выбора "GodMode9" при выполнении этих инструкций.
-{: .notice--info}
-
-1. Запустите GodMode9, удерживая {% include inc/btn.txt btn="START" %} во время включения приставки
-1. Перейдите в `[0:] SDCARD` -> `gm9`
-1. Нажмите {% include inc/btn.txt btn="X" %}, выделив файл `.bin` CTRTransfer чтобы удалить его
-1. Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
-1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 
 ___
 
