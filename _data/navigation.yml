@@ -50,12 +50,14 @@ addons:
     url: /themes
   - title: "Установка и использование жетонов"
     url: /badges
+  - title: "Обновление системного ПО"
+    url: /update-system
   - title: "Обновление Luma3DS"
     url: /update-luma3ds
-  - title: "Переход с a9lh на b9s"
-    url: /a9lh-to-b9s
   - title: "Обновление b9s"
     url: /updating-b9s
+  - title: "Переход с a9lh на b9s"
+    url: /a9lh-to-b9s
   - title: "Использование GodMode9"
     url: /godmode9-usage
   - title: "Конвертация 3DS-ромов в CIA"
