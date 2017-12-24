@@ -125,6 +125,8 @@ td {
 th {
   border: 2px solid mix(#000, $border-color, 25%) !important;
   text-align: center !important;
+  background-color: $border-color !important;
+  border-bottom: 2px solid mix(#000, $border-color, 25%) !important;
 }
  
 // Кнопки 
