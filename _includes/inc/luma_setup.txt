@@ -1,8 +1,9 @@
   1. Устройство загрузится в меню настройки Luma3DS            
 		+ Если приставка загружается сразу в систему, перезагрузите ее с зажатой кнопкой {% include inc/btn.txt btn="SELECT" %}              
   1. Нажимая {% include inc/btn.txt btn="A" %} выберите следующие пункты:            
-		+ **"Enable game patching"**           
-		+ **"Show NAND or user string in System Settings"**                    
+		+ **"Enable game patching"** - включает возможность использовать патчи для приложений            
+		+ **"Show NAND or user string in System Settings"** - показывает пользовательскую надпись в настройках на верхнем экране (конфигурируется через `/luma/customversion_sys.txt`)                    
+		+ **Splash: Before** - включает сплешскрин                       
 		+ Если эти пункты уже отмечены, значит Luma3DS уже сконфигурирована, просто двигайтесь дальше                                 
 
 			![]({{ base_path }}/images/screenshots/luma-settings.png){:target="_blank"}
