@@ -108,6 +108,7 @@ author_profile: true
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
 +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
 +  **Homerew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
++  **ftpd** *(просто ftp-клиент для простого доступа к карте памяти без разбора приставки)*
 
 Если вы по какой-то причине не хотите этого, либо у вас возникают трудности в работе OCS пропустите эту и следующую часть. Скачайте [Homebrew Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"} и положите в корень вашей SD-карты `boot.3dsx`, который находился в архиве `starter.zip`.
 
