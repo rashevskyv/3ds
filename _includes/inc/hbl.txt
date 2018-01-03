@@ -1,7 +1,7 @@
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Нажмите {% include inc/btn.txt btn="L" %} + {% include inc/btn.txt btn="DOWN" %} + {% include inc/btn.txt btn="SELECT" %} одновременно чтобы открыть меню Rosalina
 1. Выберите "Miscellaneous options"
-1. Выберите "Switch the hb. title to the current app."
+1. Выберите "Switch the hb. title to the hblauncher_loader"
 1. Нажмите {% include inc/btn.txt btn="B" %}, чтобы продолжить
 1. Нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню Rosalina
 1. Нажмите {% include inc/btn.txt btn="B" %} для выхода из главного меню Rosalina
