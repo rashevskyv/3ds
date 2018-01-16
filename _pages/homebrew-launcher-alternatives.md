@@ -67,4 +67,3 @@ ___
 
 Следующий шаг: [Установка boot9strap](installing-boot9strap-homebrew-launcher)
 {: .notice--success}
-

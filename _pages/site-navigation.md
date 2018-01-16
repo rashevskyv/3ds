@@ -9,8 +9,8 @@ author_profile: true
 **Популярные страницы**
 
 + [Завершение установки](finalizing-setup)
-+ [Использование SoundHax для запуска Hombrew Launcher](homebrew-launcher-soundhax)
 + [ntrboot](ntrboot)
++ [Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-dsiware-game-injection)
 + [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
 + [FAQ](faq)
 + [Интегрирование FBI](fbi)
