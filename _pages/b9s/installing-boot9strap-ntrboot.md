@@ -51,6 +51,7 @@ author_profile: true
   + Убедитесь, что приставка **выключена**!!!
 1. Если эксплойт сработал, запустится меню SafeB9SInstaller
   + Иногда бывает, что кнопку {% include inc/btn.txt btn="START"%} нужно отпустить на полсекунды и зажать снова, до появления SafeB9SInstaller
+  + Если вместо SafeB9SInstaller вы видите меню настройки Luma3DS, нажмите и держите кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
 
 ### Часть III - Установка boot9strap
 
