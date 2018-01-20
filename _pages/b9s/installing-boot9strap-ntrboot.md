@@ -49,21 +49,20 @@ author_profile: true
 1. На несколько секунд зажмите кнопки {% include inc/btn.txt btn="POWER"%} + {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %} + {% include inc/btn.txt btn="X" %}, затем отпустите все, кроме {% include inc/btn.txt btn="START"%}
   + Может потребоваться несколько попыток
   + Убедитесь, что приставка **выключена**!!!
-1. Если эксплойт сработал, запустится меню SafeB9SInstaller
-  + Иногда бывает, что кнопку {% include inc/btn.txt btn="START"%} нужно отпустить на полсекунды и зажать снова, до появления SafeB9SInstaller
-  + Если вместо SafeB9SInstaller вы видите меню настройки Luma3DS, нажмите и держите кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
+1. Если эксплойт сработал, запустится меню настройки Luma3DS
 
-### Часть III - Установка boot9strap
+### Часть III - Настройка Luma3DS
+
+{% include /inc/luma_setup.txt %}
+1. Не отпускайте кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
+  + Иногда бывает, что кнопку {% include inc/btn.txt btn="START"%} нужно отпустить на полсекунды и зажать снова, до появления SafeB9SInstaller
+
+### Часть IV - Установка boot9strap
 
 1. Дождитесь окончания всех проверок безопасности
 1. Уберите магнит от устройства, можете так же вытащить картридж из приставки
   + На old 2DS выйдите из режима сна переключателем
 1. При появлении запроса нажмите {% include inc/btn.txt btn="A"%} для загрузки в Luma3DS
-
-### Часть IV - Настройка Luma3DS
-
-{% include /inc/luma_setup.txt %}
-		+ Если появляется ошибка, просто переходите к следующей странице
 
 ___
 
