@@ -27,7 +27,7 @@ author_profile: true
 1. Вставьте SD-карту из **приставки** в компьютер
 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте `SafeB9SInstaller.firm` из архива с SafeB9SInstaller в папку `/luma/payloads/`
+1. Скопируйте `SafeB9SInstaller.firm` из архива с SafeB9SInstaller в папку `/luma/payloads/`, если таковой нет - создайте её
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 
@@ -60,6 +60,7 @@ author_profile: true
 ### Часть IV - Установка boot9strap
 
 1. Дождитесь окончания всех проверок безопасности
+1. Введите комбинацию клавиш, указанную на экране и нажмите {% include inc/btn.txt btn="A"%}
 1. Уберите магнит от устройства, можете так же вытащить картридж из приставки
   + На old 2DS выйдите из режима сна переключателем
 1. При появлении запроса нажмите {% include inc/btn.txt btn="A"%} для загрузки в Luma3DS
