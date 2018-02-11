@@ -54,6 +54,7 @@ author_profile: true
 ### Часть III - Настройка Luma3DS
 
 {% include /inc/luma_setup.txt %}
+  + **Вам нужно нажать и удерживать {% include inc/btn.txt btn="START"%}** до тех пор, пока не появится luma chainloader
 1. Не отпускайте кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
   + Иногда бывает, что кнопку {% include inc/btn.txt btn="START"%} нужно отпустить на полсекунды и зажать снова, до появления SafeB9SInstaller
 
