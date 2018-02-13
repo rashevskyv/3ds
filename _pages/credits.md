@@ -7,7 +7,7 @@ author_profile: true
 **Отдельное спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey){:target="_blank"} (англ.) за то, что они потрясающие!**
 {: .notice--primary}
 
-**Отдельное спасибо всем [переводчикам](https://translate.3ds.guide/){:target="_blank"} за их работу!**
+**Отдельное спасибо всем [переводчикам](https://crowdin.com/project/3ds-guide){:target="_blank"} за их работу!**
 {: .notice--primary}
 
 Если я кого-то забыл, свяжитесь со мной и я добавлю ваше имя.
