@@ -1,6 +1,6 @@
 ---
 title: "seedminer (DSiWare-метод с использованием одной приставки)"
-permalink: /get-started-new-3ds.html
+permalink: /seedminer.html
 author_profile: true
 ---
 
