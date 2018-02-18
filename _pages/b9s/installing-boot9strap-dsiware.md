@@ -6,6 +6,8 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
+# Основная информация
+
 Существует три различных способа установки boot9strap с помощью DSiWare на 11.4.0 - {% include /vars/sys_version.txt %}.
 
 Каждый из них имеет фундаментальные недостатки: 
@@ -19,10 +21,10 @@ author_profile: true
 
 Для удобства методы разделены на две группы: 
 
-* [С использованием второй консоли (прошитой)](installing-boot9strap-dsiware#%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8)
-	* [Установка эксплойта в сохранение игры (требует наличия определённых игр, которых уже нет в eShop)](installing-boot9strap-dsiware#%D0%98%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-boot9strap-%D0%B2-%D1%81%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-dsiware)
-	* [Установка эксплойта в игру (работает с любой игрой из списка)](installing-boot9strap-dsiware#%D0%98%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-boot9strap-%D0%B2-%D0%B8%D0%B3%D1%80%D1%8B-dsiware)
-* [Без использования второй консоли](installing-boot9strap-dsiware#%D0%9C%D0%B5%D1%82%D0%BE%D0%B4-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B8-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B3%D0%BE-%D0%9F%D0%9A-seedminer)
+* [С использованием второй консоли (прошитой)](installing-boot9strap-dsiware#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8)
+	* [Установка эксплойта в сохранение игры (требует наличия определённых игр, которых уже нет в eShop)](installing-boot9strap-dsiware#%D0%B8%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-boot9strap-%D0%B2-%D1%81%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-dsiware)
+	* [Установка эксплойта в игру (работает с любой игрой из списка)](installing-boot9strap-dsiware#%D0%B8%D0%BD%D1%8A%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-boot9strap-%D0%B2-%D0%B8%D0%B3%D1%80%D1%8B-dsiware)
+* [Без использования второй консоли](installing-boot9strap-dsiware#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B8-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B3%D0%BE-%D0%BF%D0%BA-seedminer)
 
 Если на вашей приставке установлена прошивка 11.4 или 11.5 - обновите ее до последней версии через системные настройки: Системные настройки (System Settings), затем “Прочие настройки” (Other Settings), затем листайте ВПРАВО до конца и выберите пункт “Обновление” (System Update). Это делается для тоо, чтобы работал eShop и перенос данных
 {: .notice--warning}
