@@ -57,9 +57,9 @@ author_profile: true
 
 Получить LFCS/ID0 можно тремя разными способами. Используйте только один из них: 
 
-* [Способ I - если у вас есть точка входа для запуска Hombrew Launcher](seedminer#%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-i---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-hombrew-launcher-%D0%BD%D0%B0-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
-* [Способ II - если у вас есть доступ к другой приставке, способной запустить Hombrew Launcher](seedminer#%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-ii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-hombrew-launcher-%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
-* [Способ III - если у вас ни доступа к Hombrew Launcher, ни друга с таковым](seedminer#%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-iii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-homebrew-launcher)
+* [Способ I - если у вас есть точка входа для запуска Hombrew Launcher](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-i---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-hombrew-launcher-%D0%BD%D0%B0-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
+* [Способ II - если у вас есть доступ к другой приставке, способной запустить Hombrew Launcher](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-ii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-hombrew-launcher-%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
+* [Способ III - если у вас ни доступа к Hombrew Launcher, ни друга с таковым](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-iii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-homebrew-launcher)
 	
 ### Способ I - с использованием Hombrew Launcher на вашей приставке 
 
@@ -124,6 +124,7 @@ author_profile: true
 		* Если вы переносили систему на вашу New 3DS с Old3DS и после переноса не делали форматирование консоли, вам нужно будет вводить команду как для Old3DS
 	* Майнить будет долго. В моём случае процесс занял около 3,5 часов (GTX 1070).
 	* Не забудьте нажать Enter после ввода команды
+1. Скопируйте получившийся `movable_part1.sed` в папку `Nintendo 3DS`
 1. Скопируйте файл `seedminer_launcher.py`, из папки с seedminer из первого пункта, в папку `Nintendo 3DS` на SD-карте приставки, которую вы собираетесь прошивать. 
 	* Убедитесь, что в папке `Nintendo 3DS` есть только одна папка, состоящая из 32-х символов (ID0). Если таковых несколько, удалите те, что не являются папками вашей текущей учетной записи. Наверняка убедится можно, вставив в приставку другую SD-карту и дождавшись, пока консоль создаст на ней новую папку `Nintendo 3DS` с содержимым. Созданная папка, состоящая из 32-х символов (ID0), и будет искомой
 1. Запустите командную строку в папке `Nintendo 3DS` (вызовите контекстное меню с зажатой клавишей Shift, нажав на свободное место в папке, и выберите "Открыть Командную строку здесь" или "Открыть окно PowerShell здесь") и наберите в ней команду `python seedminer_launcher.py ID0`
@@ -132,7 +133,7 @@ author_profile: true
 	{: .text-center}
 	{: .notice--info}
 	
-1. Скопируйте `movable_part1.sed` из папки `seedstarter` на SD-карте в папку `seedminer`, которую мы извлекли из `zip-архива` с seedminer на первом шаге.
+1. Скопируйте `movable_part1.sed` из папки `Nintendo 3DS` на SD-карте в папку `seedminer`, которую мы извлекли из `zip-архива` с seedminer на первом шаге.
 
 ## Часть II - Подбираем movable.sed
 
