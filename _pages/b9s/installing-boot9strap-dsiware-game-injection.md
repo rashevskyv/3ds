@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (Инъекция в игры DSiWare)" #
+title: "Установка boot9strap через инъекцию в игру DSiWare" #
 lang: ru
 permalink: installing-boot9strap-dsiware-game-injection.html
 author_profile: true

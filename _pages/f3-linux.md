@@ -25,6 +25,8 @@ author_profile: true
 5. Смонтируйте SD-карту
 6. Выполните `./f3write <your sd card mount point>`
 7. Дождитесь окончания проверки. Ниже пример результата работы программы:
+
+~~~ bash
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
 		Creating file 1.h2w ... OK!
@@ -32,9 +34,13 @@ author_profile: true
 		Creating file 30.h2w ... OK!
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
+~~~
+
 
 8. Выполните `./f3read <your sd card mount point>`
 9. Дождитесь окончания проверки. Ниже пример результата работы программы:
+
+~~~ bash
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
@@ -48,6 +54,7 @@ author_profile: true
 			Slightly changed: 0.00 Byte (0 sectors)
 			     Overwritten: 0.00 Byte (0 sectors)
 		Average Reading speed: 9.42 MB/s
+~~~
 
 ___
 

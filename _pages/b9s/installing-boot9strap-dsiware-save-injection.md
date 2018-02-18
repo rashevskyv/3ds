@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (Инъекция в сохранения DSiWare)" #
+title: "Установка boot9strap через инъекцию в сохранения DSiWare" #
 lang: ru
 permalink: installing-boot9strap-dsiware-save-injection.html
 author_profile: true
