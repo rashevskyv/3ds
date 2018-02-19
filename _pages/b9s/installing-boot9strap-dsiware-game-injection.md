@@ -7,11 +7,11 @@ author_profile: true
 
 {% include toc title='Разделы' %}
 
-{% include /inc/dsiware/1.txt %}
+{% include /inc/dsiware/intro.txt %}
 {% include /inc/dsiware/game_needed.txt %}
-{% include /inc/dsiware/2.txt %}
-{% include /inc/dsiware/game_part1.txt %}
-{% include /inc/dsiware/3.txt %}
-{% include /inc/dsiware/game_part2.txt %}
-{% include /inc/dsiware/4.txt %}
-{% include /inc/dsiware/5.txt %}
+{% include /inc/dsiware/needed.txt %}
+{% include /inc/dsiware/p1_prep.txt %}
+{% include /inc/dsiware/p2_prep.txt %}
+{% include /inc/dsiware/p2_game.txt %}
+{% include /inc/dsiware/p3-5.txt %}
+{% include /inc/dsiware/ending.txt %}

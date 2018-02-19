@@ -1,0 +1,10 @@
+
+## Инструкция
+
+### Часть I - Подготовительные работы
+
+Используйте [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} для того, чтобы сделать резервные копии всех важных сохранений на *целевой 3DS* (приставка будет отформатирована!)
+{: .notice--warning}
+
+Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки {% include inc/btn.txt btn="START" %} при загрузке будет запускать 'chainloader menu', где вам нужно будет использовать D-Pad и кнопку {% include inc/btn.txt btn="A" %} для выбора 'GodMode9' при выполнении этих инструкций.
+{: .notice--info}

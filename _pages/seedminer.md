@@ -22,11 +22,14 @@ author_profile: true
 
 Чем же отличается seedminer? Мы просто подбираем ключ на основе имеющихся данных и расшифровываем купленную DSiWare-игру. Куда с помощью компьютера инжектим эксплойт, запаковываем обратно и запускаем на приставке. Вот и вся магия. 
 
+Перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: [Расширения файлов (Windows)](file-extensions-windows){:target="_blank"}!
+{: .notice--info}
+
 # Что понадобится 
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme){:target="_blank"}-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download){:target="_blank"}.
 {: .notice--success}
-* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i>[`ctcert.bin`](magnet:?xt=urn:btih:2E43EDCDE39663EC42985AD6A3757641C994B184&dn=ctcert.bin&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fallesanddro.de%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.safe.moe%3a){:target="_blank"}
+* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> [`ctcert.bin`](magnet:?xt=urn:btih:2E43EDCDE39663EC42985AD6A3757641C994B184&dn=ctcert.bin&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fallesanddro.de%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.safe.moe%3a){:target="_blank"}
 * [seedminer](https://github.com/zoogie/seedminer/releases/latest){:target='_blank'}
 * [TADpole](https://github.com/zoogie/TADpole/releases/latest){:target='_blank'}
 * [Python 2.7.x](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi){:target='_blank'}
@@ -34,6 +37,7 @@ author_profile: true
 	* [x32](https://www.osforensics.com/downloads/osfmount.exe)
 	* [x64](https://www.osforensics.com/downloads/osfmount_x64.exe)
 {% include /inc/dsiware/game_needed.txt %}
+{% include /inc/dsiware/needed.txt %}
 * Достаточно мощный ПК для расшифровки (майнинга) seed
 
 # Подготовительные работы
@@ -48,6 +52,10 @@ author_profile: true
 		
 	* Если версия не соответствует указанной, переустановите Python
 	* Если по какой-то причине после ввода команды ничего не происходит, или возникает ошибка - [google it](http://google.com)!
+1. Выключите 3DS
+1. Вставьте SD-карту 3DS в компьютер
+1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
+1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 
 # Инструкция 
 	
@@ -122,7 +130,7 @@ author_profile: true
 	* `python seedminer_launcher.py mii old`, если приставка, которую мы прошиваем - Old3DS 
 	* Если вы **точно** знаете год выпуска вашей консоли, добавьте его в конец команды. Это может ускорить майнинг. 
 		* Если вы переносили систему на вашу New 3DS с Old3DS и после переноса не делали форматирование консоли, вам нужно будет вводить команду как для Old3DS
-	* Майнить будет долго. В моём случае процесс занял около 3,5 часов (GTX 1070).
+	* Майнить будет долго. В моём случае процесс занял около 3,5 часов (GTX 1070), потому что нужное значение лежало далеко за 1000, а у пользователя группы с GTX750 закончило минут за 15. 
 	* Не забудьте нажать Enter после ввода команды
 1. Скопируйте получившийся `movable_part1.sed` в папку `Nintendo 3DS`
 1. Скопируйте файл `seedminer_launcher.py`, из папки с seedminer из первого пункта, в папку `Nintendo 3DS` на SD-карте приставки, которую вы собираетесь прошивать. 
