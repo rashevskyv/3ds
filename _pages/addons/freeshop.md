@@ -13,7 +13,7 @@ author_profile: true
 
 * Прошитая приставка 
 * Установленный и рабочий [FBI](fbi){:target="_blank"}
-* Свежая версия [freeshop](https://notabug.org/Paul_GameDev/freeShop/releases){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [freeshop](https://notabug.org/evi/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 
 Действия для обновления и установки freeshop идентичны
 
