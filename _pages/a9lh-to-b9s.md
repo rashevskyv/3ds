@@ -70,6 +70,7 @@ author_profile: true
 1. Скопируйте папку `gm9` из `.zip-архива` GodMode9 в корень SD-карты
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `lumaupdater.cia` в папку `/cias` на SD-карте
 
     ![]({{ "/images/screenshots/updating-to-b9s-file-layout.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
