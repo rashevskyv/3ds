@@ -17,8 +17,7 @@ author_profile: true
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"}
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:target="_blank"}
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:target="_blank"}
+* [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
@@ -62,7 +61,7 @@ author_profile: true
 1. Скопируйте `SafeB9SInstaller.firm` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
-1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Создайте папку `cias` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
@@ -98,26 +97,9 @@ author_profile: true
 
 {% include /inc/luma_updater.txt %}
 
-### Часть VIII - CTRNAND Luma3DS
+### Часть VIII - CTRNAND Luma3DS и очистка SD-карты 
 
-{% include /inc/ctrnand_luma.txt %}
-
-### Часть IX - Очистка SD-карты
-
-Помните, что скрипт, используемый ниже, удалит папки `/boot9strap/` и `/cias/` с SD-карты!
-{: .notice--danger}
-
-1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
-1. Выберите "Scripts..."
-1. Выберите "cleanup_sd_card"
-1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
-
-После работы скрипта корень SD-карты будет выглядеть следующим образом: 
-
-![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
-{: .text-center}
+{% include /inc/ctrnand_luma_cleansd.txt %}
 
 ___
 

@@ -31,8 +31,7 @@ author_profile: true
 {% include /inc/files/bootstrap_standart.txt %}
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только для пользователей New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl% 3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce){:target="_blank"}
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:target="_blank"}
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:target="_blank"}
+* [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
@@ -68,8 +67,7 @@ author_profile: true
 1. Удалите все существующие `.bin` приложения в папке `/luma/payloads/` на SD-карте, так как они не будут совместимы с boot9strap совместимыми версиями Luma3DS
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` GodMode9 в корень SD-карты
-1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
-1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `lumaupdater.cia` в папку `/cias` на SD-карте
 
     ![]({{ "/images/screenshots/updating-to-b9s-file-layout.png" | absolute_url }}){:target="_blank"}
@@ -128,30 +126,14 @@ author_profile: true
 1. Нажмите {% include inc/btn.txt btn="START" %} по запросу для выхода из программы 
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из HBL
   
-### Часть IV - CTRNAND Luma3DS
+### Часть IX - CTRNAND Luma3DS и очистка SD-карты 
 
-{% include /inc/ctrnand_luma.txt %}
+{% include /inc/ctrnand_luma_cleansd.txt %}
 
 ### Часть X - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть XI - Очистка SD-карты
-
-Помните, что скрипт, используемый ниже, удалит папки `/boot9strap/` и `/cias/` с SD-карты!
-{: .notice--danger}
-
-1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
-1. Выберите "Scripts..."
-1. Выберите "cleanup_sd_card"
-1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
-
-После работы скрипта корень SD-карты будет выглядеть следующим образом: 
-
-![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
-{: .text-center}
 
 ___
 

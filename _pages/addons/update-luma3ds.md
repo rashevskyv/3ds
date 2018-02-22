@@ -14,6 +14,7 @@ author_profile: true
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
 * Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} (`lumaupdater.cia`)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
 
 ## Определение типа и версии взлома 
 
@@ -43,6 +44,8 @@ author_profile: true
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
+1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Верните SD-карту в приставку 
 1. Включите консоль
 
 ## Часть II - Установка Luma3DS Updater
@@ -70,9 +73,9 @@ author_profile: true
 
 {% include /inc/luma_setup.txt %}
 
-## Часть V - CTRNAND Luma3DS
+## Часть V - CTRNAND Luma3DS и очистка SD-карты 
 
-{% include /inc/ctrnand_luma.txt %}
+{% include /inc/ctrnand_luma_cleansd.txt %}
 
 ___
 

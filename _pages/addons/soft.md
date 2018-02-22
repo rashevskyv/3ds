@@ -30,8 +30,7 @@ author_profile: true
 
 ### Скрипты
 
-* [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9){:target="_blank"} - скрипт для установки Luma в CTRNAND и последующего ее запуска без карты памяти
-* [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9){:target="_blank"} - скрипт для очиски карты памяти от ненужных файлов
+* [`cleanmaster.gm9`]({{ base_path }}/gm9_scripts/cleanmaster.gm9){:target="_blank"} - скрипт для установки Luma в CTRNAND и последующего ее запуска без карты памяти, совмещенный со скриптом очистки карты
 * [`uninstall_hax_retail_NEW.gm9`]({{ base_path }}/gm9_scripts/uninstall_hax_retail_NEW.gm9){:target="_blank"} - скрипт для удаления кастома в New 3DS/New 2DS
 * [`uninstall_hax_retail_OLD.gm9`]({{ base_path }}/gm9_scripts/uninstall_hax_retail_OLD.gm9){:target="_blank"} - скрипт для удаления кастома в Old 3DS/Old 2DS
 

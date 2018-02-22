@@ -35,8 +35,7 @@ author_profile: true
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} *(`.zip`-архив)*
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:target="_blank"}
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:target="_blank"}
+* [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
@@ -63,8 +62,7 @@ author_profile: true
 1. Создайте папку `payloads` в папке `luma` на SD-карте, если таковой нет
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
-1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
-1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
 
     ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
@@ -94,29 +92,15 @@ author_profile: true
 1. Запустите приложение DSP1
 1. После завершения работы программы, нажмите {% include inc/btn.txt btn="B" %}, чтобы автоматически удалить программу из меню Home
 
-### Часть VI - CTRNAND Luma3DS
+### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
 
-{% include /inc/ctrnand_luma.txt %}
+{% include /inc/ctrnand_luma_cleansd.txt %}
 
 ### Часть VII - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть VIII - Очистка SD-карты
-
-1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
-1. Выберите "Scripts..."
-1. Выберите "cleanup_sd_card"
-1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
-
-После работы скрипта корень SD-карты будет выглядеть следующим образом: 
-
-![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
-{: .text-center}
-
-### Часть IX - Дополнительные материалы
+### Часть VIII - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 

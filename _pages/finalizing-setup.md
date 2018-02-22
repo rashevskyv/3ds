@@ -47,29 +47,15 @@ author_profile: true
 1. Нажмите {% include inc/btn.txt btn="START" %} по запросу для выхода из программы 
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из HBL
 
-### Часть IV - CTRNAND Luma3DS
+### Часть IV - CTRNAND Luma3DS и очистка SD-карты 
 
-{% include /inc/ctrnand_luma.txt %}
+{% include /inc/ctrnand_luma_cleansd.txt %}
 
 ### Часть V - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть VI - Очистка SD-карты
-
-1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
-1. Выберите "Scripts..."
-1. Выберите "cleanup_sd_card"
-1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
-
-После работы скрипта корень SD-карты будет выглядеть следующим образом: 
-
-![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
-{: .text-center}
-
-### Часть VII - Дополнительные материалы
+### Часть VI - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 
