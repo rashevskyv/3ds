@@ -21,8 +21,9 @@ author_profile: true
 {% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest){:target="_blank"}
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/){:target="_blank"} для запуска `.py-файлов`
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
-{% include /inc/files/ocs.txt %}
+<!-- {% include /inc/files/ocs.txt %} -->
 * `.firm`, соответствующий версии вашего устройства и версии ПО:
 
 | Версия(и) | Kernel | Old 3DS или Old 2DS | New 3DS или New 2DS|
@@ -61,7 +62,8 @@ author_profile: true
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
+<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте папку hardmod-b9s-installer из`.zip-архива` hardmod-b9s-installer на ваш компьютер
 1. Скопируйте загруженный `.firm` в папку hardmod-b9s-installer на вашем компьютере

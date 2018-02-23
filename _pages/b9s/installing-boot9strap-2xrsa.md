@@ -8,10 +8,11 @@ author_profile: true
 
 ## Что понадобится
 
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
-{% include /inc/files/ocs.txt %}
+<!-- {% include /inc/files/ocs.txt %} -->
 
 ## Инструкция
 
@@ -19,8 +20,9 @@ author_profile: true
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
+<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `arm9.bin` и `arm11.bin` из `.zip-архива` SafeB9SInstaller в корень SD-карты

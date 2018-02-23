@@ -75,5 +75,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod){:target='_blank'}
+Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
 {: .notice--success}

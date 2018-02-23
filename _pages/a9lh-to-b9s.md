@@ -24,7 +24,8 @@ author_profile: true
 Обратите внимание, что `secret_sector.bin` необходим для отката эксплойта arm9loaderhax только для приставок ревизии New. **Если у вас не New 3DS/2DS, вам не нужен `secret_sector.bin`**.
 {: .notice--info}
 
-{% include /inc/files/ocs.txt %}
+<!-- {% include /inc/files/ocs.txt %} -->
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z-архив`)*
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
@@ -57,7 +58,8 @@ author_profile: true
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `boot.3dsx` (OCS) в корень вашей SD-карты
+<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень вашей SD-карты -->
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` свежей версии Luma3DS в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
@@ -92,15 +94,7 @@ author_profile: true
 
 {% include /inc/luma_setup.txt %}
   
-### Часть V - Обновление системы
-{% include /inc/if_emunand.txt %}
-{% include /inc/sys_update.txt %}
-
-### Часть VI - Установка Luma3DS Updater
-
-{% include /inc/luma_updater.txt %}
-	
-### Часть VII - Запуск OCS
+<!-- ### Часть VII - Запуск OCS
 
 Это приложение установит и обновит следующие приложения: 
 
@@ -124,17 +118,9 @@ author_profile: true
 1. Нажмите {% include inc/btn.txt btn="A" %}, для начала работы программы
 1. Дождитесь окончания загрузки и установки
 1. Нажмите {% include inc/btn.txt btn="START" %} по запросу для выхода из программы 
-1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из HBL
-  
-### Часть IX - CTRNAND Luma3DS и очистка SD-карты 
+1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из HBL -->  
 
-{% include /inc/ctrnand_luma_cleansd.txt %}
-
-### Часть X - Создание резервной копии (бекап) SysNAND
-
-{% include /inc/sysnand_backup.txt %}
-
-
+Для обновления всего ПО до актуальных версий следует перейти к странице [Завершение установки](finalizing-setup)
 ___
 
 {% include /inc/finalize_footer.txt %}

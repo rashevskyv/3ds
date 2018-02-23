@@ -1,5 +1,5 @@
 ---
-title: "Завершение установки" #
+title: "Завершение установки вручную" #
 lang: ru
 permalink:  finalizing-setup.html
 author_profile: true
@@ -24,38 +24,83 @@ author_profile: true
 +  **ftpd** *(просто ftp-клиент для простого доступа к карте памяти без разбора приставки)*
 +  **Luma3DS Updater** *(удобное обновление CFW)*
 
+## Что понадобится
+
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} *(`.cia`-файл)*
+* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(`.cia-файл` и `.3dsx-файл`)*
+* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
+* Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} *(`.zip`-архив)*
+* [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
+
 ## Инструкция
 
-### Часть I - Обновление системы
+### Часть I - Подготовительные работы
+
+1. Отключите приставку
+1. Вставьте SD-карту в компьютер
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
+1. Создайте папку `3ds` в корне SD-карты, если таковой нет
+1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
+1. Создайте папку `cias` в корне SD-карты, если таковой нет
+1. Скопируйте `Checkpoint.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `DSP1.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `FBI.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
+1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
+1. Скопируйте `Anemone3DS.cia` в папку `/cias/` на SD-карты
+
+    ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }}){:target="_blank"}
+	{: .text-center}
+    {: .notice--info}
+
+1. Создайте папку `payloads` в папке `luma` на SD-карте, если таковой нет
+1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
+1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
+1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
+
+    ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }}){:target="_blank"}
+	{: .text-center}
+    {: .notice--info}
+
+1. Вставьте SD-карту обратно в консоль
+1. Включите приставку
+
+### Часть II - Обновление системы
 {% include /inc/if_emunand.txt %}
 {% include /inc/sys_update.txt %}
 
-### Часть II - Запуск OCS
+### Часть III - Запуск HBL
 
-Убедитесь, что на устройстве включена беспроводная связь и есть стабильное подключение к интернету. OCS интернет требуется для работы.
-{: .notice--warning}
+{% include /inc/hbl.txt content="Homebrew Launcher" %}
 
-{% include /inc/hbl.txt content="OCS" %}
+### Часть IV - Установка CIA
 
-### Часть III - OCS
+1. Запустите FBI
+1. Перейдите в `SD` -> `cias`
+1. Выберите "\<current directory>"
+1. Выберите "Install and delete all CIAs" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
+1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-Если вы испытываете трудности с запуском OCS, или любые другие, связанные с работоспособностью этой программы - воспользуйтесь [ручным методом установки программ](finalizing-setup_old){:target="_blank"}
-{: .notice--warning}
+### Часть V - DSP Dump
 
-1. Нажмите {% include inc/btn.txt btn="A" %}, для начала работы программы
-1. Дождитесь окончания загрузки и установки
-1. Нажмите {% include inc/btn.txt btn="START" %} по запросу для выхода из программы 
-1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из HBL
+1. Запустите приложение DSP1
+1. После завершения работы программы, нажмите {% include inc/btn.txt btn="B" %}, чтобы автоматически удалить программу из меню Home
 
-### Часть IV - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть V - Создание резервной копии (бекап) SysNAND
+### Часть VII - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть VI - Дополнительные материалы
+### Часть VIII - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 

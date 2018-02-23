@@ -16,14 +16,16 @@ Homebrew Launcher имеет множество точек входа, или м
 
 ## Что понадобится
 
-{% include /inc/files/ocs.txt %}
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+<!-- {% include /inc/files/ocs.txt %} -->
 * [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 ## Инструкция
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
+<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
 1. Скопируйте otherapp payload в корень вашей SD-карты и переименуйте его в `otherapp.bin`
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
@@ -61,7 +63,8 @@ Homebrew Launcher имеет множество точек входа, или м
 | <sub>[stickerhax](https://github.com/yellows8/stickerhax){:target="_blank"} | <sub>[*Paper Mario: Sticker Star*](https://amzn.to/2f6aDx8){:target="_blank"}, <br> Другая 3DS с доступом к Homebrew Launcher | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>Все | <sub>от 9.0.0-X до 11.3.0-X включительно |
 {: .notice--info}
 	
-Консоль должна загрузиться в OCS
+<!-- Консоль должна загрузиться в OCS -->
+Консоль должна загрузиться в Homebrew Launcher
 
 ___
 

@@ -227,9 +227,10 @@ author_profile: true
 ## Часть VI - Резервное копирование FIRM целевой 3DS
 
 1. Вставьте SD-карту приставки в компьютер
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `boot.nds` (B9STool) в корень SD-карты 3DS
-1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты
+<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
 1. Создайте папку `boot9strap` в корне SD-карты 3DS
 1. Скопируйте `2.54-0_11.4_XXX.firm` (где XXX - `OLD` для old3ds, `NEW` - для new3ds) от 11.4.0/11.5.0/{% include /vars/sys_version.txt %}, соответствующий вашей приставке в папку `boot9strap` на SD-карте 3DS
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
