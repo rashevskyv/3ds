@@ -104,6 +104,8 @@ author_profile: true
 
 {% include /inc/finalize_addons.txt %}
 
+Рекомендую так же ознакомится с [особенностями работы freeshop](http://localhost:4000/freeshop#%D0%A7%D0%B0%D1%81%D1%82%D1%8C-iii---%D0%9E%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-freeshop)
+
 ___
 
 {% include /inc/finalize_footer.txt %}
