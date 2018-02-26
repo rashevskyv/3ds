@@ -9,7 +9,8 @@ author_profile: true
 ### Системный софт
 
 * [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} - кастомная прошивка
-* [Homebrew Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"} - среда для запуска хомбрю в формате *.3dsx
+* Специальная версию [Luma3DS с поддержкой читов](files/luma3ds_cheats.zip)
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} - файловый менеджер с возможностью установки *.cia
 * [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"} - простенькая утилита для дампа бинарного компонента звукового процессора 3DS, что необходимо для радя хомбрю, используюзщих звук
 * [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} - программа для обновления кастома
