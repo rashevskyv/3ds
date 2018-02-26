@@ -38,7 +38,7 @@ author_profile: true
 + [Завершение установки (версия с ручным копированием файлов)](finalizing-setup_old)
 + [Запуск и установка FBI](fbi)
 + [Зачем реклама?](why-ads)
-+ [Использование SoundHax для запуска Hombrew Launcher](homebrew-launcher-soundhax)
++ [Использование SoundHax для запуска Homebrew Launcher](homebrew-launcher-soundhax)
 + [Использование читов в 3DS-играх](cheats)
 + [Информация об OTP](otp)
 + [Использование GodMode9](godmode9-usage)

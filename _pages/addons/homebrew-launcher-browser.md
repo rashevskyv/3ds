@@ -5,7 +5,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-**Это рудиментарная инструкция! В данный момент наиболее простым способом запуска Hombrew Launcher на прошивках от 9.0.0 до 11.3 включительно, является [Soundhax](homebrew-launcher-soundhax){:target="_blank"}**
+**Это рудиментарная инструкция! В данный момент наиболее простым способом запуска Homebrew Launcher на прошивках от 9.0.0 до 11.3 включительно, является [Soundhax](homebrew-launcher-soundhax){:target="_blank"}**
 {: .notice--warning}
 
 **Browserhax работает для приставок следующих регионов:  EUR / JPN / USA / KOR.**

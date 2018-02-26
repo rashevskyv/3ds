@@ -65,11 +65,11 @@ author_profile: true
 
 Получить LFCS/ID0 можно тремя разными способами. Используйте только один из них: 
 
-* [Способ I - если у вас есть точка входа для запуска Hombrew Launcher](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-i---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-hombrew-launcher-%D0%BD%D0%B0-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
-* [Способ II - если у вас есть доступ к другой приставке, способной запустить Hombrew Launcher](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-ii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-hombrew-launcher-%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
-* [Способ III - если у вас ни доступа к Hombrew Launcher, ни друга с таковым](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-iii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-homebrew-launcher)
+* [Способ I - если у вас есть точка входа для запуска Homebrew Launcher](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-i---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-Homebrew-launcher-%D0%BD%D0%B0-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
+* [Способ II - если у вас есть доступ к другой приставке, способной запустить Homebrew Launcher](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-ii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-Homebrew-launcher-%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
+* [Способ III - если у вас ни доступа к Homebrew Launcher, ни друга с таковым](seedminer#%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-iii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-homebrew-launcher)
 	
-### Способ I - с использованием Hombrew Launcher на вашей приставке 
+### Способ I - с использованием Homebrew Launcher на вашей приставке 
 
 Подходит тем, у кого есть альтернативная точка входа на высоких прошивках и возможность запустить Homebrew Launcher. Подробнее об альтернативных точках входа можно [почитать здесь](homebrew-launcher-alternatives){:target='_blank'}. 
 
@@ -81,7 +81,7 @@ author_profile: true
 1. Вставьте SD-карту приставки в компьютер
 1. Скопируйте `movable_part1.sed` из папки `seedstarter` на SD-карте в папку `seedminer`, которую мы извлекли из `zip-архива` с seedminer на первом шаге.
 
-### Способ II - с использованием Hombrew Launcher другой прошитой приставке
+### Способ II - с использованием Homebrew Launcher другой прошитой приставке
 
 Этот способ подойдёт тем, у кого есть вторая прошитая консоль (работает и не прошитая, главное, чтобы можно было запустить Homebrew Launcher), либо друг, с таковой. Для того, чтобы использовать этот метод, вы должны обменяться кодами друзей (Friend Code). Если не знаете как это сделать - обратитесь к инструкции консоли, или в [Google](http://google.com){:target='_blank'}. 
 
