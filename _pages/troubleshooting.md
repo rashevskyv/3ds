@@ -5,9 +5,6 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme){:target="_blank"}-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download){:target="_blank"}.
-{: .notice--success}
-
 Если ваша консоль не загружается, найдите раздел, соответствующий вашей проблеме, и следуйте его инструкциям. После решения возникшей проблемы, вернитесь к основному руководству
 (Этот раздел весьма обширный, воспользуйтесь Ctrl+F для поиска своей проблемы)
 

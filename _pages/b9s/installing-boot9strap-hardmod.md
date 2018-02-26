@@ -6,9 +6,6 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme){:target="_blank"}-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download){:target="_blank"}.
-{: .notice--success}
-
 Это руководство для тех, кто хочет внедрить b9s в уже снятый дамп. Руководство по изготовлению хардмода и снятию дампа находится [здесь](making-hardmod){:target="_blank"}
 
 Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws){:target="_blank"} (англ.)

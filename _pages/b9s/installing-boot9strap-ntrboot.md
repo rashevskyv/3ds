@@ -7,9 +7,6 @@ author_profile: true
 
 {% include toc title="Разделы" %}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme){:target="_blank"}-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download){:target="_blank"}.
-{: .notice--success}
-
 ## Что понадобится
 
 * Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)

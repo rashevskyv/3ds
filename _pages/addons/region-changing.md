@@ -5,9 +5,6 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme){:target="_blank"}-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download){:target="_blank"}.
-{: .notice--success}
-
 Этот дополнительный раздел рассказывает о смене региона на вашей приставке с CFW, установленной в SysNAND. Это делается путем установки образа 9.2.0 CTRTransfer того региона, на который вы хотите перейти.
 
 Смена региона абсолютно не обязательна с тех пор, как в Luma3DS поддерживает запуск игр других регионов и индивидуальную [эмуляцию региона для отдельных игр](lumalocales){:target="_blank"}.
