@@ -68,20 +68,6 @@ author_profile: true
 10. Подтверждаем удаление
 11. Запускаем менеджер тем, встроенный в приставку (домик сверху слева нижнего экрана, Изменить тему) и пользуемся темами - сервис думает, что они у вас куплены и позволяет качать понравившиеся темы по одной на приставку.
 
-## Официальные темы (CIA)
-
-### Что понадобится
-
-{% include /inc/olx_vk.txt %}
-{: .notice--info}
-
-* Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
-* Установленный и рабочий [FBI](fbi){:target="_blank"}
-* Скачайте выбранные [темы из этого хранилища](https://drive.google.com/drive/folders/12dp95NdXdg8iQCgWgV7i48vLWIoUWdyi){:target="_blank"}
-
-### Инструкция
-
-1. [Установите темы с помощью FBI](games#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D1%81-sd-%D0%BA%D0%B0%D1%80%D1%82%D1%8B)
 
 ## Anemone3DS
 
@@ -94,6 +80,7 @@ author_profile: true
 * Установленный и рабочий [FBI](fbi){:target="_blank"}
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
 	+ Скачиваем необходимые темы с [themeplaza.eu](https://themeplaza.eu/themes){:target="_blank"} или из [3dsthemesarchive.site](https://3dsthemesarchive.site/){:target="_blank"}
+	+ Официальные [темы в формате Anemone](https://drive.google.com/drive/folders/12dp95NdXdg8iQCgWgV7i48vLWIoUWdyi){:target="_blank"}
 
 ### Инструкция
 
