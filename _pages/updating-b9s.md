@@ -70,17 +70,15 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть IV - Установка boot9strap
+### Часть IV - Запуск SafeB9SInstaller
 
-1. Включите приставку, удерживая кнопку {% include inc/btn.txt btn="START" %}, чтобы запустить меню Luma3DS chainloader
-1. Запустите SafeB9SInstaller, нажав кнопку {% include inc/btn.txt btn="A" %}
-1. Дождитесь окончания всех проверок безопасности
-1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
-1. После завершения процесса, нажмите {% include inc/btn.txt btn="A" %} для перезагрузки
-1. Выключите консоль, нажатием любой кнопки, **игнорируя ошибку**
-  + Обратите внимание, что ошибка `Unsupported launcher (argc = 0)` будет появляться до тех пор, пока вы до конца не выполните инструкцию из этой страницы
+{% include /inc/safeb9sinstaller.txt %}
 
-### Часть V - Обновление Luma3DS
+### Часть V - Установка boot9strap
+
+{% include /inc/install_b9s.txt %}
+
+### Часть VI - Обновление Luma3DS
 
 1. Отключите приставку
 1. Вставьте SD-карту в компьютер
@@ -89,15 +87,15 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 1. Включите приставку
 
-### Часть VI - Настройка Luma3DS
+### Часть VII - Настройка Luma3DS
 
 {% include /inc/luma_setup.txt %}
 
-### Часть VII - Установка Luma3DS Updater
+### Часть VIII - Установка Luma3DS Updater
 
 {% include /inc/luma_updater.txt %}
 
-### Часть VIII - CTRNAND Luma3DS и очистка SD-карты 
+### Часть IX - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
