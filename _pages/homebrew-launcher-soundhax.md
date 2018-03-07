@@ -26,7 +26,12 @@ SoundHax - одна из многочисленных точек входа. О�
 
 <!-- {% include /inc/files/ocs.txt %} -->
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
- * Последняя версия [SoundHax](http://soundhax.com/){:target="_blank"} *(для вашего устройства и региона)*
+* Последняя версия [SoundHax](http://soundhax.com/){:target="_blank"} *(для вашего устройства и региона)*
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
+* Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx` файл)*
+* Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` архив)*
 * [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 ## Инструкция
@@ -34,9 +39,20 @@ SoundHax - одна из многочисленных точек входа. О�
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 <!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
-1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
+1. Создайте папку `3ds` в корне SD-карты, если таковой нет
+1. Скопируйте `boot.3dsx` в корень SD-карты
 1. Скопируйте Soundhax `.m4a` в корень вашей SD-карты
 1. Скопируйте otherapp payload в корень вашей SD-карты и переименуйте его в `otherapp.bin`
+1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Создайте папку `boot9strap` в корне SD-карты
+1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
+1. Скопируйте `safehax.3dsx` в папку `/3ds/` на SD-карте
+1. Скопируйте `udsploit.3dsx` в папку `/3ds/` на SD-карте
+1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в корень SD-карты и переименуйте `SafeB9SInstaller.bin` в `safehaxpayload.bin`
+
+    ![]({{ "/images/screenshots/boot9strap-hb-file-layout.png" | absolute_url }})
+    {: .notice--info}
+	
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 1. Запустите приложение Звук Nintendo 3DS (Nintendo 3DS Sound)
