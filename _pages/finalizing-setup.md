@@ -36,6 +36,7 @@ author_profile: true
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} *(`.zip`-архив)*
 * [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
+* [`Backup_SysNAND.gm9`]({{ "/gm9_scripts/Backup_SysNAND.gm9.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
