@@ -64,6 +64,8 @@ author_profile: true
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `Backup_SysNAND.gm9` в папку `/gm9/scripts/` на SD-карте
+
 
     ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
