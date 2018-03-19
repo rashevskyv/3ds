@@ -10,12 +10,15 @@ author_profile: true
 
 + [Завершение установки](finalizing-setup)
 + [ntrboot](ntrboot)
++ [Установка boot9strap с помощью майнинга ключа (seedminer)](seedminer)
 + [Установка boot9strap через инъекцию в игру DSiWare](installing-boot9strap-dsiware-game-injection)
 + [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
 + [FAQ](faq)
 + [Интегрирование FBI](fbi)
 + [Переход с a9lh на boot9strap](a9lh-to-b9s)
 + [Обновление boot9strap](updating-b9s)
++ [Установка и обновление freeshop](freeshop)
+
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
@@ -35,7 +38,6 @@ author_profile: true
 + [Главная страница](/)
 + [Дополнительный FAQ](faq-3ds)
 + [Завершение установки](finalizing-setup)
-+ [Завершение установки (версия с ручным копированием файлов)](finalizing-setup_old)
 + [Запуск и установка FBI](fbi)
 + [Зачем реклама?](why-ads)
 + [Использование SoundHax для запуска Homebrew Launcher](homebrew-launcher-soundhax)
