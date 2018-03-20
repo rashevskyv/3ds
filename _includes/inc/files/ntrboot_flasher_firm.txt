@@ -1,2 +1,1 @@
-<!-- * Свежая версия [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"} -->
-* Версия 0.3.1 [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/tag/v0.3.1){:target="_blank"}
+* Свежая версия [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
