@@ -40,6 +40,7 @@ author_profile: true
 + [Завершение установки](finalizing-setup)
 + [Запуск и установка FBI](fbi)
 + [Зачем реклама?](why-ads)
++ [Инструкция по использованию картриджа r4isdhc.com](r4)
 + [Использование SoundHax для запуска Homebrew Launcher](homebrew-launcher-soundhax)
 + [Использование читов в 3DS-играх](cheats)
 + [Информация об OTP](otp)

@@ -46,6 +46,8 @@ addons:
     url: /games
   - title: "Использование читов"
     url: /cheats
+  - title: "Использование картриджа r4isdhc.com"
+    url: /r4
   - title: "Установка и использование тем"
     url: /themes
   - title: "Установка и использование жетонов"
