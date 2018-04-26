@@ -10,12 +10,12 @@ author_profile: true
 
 ## Что понадобится
 
+* Любой флешкартридж для DS, работающий на вашей версии прошивки
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
 <!-- {% include /inc/files/ocs.txt %} -->
-* Любой флешкартридж для DS, работающий на вашей версии прошивки
 
 ## Инструкция
 

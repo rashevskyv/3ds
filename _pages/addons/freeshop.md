@@ -12,7 +12,7 @@ author_profile: true
 {: .notice--info}
 
 * Прошитая приставка 
-* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Свежая версия [FBI](fbi){:target="_blank"} (если не уверены свежая ли у вас - обновите)
 * Свежая версия [freeshop](https://notabug.org/evi/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 
 Действия для обновления и установки freeshop идентичны
@@ -22,7 +22,7 @@ author_profile: true
 1. [Установите freeshop](games){:target="_blank"} любым удобным методом
 	+ Отсканируйте QR-код, если решите воспользоваться методом установки через QR
 	
-    ![]({{"/images/QR/freeshop.jpg" | absolute_url }}){:target="_blank"}
+    [![]({{"/images/QR/freeshop_small.png" | absolute_url }})]({{"/images/QR/freeshop.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
     {: .notice--info}
 

@@ -9,8 +9,8 @@ author_profile: true
 
 ## Что понадобится
 
-* Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
 * Флешкартридж с прошитым ntrboot
+* Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
@@ -46,7 +46,7 @@ author_profile: true
 1. Вставьте ваш флешкартридж в консоль
 1. Поместите магнит на место, где срабатывает датчик режима ожидания
   + На консоли old 2DS вместо этого включите переключатель режима ожидания
-1. На несколько секунд зажмите кнопки {% include inc/btn.txt btn="POWER"%} + {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %} + {% include inc/btn.txt btn="X" %}, затем отпустите все, кроме {% include inc/btn.txt btn="START"%}
+1. На несколько секунд зажмите кнопки {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %} + {% include inc/btn.txt btn="X" %} + {% include inc/btn.txt btn="POWER"%}, затем отпустите все, кроме {% include inc/btn.txt btn="START"%}
   + Может потребоваться несколько попыток
   + Убедитесь, что приставка **выключена**!!!
 1. Если эксплойт сработал, запустится меню настройки Luma3DS

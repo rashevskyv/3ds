@@ -44,19 +44,19 @@ author_profile: true
     <tr>
         <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
         <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
-      <td style="text-align: center;" rowspan="10">
-		<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
-			<img src="/images/consoles/ntrhax.png">
-		</a>
-		<br><br>
-		<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
+		<td style="text-align: center;" rowspan="10">
+			<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
+				<img src="/images/consoles/ntrhax.png">
+			</a>
+			<br><br>
+			<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
 			<img src="/images/consoles/hardmod.png">
-		</a>
-	  </td>
-		</tr>
+			</a>
+		</td>
+	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">8.1.0</td>
-      <td style="text-align: center;"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
+        <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
