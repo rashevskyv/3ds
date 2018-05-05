@@ -26,7 +26,7 @@ SoundHax - одна из многочисленных точек входа. О�
 
 <!-- {% include /inc/files/ocs.txt %} -->
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Последняя версия [SoundHax](http://soundhax.com/){:target="_blank"} *(для вашего устройства и региона)*
+* Последняя версия [SoundHax](http://soundhax.com/){:target="_blank"} *(для вашего устройства? версии ПО и региона)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx` файл)*

@@ -78,22 +78,16 @@ author_profile: true
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
-      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-4.5</td>
+      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-8.1</td>
       <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
       <td style="text-align: center; font-weight: bold;"	>3.1.0</td>
-      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-4.5</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-8.1</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
-      <td style="text-align: center; font-weight: bold;">4.5.0</td>
-      <td style="text-align: center;"><a href="installing-boot9strap-mset">Установка boot9strap (MSET)</a></td>
-      <td style="text-align: center;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
     </tr>
