@@ -239,6 +239,5 @@ author_profile: true
 
 {% include /inc/luma_setup.txt %}
 		+ Если появляется ошибка, просто переходите к следующей странице
-
 Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--success}

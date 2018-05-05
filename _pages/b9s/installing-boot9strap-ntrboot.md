@@ -54,10 +54,10 @@ author_profile: true
 ### Часть III - Настройка Luma3DS
 
 {% include /inc/luma_setup.txt %}
-		+ **Вам нужно нажать и удерживать {% include inc/btn.txt btn="START"%}** до тех пор, пока не появится luma chainloader
-1. Не отпускайте кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
-	+ Иногда бывает, что кнопку {% include inc/btn.txt btn="START"%} нужно отпустить на полсекунды и зажать снова, до появления SafeB9SInstaller
+1. Сразу же нажмите и удерживайте {% include inc/btn.txt btn="START"%} до тех пор, пока не появится SafeB9SInstaller
+	+ Если при этом вы некоторое время наблюдаете просто черный экран, нужно отпустить кнопку {% include inc/btn.txt btn="START"%} на полсекунды и зажать снова, до появления SafeB9SInstaller
 	+ Если не выходит и после сохранения настроек Luma вы попадаете в меню приставки, отключите приставку и проделайте трюк с магнитом и картриджем еще раз (с переключателем и картриджем, если у вас 2DS). Теперь при удерживании {% include inc/btn.txt btn="START"%} вместо меню настроек вы должны сразу загрузиться в SafeB9SInstaller
+	+ Не отпускайте кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
 
 ### Часть IV - Установка boot9strap
 
