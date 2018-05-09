@@ -12,7 +12,7 @@ author_profile: true
 * Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии (*если уже делали, то повторно делать не нужно*)
 * Установленный и рабочий [FBI](fbi){:target="_blank"}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
-* Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} (`lumaupdater.cia`)
+* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} (`lumaupdater.cia`)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
 
@@ -54,14 +54,14 @@ author_profile: true
 
 ## Часть III - Обновление Luma3DS удобным для вас способом
 
-### Способ I - Luma3ds Updater
+### Способ I - Luma3DS Updater
 
 1. Запустите lumaupdater из меню Home
 1. Выберите "Install stable version" и нажмите {% include inc/btn.txt btn="A" %}
 1. Нажмите {% include inc/btn.txt btn="A" %} + {% include inc/btn.txt btn="X" %} для установки Luma3DS на SD-карту и в CTRNAND
 1. При появлении надписи "Update complite", нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 
-### Способ II - Обновление Luma3ds вручную
+### Способ II - Обновление Luma3DS вручную
   
 1. Вставьте SD-карту из приставки в ПК
 1. Скопируйте `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты, **соглашаясь на перезапись файлов**
@@ -76,6 +76,10 @@ author_profile: true
 ## Часть V - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
+
+### Часть VI - Обновление системы
+
+{% include /inc/sys_update.txt %}
 
 ___
 
