@@ -77,7 +77,7 @@ author_profile: true
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть VI - Обновление системы
+## Часть VI - Обновление системы
 
 {% include /inc/sys_update.txt %}
 
