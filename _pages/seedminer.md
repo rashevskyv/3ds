@@ -238,6 +238,8 @@ author_profile: true
 ### Часть VI - Настройка Luma3DS
 
 {% include /inc/luma_setup.txt %}
-		+ Если появляется ошибка, просто переходите к следующей странице
+		
+___
+		
 Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--success}
