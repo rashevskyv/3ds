@@ -1,4 +1,3 @@
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*

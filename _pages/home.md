@@ -7,7 +7,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: 'Полное руководство по прошивке 3DS, от начала до boot9strap.<br />**Последнее изменение:** 30 мая 2018'
+excerpt: 'Полное руководство по прошивке 3DS, от начала до boot9strap.<br />**Последнее изменение:** 2 июня 2018'
 ---
 
 {% include toc title="Разделы" %}

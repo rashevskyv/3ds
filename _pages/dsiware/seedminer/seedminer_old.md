@@ -1,6 +1,6 @@
 ---
-title: "Установка boot9strap с помощью майнинга ключа (seedminer)"
-permalink: /seedminer.html
+title: "Установка boot9strap с помощью майнинга ключа (seedminer, старый метод)"
+permalink: /seedminer_old.html
 author_profile: true
 ---
 
@@ -31,9 +31,11 @@ author_profile: true
 
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> [`ctcert.bin`](magnet:?xt=urn:btih:2E43EDCDE39663EC42985AD6A3757641C994B184&dn=ctcert.bin&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fallesanddro.de%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.safe.moe%3a){:target="_blank"}
 * [seedminer](https://github.com/zoogie/seedminer/releases/latest){:target='_blank'}
-* [Seedplanter](https://github.com/knight-ryu12/Seedplanter/releases/latest){:target='_blank'}
+* [TADpole](https://github.com/zoogie/TADpole/releases/latest){:target='_blank'}
+* OSFMount
+	* [x32](https://www.osforensics.com/downloads/osfmount.exe)
+	* [x64](https://www.osforensics.com/downloads/osfmount_x64.exe)
 * [Python 2.7.14](https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi){:target='_blank'}
-* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html){:target='_blank'}
 {% include /inc/dsiware/game_needed.txt %}
 {% include /inc/dsiware/needed.txt %}
 * Достаточно мощный ПК для расшифровки (майнинга) seed
@@ -50,7 +52,6 @@ author_profile: true
 		
 	* Если версия не соответствует указанной, переустановите Python
 	* Если по какой-то причине после ввода команды ничего не происходит, или возникает ошибка - [google it](http://google.com)!
-1. Установите Java 8 и перезагрузите ПК
 1. Выключите 3DS
 1. Вставьте SD-карту 3DS в компьютер
 1. Создайте папку `luma` в корне SD-карты 
@@ -179,21 +180,44 @@ author_profile: true
 1. Находясь на вкладке Память системы (System Memory), выберите игру и нажмите кнопку Копировать (Copy) и нажмите OK для подтверждения 
 1. После окончания копирования, выключите консоль
 
-## Часть IV - Внедрение эксплойта в DSIWare-игру
+## Часть IV - Распакова DSiWare-игры
 
+1. Распакуйте `zip-архив` с TADpole на вашем ПК
 1. Вставьте SD-карту приставки в ПК
-1. Запустите `Seedplanter.jar`
-	* Если двойным щелчком программа не запускается, убедитесь что JAVA установлена и работает. 
-		* Попробуйте запустить программу через контекстное меню, пункт "Открыть с помощью" и выбрать java.exe
-1. Нажмите "Browse" напротив поля "DSiWare" и перейдите на SD-карту приставки в папку `Nintendo 3DS/ID0/ID1/Nintendo DSiWare` (где ID0 и ID1 - разные значения из 32-х символов) и выберите файл `(8-ми значный ID)` (например "4B344456.bin")
+1. Перейдите в папку `Nintendo 3DS/ID0/ID1/Nintendo DSiWare`, где ID0 и ID1 - разные значения из 32-х символов
+1. Переместите файл `(8-ми значный ID)` в папку `TADpole`
   + 8-значный ID смотрите на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list){:target="_blank"}
-1. Нажмите "Browse" напротив поля "movable.sed" и выберите `movable.sed`, который мы сгенерировали ранее
-1. Нажмите "Browse" напротив поля "Injection zip" и выберите `.zip-архиве` с DSiWare injection, соответствующего региону консоли
-1. Нажмите "Browse" напротив поля "DSiWare" и выберите [`ctcert.bin`](magnet:?xt=urn:btih:2E43EDCDE39663EC42985AD6A3757641C994B184&dn=ctcert.bin&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fallesanddro.de%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.safe.moe%3a)
-1. Нажмите кнопку "Inject"
-1. В результате работы программа заменить дамп DSiWare-игры на пропатченный. 
+1. Переместите [`ctcert.bin`](magnet:?xt=urn:btih:2E43EDCDE39663EC42985AD6A3757641C994B184&dn=ctcert.bin&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fallesanddro.de%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.safe.moe%3a) в папку `TADpole\resources`
+1. Переместите файл `movable.sed` в папку `TADpole\resources`
+1. Запустите командную строку в папке `TADpole` (вызовите контекстное меню с зажатой клавишей Shift, нажав на свободное место в папке, и выберите "Открыть Командную строку здесь" или "Открыть окно PowerShell здесь") и наберите в ней команду `python TADpole.py (8-ми значный ID).bin d`, где (8-ми значный ID) - название скопированного ранее файла, например "python TADpole.py 4B344456.bin d"
+1. В папке `TADpole` появится папка, названная так же, как и ваша игра - '(8-ми значный ID)'
+1. Перейдите в неё 
 
-## Часть V - Перенос инфицированной игры на консоль
+## Часть V - Внедрение эксплойта в DSIWare-игру
+
+1. Установите и запустите OSFMount для вашей версии ОС
+1. Нажмите кнопку "Mount new..." **(1)**, нажмите "..." **(2)**,  перейдите в папку `TADpole\(8-ми значный ID)` и выберите `public.sav`
+1. Выберите "Image file in RAM" **(3)**, снимите галочку с "Read-only drive" **(4)** и нажмите OK **(5)**
+
+	![]({{ base_path }}/images/seedminer/osfmount.png){:target="_blank"}
+	{: .text-center}
+	{: .notice--info}
+
+1. Зайдите в "Мой компьютер". У вас там появится новый диск размером в несколько десятков КБ (для sudoku, например - 72 Кб)
+1. Скопируйте `savedata.bin` из папки `savedata`, которая находится в `.zip-архиве` с DSiWare injection, соответствующего региону консоли, в корень этого диска
+1. В окне OSFMount нажмите правой кнопкой мыши на строку с диском и выберите "Save to image file...", переименуйте его в "public.sav" и согласитесь на замену.
+1. В окне OSFMount нажмите правой кнопкой мыши на строку с диском и выберите "Dismount"
+1. Смонтируйте "public.sav" ещё раз и проверьте сохранился ли на диске "savedata.bin"
+1. Если всё в порядке, нажмите "Dismount all & exit" для того, чтобы отмонтировать диск и выйти из программы
+	* Если "savedata.bin" на диске нет, повторите всю процедуру с начала части
+1. Скопируйте `.app-файл` из `.zip-архива` с DSiWare injection, соответствующего региону консоли, в папку `TADpole/(8-ми значный ID)` (например, "TADpole\4B344456" для sudoku европейского региона) и переименуйте его в `srl.nds.inject`
+1. Перейдите в папку `TADpole` и запустите командную строку (вызовите контекстное меню с зажатой клавишей Shift, нажав на свободное место в папке, и выберите "Открыть Командную строку здесь" или "Открыть окно PowerShell здесь") и наберите в ней команду `python TADpole.py (8-ми значный ID).bin r`, где (8-ми значный ID) - название скопированного ранее файла, например `python TADpole.py 4B344456.bin r`
+1. Если все сделано верно, в папке `TADpole` появится файл `(8-ми значный ID).bin.patched` (например, "4B344456.bin.patched")
+1. Переместите файл `(8-ми значный ID).bin.patched` в папку `Nintendo 3DS/ID0/ID1/Nintendo DSiWare`, где ID0 и ID1 - разные значения из 32-х символов
+1. Удалите файл `(8-ми значный ID).bin`
+1. Переименуйте `(8-ми значный ID).bin.patched` в `(8-ми значный ID).bin`
+  
+## Часть VI - Перенос инфицированной игры на консоль
 
 1. Вставьте SD-карту обратно в приставку и включите её
 1. Перейдите в системные настройки (System Settings), Управление данными (Data Management), DSiWare
@@ -205,7 +229,7 @@ author_profile: true
   + Если игра жалуется на поврежденный или неверный файл сохранения (corrupted or inaccessible), убедитесь, что скопировали именно **содержимое** папки `savedata`, а не саму папку
   + Если игра работает нормально безо всяких ошибок, значит вам следует остановится и выяснить на каком этапе вы допустили оплошность
 
-## Часть VI - Резервное копирование FIRM целевой 3DS
+## Часть VII - Резервное копирование FIRM целевой 3DS
 
 1. Вставьте SD-карту приставки в компьютер
 1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
@@ -223,7 +247,7 @@ author_profile: true
 1. Вставьте SD-карту в компьютер и скопируйте `F0F1_NEW3DS.bin` или `F0F1_OLD3DS.bin` (в зависимости от типа вашего устройства) из папки `boot9strap` в безопасное место; сделайте их резервные копии в нескольких местах; эти файлы помогут вам восстановить приставку в случае брика, если что-то пойдет не так
 1. Вставьте SD-карту обратно в 3DS
 
-### Часть V - Прошивка FIRM целевой 3DS
+### Часть VIII - Прошивка FIRM целевой 3DS
 
 **Используйте b9sTool ТОЛЬКО на не прошитой приставке. Использование этой программы на прошитой консоли приведет к БРИКУ!**
 {: .notice--danger}
@@ -235,7 +259,7 @@ author_profile: true
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
 1. Включите приставку
 
-### Часть VI - Настройка Luma3DS
+### Часть IX - Настройка Luma3DS
 
 {% include /inc/luma_setup.txt %}
 		
