@@ -92,7 +92,7 @@ author_profile: true
 1. [Устанавливаем через FBI](games){:target="_blank"} `Anemone3DS.cia`
 1. Запустите Anemone3DS.
 1. Установите курсор на понравившуюся тему и зажмите кнопку {% include inc/btn.txt btn="A" %}, не отпуская {% include inc/btn.txt btn="A" %}, нажмите и удерживайте {% include inc/btn.txt btn="UP" %}. 
-1. Отпустите {% include inc/btn.txt btn="A" %} (удержива {% include inc/btn.txt btn="UP" %}), начнется установка темы. 
+1. Отпустите {% include inc/btn.txt btn="A" %} (удерживая {% include inc/btn.txt btn="UP" %}), начнется установка темы. 
   *	Если нужен предпросмотр - {% include inc/btn.txt btn="Y" %}
   * Программа поддерживает установку тем через QR-код. Для этого нажмите {% include inc/btn.txt btn="R" %} и отсканируйте QR-код выбранной темы с помощью камеры приставки. 
   * Для выбора нескольких тем, отметьте их кнопкой {% include inc/btn.txt btn="B" %}, затем установите их как указано выше, только вместо {% include inc/btn.txt btn="UP" %}, зажимайте {% include inc/btn.txt btn="DOWN" %}
