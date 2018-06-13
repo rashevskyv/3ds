@@ -56,7 +56,7 @@ author_profile: true
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">8.1.0</td>
-        <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
+        <td style="text-align: center;"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
