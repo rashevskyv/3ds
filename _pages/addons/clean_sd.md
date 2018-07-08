@@ -84,7 +84,8 @@ author_profile: true
 1. Вставьте SD-карту в компьютер
 1. Отформатируйте её с помощью [`SD Memory Card Formatter`
 ](https://www.sdcard.org/downloads/formatter_4/eula_windows/SD_CardFormatter0500SetupEN.exe) с параметрами по-умолчанию
-1. Отформатируйте её с помощью [`GUIFormat FAT32`](http://www.ridgecrop.demon.co.uk/guiformat.exe){:target="_blank"} с параметрами по-умолчанию
+1. Отформатируйте её с помощью [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) для Windows, [gparted](http://gparted.org/download.php) для Linux, или [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) для Mac.    
+
 
 ### Часть III - Установка программного обеспечения 
 

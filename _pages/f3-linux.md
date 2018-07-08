@@ -14,7 +14,7 @@ author_profile: true
 
 #### Что понадобится
 
-* Свежая версия [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip){:target="_blank"}
+* Свежая версия [F3](https://github.com/AltraMayor/f3/releases/latest){:target="_blank"}
 
 #### Инструкция
 

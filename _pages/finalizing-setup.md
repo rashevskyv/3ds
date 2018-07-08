@@ -23,6 +23,7 @@ author_profile: true
 +  **Homerew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
 +  **ftpd** *(просто ftp-клиент для простого доступа к карте памяти без разбора приставки)*
 +  **Luma3DS Updater** *(удобное обновление CFW)*
++ **ctr-no-timeoffset** *(программа, уберающая смещение между часами системы приставки и RTC)*
 
 ## Что понадобится
 
@@ -32,6 +33,7 @@ author_profile: true
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(`.cia-файл` и `.3dsx-файл`)*
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [ftpd](https://github.com/mtheall/ftpd/releases/latest){:target="_blank"} *(`.cia` файл)*
+* Свежая версия [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
@@ -47,6 +49,7 @@ author_profile: true
 1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
 1. Создайте папку `3ds` в корне SD-карты, если таковой нет
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
+1. Скопируйте `ctr-no-timeoffset.3dsx` в папку `/3ds/` на SD-карте
 1. Создайте папку `cias` в корне SD-карты, если таковой нет
 1. Скопируйте `Checkpoint.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `DSP1.cia` в папку `/cias/` на SD-карты
@@ -80,6 +83,10 @@ author_profile: true
 ### Часть III - Запуск HBL
 
 {% include /inc/hbl.txt content="Homebrew Launcher" %}
+1. Выберите из списка "ctr-no-timeoffset" и запустите его
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы выставить смещение между RTC и системными часами в 0
+  + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
+1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в Homebrew Launcher
 
 ### Часть IV - Установка CIA
 
