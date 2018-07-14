@@ -137,7 +137,7 @@ author_profile: true
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
-## Игры часто выкидывает с ошибкой
+## Игры выкидывает с ошибкой
 
 ![]({{ base_path }}/images/screenshots/error.png){:target="_blank"}
 {: .text-center}
@@ -145,6 +145,13 @@ author_profile: true
 + Обратите внимание на значение строки **Exception type**. `data abort` и `prefetch abort` означают что точно проблемы с SD-картой. Скопируйте всю информацию со старой карты на новую, предварительно [отформатировав](clean_sd#ii-форматирование-sd-карты){:target="_blank"} новую SD-карту. 
 
 В иных случаях: 
+
++ Если такая ошибка на только установленной игре, попробуйте следующее:
+	
+	1. Запустите [FBI](fbi){:target="_blank"}
+	1. Перейдите в меню "Titles"
+	1. Выберите свою игру и нажмите {% include inc/btn.txt btn="A" %}
+	1. Выберите "Import seed"
 
 + Если у вас приставка линейки New, убедитесь, что в настройках Luma3DS отключен разгон: 
 
