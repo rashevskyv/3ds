@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "<b>Прошивка<br>WiiU, PS4</b>"
+  - title: "<b>Прошить другую<br>приставку</b>"
     url: http://customfw.xyz
   - title: "<i>Купить<br>прошитую</i>"
     url: https://3dscfw.olx.ua/
@@ -12,6 +12,8 @@ main:
     url: /games
   - title: "Полезные<br>инструкции"
     url: /addons
+  - title: "Обновление<br>прошивки"
+    url: /system-update
   - title: "Обновление<br>Luma3DS"
     url: /update-luma3ds
   - title: "Переход с<br>a9lh на b9s"
