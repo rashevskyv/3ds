@@ -13,7 +13,7 @@ main:
   - title: "Полезные<br>инструкции"
     url: /addons
   - title: "Обновление<br>прошивки"
-    url: /system-update
+    url: /update-system
   - title: "Обновление<br>Luma3DS"
     url: /update-luma3ds
   - title: "Переход с<br>a9lh на b9s"
