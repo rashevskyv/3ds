@@ -15,7 +15,7 @@ author_profile: true
 {% capture notice-1 %}
 Если у вас есть возможность запустить Homebrew Launcher на приставке, что вы собираетесь прошить, обратитесь к этому способу. Подробнее об альтернативных точках входа можно [почитать здесь](homebrew-launcher-alternatives){:target='_blank'}. 
 
-[Перейти к Способу I](/seedminer-ms1#%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-i---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-homebrew-launcher-%D0%BD%D0%B0-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
+[Перейти к Способу I](#способ-i---с-использованием-homebrew-launcher-на-вашей-приставке)
 {% endcapture %}
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
@@ -27,7 +27,7 @@ ___
 Этот способ подойдёт тем, у кого есть вторая прошитая консоль (работает и не прошитая, главное, чтобы можно было запустить Homebrew Launcher), либо друг с таковой и есть компьютер на Windows и достаточно хорошая видеокарта.
  Для того, чтобы использовать этот метод, вы должны обменяться кодами друзей (Friend Code). Если не знаете как это сделать - обратитесь к инструкции консоли, или в [Google](http://google.com){:target='_blank'}. 
 
-[Перейти к Способу II](/seedminer-ms1#%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-ii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-homebrew-launcher-%D0%BD%D0%B0-%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5)
+[Перейти к Способу II](#способ-ii---с-использованием-homebrew-launcher-на-другой-прошитой-приставке)
 {% endcapture %}
 <div class="notice--success">{{ notice-2 | markdownify }}</div>
 
@@ -38,7 +38,7 @@ ___
 {% capture notice-3 %}
 В этом методе мы полностью полагаемся на силу сообщества и будем использовать ресурсы и время волонтёров, которые помогают безвозмездно взлому консолей незнакомых людей. 
 
-[Перейти к Способу III](/seedminer-ms1#%D0%A1%D0%BF%D0%BE%D1%81%D0%BE%D0%B1-iii---%D1%81-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B2%D0%B0%D1%88%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-homebrew-launcher)
+[Перейти к Способу III](#способ-iii---с-использованием-только-вашей-приставки-без-запуска-homebrew-launcher)
 {% endcapture %}
 <div class="notice--success">{{ notice-3 | markdownify }}</div>
 

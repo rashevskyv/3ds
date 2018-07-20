@@ -67,7 +67,7 @@ author_profile: true
 1. В папке `Nintendo 3DS` у вас должна быть **одна** папка с длинным 32-х символьным названием - это и есть ваш ID0
 1. Скопируйте название этой папки (далее для простоты я буду называть название этой папки просто как ID0) в надёжное место. Далее нам оно понадобится
 
-	![]({{ base_path }}/images/seedminer/id0.png){:target="_blank"}
+	![]({{ base_path }}/images/seedminer/ID0.png){:target="_blank"}
 	{: .text-center}
 	{: .notice--info}
 	
