@@ -88,5 +88,7 @@ ___
 1. После окончания работы нажмите книпку "Download movable.sed". Это файл ключа, ради которого всё и затевалось
 1. Сохраните ваш `movable.sed` в удобном месте. Далее он нам понадобится
 
-Следующий шаг: [Инфицирование DSiWare-игры и запуск эксплойта (seedminer)](seedminer-dsiware-exploit)
+___
+
+## [Инфицирование DSiWare-игры и запуск эксплойта (seedminer)](seedminer-dsiware-exploit)
 {: .notice--success}

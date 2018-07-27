@@ -91,6 +91,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Завершение установки](finalizing-setup_old)
+## [Завершение установки](finalizing-setup_old)
 {: .notice--success}
-

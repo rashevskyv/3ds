@@ -123,5 +123,5 @@ ___
 
 ___
 
-Следующий шаг: [Завершение установки](finalizing-setup)
+## [Завершение установки](finalizing-setup)
 {: .notice--success}

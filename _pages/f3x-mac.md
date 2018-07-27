@@ -12,11 +12,11 @@ author_profile: true
 
 Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-windows){:target="_blank"} или [F3 (Linux)](f3-linux){:target="_blank"}.
 
-#### Что понадобится
+# Что понадобится
 
 * Свежая версия [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
-#### Инструкция
+# Инструкция
 
 1. Разархивируйте `.zip-архив` с F3X
 2. Вставьте SD-карту в компьютер
@@ -33,6 +33,5 @@ ___
 При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
-Вернуться к [началу](get-started)
+# Вернуться к [началу](get-started)
 {: .notice--success}
-

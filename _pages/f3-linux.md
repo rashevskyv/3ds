@@ -12,11 +12,11 @@ author_profile: true
 
 Этот раздел предназначен только для пользователей Linux. Если у вас не Linux, воспользуйтесь [H2testw (windows)](h2testw-windows){:target="_blank"} или [F3X (mac)](f3x-mac){:target="_blank"}.
 
-#### Что понадобится
+# Что понадобится
 
 * Свежая версия [F3](https://github.com/AltraMayor/f3/releases/latest){:target="_blank"}
 
-#### Инструкция
+# Инструкция
 
 1. Разархивируйте `.zip-архив` с f3
 2. Перейдите в каталог с f3 командой `cd`
@@ -64,6 +64,5 @@ ___
 При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
-Вернитесь к [началу](get-started)
+# Вернитесь к [началу](get-started)
 {: .notice--success}
-

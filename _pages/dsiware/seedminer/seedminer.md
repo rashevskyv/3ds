@@ -88,5 +88,5 @@ author_profile: true
 
 ___
 		
-Следующий шаг: [Создание movable_part1.sed](seedminer-ms1)
+# [Создание movable_part1.sed](seedminer-ms1)
 {: .notice--success}

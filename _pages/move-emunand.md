@@ -156,5 +156,5 @@ author_profile: true
 
 ___
 
-Вернитесь к [Завершение установки](finalizing-setup).
+## [Завершение установки](finalizing-setup).
 {: .notice--success}

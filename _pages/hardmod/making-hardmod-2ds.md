@@ -97,5 +97,5 @@ author_profile: true
 {% include inc/read_nand.txt content="2DS" %}
 ___
 
-Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
+## [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
 {: .notice--success}

@@ -11,11 +11,11 @@ author_profile: true
 
 Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 [linux](f3-linux) или [F3X (mac)](f3x-mac){:target="_blank"}.
 
-## Что понадобится
+# Что понадобится
 
 * Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip){:target="_blank"}
 
-## Инструкция
+# Инструкция
 
 1. Скопируйте `h2testw.exe` из `.zip-архива` с h2testw на рабочий стол
 2. Вставьте SD-карту в компьютер
@@ -35,6 +35,5 @@ ___
 При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
-Вернуться к [Началу](get-started)
+# Вернуться к [Началу](get-started)
 {: .notice--success}
-

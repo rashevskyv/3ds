@@ -36,6 +36,6 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Завершение установки](finalizing-setup)
+## [Завершение установки](finalizing-setup)
 {: .notice--success}
 

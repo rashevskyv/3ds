@@ -77,5 +77,5 @@ author_profile: true
 	
 ___
 
-Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
+## [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
 {: .notice--success}
