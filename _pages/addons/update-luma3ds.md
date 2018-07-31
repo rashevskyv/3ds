@@ -41,7 +41,7 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `cias` в корне SD-карты
-1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Скопируйте файл `boot.firm` из `.7z-архива` {% include /inc/luma_adress.txt %} в корень SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
