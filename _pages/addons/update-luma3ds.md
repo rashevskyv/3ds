@@ -11,7 +11,7 @@ author_profile: true
 
 * Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии (*если уже делали, то повторно делать не нужно*)
 * Установленный и рабочий [FBI](fbi){:target="_blank"}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
+* Свежая версия {% include /inc/luma_adress.txt %}
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} (`lumaupdater.cia`)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}

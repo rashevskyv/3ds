@@ -19,7 +19,7 @@ author_profile: true
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest){:target="_blank"}
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/){:target="_blank"} для запуска `.py-файлов`
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
+* Свежая версия {% include /inc/luma_adress.txt %}
 <!-- {% include /inc/files/ocs.txt %} -->
 * `.firm`, соответствующий версии вашего устройства и версии ПО:
 

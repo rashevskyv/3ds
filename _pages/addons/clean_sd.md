@@ -50,7 +50,7 @@ author_profile: true
 1. Пробуем запустить приставку. 
 1. Если сработало и приставка запустилась, то у вас b9s 1.0 и нужно обновить его до версии актуальной версии по инструкции (updating-b9s), затем вернитесь к текущей инструкции
   + Если не сработало, двигаемся дальше
-1. Качаем [свежую версию Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"}
+1. Качаем свежую версию {% include /inc/luma_adress.txt %}
 1. Копируем `boot.firm` из `7z-архива` Luma3DS в корень SD-карты с заменой 
 1. Возвращаем SD-карту в консоль 
 1. Пробуем запустить приставку. 
@@ -95,7 +95,7 @@ author_profile: true
 #### Что понадобится
 
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-архив)*
+* Свежая версия {% include /inc/luma_adress.txt %}
 <!-- {% include /inc/files/ocs.txt %} -->
 
 #### I. Установка и настройка Luma3DS

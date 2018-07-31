@@ -31,7 +31,7 @@ SoundHax - одна из многочисленных точек входа. О�
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx` файл)*
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` архив)*
+* Свежая версия {% include /inc/luma_adress.txt %}
 * [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 ## Инструкция

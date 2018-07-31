@@ -8,7 +8,7 @@ author_profile: true
 
 ### Системный софт
 
-* [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} - кастомная прошивка
+* {% include /inc/luma_adress.txt %} - кастомная прошивка
 * Специальная версию [Luma3DS с поддержкой читов](files/luma3ds_cheats.zip)
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} - файловый менеджер с возможностью установки *.cia

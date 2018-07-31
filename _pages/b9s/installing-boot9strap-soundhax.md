@@ -28,7 +28,7 @@ Soundhax (в сочетании с pre9otherapp) совместим с верс�
 * Свежая версия [Soundhax](http://soundhax.com/) *(для вашего региона, устройства и региона)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` архив)*
+* Свежая версия {% include /inc/luma_adress.txt %}
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
 

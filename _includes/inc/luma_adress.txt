@@ -1,0 +1,1 @@
+[Luma3DS](https://github.com/Pirater12/luma-nightlies/releases/latest){:target="_blank"} (`boot.firm`)
