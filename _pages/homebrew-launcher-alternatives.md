@@ -40,6 +40,8 @@ Homebrew Launcher имеет множество точек входа, или м
 
 | <sub> | <sub>Что понадобится | <sub>Издания | <sub>Устройства | <sub>Регионы | <sub>Версии игры | <sub>Версии прошивки |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| <sub>[Steelminer](http://steelminer.jisagi.net/){:target="_blank"} | <sub>[*Steel Diver: Sub Wars
+*](https://www.nintendo.com/games/detail/BSJH4AsXmM1QXZQ_oxMJjiblWuchnKEw){:target="_blank"} | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>{% include /vars/sys_version.txt %} |
 | <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/){:target="_blank"} | <sub>[*Cubic Ninja*](https://amzn.to/2eRI1by){:target="_blank"} | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>от 9.0.0-X до {% include /vars/sys_version.txt %} |
 | <sub>[freakyhax](http://plutooo.github.io/freakyhax/){:target="_blank"} | <sub>[*Freakyforms Deluxe*](https://amzn.to/2f6eHO7){:target="_blank"} | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>от 9.0.0-X до {% include /vars/sys_version.txt %} |
 | <sub>[smilehax](https://plutooo.github.io/smilehax/){:target="_blank"} | <sub>[*SmileBASIC*](https://www.nintendo.com/games/detail/eYURHNjVdfyrnA3OJGfmlMYIrJUzgOcv){:target="_blank"} | <sub>eShop | <sub>New, Old, 2DS | <sub>JPN, USA | <sub>3.3.1 | <sub>от 9.0.0-X до 11.0.0-X включительно |
