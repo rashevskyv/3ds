@@ -1,5 +1,5 @@
 ---
-title: "Зачем реклама?"
+title: Зачем реклама?
 permalink: /why-ads.html
 ---
 

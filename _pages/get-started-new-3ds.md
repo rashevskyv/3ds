@@ -1,5 +1,5 @@
 ---
-title: "Начнем (New 3DS и New 2DS)"
+title: Начнем (New 3DS и New 2DS)
 permalink: /get-started-new-3ds.html
 author_profile: true
 ---

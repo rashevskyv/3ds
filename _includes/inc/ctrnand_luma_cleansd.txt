@@ -20,4 +20,4 @@
 ![]({{ base_path }}/images/screenshots/final-file-layout.png){:target="_blank"}
 {: .text-center}
 
-Можете удалить лишние файлы, если таковые остались
+Можете удалить лишние файлы вручную, если таковые остались

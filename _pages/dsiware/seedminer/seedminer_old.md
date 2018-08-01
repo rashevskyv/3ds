@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap с помощью майнинга ключа (seedminer, старый метод)"
+title: Установка boot9strap с помощью майнинга ключа (seedminer, старый метод)
 permalink: /seedminer_old.html
 author_profile: true
 ---
@@ -36,8 +36,8 @@ author_profile: true
 	* [x32](https://www.osforensics.com/downloads/osfmount.exe)
 	* [x64](https://www.osforensics.com/downloads/osfmount_x64.exe)
 * [Python 2.7.14](https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi){:target='_blank'}
-{% include /inc/dsiware/game_needed.txt %}
-{% include /inc/dsiware/needed.txt %}
+{% include /inc/dsiware/2_game_needed.txt %}
+{% include /inc/dsiware/3_needed.txt %}
 * Достаточно мощный ПК для расшифровки (майнинга) seed
 
 # Подготовительные работы

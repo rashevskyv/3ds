@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "3DS Hack Guide"
+title: 3DS Hack Guide
 author_profile: true
 header:	
   overlay_color: "#5e616c"

@@ -1,5 +1,5 @@
 ---
-title: "Список полезных после прошивки инструкций"
+title: Список полезных после прошивки инструкций
 permalink: /addons.html
 author_profile: true
 ---

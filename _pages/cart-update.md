@@ -1,5 +1,5 @@
 ---
-title: "Обновление с помощью картриджа"
+title: Обновление с помощью картриджа
 permalink: /cart-update.html
 author_profile: true
 ---

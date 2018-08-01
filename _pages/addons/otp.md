@@ -1,5 +1,5 @@
 ---
-title: "Информация об OTP"
+title: Информация об OTP
 permalink: /otp.html
 author_profile: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Администрирование виджета"
+title: Администрирование виджета
 sitemap: false
 permalink: /widget.html
 ---

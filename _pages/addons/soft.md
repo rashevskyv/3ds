@@ -1,5 +1,5 @@
 ---
-title: "Полезное ПО" #
+title: Полезное ПО #
 lang: ru
 permalink:  soft.html
 author_profile: true

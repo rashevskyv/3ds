@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (2xrsa)" #
+title: Установка boot9strap (2xrsa) #
 lang: ru
 permalink: installing-boot9strap-2xrsa.html
 author_profile: true

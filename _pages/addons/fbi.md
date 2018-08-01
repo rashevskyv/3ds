@@ -1,5 +1,5 @@
 ---
-title: "Запуск и установка FBI"
+title: Запуск и установка FBI
 permalink: /fbi.html
 author_profile: true
 ---

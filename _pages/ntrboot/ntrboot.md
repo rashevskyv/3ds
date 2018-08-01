@@ -1,5 +1,5 @@
 ---
-title: "ntrboot"
+title: ntrboot
 lang: ru
 permalink: ntrboot.html
 author_profile: true

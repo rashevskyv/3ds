@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap с помощью DSiWare" #
+title: Установка boot9strap с помощью DSiWare #
 lang: ru
 permalink: installing-boot9strap-dsiware.html
 author_profile: true

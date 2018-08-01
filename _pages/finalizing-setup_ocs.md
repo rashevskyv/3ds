@@ -1,5 +1,5 @@
 ---
-title: "Завершение установки" #
+title: Завершение установки #
 lang: ru
 permalink:  finalizing-setup_ocs.html
 author_profile: true

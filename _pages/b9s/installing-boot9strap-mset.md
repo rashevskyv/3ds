@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (MSET)" #
+title: Установка boot9strap (MSET) #
 lang: ru
 permalink: installing-boot9strap-mset.html
 author_profile: true

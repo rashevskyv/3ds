@@ -1,5 +1,5 @@
 ---
-title: "Использование читов в 3DS-играх" #
+title: Использование читов в 3DS-играх #
 lang: ru
 permalink:  cheats.html
 author_profile: true
@@ -36,8 +36,8 @@ author_profile: true
 	
 	* Запустите игру, для которой вы хотите использовать читы
 		1. Перейдите в меню Rosalina, нажатием сочетания кнопок {% include inc/btn.txt btn="L" %} + {% include inc/btn.txt btn="DOWN" %} + {% include inc/btn.txt btn="SELECT" %}
-		1. Выберите опцию "Cheats"
-		1. Вы увидите надпись "No cheats found for title %TITLE_ID%"
+		1. Выберите опцию "**Cheats**"
+		1. Вы увидите надпись "**No cheats found for title %TITLE_ID%**"
 		1. Запишите или запомните этот Title ID
 
 1. Вставьте SD-карту из приставки в ПК

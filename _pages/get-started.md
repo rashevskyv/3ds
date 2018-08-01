@@ -1,5 +1,5 @@
 ---
-title: "Начнем"
+title: Начнем
 permalink: /get-started.html
 author_profile: true
 ---

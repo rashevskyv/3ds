@@ -1,5 +1,5 @@
 ---
-title: "FAQ для не прошитых"
+title: FAQ для не прошитых
 permalink: /faq.html
 author_profile: true
 ---

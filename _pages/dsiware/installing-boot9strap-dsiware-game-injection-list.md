@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (Список уязвимых игр DSiWare)" #
+title: Установка boot9strap (Список уязвимых игр DSiWare) #
 lang: ru
 permalink: installing-boot9strap-dsiware-game-injection-list.html
 author_profile: true

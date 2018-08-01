@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap  (Homebrew Launcher) вручную" #
+title: Установка boot9strap  (Homebrew Launcher) вручную #
 lang: ru
 permalink: installing-boot9strap-homebrew-launcher_old.html
 author_profile: true

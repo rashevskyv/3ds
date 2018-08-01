@@ -1,5 +1,5 @@
 ---
-title: "Обновление системного ПО приставки"
+title: Обновление системного ПО приставки
 permalink: /update-system.html
 author_profile: true
 ---

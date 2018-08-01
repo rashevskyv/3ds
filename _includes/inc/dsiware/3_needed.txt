@@ -1,0 +1,4 @@
+* Свежая версия [b9sTool](https://github.com/zoogie/b9sTool/releases/latest){:target="_blank"}
+* Свежая версия {% include /inc/luma_adress.txt %}
+* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* 11.4.0/11.5.0/{% include /vars/sys_version.txt %} `.firm` соответствующий **целевой 3DS** (они идентичны таковым у 11.4.0, 11.5.0, {% include /vars/sys_version.txt %}, пусть это вас не смущает)

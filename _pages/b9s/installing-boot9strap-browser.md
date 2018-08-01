@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (Браузер)" #
+title: Установка boot9strap (Браузер) #
 lang: ru
 permalink: installing-boot9strap-browser.html
 author_profile: true

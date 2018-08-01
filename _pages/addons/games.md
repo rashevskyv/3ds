@@ -1,5 +1,5 @@
 ---
-title: "Установка приложений"
+title: Установка приложений
 permalink: /games.html
 author_profile: true
 ---

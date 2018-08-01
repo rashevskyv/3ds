@@ -1,5 +1,5 @@
 ---
-title: "Перенос EmuNAND в SysNAND"
+title: Перенос EmuNAND в SysNAND
 permalink: /move-emunand.html
 author_profile: true
 ---
@@ -37,7 +37,6 @@ author_profile: true
 1. Удерживая {% include inc/btn.txt btn="R" %}, нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать папку `00030004`, затем выберите "Copy to 0:/gm9/out"
   + Этот процесс может занять некоторое время, если у вас много DSiWare игр
 1. Дважды нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
-
 
 ### Часть III - Бэкап сохранений GBA VC
 

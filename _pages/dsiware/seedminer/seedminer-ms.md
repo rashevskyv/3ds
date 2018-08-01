@@ -1,5 +1,5 @@
 ---
-title: "Подбираем movable.sed (seedminer)"
+title: Подбираем movable.sed (seedminer)
 permalink: /seedminer-ms.html
 author_profile: true
 ---

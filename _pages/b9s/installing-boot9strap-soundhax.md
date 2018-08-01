@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap (Soundhax)"
+title: Установка boot9strap (Soundhax)
 permalink: /installing-boot9strap-soundhax.html
 author_profile: true
 ---
@@ -30,7 +30,7 @@ Soundhax (в сочетании с pre9otherapp) совместим с верс�
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия {% include /inc/luma_adress.txt %}
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+* Свежая версия [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"} (othreapp1 для прошивок 4.0-9.2, otherapp2 для прошивок до 4.0)
 
 ### Инструкция
 

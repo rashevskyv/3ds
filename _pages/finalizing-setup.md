@@ -1,5 +1,5 @@
 ---
-title: "Завершение установки вручную" #
+title: Завершение установки вручную #
 lang: ru
 permalink:  finalizing-setup.html
 author_profile: true
@@ -34,7 +34,7 @@ author_profile: true
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [ftpd](https://github.com/mtheall/ftpd/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
+* Свежая версия [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"} *(`.zip`-архив)*
@@ -56,7 +56,7 @@ author_profile: true
 1. Скопируйте `FBI.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `ftpd.cia` в папку `/cias/` на SD-карты
-1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
+1. Скопируйте `Homebrew_Launcher.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `Anemone3DS.cia` в папку `/cias/` на SD-карты
 

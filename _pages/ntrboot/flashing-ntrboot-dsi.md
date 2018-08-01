@@ -1,5 +1,5 @@
 ---
-title: "Прошивка ntrboot (DSi)"
+title: Прошивка ntrboot (DSi)
 lang: ru
 permalink: flashing-ntrboot-dsi.html
 author_profile: true

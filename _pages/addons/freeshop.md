@@ -1,5 +1,5 @@
 ---
-title: "Установка и обновление freeshop" #
+title: Установка и обновление freeshop #
 lang: ru
 permalink:  freeshop.html
 author_profile: true

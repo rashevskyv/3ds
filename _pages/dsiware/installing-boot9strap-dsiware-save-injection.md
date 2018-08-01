@@ -1,5 +1,5 @@
 ---
-title: "Установка boot9strap через инъекцию в сохранения DSiWare" #
+title: Установка boot9strap через инъекцию в сохранения DSiWare #
 lang: ru
 permalink: installing-boot9strap-dsiware-save-injection.html
 author_profile: true
@@ -7,12 +7,11 @@ author_profile: true
 
 {% include toc title="Разделы" %}
 
-{% include /inc/dsiware/intro.txt %}
-{% include /inc/dsiware/save_needed.txt %}
-{% include /inc/dsiware/needed.txt %}
+{% include /inc/dsiware/1_intro.txt %}
+{% include /inc/dsiware/2_save_needed.txt %}
+{% include /inc/dsiware/3_needed.txt %}
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-{% include /inc/dsiware/p1_prep.txt %}
-{% include /inc/dsiware/p2_prep.txt 
+{% include /inc/dsiware/4_prep.txt 
 
 	files="1. Скопируйте `public.sav` из папки `/dsiware/(8-ми значный ID)/` из `.zip-архива` 3ds_dsiwarehax_installer, в корень SD-карты **исходной 3DS**
   + **Fieldrunners USA Region**: `4b464445`
@@ -26,7 +25,5 @@ author_profile: true
   + **The Legend of Zelda: Four Swords USA Region**: `4b513945`" 
 
 %}
-{% include /inc/dsiware/p2_save.txt %}
-{% include /inc/dsiware/p3-5.txt %}
-{% include /inc/dsiware/save_test.txt %}
-{% include /inc/dsiware/ending.txt %}
+{% include /inc/dsiware/5_p2_save.txt %}
+{% include /inc/dsiware/6_p3-end.txt %}

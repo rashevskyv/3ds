@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (используя браузер)"
+title: Homebrew Launcher (используя браузер)
 permalink: /homebrew-launcher-browser.html
 author_profile: true
 ---
@@ -21,7 +21,7 @@ author_profile: true
 ### Подготовительные работы
 
 1. Скопируйте _содержимое_ папки starter из архива `starter.zip` в корень вашей карты памяти.   
-2. Вставьте карту памяти в приставку.
+1. Вставьте карту памяти в приставку.
 
 ### Блокировка conntest.nintendowifi.net
 

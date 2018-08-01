@@ -1,5 +1,5 @@
 ---
-title: "Расширения файлов (Windows)" #
+title: Расширения файлов (Windows) #
 lang: ru
 permalink: /file-extensions-windows.html
 author_profile: true

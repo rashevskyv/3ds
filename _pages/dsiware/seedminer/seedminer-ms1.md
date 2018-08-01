@@ -1,5 +1,5 @@
 ---
-title: "Создание movable_part1 (seedminer)"
+title: Создание movable_part1 (seedminer)
 permalink: /seedminer-ms1.html
 author_profile: true
 ---

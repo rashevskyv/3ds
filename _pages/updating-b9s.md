@@ -1,5 +1,5 @@
 ---
-title: "Обновление boot9strap"
+title: Обновление boot9strap
 permalink: updating-b9s.html
 author_profile: true
 ---
@@ -16,7 +16,6 @@ author_profile: true
 {% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip){:target="_blank"}
 * [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
@@ -55,7 +54,6 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. **Помните, что ещё не следует копировать boot.firm от свежей версии Luma3DS, мы сделаем это после обновления b9s - ниже по инструкции**
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `SafeB9SInstaller.firm` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте

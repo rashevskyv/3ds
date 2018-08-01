@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (альтернативные методы запуска)"
+title: Homebrew Launcher (альтернативные методы запуска)
 permalink: /homebrew-launcher-alternatives.html
 author_profile: true
 ---

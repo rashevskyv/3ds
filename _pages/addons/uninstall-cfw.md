@@ -1,5 +1,5 @@
 ---
-title: "Удаление кастомной прошивки"
+title: Удаление кастомной прошивки
 permalink: uninstall-cfw.html
 author_profile: true
 ---
@@ -20,9 +20,6 @@ author_profile: true
 ## Что понадобится
 
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* Скрипт для удаления кастомной прошивки, соответствующий вашему устройству:
-  + [`uninstall_hax_retail_NEW.gm9`]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:target="_blank"}
-  + [`uninstall_hax_retail_OLD.gm9`]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:target="_blank"}
 
 ## Инструкция
 
@@ -32,7 +29,6 @@ author_profile: true
 1. Вставьте SD-карту в компьютер
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
-1. Скопируйте скрипт для удаления кастомной прошивки в папку `/gm9/scripts/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
@@ -41,12 +37,17 @@ author_profile: true
 {% include inc/launch_godmode9.txt console="" %}
 1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
 1. Выберите "Scripts..."
-1. Выберите скрипт для удаления кастомной прошивки
-1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
+
+1. Выберите "GM9Megascript"
+1. Выберите "Hax Options"
+1. Выберите "Un-install Hax"
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl3) и введите указанную комбинацию кнопок
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-1. Нажмите {% include inc/btn.txt btn="A" %} чтобы восстановить запрет на запись
-1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
+1. Нажмите {% include inc/btn.txt btn="B" %}, чтобы вернуться в главное меню
+1. Выберите "**Exit**"
+1. Нажмите {% include inc/btn.txt btn="A" %} чтобы восстановить запрет на запись, если появится запрос
+1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки приставки
 
 ___
 

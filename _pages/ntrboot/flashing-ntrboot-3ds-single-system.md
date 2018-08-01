@@ -1,5 +1,5 @@
 ---
-title: "Прошивка ntrboot (на не прошитой 3DS)"
+title: Прошивка ntrboot (на не прошитой 3DS)
 lang: ru
 permalink: flashing-ntrboot-3ds-single-system.html
 author_profile: true

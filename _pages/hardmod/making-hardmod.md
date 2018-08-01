@@ -1,5 +1,5 @@
 ---
-title: "Хардмод" #
+title: Хардмод #
 lang: ru
 permalink: making-hardmod.html
 author_profile: true
