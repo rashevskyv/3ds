@@ -21,7 +21,7 @@ author_profile: true
     {: .notice--info}
 
 1. Обратите внимание на версию Luma3DS.
-1. Если версия Luma3DS ниже, чем {% include /vars/luma_version.txt %}, обновите её следуя [этой](update-luma3ds) инструкции.
+1. Если версия Luma3DS ниже, чем **{% include /vars/luma_version.txt %}**, обновите её следуя [этой](update-luma3ds) инструкции.
 	
 ### Часть II - Обновление системы
 {% include /inc/sys_update.txt %}
