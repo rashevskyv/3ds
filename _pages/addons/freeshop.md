@@ -6,6 +6,9 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
+Действия для обновления и установки freeshop идентичны
+{: .notice--warning}
+
 ## Что понадобится
 
 {% include /inc/olx_vk.txt %}
@@ -14,8 +17,6 @@ author_profile: true
 * Прошитая приставка 
 * Свежая версия [FBI](fbi){:target="_blank"} (если не уверены свежая ли у вас - обновите)
 * Свежая версия [freeshop](https://notabug.org/evi/freeShop/releases){:target="_blank"} *(`.cia` файл)*
-
-Действия для обновления и установки freeshop идентичны
 
 ## Часть I - Установка freeshop
 
