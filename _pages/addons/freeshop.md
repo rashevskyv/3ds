@@ -18,7 +18,10 @@ author_profile: true
 * Свежая версия [FBI](fbi){:target="_blank"} (если не уверены свежая ли у вас - обновите)
 * Свежая версия [freeshop](https://notabug.org/evi/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 
-## Часть I - Установка freeshop
+## Часть I - Установка или обновление freeshop
+
+Действия для обновления и установки freeshop идентичны
+{: .notice--warning}
 
 1. [Установите freeshop](games){:target="_blank"} любым удобным методом
 	+ Отсканируйте QR-код, если решите воспользоваться методом установки через QR
