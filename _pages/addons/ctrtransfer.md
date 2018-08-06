@@ -42,26 +42,23 @@ author_profile: true
 1. Создайте папку `/luma/payloads/` в корне SD-карты, если таковой нет
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
-1. Скопируйте `.bin` файл из `.zip-архива` с образом 11.5.0 CTRTransfer в папку `/gm9/` на SD-карте
+1. Скопируйте `.bin` файл из `.zip-архива` с образом 11.5.0 CTRTransfer в папку `/gm9/in` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 
 ### Часть II - CTRTransfer
 
 {% include inc/launch_godmode9.txt console="" %}
-1. Перейдите в `[0:] SDCARD` -> `gm9`
-1. Нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать файл `.bin` CTRTransfer
-1. Выберите "**CTRNAND options...**"
-1. Выберите "**Transfer image to CTRNAND**"
-1. Если появится запрос, выберите "Transfer to SysNAND"
-	+ Этот запрос отображается только если у вас есть EmuNAND
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-	+ Этот процесс займет некоторое время
-1. По завершению процесса, нажмите {% include inc/btn.txt btn="A" %}
-1. Нажмите {% include inc/btn.txt btn="B" %} чтобы не восстанавливать запрет на запись, если появится запрос
-1. Дважды нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
-1. Нажмите {% include inc/btn.txt btn="HOME" %}, чтобы попасть в меню действий
 1. Выберите "**Scripts...**"
 1. Выберите "**GM9Megascript**"
+1. Выберите "**CTRNAND trnsfer...**"
+1. Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку {% include inc/btn.txt btn="A" %}
+1. Нажмите {% include inc/btn.txt btn="A" %}
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl2) и введите указанную комбинацию кнопок
+	+ Этот процесс займет некоторое время
+1. Если появится запрос, выберите "Transfer to SysNAND"
+	+ Этот запрос отображается только если у вас есть EmuNAND
+1. По завершению процесса, нажмите {% include inc/btn.txt btn="A" %}
+1. Дважды нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
 1. Выберите "**Scripts from Plailect's Guide**"
 1. Выберите "**CTRTransfer Ticket Copy**"
 1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения

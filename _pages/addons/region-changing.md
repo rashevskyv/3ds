@@ -53,28 +53,23 @@ author_profile: true
 ### Часть II - CTRTransfer
 
 {% include inc/launch_godmode9.txt console="" %}
-1. Перейдите в `[0:] SDCARD` -> `gm9`
-1. Нажмите {% include inc/btn.txt btn="A" %} чтобы выбрать файл `.bin` CTRTransfer
-1. Выберите "CTRNAND options..."
-1. Выберите "Transfer image to CTRNAND"
+1. Выберите "**Scripts...**"
+1. Выберите "**GM9Megascript**"
+1. Выберите "**CTRNAND trnsfer...**"
+1. Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку {% include inc/btn.txt btn="A" %}
+1. Нажмите {% include inc/btn.txt btn="A" %}
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl2) и введите указанную комбинацию кнопок
+	+ Этот процесс займет некоторое время
 1. Если появится запрос, выберите "Transfer to SysNAND"
-  + Этот запрос отображается только если у вас есть EmuNAND
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-  + Этот процесс займет некоторое время
+	+ Этот запрос отображается только если у вас есть EmuNAND
 1. По завершению процесса, нажмите {% include inc/btn.txt btn="A" %}
-1. Нажмите {% include inc/btn.txt btn="X" %}, выделив файл `.bin` CTRTransfer чтобы удалить его
-1. Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
-1. Нажмите {% include inc/btn.txt btn="B" %}, если появится запрос, чтобы не восстанавливать запрет на запись в раздел
 1. Дважды нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
-1. Нажмите {% include inc/btn.txt btn="HOME" %}, чтобы попасть в меню действий
-1. Выберите "Scripts..."
-1. Выберите "GM9Megascript"
-1. Выберите "Scripts from Plailect's Guide"
-1. Выберите "CTRTransfer Ticket Copy"
-1. Когда появится запрос, нажмите {% include inc/btn.txt btn="A" %} для подтверждения
-1. Нажмите {% include inc/btn.txt btn="A" %} чтобы продолжить
-1. Нажмите (B), чтобы вернуться в главное меню 
-1. Выберите "Exit"
+1. Выберите "**Scripts from Plailect's Guide**"
+1. Выберите "**CTRTransfer Ticket Copy**"
+1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
+1. Нажмите {% include inc/btn.txt btn="B" %}, чтобы вернуться в главное меню
+1. Выберите "**Exit**"
 1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте ВПРАВО до конца и выберите пункт "Обновление" (System Update)
   + Обновление консоли с установленным b9s + Luma (установлено у вас) безопасно
