@@ -84,4 +84,4 @@ author_profile: true
 1. [Все игры на русском](https://cloud.mail.ru/public/FfNX/u1oCpVmf3){:target="_blank"} от [VK: skotnikovnn](https://vk.com/skotnikovnn){:target="_blank"}
 1. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds){:target="_blank"}
 1. Можно качать с серверов Nintendo с помощью [Villain3ds](https://gbatemp.net/threads/release-villain3ds-basically-freeshop-but-runs-on-your-pc.488127/){:target="_blank"}
-	* После установки такой игру нужно импортировать seed - для этого запустите FBI -> tickets -> ваша_игра -> Import seed
+	* После установки такой игру нужно импортировать seed - для этого запустите FBI -> titles -> ваша_игра -> Import seed
