@@ -47,7 +47,7 @@ author_profile: true
 1. Верните SD-карту в консоль
 1. Запустите консоль
 1. Теперь freeshop будет видеть игры
-<!--
+{% comment %} 
 1. Перейдите в настройки программы. Для этого на нижнем экране нажмите ![]({{"/images/fs/settings.png" | absolute_url }}){:target="_blank"}
 1. Перейдите во вкладку "Обновление" (Update)
 1. Поставьте галочку напротив первого пункта - "Авто-обновление ключей приложения через URL" (Auto-update title keys from URL)
@@ -61,7 +61,8 @@ author_profile: true
 	+ Если у вас не работает камера, нажмите на ![]({{"/images/fs/kb.png" | absolute_url }}){:target="_blank"} и вручную введите `https://goo.gl/WWsZcr`
 
 1. Нажмите кнопку "Обновить кэш"
-1. Перезагрузите freeshop -->
+1. Перезагрузите freeshop
+{% endcomment %}
 
 ## Часть III - Особенности работы freeshop
 
