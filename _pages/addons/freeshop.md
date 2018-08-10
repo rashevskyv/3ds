@@ -43,7 +43,7 @@ author_profile: true
 1. Дождитесь пока программа обновится
 1. Выключите консоль
 1. Вставьте SD-карту приставки в ПК 
-1. Переместите файл [download.0.bin] в папку `\3ds\freeShop\keys`
+1. Переместите файл [`download.0.bin`](files/download.0.bin){:target="_blank"} в папку `\3ds\freeShop\keys`
 1. Верните SD-карту в консоль
 1. Запустите консоль
 1. Теперь freeshop будет видеть игры
