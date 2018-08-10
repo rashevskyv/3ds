@@ -20,7 +20,7 @@ author_profile: true
 * Прошитая приставка 
 * Свежая версия [FBI](fbi){:target="_blank"} (если не уверены свежая ли у вас - обновите)
 * Свежая версия [freeshop](https://notabug.org/evi/freeShop/releases){:target="_blank"} *(`.cia` файл)*
-* Свежая версия ключей [download.0.bin](files/download.0.bin){:target="_blank"} *(`.cia` файл)*
+* Свежая версия ключей [download.0.bin](files/download.0.bin){:target="_blank"}
 
 ## Часть I - Установка или обновление freeshop
 
