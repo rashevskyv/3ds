@@ -75,7 +75,7 @@ ___
 
 ### Способ III - майнинг на мощностях сообщества
 
-1. Перейдите на сайт [https://seedhelper.figgyc.uk/](https://seedhelper.figgyc.uk/){:target='_blank'}.
+1. Перейдите на сайт [https://bruteforcemovable.com/](https://bruteforcemovable.com/){:target='_blank'}.
 	* Если вы в прошлом шаге получали `movable_part1.sed` так же через этот сайт, то просто нажмите "Continue", затем переходите сразу к пункту 4.
 1. Нажмите на "or upload a movable_part1.sed" (ссылка находится под первым текстовым полем, в которое вы вводите свой Friend Code)
 
