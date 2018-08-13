@@ -19,7 +19,6 @@ author_profile: true
 + [Обновление boot9strap](updating-b9s)
 + [Установка и обновление freeshop](freeshop)
 
-
 ## Все страницы
 
 ### Установка прошивки 
@@ -92,7 +91,3 @@ author_profile: true
 + [Форматирование приставки или SD-карты](clean_sd)
 + [Хардмод](making-hardmod)
 + [Эмуляция языка и региона](lumalocaleswitcher)
-
-
-{% endcapture %}
-<div class="notice--primary">{{ notice-2 | markdownify }}</div>
