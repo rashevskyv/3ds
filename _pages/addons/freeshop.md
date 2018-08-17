@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-В данный момент через freeshop нельзя скачать игры , разработанные самой Nintendo! При попытке это сделать freeshop будет вылетать!
+В данный момент через freeshop нельзя скачать игры, разработанные самой Nintendo! При попытке это сделать freeshop будет вылетать! [Вот список этих игр](https://vk.com/@3ds_cfw-spisok-taitlov-kotorye-nevozmozhno-skachat-cherez-freeshop){:target="_blank"} 
 {: .notice--warning}
 
 Действия для обновления и установки freeshop идентичны
