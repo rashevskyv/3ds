@@ -82,7 +82,7 @@ author_profile: true
 
 ### **В:** Можно ли убрать оповещение об обновлении при запуске?       
 <a name="update_notification" />
-**О:** Да, для этого нужно с включенным WiFi войти в рекавери ({% include inc/btn.txt btn="A" %}+{% include inc/btn.txt btn="R" %}+{% include inc/btn.txt btn="L" %}+{% include inc/btn.txt btn="UP" %} при загрузке приставки) и при запросе на обновление прошивки нажать "Отмена", после чего приставка выключится. Затем, чтобы консоль не проверяла обновления в дальнейшем, [прописать в настройках DNS](http://en-americas-support.nintendo.com/app/answers/detail/a_id/217/~/how-to-manually-enter-dns-settings){:target="_blank"} активного подключения `159.203.242.044` и `208.67.220.220`. **ВАЖНО:** после изменения DNS могут возникнут трудности с доступом к eShop!
+**О:** Да, для этого нужно с включенным WiFi войти в рекавери ({% include inc/btn.txt btn="A" %}+{% include inc/btn.txt btn="R" %}+{% include inc/btn.txt btn="L" %}+{% include inc/btn.txt btn="UP" %} при загрузке приставки) и при запросе на обновление прошивки нажать "Отмена" (это удалит скачанный уже файл обновления), после чего приставка выключится. Затем, чтобы консоль не проверяла обновления в дальнейшем, [прописать в настройках DNS](http://en-americas-support.nintendo.com/app/answers/detail/a_id/217/~/how-to-manually-enter-dns-settings){:target="_blank"} активного подключения `159.203.242.044` и `208.67.220.220`. **ВАЖНО:** после изменения DNS могут возникнут трудности с доступом к eShop!
 
 ### **В:** Как запустить игру на русском на приставке без русского языка в настройках?       
 <a name="lumalocaleswitcher" />
