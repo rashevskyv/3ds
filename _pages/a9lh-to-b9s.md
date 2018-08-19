@@ -13,7 +13,7 @@ author_profile: true
 Если в Luma3DS вы используете PIN-код, то при работе SafeB9SInstaller вы получите ошибку "OTP Crypto Fail". Для решения этой проблемы временно откажитесь от использования PIN-кода (вы сможете включить его обратно после обновления). Если вы не помните, или не знаете свой PIN, сбросьте его используя [mkey generator](https://mkey.salthax.org/){:target="_blank"}
 {: .notice--warning}
 
-Имейте ввиду, что ф9др совместим с пейлоадерами **только** в формате `.bin`. После перехода на b9s заработают `.firm`, но до этого момента будьте внимательны и следите за тем, что и в каком формате скачиваете и устанавливаете на карту! Если вы не видите расширения файлов на карте, то вы не выполнили [эту](file-extensions-windows) часть инструкции. 
+Имейте ввиду, что a9lh совместим с пейлоадерами **только** в формате `.bin`. После перехода на b9s заработают `.firm`, но до этого момента будьте внимательны и следите за тем, что и в каком формате скачиваете и устанавливаете на карту! Если вы не видите расширения файлов на карте, то вы не выполнили [эту](file-extensions-windows) часть инструкции. 
 {: .notice--warning}
 
 ## Что понадобится
@@ -21,9 +21,9 @@ author_profile: true
 Обратите внимание, что `secret_sector.bin` необходим для отката эксплойта arm9loaderhax только для приставок ревизии New. **Если у вас не New 3DS/2DS, вам не нужен `secret_sector.bin`**.
 {: .notice--info}
 
-<!-- {% include /inc/files/ocs.txt %} -->
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия {% include /inc/luma_adress.txt %}
+* [Luma3DS 7.0.5](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5){:target="_blank"}
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
@@ -35,7 +35,7 @@ author_profile: true
 
 ### Часть I - Определение версии загрузчика 
 
-Сначала нужно убедиться, что у вас действительно a9lh. 
+Сначала нужно убедиться, что у вас действительно a9lh. Пропустите этот шаг, если знаете какая у вас версия 
 
 1. Отключите 3DS
 1. Загрузите приставку с зажатой кнопкой {% include inc/btn.txt btn="SELECT" %}
@@ -55,9 +55,9 @@ author_profile: true
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень вашей SD-карты -->
 1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` свежей версии Luma3DS в корень SD-карты
+1. Скопируйте файл `arm9loaderhax.bin` из `.7z-архива` с  Luma3DS 7.0.5 в корень SD-карты с заменой
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
 1. **Только для пользователей New 3DS:** Скопируйте `secret_sector.bin` в папку `/boot9strap/` на SD-карте

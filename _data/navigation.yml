@@ -74,6 +74,8 @@ addons:
     url: /region-changing
   - title: "DSi / DS игры не работают после завершения руководства"
     url: /troubleshooting#dsi--ds-игры-не-работают-после-завершения-руководства
+  - title: "Разбор самый популярных ошибок. Если игры падают - сюда"
+    url: /troubleshooting
   - title: "Форматирование приставки или SD-карты"
     url: /clean_sd
     
