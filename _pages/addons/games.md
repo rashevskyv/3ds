@@ -78,10 +78,10 @@ author_profile: true
 {: .notice--info}
 
 ## Где брать игры? 
-1. [freeshop](finalizing-setup#freeshop){:target="_blank"}
 1. [В нашем облаке](https://fex.net/383178975756){:target="_blank"}
 1. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
 1. [3dscia](http://www.3dscia.com/)
 1. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds){:target="_blank"}
-1. Можно качать с серверов Nintendo с помощью [Villain3ds](https://gbatemp.net/threads/release-villain3ds-basically-freeshop-but-runs-on-your-pc.488127/){:target="_blank"}
-	* После установки такой игру нужно импортировать seed - для этого запустите FBI -> titles -> ваша_игра -> Import seed
+
+**С 23.08.2018 freeshop перестал иметь возможность скачивать игры! Nintendo приблизительно в час утра по EST включила блокировку неавторизованного скачивания игр со своих серверов для 2852 тайтлов (всех доступных через CDN тайтлов). <br>_[Источник...](https://twitter.com/Cheatfreak47/status/1032180782935277570?s=20){:target="_blank"}_**<br><br>Игры теперь можно устанавливать только [с помощью FBI](games)
+{: .notice--warning}
