@@ -20,16 +20,10 @@ main:
     url: /a9lh-to-b9s
   - title: "NTRBoot"
     url: /ntrboot
-  - title: "Хардмод"
-    url: /making-hardmod
   - title: "Список ПО"
     url: /soft
-  - title: "Freeshop"
-    url: /freeshop
   - title: "Обновление<br>b9s"
     url: /updating-b9s
-  - title: "Интеграция<br>FBI"
-    url: /fbi
   - title: "Навигация по сайту"
     url: /site-navigation
   - title: "Пожертвования"
