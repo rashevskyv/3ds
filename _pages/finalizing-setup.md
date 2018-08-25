@@ -19,7 +19,6 @@ author_profile: true
 + **Anemone3DS** *(установка пользовательских тем)*
 + **Checkpoint** *(резервное копирование и восстановление сохранений для игр 3DS и DS)*
 + **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
-+ **freeshop** *(open source клон eShop, облегчающий поиск игр)*
 + **Homerew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
 + **ftpd** *(просто ftp-клиент для простого доступа к карте памяти без разбора приставки)*
 + **Luma3DS Updater** *(удобное обновление CFW)*
@@ -31,7 +30,6 @@ author_profile: true
 * Свежая версия [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} *(`.cia`-файл)*
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(`.cia-файл` и `.3dsx-файл`)*
-* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [ftpd](https://github.com/mtheall/ftpd/releases/latest){:target="_blank"} *(`.cia` файл)*
 * Свежая версия [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * Свежая версия [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest){:target="_blank"} *(`.cia` файл)*
@@ -54,7 +52,6 @@ author_profile: true
 1. Скопируйте `Checkpoint.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `DSP1.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `FBI.cia` в папку `/cias/` на SD-карты
-1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `ftpd.cia` в папку `/cias/` на SD-карты
 1. Скопируйте `Homebrew_Launcher.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте

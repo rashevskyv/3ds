@@ -17,7 +17,6 @@ author_profile: true
 + [Интегрирование FBI](fbi)
 + [Переход с a9lh на boot9strap](a9lh-to-b9s)
 + [Обновление boot9strap](updating-b9s)
-+ [Установка и обновление freeshop](freeshop)
 
 ## Все страницы
 
@@ -86,7 +85,6 @@ author_profile: true
 + [Установка и использование тем](themes)
 + [Установка и использование жетонов (badges)](badges)
 + [Установка приложений](games)
-+ [Установка и обновление freeshop](freeshop)
 + [Форматирование приставки или SD-карты](clean_sd)
 + [Хардмод](making-hardmod)
 + [Эмуляция языка и региона](lumalocaleswitcher)
