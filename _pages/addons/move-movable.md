@@ -36,7 +36,7 @@ author_profile: true
 1. Выключите **целевую** приставку и вставьте её карту памяти в ПК 
 1. Переместите `movable.sed`, который мы копировали ранее, в корень карты памяти **целевой** 3DS
 1. Вставьте карту памяти **целевой** 3DS обратно в приставку 
-1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"} на **исходной консоли**, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки приставки
+1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"} на **целевой консоли**, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки приставки
 1. Перейдите в раздел **[0:] SDCARD** и нажмите {% include inc/btn.txt btn="Y" %}, чтобы скопировать `movable.sed`
 1. Перейдите в раздел **[1:] SYSNAND CTRNAND** -> **private** 
 1. Наведите курсор на `movable.sed` и нажмите {% include inc/btn.txt btn="X" %}+{% include inc/btn.txt btn="R" %}, чтобы переименовать `movable.sed`
