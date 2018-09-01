@@ -58,6 +58,8 @@ addons:
     url: /a9lh-to-b9s
   - title: "Использование GodMode9"
     url: /godmode9-usage
+  - title: "Резервное копирование и восстановление NAND"
+    url: /godmode9-usage#создание-резервной-копии-бекап-sysnand
   - title: "Конвертация 3DS-ромов в CIA"
     url: /godmode9-usage#конвертация-из-3ds-в-cia
   - title: "Создание, редактирование и восстанавление резервных копий сохранения игр (англ.)"
@@ -70,6 +72,8 @@ addons:
     url: /troubleshooting#dsi--ds-игры-не-работают-после-завершения-руководства
   - title: "Разбор самый популярных ошибок. Если игры падают - сюда"
     url: /troubleshooting
+  - title: "Перенос данных на другую приставку"
+    url: /move-movable
   - title: "Форматирование приставки или SD-карты"
     url: /clean_sd
     
