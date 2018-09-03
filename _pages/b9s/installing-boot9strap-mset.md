@@ -10,7 +10,7 @@ author_profile: true
 
 ## Что понадобится
 
-* Любой флешкартридж для DS, работающий на вашей версии прошивки
+* Любой флеш-картридж для DS, работающий на вашей версии прошивки
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
@@ -34,13 +34,13 @@ author_profile: true
     {: .notice--info}
 
 1. Вставьте SD-карту обратно в консоль
-1. Скопируйте `SafeB9SInstaller.nds` из `.zip-ахрива` SafeB9SInstaller на ваш DS-флешкартридж
+1. Скопируйте `SafeB9SInstaller.nds` из `.zip-ахрива` SafeB9SInstaller на ваш DS-флеш-картридж
 1. Включите консоль
 
 ### Часть II - Запуск SafeB9SInstaller
 
-1. Запустите флешкартридж DS
-1. Запустите `SafeB9SInstaller.nds`, используя флешкартридж
+1. Запустите флеш-картридж DS
+1. Запустите `SafeB9SInstaller.nds`, используя флеш-картридж
 1. Выберите опцию, соответствующую версии прошивки
   + 4.X.X -> "4.x SafeB9SInstaller"
   + 6.X.X -> "6.x SafeB9SInstaller"

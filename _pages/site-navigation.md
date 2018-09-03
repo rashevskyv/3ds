@@ -24,7 +24,7 @@ author_profile: true
 
 + [Homebrew Launcher (альтернативные методы запуска)](homebrew-launcher-alternatives)
 + [Homebrew Launcher (используя браузер)](homebrew-launcher-browser)
-+ [Инструкция по использованию картриджа r4isdhc.com](r4)
++ [Инструкция по использованию флеш-картриджа r4isdhc.com](r4)
 + [Инфицирование DSiWare-игры и запуск эксплойта (seedminer)](seedminer-dsiware-exploit)
 + [Использование SoundHax для запуска Homebrew Launcher](homebrew-launcher-soundhax)
 + [Завершение установки](finalizing-setup)
