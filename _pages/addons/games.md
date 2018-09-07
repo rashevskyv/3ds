@@ -11,7 +11,7 @@ author_profile: true
 {: .notice--info}
 
 * Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
-* Установленный и рабочий [FBI](fbi){:target="_blank"}
+* Установленная и рабочая свежая версия [FBI](fbi){:target="_blank"}
 * Свежая версия [BOOP](https://github.com/miltoncandelero/Boop/releases/latest){:target="_blank"} (запускается на вашем ПК)
 
 # Инструкция
