@@ -49,7 +49,7 @@ author_profile: true
 1. Выберите "**Boot patched DS Download Play**"
 1. Пройдите настройку приложения, пока не получите следующий экран: 
 
-	![]({{ "/images/screenshots/flipnnote.png" | absolute_url }}){:target="_blank"}
+	![]({{ "/images/screenshots/flipnote.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
 	{: .notice--info}
 	
