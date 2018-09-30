@@ -88,8 +88,13 @@ author_profile: true
 ### Часть V - Настройка Luma3DS
 
 {% include /inc/luma_setup.txt %}
+
+### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
+
+{% include /inc/ctrnand_luma_cleansd.txt %}
   
 Для обновления всего ПО до актуальных версий следует перейти к странице [Завершение установки](finalizing-setup)
+
 ___
 
 {% include /inc/finalize_footer.txt %}

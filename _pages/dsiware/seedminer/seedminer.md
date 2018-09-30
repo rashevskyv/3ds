@@ -28,8 +28,6 @@ author_profile: true
 # Что понадобится 
 
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> [`ctcert.bin`](magnet:?xt=urn:btih:2E43EDCDE39663EC42985AD6A3757641C994B184&dn=ctcert.bin&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fallesanddro.de%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.safe.moe%3a){:target="_blank"}
-* [seedminer](https://github.com/Mike15678/seedminer/releases/latest){:target='_blank'} для вашей платформы
-* [Seedplanter](https://github.com/knight-ryu12/Seedplanter/releases/latest){:target='_blank'}
 * Купленная (или уже имеющаяся) DSiWare-игра из eShop на **исходной 3DS**
   + Пиратская копия игры **НЕ** будет работать
   + Список совместимых игр ищите на странице со [списком уязвимых DSiWare-игр )](installing-boot9strap-dsiware-game-injection-list){:target="_blank"}
@@ -41,18 +39,11 @@ author_profile: true
   + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - [`JPN.zip`](magnet:?xt=urn:btih:b10e9c3289c16c6de8aefcaf3892e2efe267acb8&dn=JPN.zip&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.skyts.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2fwambo.club%3a1337%2fannounce&tr=udp%3a%2f%2ftrackerxyz.tk%3a1337%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2ftracker2.christianbro.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker1.wasabii.com.tw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.xku.tv%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.vanitycore.co%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.pw%3a3418%2fannounce&tr=udp%3a%2f%2fopen.facedatabg.net%3a6969%2fannounce&tr=udp%3a%2f%2fmgtracker.org%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ftracker.christianbro.pw%3a6969%2fannounce){:target="_blank"}
 {% include /inc/dsiware/3_needed.txt %}
 
-* Достаточно мощный ПК для расшифровки (майнинга) ключа
-
 # Инструкция 
 
-## Установка и проверка Python
+{% include /inc/id0_movable.txt %}
 
-1. Перейдите на сайт [https://www.python.org](https://www.python.org/downloads/){:target="_blank"} и скачайте свежую версию Python 3
-1. Установите Python 3 на ваш ПК, затем перезагрузите компьютер
-1. Убедитесь, что Python работает. Для этого запустите командную строку (`Win + R` => `cmd`) и введите в ней `py -3 --version`. В командной строке высветится текущая версия python. Она должна соответствовать той, что вы скачали и установили ранее
-1. Если возникнет ошибка, удалите python из вашей системы (если у вас в системе установлена не только 3-я версия, удалите все) и установите заного
-
-## Часть I - Переносим уязвимую DSiWare-игру на SD-карту
+## Часть III - Переносим уязвимую DSiWare-игру на SD-карту
 
 1. Запустите приставку, которую вы собираетесь взламывать
 	* SD-карта должна находится в приставке 
@@ -61,33 +52,51 @@ author_profile: true
 1. Находясь на вкладке Память системы (System Memory), выберите игру и нажмите кнопку Копировать (Copy) и нажмите OK для подтверждения 
 1. После окончания копирования, выключите консоль
 
-## Часть II - Получение ID0
+## Часть IV - Внедрение эксплойта в DSIWare-игру
 
-1. Вставьте SD-карту консоли в компьютер
-1. Перейдите в папку `Nintendo 3DS`
-1. В папке `Nintendo 3DS` у вас должна быть **одна** папка с длинным 32-х символьным названием - это и есть ваш ID0
-1. Скопируйте название этой папки (далее для простоты я буду называть название этой папки просто как ID0) в надёжное место. Далее нам оно понадобится
+1. На вашем ПК откройте сайт [https://jisagi.github.io/](https://jisagi.github.io/TADpole-Online/){:target='_blank'}
+	* Если сайт не работает, воспользуйтесь [зеркалом](https://jenkins.nelthorya.net/job/DSIHaxInjector/build){:target='_blank'}
+1. В поле "DSiWare.bin" (в зеркале - "DsiBin") выберите файл с бекапом DSiWare-игры, с 8-ми символьным именем `XXXXXXXX.bin`, который мы копировали ранее
+1. В поле "movable.sed" выберите `movable.sed` (в зеркале - "MovableSed"), который мы сгенерировали ранее
+1. В поле "ctsert.bin" выберите `ctsert.bin`, скачанный ранее
+1. Разархивируйте скачанные ранее файлы для инжекта (`USA/EUR/JPN.zip`) в удобную для вас папку 
+1. В поле "game_XXX.app" выберите `app`-файл из архива, что вы распаковали выше (на сайте-зеркале просто выберите регион вашей приставки)
+1. В поле "public_XXX.sav" выберите `sav`-файл из архива, что вы распаковали выше (на сайте-зеркале просто выберите регион вашей приставки)
+1. Нажмите "Start" и подождите результата
+1. Скачайте полученный файл и назовите его точно так же, как называется ваша DSiWare-игра (8-ми символьным именем `XXXXXXXX.bin`), затем сохраните его в удобном месте.
+1. Переместите этот файл в папку `Nintendo 3DS/ID0/ID1/Nintendo DSiWare`, где ID0 и ID1 - разные значения из 32-х символов
+1. Согласитесь на замену 
+	* Убедитесь, что заменили файл с непропатченной игрой, файлом с пропатченной - тем, что получили с сайта!
+  
+## Часть V - Перенос инфицированной игры на консоль
 
-	![]({{ base_path }}/images/seedminer/ID0.png){:target="_blank"}
-	{: .text-center}
-	{: .notice--info}
-	
-	* Если в папке `Nintendo 3DS` у вас несколько папок с длинным 32-х символьным названием, нужно определить какой из ID0 использовать. Для этого: 
-		1. Перейдите в корень SD-карты и переименуйте папку `Nintendo 3DS` в `Nintendo 3DS_backup`
-		1. Вставьте SD-карту обратно в 3DS и включите приставку
-		1. Подождите, пока сгенерируется новая структура данных на SD-карте (во время генерации на нижнем экране выскочит информационное всплывающее окно)
-		1. После окончания герерации выключите приставку и вставьте SD-карту в ПК. Теперь в папке `Nintendo 3DS` будет находится одна папка с длинным 32-х символьным названием - это и есть ваш ID0
-		1. Скопируйте название этой папки (далее для простоты я буду называть название этой папки просто как ID0) в надёжное место. Далее нам оно понадобится
-		1. Вернитесь в корень SD-карты и удалите папку `Nintendo 3DS` (убедитесь, что сохранили свой ID0 в надёжном месте)
-		1. Переименуйте папку `Nintendo 3DS_backup` в `Nintendo 3DS`
-			* Для порядка можете удалить в папке `Nintendo 3DS` все папки с названием из 32-х символов, кроме той, что совпадает по значению с вашим ID0. Но это не обязательно.
-1. Перейдите в папку `Nintendo 3DS/ID0/ID1 (еще одна папка с длинным 32-х символьным названием)/Nintendo DSiWare`
-1. В папке вы найдёте файл с 8-ми символьным именем `XXXXXXXX.bin`, скопируйте его в надёжное место
-	* Если в папке несколько файлов с такими именами, 8-значный ID вашей игры смотрите на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list){:target="_blank"}
+1. Вставьте SD-карту обратно в приставку и включите её
+1. Перейдите в системные настройки (System Settings), Управление данными (Data Management), DSiWare
+1. Находясь на вкладке Карта SD (microSD Card), выберите игру и нажмите кнопку Копировать (Copy) и нажмите OK для подтверждения 
+1. После окончания копирования, выйдите в меню Home
+1. Запустите DSiWare-игру с внедрённым эксплойтом
+1. Нажмите на экран, либо на какую-либо кнопку, чтобы запустить игру и проверить, работает ли сохранение
+  + Если игра завершается с ошибкой, касающейся `boot.nds`, или зависает на белом\цветном экране, **значит эксплойт работает и все в порядке!**
+  + Если игра работает нормально безо всяких ошибок, значит вам следует остановится и выяснить на каком этапе вы допустили оплошность
 
-Выберите один из способов, соответствующих вашей ситуации: 
+## Часть VI - Прошивка FIRM целевой 3DS
 
+1. Вставьте SD-карту приставки в компьютер
+1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
+1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Скопируйте `boot.nds` (B9STool) в корень SD-карты 3DS
+1. Верните SD-карту обратно в приставку
+1. Откройте b9sTool, запустив DSiWare-игру с эксплойтом
+	+ Если не видите игру, попробуйте пролистать все экраны.
+1. Кнопкой {% include inc/btn.txt btn="A" %} выберите 'Install boot9strap' и нажмите одновременно {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %}
+1. Когда увидите надпись "Done!", нажмите кнопку {% include inc/btn.txt btn="HOME" %}, затем подтвердите выход, нажав на "ОК". Приставка выключится
+  + При необходимости выключите консоль принудительно, удерживая кнопку питания
+  
+## Часть VII - Настройка Luma3DS
+
+{% include /inc/luma_setup.txt %}
+		
 ___
 		
-# [Создание movable_part1.sed](seedminer-ms1)
+## [Завершение установки](finalizing-setup)
 {: .notice--success}
