@@ -18,6 +18,8 @@ main:
     url: /update-luma3ds
   - title: "Переход с<br>a9lh на b9s"
     url: /a9lh-to-b9s
+  - title: "Steelminer"
+    url: /steelminer
   - title: "NTRBoot"
     url: /ntrboot
   - title: "Список ПО"

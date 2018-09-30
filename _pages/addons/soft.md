@@ -9,12 +9,11 @@ author_profile: true
 ### Системный софт
 
 * {% include /inc/luma_adress.txt %} - кастомная прошивка
-* Специальная версию [Luma3DS с поддержкой читов](files/luma3ds_cheats.zip)
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} - файловый менеджер с возможностью установки *.cia
 * [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"} - простенькая утилита для дампа бинарного компонента звукового процессора 3DS, что необходимо для ряда хомбрю, используюзщих звук
 * [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} - программа для обновления кастома
-* [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"} - программа для запуска Homebrew Launcher
+* [Homebrew Menu](https://github.com/fincs/new-hbmenu/releases/download/v2.0.0/boot.3dsx){:target="_blank"} - программа для запуска Homebrew Launcher
 
 ### ARM9-софт
 
@@ -42,5 +41,4 @@ author_profile: true
 
 ### Для игр 
 
-* [freeshop](https://notabug.org/Paul_GameDev/freeShop/releases){:target="_blank"} *(`.cia` файл)*
 * [LumaLocaleSwitcher](https://github.com/Possum/lumalocaleswitcher/releases){:target="_blank"} - программа для смены локали в играх, которые это не поддерживают
