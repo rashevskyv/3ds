@@ -59,7 +59,6 @@ author_profile: true
 1. Запустите FBI
 1. Выберите пункт "Remote Install", а затем "Recive URLs over the network" 
 1. Запускаем [Boop](https://github.com/miltoncandelero/Boop/releases/latest){:target="_blank"}.exe
-1. В открывшемся окне снимите галочку с пункта "Magically gues 3DS IP adress?"
 1. В графе 3DS IP Adress введите IP, написанный на нижнем экране приставки. 
 1. Убедитесь, что в графе "Computer IP Adress" указан именно ваш локальный IP (обратитесь в [Google](http://bfy.tw/D0PN){:target="_blank"}, если не знаете как его узнать)
 1. Перетащите CIA, которые вы хотите установить в приставку в окно программы, либо выберите их, нажав на кнопку "Pick files"
