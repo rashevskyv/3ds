@@ -41,6 +41,8 @@ author_profile: true
 
 # Инструкция 
 
+## Часть I - Получение ID0
+
 {% include /inc/id0_movable.txt %}
 
 ## Часть III - Переносим уязвимую DSiWare-игру на SD-карту
