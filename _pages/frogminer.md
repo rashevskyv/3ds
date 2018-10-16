@@ -9,15 +9,15 @@ author_profile: true
 
 * Свежая версия [b9sTool](https://github.com/zoogie/b9sTool/releases/latest){:target="_blank"}
 * Свежая версия {% include /inc/luma_adress.txt %}
-* Свежая версия [frogminer_beta](https://jisagi.github.io/FrogminerGuide/public/data/FROGminer_BETA.zip){:target="_blank"}
+* Свежая версия [frogtool](https://github.com/zoogie/Frogtool/releases/latest){:target="_blank"}
 
 ## Часть I - Подготовка карты памяти
 
 1. Вставьте карту памяти из приставки в ПК 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `boot.nds` ([b9sTool](https://github.com/zoogie/b9sTool/releases/latest){:target="_blank"}) в корень SD-карты 3DS
-1. Скопируйте `Frogtool.3dsx` из `.zip-архива` [frogminer_beta](https://jisagi.github.io/FrogminerGuide/public/data/FROGminer_BETA.zip){:target="_blank"} в папку `3ds`
-1. Скопируйте папку `private` из `.zip-архива` [frogminer_beta](https://jisagi.github.io/FrogminerGuide/public/data/FROGminer_BETA.zip){:target="_blank"} в корень вашей карты памяти
+1. Скопируйте `Frogtool.3dsx` из `.zip-архива` с [frogtool](https://github.com/zoogie/Frogtool/releases/latest){:target="_blank"} в папку `3ds`
+1. Скопируйте папку `private` из `.zip-архива` [frogtool](https://github.com/zoogie/Frogtool/releases/latest){:target="_blank"} в корень вашей карты памяти
 1. Вставьте карту памяти обратно в консоль
 
 ## Часть II - Замена Download Play на Flipnote Studio
