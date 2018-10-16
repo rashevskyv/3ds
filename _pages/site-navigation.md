@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-## Популярные страницы**
+## Популярные страницы
 
 + [Завершение установки](finalizing-setup)
 + [ntrboot](ntrboot)
