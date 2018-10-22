@@ -9,14 +9,12 @@ author_profile: true
 
 ## Что понадобится
 
-* флеш-картридж с прошитым ntrboot
+* Флеш-картридж с прошитым ntrboot
 * Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
 * [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 {% include /inc/files/bootstrap_standart.txt %}
 * Свежая версия {% include /inc/luma_adress.txt %}
-<!-- {% include /inc/files/ocs.txt %} -->
-
 
 ## Инструкция
 
@@ -25,7 +23,6 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту из **приставки** в компьютер
 1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
-<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
  1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `SafeB9SInstaller.firm` из архива с SafeB9SInstaller в папку `/luma/payloads/`, если таковой нет - создайте её
 1. Создайте папку `boot9strap` в корне SD-карты
