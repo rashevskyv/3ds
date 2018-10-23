@@ -4,6 +4,11 @@ lang: ru
 permalink:  soft.html
 author_profile: true
 ---
+
+<script>
+location.href = 'https://vk.com/@3ds_cfw-spisok-homebrew-prilozhenii';
+</script>
+
 {% include toc title="Разделы" %}
 
 ### Системный софт
