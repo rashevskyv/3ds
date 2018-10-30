@@ -9,12 +9,7 @@ author_profile: true
 
 ## Что понадобится
 
-* Флеш-картридж с прошитым ntrboot
-* Магнит для ввода консоли в режим ожидания (если используется консоль складной конструкции)
-* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-{% include /inc/files/bootstrap_standart.txt %}
-* Свежая версия {% include /inc/luma_adress.txt %}
+* Свежая версия {% include /inc/files/3dssdfiles.txt %}
 
 ## Инструкция
 
@@ -22,39 +17,22 @@ author_profile: true
 
 1. Выключите консоль
 1. Вставьте SD-карту из **приставки** в компьютер
-1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
- 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте `SafeB9SInstaller.firm` из архива с SafeB9SInstaller в папку `/luma/payloads/`, если таковой нет - создайте её
-1. Создайте папку `boot9strap` в корне SD-карты
-1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` в корне SD-карты
-
-    ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }}){:target="_blank"}
-    {: .notice--info}
-	{: .text-center}
-
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
 ### Часть II - ntrboot
 
-1. Используйте магнит, чтобы найти место на консоли, где срабатывает датчик режима ожидания (ищите его в районе секции клавиш {% include inc/btn.txt btn="A" %}{% include inc/btn.txt btn="B" %}{% include inc/btn.txt btn="X" %}{% include inc/btn.txt btn="Y" %})
+1. Используйте магнит, чтобы найти место на консоли, где срабатывает датчик режима ожидания (ищите его в районе клавиш {% include inc/btn.txt btn="A" %}{% include inc/btn.txt btn="B" %}{% include inc/btn.txt btn="X" %}{% include inc/btn.txt btn="Y" %})
   + Этот шаг не требуется выполнять для консоли old 2DS (которая имеет переключатель режима ожидания)
 1. **Выключите консоль**
 1. Вставьте ваш флеш-картридж в консоль
 1. Поместите магнит на место, где срабатывает датчик режима ожидания
   + На консоли old 2DS вместо этого включите переключатель режима ожидания
-1. На несколько секунд зажмите кнопки {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %} + {% include inc/btn.txt btn="X" %} + {% include inc/btn.txt btn="POWER"%}, затем отпустите все, кроме {% include inc/btn.txt btn="START"%}
-  + Может потребоваться несколько попыток
   + Убедитесь, что приставка **выключена**!!!
-1. Если эксплойт сработал, запустится меню настройки Luma3DS
-
-### Часть III - Настройка Luma3DS
-
-{% include /inc/luma_setup.txt %}
-1. Нажмите {% include inc/btn.txt btn="START"%} ещё раз (нужно сделать это быстро, до тех пор, пока приставка не загрузилась) и удерживайте до тех пор, пока не появится SafeB9SInstaller
-	+ Если при этом вы некоторое время наблюдаете просто черный экран, нужно отпустить кнопку {% include inc/btn.txt btn="START"%} на долю секунды и зажать снова, до появления SafeB9SInstaller
-	+ Если не выходит и после сохранения настроек Luma вы попадаете в меню приставки, отключите приставку и проделайте трюк с магнитом и флеш-картриджем ещё раз (с переключателем и флеш-картриджем, если у вас 2DS). Теперь при удерживании {% include inc/btn.txt btn="START"%} вместо меню настроек вы должны сразу загрузиться в SafeB9SInstaller
-	+ Не отпускайте кнопку {% include inc/btn.txt btn="START"%}, пока не появится SafeB9SInstaller
+1. На несколько секунд зажмите кнопки {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %} + {% include inc/btn.txt btn="X" %} + {% include inc/btn.txt btn="POWER"%}, затем отпустите всё, кроме {% include inc/btn.txt btn="START"%}
+  + Может потребоваться несколько попыток
+1. Если эксплойт сработал, запустится SafeB9SInstaller
 	+ **Если все ещё не получается:** 
 		1. Переименуйте `boot.firm` в корне SD-карты в `_boot.firm`
 		1. Скопируйте в корень SD-карты `SafeB9SInstaller.firm`, который сейчас находится в папке `/luma/payloads/` и переименуйте его в `boot.firm`
@@ -64,7 +42,7 @@ author_profile: true
 		1. `_boot.firm` переименуйте обратно в `boot.firm`.
 			+ Зачем такие сложности? Метод, который написано в гайде изначально позволяет провести всю установку не дёргая туда-сюда карту памяти. 
 
-### Часть IV - Установка boot9strap
+### Часть III - Установка boot9strap
 
 {% include /inc/install_b9s.txt %}
 1. Уберите магнит от устройства, можете так же вытащить флеш-картридж из приставки
@@ -72,11 +50,15 @@ author_profile: true
 
 ___
 
+[Удаление ntrboot из флеш-картриджа](#удаление-ntrboot-из-флеш-картриджа)
+{: .notice--success}
 
-Следующий шаг: [Завершение установки](finalizing-setup)
+[Завершение установки](finalizing-setup)
 {: .notice--success}
 
 ___
+
+# Удаление ntrboot из флеш-картриджа
 
 Это дополнительный раздел, который позволяет вернуть флеш-картридж в исходное состояние (чтобы использовать флеш-картридж для его стандартных функций).
 
@@ -101,17 +83,15 @@ ___
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `ntrboot` в корне SD-карты
 1. Скопируйте `.bin-файл` из `.zip-архива` с резервной копией прошивки вашего флеш-картриджа в папку `/ntrboot/` в корне SD-карты
-1. Создайте папку `payloads` внутри папки `luma` на SD-карте 
-1. Скопируйте `ntrboot_flasher.firm` из `.zip-архива` ntrboot_flasher в папку `/luma/payloads/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 1. Вставьте флеш-картридж в консоль
 1. Удерживайте кнопку {% include inc/btn.txt btn="START" %} во время загрузки приставки, чтобы запустить luma chainloader
-1. Запустите ntrboot_flasher
+1. Запустите **ntrboot_flasher**
 1. Прочтите предупреждение на красном экране
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
 1. Выберите ваш флеш-картридж
 	+ Если вашего флеш-картриджа нет в списке на верхнем экране, прочтите информацию о каждой из опций на нижнем экране, возможно вы найдете свой картридж в описании
-1. Выберите "Restore Flash"
+1. Выберите "**Restore Flash**"
 1. Нажмите {% include inc/btn.txt btn="A" %} чтобы продолжить
 1. Дождитесь окончания процесса
 1. Нажмите {% include inc/btn.txt btn="A" %} для возврата в главное меню
@@ -120,5 +100,5 @@ ___
 
 ___
 
-## [Завершение установки](finalizing-setup)
+## Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--success}
