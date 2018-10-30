@@ -1,1 +1,0 @@
-* Свежая версия [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}

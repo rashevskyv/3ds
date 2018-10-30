@@ -10,7 +10,7 @@ Steelhax - новая первичная точка входа для 3DS. С е
 ## Что понадобится 
 
 * [Steelhack Installer](https://github.com/VegaRoXas/vegaroxas.github.io/raw/master/files/steelhax-installer.rar){:target="_blank"}
-* [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"} (для прошивки 11.8.0-41 используйте otherapp для 11.7.0-40)
+* [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"}
 * Свежая версия [Homebrew Menu](https://github.com/fincs/new-hbmenu/releases/download/v2.0.0/boot.3dsx){:target="_blank"}
 * Если ваша прошивка ниже, чем {% include /vars/sys_version.txt %}, вам придётся [обновить вашу прошивку](update-system#%D1%87%D0%B0%D1%81%D1%82%D1%8C-ii---%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B){:target="_blank"} до последней, иначе вы не сможете зайти в eShop
 
