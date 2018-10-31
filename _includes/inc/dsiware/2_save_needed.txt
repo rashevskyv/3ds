@@ -1,6 +1,0 @@
-* Купленная DSiWare игра из списка ниже (пиратская копия **не** будет работать) на **исходной 3DS**
-	+ **Fieldrunners**
-	+ **Legends of Exidia**
-	+ **Guitar Rock Tour**  
-	+ **The Legend of Zelda: Four Swords**  
-* Свежая версия [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest){:target="_blank"}

@@ -9,9 +9,8 @@ Steelhax - новая первичная точка входа для 3DS. С е
 
 ## Что понадобится 
 
-* [Steelhack Installer](https://github.com/VegaRoXas/vegaroxas.github.io/raw/master/files/steelhax-installer.rar){:target="_blank"}
-* [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"}
-* Свежая версия [Homebrew Menu](https://github.com/fincs/new-hbmenu/releases/download/v2.0.0/boot.3dsx){:target="_blank"}
+* Свежая версия {% include /inc/files/3dssdfiles.txt %}
+* [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"} *(для вашей версии консоли и региона)*
 * Если ваша прошивка ниже, чем {% include /vars/sys_version.txt %}, вам придётся [обновить вашу прошивку](update-system#%D1%87%D0%B0%D1%81%D1%82%D1%8C-ii---%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B){:target="_blank"} до последней, иначе вы не сможете зайти в eShop
 
 ## Инструкция 
@@ -40,11 +39,10 @@ Steelhax - новая первичная точка входа для 3DS. С е
 	* НЕ ОБНОВЛЯЙТЕ ИГРУ!
 	* Если вы обновили игру, удалите обновление через системные настройки
 1. Закройте игру и выключите приставку
-1. Вставьте её карту памяти в ПК
-1. Извлеките **папку** `steelhax` из архива [`steelhax-installer.rar`](https://github.com/VegaRoXas/vegaroxas.github.io/raw/master/files/steelhax-installer.rar){:target="_blank"} в корень карты памяти вашей приставки
-1. Скачайте [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"} (используйте otherapp для 11.7.0-40) и сохраните его в папку `steelhax` под именем `payload.bin`
-	* Не забудьте выбрать регион!
-1. Скопируйте [boot.3dsx (Homebrew Menu)](https://github.com/fincs/new-hbmenu/releases/download/v2.0.0/boot.3dsx){:target="_blank"} в корень карты памяти приставки
+1. Вставьте карту памяти приставки в ПК
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
+1. Скачайте [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"} и сохраните его в папку `steelhax` под именем `payload.bin`
+	* Не забудьте выбрать **регион и правильную версию приставки!**
 1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > title > 00040000 > regionId > data` на карте памяти приставки, где вместо **regionID** будет одно из значений ниже, соответствующее региону вашей приставки:
 	* USA: `000d7d00`
 	* EUR: `000d7e00`
@@ -56,5 +54,5 @@ Steelhax - новая первичная точка входа для 3DS. С е
 
 ___
 
-## [Установка CFW с помощью Frogminer](frogminer)
+## **Следующий шаг:** [Установка CFW с помощью Frogminer](frogminer)
 {: .notice--success}

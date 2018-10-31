@@ -48,5 +48,5 @@ author_profile: true
 	* Ваш картридж теперь прошит и готов к использованию для прошивки приставки
 ___
 
-## [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
+## **Следующий шаг:** [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
 {: .notice--success}

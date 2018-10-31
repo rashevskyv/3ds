@@ -18,18 +18,7 @@ author_profile: true
 
 ## Что понадобится
 
-Обратите внимание, что `secret_sector.bin` необходим для отката эксплойта arm9loaderhax только для приставок ревизии New. **Если у вас не New 3DS/2DS, вам не нужен `secret_sector.bin`**.
-{: .notice--info}
-
-* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия {% include /inc/luma_adress.txt %}
-* [Luma3DS 7.0.5](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5){:target="_blank"}
-* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"}
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-{% include /inc/files/bootstrap_standart.txt %}
-* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только для пользователей New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl% 3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce){:target="_blank"}
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* [`cleanmaster.gm9`]({{ "/gm9_scripts/cleanmaster.gm9" | absolute_url }}){:target="_blank"}
+* Свежая версия {% include /inc/files/3dssdfiles.txt %}
 
 ## Инструкция
 
@@ -54,26 +43,10 @@ author_profile: true
 {: .notice--info}
 
 1. Выключите консоль
-1. Вставьте SD-карту в компьютер
-1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
-1. Скопируйте файл `boot.firm` из `.7z-архива` свежей версии Luma3DS в корень SD-карты
-1. Скопируйте файл `arm9loaderhax.bin` из `.7z-архива` с  Luma3DS 7.0.5 в корень SD-карты с заменой
-1. Создайте папку `boot9strap` в корне SD-карты
-1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
-1. **Только для пользователей New 3DS:** Скопируйте `secret_sector.bin` в папку `/boot9strap/` на SD-карте
-1. Перейдите в папку `/luma/payloads/` и удалите всё её содержимое
-1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
-1. Переименуйте `SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `start_SafeB9SInstaller.bin`
-1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
-1. Скопируйте папку `gm9` из `.zip-архива` GodMode9 в корень SD-карты
-1. Скопируйте `cleanmaster.gm9` в папку `/gm9/scripts/` на SD-карте
-1. Скопируйте `lumaupdater.cia` в папку `/cias` на SD-карте
-
-    ![]({{ "/images/screenshots/updating-to-b9s-file-layout.png" | absolute_url }}){:target="_blank"}
-	{: .text-center}
-    {: .notice--info}
-
+1. Вставьте SD-карту из **приставки** в компьютер
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
 ### Часть III - Запуск SafeB9SInstaller
 

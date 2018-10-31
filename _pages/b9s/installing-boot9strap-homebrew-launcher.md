@@ -1,5 +1,5 @@
 ---
-title: Установка boot9strap  (Homebrew Launcher) вручную #
+title: Установка boot9strap (Homebrew Launcher)
 lang: ru
 permalink: installing-boot9strap-homebrew-launcher.html
 author_profile: true
@@ -30,13 +30,8 @@ author_profile: true
 
 {% include /inc/install_b9s.txt %}
 
-### Часть III - Настройка Luma3DS
-
-{% include /inc/luma_setup.txt %}
-		+ Если появляется ошибка, просто переходите к следующей странице
-
 ___
 
-## [Завершение установки](finalizing-setup)
+## **Следующий шаг:** [Завершение установки](finalizing-setup)
 {: .notice--success}
 

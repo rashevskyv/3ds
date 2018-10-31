@@ -1,3 +1,0 @@
-* Свежая версия [b9sTool](https://github.com/zoogie/b9sTool/releases/latest){:target="_blank"}
-* Свежая версия {% include /inc/luma_adress.txt %}
-* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}

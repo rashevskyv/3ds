@@ -38,8 +38,6 @@ addons:
     url: /faq
   - title: "FAQ для прошитых"
     url: /faq-3ds
-  - title: "Установка freeshop"
-    url: /freeshop
   - title: "Установка приложений и игр"
     url: /games
   - title: "Использование читов"
@@ -64,8 +62,6 @@ addons:
     url: /godmode9-usage#создание-резервной-копии-бекап-sysnand
   - title: "Конвертация 3DS-ромов в CIA"
     url: /godmode9-usage#конвертация-из-3ds-в-cia
-  - title: "Создание, редактирование и восстанавление резервных копий сохранения игр (англ.)"
-    url: https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/
   - title: "Эмуляция языка и региона в Luma3DS"
     url: /lumalocales
   - title: "Смена региона"

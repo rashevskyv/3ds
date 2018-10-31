@@ -6,85 +6,65 @@ author_profile: true
 
 {% include toc title="Содержание" %}
 
-### Обязательно к прочтению
+## Обязательно к прочтению
 
 Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.).
 
-Soundhax (в сочетании с pre9otherapp) совместим с версиями прошивки от 4.0.0 до 8.1.0 в регионах EUR, JPN, KOR и USA.
-
-Чтобы распаковать архивы `.7z`, присутствующие на этой странице, вам понадобится архиватор [7-Zip](http://www.7-zip.org/) или [The Unarchiver](https://theunarchiver.com/).
+Soundhax (в сочетании с pre9otherapp) совместим с версиями прошивки от 3.0.0 до 8.1.0 в регионах EUR, JPN, KOR и USA.
 
 {% capture notice-1 %}
-
 Заметьте, что обновление на картридже позволяет обновить только базовые функции консоли, такие как Системные настройки, меню HOME, и т. п. приложение Звук Nintendo 3DS и сетевые функции, такие как Передача данных, Интернет-браузер, Площадь StreetPass Mii или eShop с картриджа не обновляются.
 
 Это означает, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS *(<3.0.0)*, до версии с новым приложением Звук Nintendo 3DS сделает невозможной работу [Soundhax](homebrew-launcher-(soundhax))! Используйте [альтернативный метод](installing-boot9strap-mset) входа в Homebrew Launcher!
+<br>
 {% endcapture %}
-
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-### Что понадобится
+## Что понадобится
 
-* Свежая версия [Soundhax](http://soundhax.com/) *(для вашего региона, устройства и региона)*
-* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
-* Свежая версия {% include /inc/luma_adress.txt %}
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"} (othreapp1 для прошивок 4.0-9.2, otherapp2 для прошивок до 4.0)
+* Свежая версия [Soundhax](http://soundhax.com/) *(для вашего устройства и региона)*
+* Свежая версия {% include /inc/files/3dssdfiles.txt %}
 
-### Инструкция
+## Инструкция
 
-#### Часть I - Подготовительные работы
+### Часть I - Подготовительные работы
 
 1. Выключите консоль
-1. Вставьте SD-карту в компьютер
+1. Вставьте SD-карту из **приставки** в компьютер
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Скопируйте Soundhax `.m4a` в корень вашей SD-карты
-1. Скопируйте пейлоад pre9otherapp в корень SD-карты и переименуйте его в `otherapp.bin`
-1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте `boot.3dsx` в корень SD-карты
-1. Создайте папку `boot9strap` в корне SD-карты
-1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
-1. Скопируйте `arm9.bin` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-#### Часть II - Запуск SafeB9SInstaller
+### Часть II - Запуск SafeB9SInstaller
 
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 1. Запустите приложение Звук Nintendo 3DS (Nintendo 3DS Sound)
 
     ![]({{ "/images/screenshots/soundhax-welcome.png" | absolute_url }})
-    {: .notice--info}
+	{: .text-center}
+	{: .notice--info}
 
 1. Если вы никогда не запускали Звук Nintendo 3DS (Nintendo 3DS Sound) ранее и видите советы по использованию приложения, пролистайте все сообщения птички, затем закройте приложение и снова запустите его
   + Если запустить Soundhax не закрыв приложение, то птичка будет появляться при каждом запуске программы, до тех пор, пока вы не выполните этот пункт
 1. Перейдите в `/SDCARD`, затем начните воспроизведение "<3 nedwill 2016"
   + Может потребоваться несколько попыток
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
-  + Если процесс останавливается на srvinit(), а затем приложение звук вылетает, используйте [pre9otherapp 1.2](https://github.com/Pirater12/pre9otherapp/releases/tag/v1.2){:target="_blank"}
 
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
-    {: .notice--info}
+	{: .text-center}
+	{: .notice--info}
 
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
-#### Часть III - Установка boot9strap
+### Часть III - Установка boot9strap
 
 1. Дождитесь окончания всех проверок безопасности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
 
-#### Часть IV - Настройка Luma3DS
-
-1. Ваша консоль должна перезагрузиться в меню конфигурации Luma3DS
-  + Если экран остаётся чёрным, обратитесь к разделу [Проблемы и их решения](troubleshooting#черный-экран-при-загрузке-sysnand-после-установки-boot9strap)
-1. Нажимая (A) выберите следующие пункты:    
-  + **"Show NAND or user string in System Settings"**
-1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
-  + Если появляется ошибка, просто переходите к следующей странице
-
 ___
 
-## [Завершение установки](finalizing-setup)
+## **Следующий шаг:** [Завершение установки](finalizing-setup)
 {: .notice--success}

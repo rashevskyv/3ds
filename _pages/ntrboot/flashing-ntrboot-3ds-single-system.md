@@ -53,5 +53,5 @@ author_profile: true
 
 ___
 
-## Следующий шаг: [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
+## **Следующий шаг:** [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
 {: .notice--success}

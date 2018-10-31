@@ -4,16 +4,13 @@ permalink: /get-started.html
 author_profile: true
 ---
 
-Эта страница содержит инструкции по установке boot9strap на *не взломанную* 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе [Обновление до boot9strap](a9lh-to-b9s){:target="_blank"}.
+Эта страница содержит инструкции по установке boot9strap на *не взломанную* 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе [обновление до boot9strap](a9lh-to-b9s){:target="_blank"}.
 
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows){:target="_blank"}, [F3 (Linux)](f3-linux){:target="_blank"}, или [F3X (Mac)](f3x-mac){:target="_blank"}!
 
 Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: [Расширения файлов (Windows)](file-extensions-windows){:target="_blank"}!
 
 Если на приставке нет важных для вас данных, то я крайне рекомендую произвести форматирование [приставки](clean_sd#i-Форматирование-приставки) и [SD-карты](clean_sd#ii-Форматирование-sd-карты) перед началом взлома. **Помните, что форматирование уничтожит все ваши данные на приставке и SD-карте. Делайте его только в том случае, если на приставке и карте нет ничего важного!**
-{: .notice--warning}
-
-**С 23.08.2018 freeshop перестал скачивать игры! Nintendo приблизительно в час утра по EST включила блокировку неавторизованного скачивания игр со своих серверов для всех доступных через CDN тайтлов. <br>_[Источник...](https://twitter.com/Cheatfreak47/status/1032180782935277570?s=20){:target="_blank"}_**<br><br>Игры теперь можно устанавливать только [с помощью FBI](games)
 {: .notice--warning}
 
 ___
@@ -24,10 +21,6 @@ ___
 
 Например, если у вас версия прошивки "5.0.0-**0**E", необходимо выбрать ячейку на пересечении колонки "Без браузера" и ряда "С 5.0.0 по 5.1.0" так как версия системы находится в этом диапазоне и в системе не установлен браузер.
 
-Любую версию прошивки можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update){:target="_blank"} (или выполнив Обновление системы), и после этого продолжить выполнять инструкцию.
-
-**Если вы не можете следовать инструкциям для конкретной версии из-за невыполненных предварительных условий, обратите внимание на столбец "Для всех версий". Эти методы работают вне зависимости от версии прошивки.**
-
 Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
 {: .notice--success}
 
@@ -37,7 +30,7 @@ ___
 
 #### Таблица версий
 
-Для всех консолей, любой версии прошивки можно использовать [Хардмод](making-hardmod){:target="_blank"} или [NTRBootHax](ntrboot){:target="_blank"}<br><br>**В данный момент можно прошить любую приставку, обновив её до {% include /vars/sys_version.txt %} через Системные настройки, а затем воспользовавшись методом [Steelminer](steelminer){:target="_blank"}**
+Для всех консолей, любой версии прошивки можно использовать [NTRBootHax](ntrboot){:target="_blank"} или [Steelminer](steelminer){:target="_blank"}, даже если они не указаны в таблице! Для первого понадобится совместимый флеш-картридж, но этот метод наиболее простой, для второго - обновиться до последней версии системного ПО и этот метод комплексный и более сложный. <br><br>**Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до {% include /vars/sys_version.txt %} через Системные настройки, а затем воспользовавшись методом [Steelminer](steelminer){:target="_blank"}. Этот метод не требует дополнительных вложений**
 {: .notice--warning}
 
 <table>
@@ -54,36 +47,26 @@ ___
       <th style="text-align: center; font-weight: bold;">По</th>
       <th style="text-align: center; font-weight: bold;">Браузера нет</th>
       <th style="text-align: center; font-weight: bold;">Браузер есть</th>
-      <th style="text-align: center; font-weight: bold;">Для всех версий</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
 	  <td style="text-align: center; font-weight: bold;">2.0.0</td>
-      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-4.5</td>
-      <td style="text-align: center;" rowspan="10">
-		<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
-			<img src="/images/consoles/ntrhax.png">
-		</a>
-		<br><br>
-		<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
-			<img src="/images/consoles/hardmod.png">
-		</a>
-	  </td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
 	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
-      <td style="text-align: center;"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-8.1</td>
+      <td style="text-align: center;"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
       <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
-      <td style="text-align: center; font-weight: bold;"	>3.1.0</td>
-      <td style="text-align: center;" colspan="2"><a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)"><img src="/images/consoles/ntrhax.png"></a><a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)"><img src="/images/consoles/hardmod.png"></a>, или <a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой"><img src="/images/consoles/cart_update.png"></a> до 4.0-8.1</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">4.0.0</td>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
     </tr>
@@ -100,20 +83,3 @@ ___
     </tr>
 </tbody>
 </table>
-{% capture notice-7 %}
-
-**Методы, подходящие для всех версий прошивки:**
-
-<a href="ntrboot" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
-	<img src="/images/consoles/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
-</a>
-<br>
-<a href="making-hardmod" title="Установка через hardmod (необходимы навыки работы с паяльником)">
-	<img src="/images/consoles/hardmod.png"> - установка через hardmod (необходимы навыки работы с паяльником)
-</a>
-
-{% endcapture %}
-		
-<div class="notice--info">{{ notice-7 | markdownify }}</div>
-
-

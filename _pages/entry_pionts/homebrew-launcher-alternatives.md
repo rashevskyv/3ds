@@ -6,27 +6,22 @@ author_profile: true
 
 {% include toc title="Разделы" %}
 
-Homebrew Launcher имеет множество точек входа, или методов запуска.
+Homebrew Launcher имеет множество точек входа, или методов запуска. На текущий момент сама простая и удобная - [Steelminer](steelminer){:target="_blank"}
 
-**Убедитесь, что у вас есть рабочее активное подключение к интернету.**
-
-Если вы не можете использовать browserhax (см. таблицу ниже), у вас нет одной из этих игр и другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это купить "Nintendo Selects" версию [Ocarina of Time 3D](https://amzn.to/2fkaKdp){:target="_blank"} (убедитесь, что покупаете картридж своего региона) и [Powersaves](https://amzn.to/2fb3VY7){:target="_blank"} (совместим со всеми регионами), затем использовать oot3dhax из таблицы ниже.
-
-Убедитесь, что Беспроводной режим (Wireless Communication) включен, так как udsploit и safehax (используется на следующей странице) потребует активный беспроводной модуль для своей работы, и некоторые консоли (New 3DS, New 2DS и Old 2DS) не могут включить Беспроводной режим, находясь в Homebrew Launcher. Достаточно включить Беспроводной режим (Wireless Communication); наличие соединения с точкой доступа не обязательно.
+**Убедитесь, что у вас есть рабочее активное подключение к интернету, без него на следующей странице вы не сможете воспользоваться эксплойтами!**
+{: .notice--warning}
 
 ## Что понадобится
 
-* [Homebrew Menu v2.0.0](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-<!-- {% include /inc/files/ocs.txt %} -->
+* Свежая версия {% include /inc/files/3dssdfiles.txt %}
 * [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 ## Инструкция
 
 1. Выключите консоль
-1. Вставьте SD-карту в компьютер
-<!-- 1. Скопируйте `boot.3dsx` (OCS) в корень SD-карты -->
-1. Скопируйте `boot.3dsx` (Homebrew Menu 2.0.0) в корень SD-карты
-1. Скопируйте otherapp payload в корень вашей SD-карты и переименуйте его в `otherapp.bin`
+1. Вставьте SD-карту из **приставки** в компьютер
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
+1. Скопируйте *otherapp payload* в корень вашей SD-карты и замените им уже имеющийся там `otherapp.bin`
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
@@ -64,10 +59,9 @@ Homebrew Launcher имеет множество точек входа, или м
 | <sub>[stickerhax](https://github.com/yellows8/stickerhax){:target="_blank"} | <sub>[*Paper Mario: Sticker Star*](https://amzn.to/2f6aDx8){:target="_blank"}, <br> Другая 3DS с доступом к Homebrew Launcher | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>Все | <sub>от 9.0.0-X до 11.3.0-X включительно |
 {: .notice--info}
 	
-<!-- Консоль должна загрузиться в OCS -->
 Консоль должна загрузиться в Homebrew Launcher
 
 ___
 
-## [Установка boot9strap](installing-boot9strap-homebrew-launcher)
+## **Следующий шаг:** [Установка boot9strap](installing-boot9strap-homebrew-launcher)
 {: .notice--success}

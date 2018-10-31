@@ -29,15 +29,15 @@ author_profile: true
 1. Нажмите {% include inc/btn.txt btn="START" %}, чтобы сохранить настройки и перезагрузить приставку
 
 
-### lumalocaleswitcher
+### Смена региона и языка игры
 
 1. Установите `lumalocaleswitcher` через FBI (как это сделать описано [здесь](games){:target="_blank"})
 	+ {% include /inc/olx_vk.txt %}
 1. Запустите `lumalocaleswitcher` из меню Home
-1. Перейдите в меню "Titles "
+1. Перейдите в меню "**Titles**"
 1. Выберите игру, язык которой вы хотите поменять
-1. Выберите пункт "Change Region", затем "EUR"
-1. Выберите пункт "Change Language", затем "RU"
+1. Выберите пункт "**Change Region**", затем "**EUR**"
+1. Выберите пункт "**Change Language**", затем "**RU**"
 1. Нажмите два раза {% include inc/btn.txt btn="B" %}, чтобы вернуться в главное меню программы 
 1. Нажмите {% include inc/btn.txt btn="START" %}, чтобы закрыть программу
 

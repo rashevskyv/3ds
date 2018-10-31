@@ -17,9 +17,8 @@ author_profile: true
 Удаление CFW оставит вас на той же прошивке, что вы и были, но FIRM приставки будут заменены на самые новые, что означает невозможность вернуться к CFW без помощи [ntrboot](ntrboot){:target="_blank"}-, [hardmod](making-hardmod){:target="_blank"}- или [dsiware](installing-boot9strap-dsiware){:target="_blank"}-методов, даже если у вас осталась низкая версия прошивки. Еще раз - если вы удалили кастом находясь на прошивке 9.2.0, то вы уже не сможете прошить его простыми методами!!! 
 {: .notice--danger}
 
-Удаление CFW может привести к брику! После удаления CFW вы сможете восстановить бекап NAND, только с помощью [hardmode](hardmode){:target="_blank"}!
+Удаление CFW может привести к брику! После удаления CFW вы сможете восстановить бекап NAND, только с помощью hardmode!
 {: .notice--danger}
-
 
 ## Что понадобится
 
@@ -40,11 +39,11 @@ author_profile: true
 
 {% include inc/launch_godmode9.txt console="" %}
 1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для вызова меню
-1. Выберите "Scripts..."
+1. Выберите "**Scripts...**"
 
-1. Выберите "GM9Megascript"
-1. Выберите "Hax Options"
-1. Выберите "Un-install Hax"
+1. Выберите "**GM9Megascript**"
+1. Выберите "**Hax Options**"
+1. Выберите "**Un-install Hax**"
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl3) и введите указанную комбинацию кнопок
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить

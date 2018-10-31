@@ -26,7 +26,7 @@ author_profile: true
 1. Вставьте SD-карту **прошитой 3DS** обратно в **прошитую 3DS**
 1. Вставьте флеш-картридж в **прошитую 3DS**
 1. Запустите Luma3DS chainloader, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки на **прошитой 3DS**
-1. Выберите "**ntrboot_flasher***"
+1. Выберите "**ntrboot_flasher**"
 1. Прочтите предупреждение на красном экране
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
 1. Выберите ваш флеш-картридж
@@ -44,5 +44,5 @@ author_profile: true
 	* Ваш картридж теперь прошит и готов к использованию для прошивки приставки
 ___
 
-## Следующий шаг: [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
+## **Следующий шаг:** [Установка boot9strap (ntrboot)](installing-boot9strap-ntrboot)
 {: .notice--success}
