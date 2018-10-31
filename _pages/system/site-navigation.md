@@ -56,7 +56,6 @@ author_profile: true
 + [Использование GodMode9](godmode9-usage)
 + [Обновление Luma3DS](update-luma3ds)
 + [Обновление boot9strap](updating-b9s)
-+ [Обновление с помощью картриджа](cart-update)
 + [Обновление системного ПО приставки](update-system)
 + [Перенос данных на другую приставку](move-movable)
 + [Пожертвования](donations)

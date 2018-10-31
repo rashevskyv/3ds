@@ -55,23 +55,23 @@ author_profile: true
 {% include inc/launch_godmode9.txt console="" %}
 1. Выберите "**Scripts...**"
 1. Выберите "**GM9Megascript**"
+1. Выберите "**Scripts from Plailect’s Guide**"
+1. Выберите "**CTRTransfer Ticket Copy**"
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы начать копирование тикетов
+1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
+1. Нажимайте {% include inc/btn.txt btn="B" %}, пока не вернётесь в главное меню скрипта
 1. Выберите "**CTRNAND trnsfer...**"
 1. Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку {% include inc/btn.txt btn="A" %}
 1. Нажмите {% include inc/btn.txt btn="A" %}
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы разрешить запись в SysNAND (lvl2) и введите указанную комбинацию кнопок
 	+ Этот процесс займет некоторое время
-1. Если появится запрос, выберите "Transfer to SysNAND"
+1. Если появится запрос, выберите "**Transfer to SysNAND**"
 	+ Этот запрос отображается только если у вас есть EmuNAND
 1. По завершению процесса, нажмите {% include inc/btn.txt btn="A" %}
-1. Дважды нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
-1. Выберите "**Scripts from Plailect's Guide**"
-1. Выберите "**CTRTransfer Ticket Copy**"
-1. При появлении запроса, нажмите {% include inc/btn.txt btn="A" %} для продолжения
-1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
-1. Нажмите {% include inc/btn.txt btn="B" %}, чтобы вернуться в главное меню
+1. Нажимайте {% include inc/btn.txt btn="B" %}, пока не вернётесь в главное меню скрипта
 1. Выберите "**Exit**"
 1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
-1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте ВПРАВО до конца и выберите пункт "Обновление" (System Update)
+1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "**Прочие настройки**" (Other Settings), затем листайте ВПРАВО до конца и выберите пункт "**Обновление**" (System Update)
   + Обновление консоли с установленным b9s + Luma (установлено у вас) безопасно
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
 
@@ -87,22 +87,21 @@ author_profile: true
 1. Выберите FBI в списке Homebrew и запустите его
 1. Перейдите в `SD` -> `cias`
 1. Нажмите {% include inc/btn.txt btn="B" %}, чтобы вернуться в папку "SD"
-1. Выберите "gm9"
-1. Выберите "out"
-1. Выберите "ctrtransfer_tickets"
+1. Выберите "**gm9**"
+1. Выберите "**out**"
+1. Выберите "**ctrtransfer_tickets**"
 1. Выполните шаги ниже либо для папки `eshop` либо для папки `unknown`, или для обоих
   + Перейдите в папку
-  + Выберите "\<current directory>"
-  + Выберите "Install and delete all tickets"
+  + Выберите "**\<current directory>**"
+  + Выберите "**Install and delete all tickets**"
   + Ожидайте. Может показаться, что приставка зависла, просто дайте ей время.
   + Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
-  + Нажмите {% include inc/btn.txt btn="B" %} для отмены установки тикетов из CDN.
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из FBI
 
 ### Часть V - Региональные настройки
 
-1. Откройте Системные настройки (System settings)
-1. Перейдите в "Прочие настройки" (Other Settings), затем "Профиль" (Profile), затем "Настройки региона" (Region Settings)
+1. Откройте **Системные настройки (System settings)**
+1. Перейдите в "**Прочие настройки**" (Other Settings), затем "**Профиль**" (Profile), затем "**Настройки региона**" (Region Settings)
 1. Выберите страну из вашего нового региона
 1. При появлении запроса о штате указывать его не нужно
 
@@ -116,9 +115,7 @@ ___
 
 Для Old 3DS и 2DS может потребоваться форматирование (используя TinyFormat или Системные настройки), иначе игры требующие режима расширенной памяти могут не заработать (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon, и т. п.).
 
-* [Если пропали игры из меню](troubleshooting#%D0%B8%D0%B3%D1%80%D1%8B-%D0%BF%D1%80%D0%BE%D0%BF%D0%B0%D0%BB%D0%B8-%D0%B8%D0%B7-%D0%BC%D0%B5%D0%BD%D1%8E-home-%D0%B8-%D0%B2-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%D1%85-%D0%BE%D0%BD%D0%B8-%D1%81%D0%B5%D1%80%D1%8B%D0%B5){:target="_blank"}
 * [Если перестали запускать игры от DS](troubleshooting#dsids-%D0%B8%D0%B3%D1%80%D1%8B-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5){:target="_blank"}
-* [Если пропали игры из меню HOME, но в настройках (Системные настройки > Управление данными > Nintendo 3DS > Программы) вместо них серые крестики](troubleshooting#%D0%B8%D0%B3%D1%80%D1%8B-%D0%BF%D1%80%D0%BE%D0%BF%D0%B0%D0%BB%D0%B8-%D0%B8%D0%B7-%D0%BC%D0%B5%D0%BD%D1%8E-home-%D0%B8-%D0%B2-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%D1%85-%D0%BE%D0%BD%D0%B8-%D1%81%D0%B5%D1%80%D1%8B%D0%B5){:target="_blank"}
 
 {% endcapture %}
 

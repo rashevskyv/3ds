@@ -7,7 +7,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: 'Полное руководство по прошивке 3DS, от начала до boot9strap.<br />**Последнее изменение:** 22 октября 2018'
+excerpt: 'Полное руководство по прошивке 3DS, от начала до boot9strap.<br />**Последнее изменение:** 31 октября 2018'
 ---
 
 {% include toc title="Разделы" %}
@@ -27,6 +27,9 @@ excerpt: 'Полное руководство по прошивке 3DS, от н
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
+
+Некоторые ссылки из этого руководства ведут в [группу во вконтакте](http://vk.com/3ds_cfw){:target="_blank"}. Если вы имеете затруднения с доступом к этому ресурсу, воспользуйтесь [бесплатным VPN](http://zaborona.help){:target="_blank"}
+{: .notice--warning}
 
 ## Я не хочу прошивать приставку сам
 
@@ -48,7 +51,7 @@ excerpt: 'Полное руководство по прошивке 3DS, от н
 
 Больше информации о boot9strap [в этом документе](https://arxiv.org/abs/1802.00359).
 
-Список всех вычисленных подписей sighax можно ознакомиться [здесь](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+Со списком всех вычисленных подписей sighax можно ознакомиться [здесь](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## Что устанавливается в этом руководстве?
 
