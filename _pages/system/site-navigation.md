@@ -1,5 +1,5 @@
 ---
-title: Карта сайта #
+title: Карта сайта
 sitemap: false
 permalink: /site-navigation.html
 author_profile: true
