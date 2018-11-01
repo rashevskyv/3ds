@@ -24,7 +24,7 @@ main:
     url: /ntrboot
   - title: "Список ПО"
     url: /soft
-  - title: "Обновление<br>b9s"
+  - title: "Обновление b9s"
     url: /updating-b9s
   - title: "Навигация по сайту"
     url: /site-navigation
