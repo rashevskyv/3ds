@@ -9,15 +9,7 @@ author_profile: true
 
 * Свежая версия {% include /inc/files/3dssdfiles.txt %}
 
-## Часть I - Подготовка карты памяти
-
-1. Выключите консоль
-1. Вставьте SD-карту из **приставки** в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
-1. Вставьте SD-карту обратно в консоль
-1. Включите консоль
-
-## Часть II - Замена Download Play на Flipnote Studio
+## Часть I - Замена Download Play на Flipnote Studio
 
 1. Запустите **Steel Diver: Sub Wars**, чтобы попасть в Homebrew Menu
 1. Запустите "**Frogtool**"
@@ -37,7 +29,7 @@ author_profile: true
 1. Скопируйте  `484E4441.BIN.patched_%username%` в корень карты памяти и переименуйте его в `484E4441.BIN.patched`
 1. Вставьте карту памяти в приставку и включите её
 
-## Часть III - Запуск b9sTool
+## Часть II - Запуск b9sTool
 
 1. Запустите **Steel Diver: Sub Wars**, чтобы попасть в Homebrew Menu
 1. Запустите "**Frogtool**"
