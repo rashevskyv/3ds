@@ -5,10 +5,6 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-## Что понадобится
-
-* Свежая версия {% include /inc/files/3dssdfiles.txt %}
-
 ## Часть I - Замена Download Play на Flipnote Studio
 
 1. Запустите **Steel Diver: Sub Wars**, чтобы попасть в Homebrew Menu
