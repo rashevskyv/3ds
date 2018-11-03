@@ -29,7 +29,11 @@ author_profile: true
 
 ## Инструкция
 
-### Часть I - Подготовительные работы
+### Часть I - Настройка Luma3DS
+
+{% include /inc/luma_setup.txt %}
+
+### Часть II - Подготовительные работы
 
 Если в предыдущих пунктах вы скидывали на карту 3DSSDFiles, то переходите к следующей части. Повторно скидывать не нужно
 
@@ -39,7 +43,7 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-### Часть II - Обновление системы
+### Часть III - Обновление системы
 
 {% include /inc/if_emunand.txt %}
 
@@ -48,7 +52,7 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть III - Запуск HBL
+### Часть IV - Запуск HBL
 
 {% include /inc/hbl.txt content="Homebrew Launcher" %}
 1. Выберите из списка "ctr-no-timeoffset" и запустите его
@@ -56,7 +60,7 @@ author_profile: true
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
 1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в Homebrew Launcher
 
-### Часть IV - Установка CIA
+### Часть V - Установка CIA
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`
@@ -64,15 +68,15 @@ author_profile: true
 1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-### Часть V - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть VI - Создание резервной копии (бекап) SysNAND
+### Часть VII - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть VII - Дополнительные материалы
+### Часть VIII - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 

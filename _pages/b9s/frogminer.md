@@ -7,10 +7,11 @@ author_profile: true
 
 ## Часть I - Замена Download Play на Flipnote Studio
 
-1. Запустите **Steel Diver: Sub Wars**, чтобы попасть в Homebrew Menu
+Вы должны находиться в Homebrew Launcher!
+
 1. Запустите "**Frogtool**"
-1. Выберите "**Export clean DS Download Play**"
-1. Нажмите на нижний экран, а затем {% include inc/btn.txt btn="START" %}, чтобы вернуться в Homebrew Menu
+1. Выберите "**Export clean DS Download Play**" и нажмите {% include inc/btn.txt btn="A" %}
+1. Нажмите на лягушку на нижнем экране, а затем {% include inc/btn.txt btn="START" %}, чтобы вернуться в Homebrew Menu
 1. Выключите приставку и вставьте карту памяти в ПК
 1. Скопируйте `484E4441.bin` на ПК, он нам скоро понадобится
 1. Перейдите на сайт [DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build){:target="_blank"}
@@ -29,9 +30,9 @@ author_profile: true
 
 1. Запустите **Steel Diver: Sub Wars**, чтобы попасть в Homebrew Menu
 1. Запустите "**Frogtool**"
-1. Выберите "**IMPORT patched DS Download Play**"
-1. Дождитесь окончания импорта, затем нажмите на нижний экран, чтобы продолжить
-1. Выберите "**Boot patched DS Download Play**"
+1. Выберите "**IMPORT patched DS Download Play**" и нажмите {% include inc/btn.txt btn="A" %}
+1. Дождитесь окончания импорта, затем нажмите на лягушку на нижнем экране, чтобы продолжить
+1. Выберите "**Boot patched DS Download Play**" и нажмите {% include inc/btn.txt btn="A" %}
 1. Пройдите настройку приложения, пока не получите следующий экран: 
 
 	![]({{ "/images/screenshots/flipnote.png" | absolute_url }}){:target="_blank"}
