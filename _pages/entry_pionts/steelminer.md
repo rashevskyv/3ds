@@ -17,9 +17,7 @@ Steelhax - новая первичная точка входа для 3DS. С е
 
 В видео показан весь процесс взлома от начала и до конца:
 
-<div align="center">
-<iframe width="560" height="315" src="https://youtu.be/Zdi-RK3InrY" frameborder="0" allowfullscreen> </iframe>
-</div>
+{% include youtube.html id="Zdi-RK3InrY" %}
 {: .text-center}
 {: .notice--info}
 
