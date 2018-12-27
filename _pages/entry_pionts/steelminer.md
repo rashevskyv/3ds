@@ -46,7 +46,7 @@ Steelhax - новая первичная точка входа для 3DS. С е
 1. Вставьте карту памяти приставки в ПК
 1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Скопируйте `movable.sed`, полученный нами ранее, в корень вашей SD-карты
-1. Скачайте [otherapp payload](http://smealum.github.io/3ds/##otherapp){:target="_blank"} и сохраните его в папку `steelhax` под именем `payload.bin`
+1. Скачайте [otherapp payload](http://smealum.github.io/3ds/#otherapp){:target="_blank"} и сохраните его в папку `steelhax` под именем `payload.bin`
 	* Если до сих пор нет для 11.9, выберите для 11.8 
 	* Не забудьте выбрать **регион и правильную версию приставки!**
 1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > title > 00040000 > regionId > data` на карте памяти приставки, где вместо **regionID** будет одно из значений ниже, соответствующее региону вашей приставки:
