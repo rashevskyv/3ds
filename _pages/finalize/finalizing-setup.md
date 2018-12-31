@@ -64,7 +64,8 @@ author_profile: true
 
 Только для тех, кто взламывал приставку через метод [Frogminer](frogminer){:target="_blank"}. Если вы не из числа этих людей - переходите к следующей части
 
-1. Запустите **Steel Diver: Sub Wars**, чтобы попасть в Homebrew Launcher!
+Вы должны находится в Homebrew Launcher!
+{: .notice--info}
 
 1. Запустите "**Frogtool**"
 1. Выберите "**RESTORE clean DS Download Play**"
