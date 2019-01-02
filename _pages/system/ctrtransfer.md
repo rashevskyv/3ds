@@ -16,8 +16,7 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(`.3dsx-файл`)*
+* Свежая версия {% include /inc/files/3dssdfiles.txt %}
 * CTRTransfer-образ 11.5.0 для вашего устройства и региона 
 *(если вашего региона нет в списке, выберите любой, подходящий типу вашего устройства)*:
   +    <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [New 3DS or 2DS - 11.5.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:465f1048f81e8e5c651ce2a4d9df48fec88d1099&dn=11.5.0-38E_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)    
@@ -34,14 +33,10 @@ author_profile: true
 ### Часть I - Подготовительные работы
 
 1. Выключите консоль
-1. Вставьте SD-карту в компьютер
-1. Создайте папку `3ds` в корне SD-карты, если таковой нет
-1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
-1. Создайте папку `/luma/payloads/` в корне SD-карты, если таковой нет
-1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
-1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
-1. Скопируйте `.bin` файл из `.zip-архива` с образом 11.5.0 CTRTransfer в папку `/gm9/in` на SD-карте
+1. Вставьте SD-карту из **приставки** в компьютер
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
 ### Часть II - CTRTransfer
 
