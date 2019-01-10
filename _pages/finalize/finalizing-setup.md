@@ -60,7 +60,15 @@ author_profile: true
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
 1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в Homebrew Launcher
 
-### Часть V - Восстановление Download Play
+### Часть V - Установка CIA
+
+1. Запустите FBI
+1. Перейдите в `SD` -> `cias`
+1. Выберите "**\<current directory>**"
+1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
+1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
+
+### Часть VI - Восстановление Download Play
 
 Только для тех, кто взламывал приставку через метод [Frogminer](frogminer){:target="_blank"}. Если вы не из числа этих людей - переходите к следующей части
 
@@ -70,14 +78,6 @@ author_profile: true
 1. Запустите "**Frogtool**"
 1. Выберите "**RESTORE clean DS Download Play**"
 1. Перезагрузите приставку
-
-### Часть VI - Установка CIA
-
-1. Запустите FBI
-1. Перейдите в `SD` -> `cias`
-1. Выберите "**\<current directory>**"
-1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
-1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
 ### Часть VII - CTRNAND Luma3DS и очистка SD-карты 
 
