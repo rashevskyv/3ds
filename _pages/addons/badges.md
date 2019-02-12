@@ -15,7 +15,7 @@ author_profile: true
 * Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
 * Свежая версия [GYTB](https://github.com/chaoskagami/GYTB/releases/download/alt-rel1/GYTB.cia){:target="_blank"} 
 * Установленный и рабочий [FBI](fbi){:target="_blank"}
-* Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH){:target="_blank"}, можете поискать [тут](https://3dsthemesarchive.site/?type=badges){:target="_blank"}, [тут](https://themeplaza.eu/?category=badges&query=&sort=newest){:target="_blank"} или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/){:target="_blank"}.
+* Пак с жетонами. Можете [тут](https://themeplaza.eu/?category=badges&query=&sort=newest){:target="_blank"} или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/){:target="_blank"}.
 
 ## Часть I - Подготовительные работы
 
