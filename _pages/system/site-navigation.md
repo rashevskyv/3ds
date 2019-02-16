@@ -58,7 +58,7 @@ author_profile: true
 + [Обновление boot9strap](updating-b9s)
 + [Обновление системного ПО приставки](update-system)
 + [Перенос данных на другую приставку](move-movable)
-+ [Пожертвования](donations)
++ [Пожертвования](http://customfw.xyz/donations)
 + [Проблемы и их решения](troubleshooting)
 + [Расширения файлов (Windows)](file-extensions-windows)
 + [Смена региона](region-changing)
