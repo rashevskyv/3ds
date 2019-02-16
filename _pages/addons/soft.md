@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <script>
-location.href = 'https://vk.com/@3ds_cfw-spisok-homebrew-prilozhenii';
+location.href = 'https://vk.com/@vulpesvulpeos-spisok-homebrew-prilozhenii-dlya-3dspkosx';
 </script>
 
 {% include toc title="Разделы" %}

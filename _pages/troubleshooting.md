@@ -80,7 +80,7 @@ author_profile: true
     1. Зажмите {% include inc/btn.txt btn="L" %}+{% include inc/btn.txt btn="R" %}+{% include inc/btn.txt btn="A" %}+{% include inc/btn.txt btn="UP" %}
     1. Включите консоль
     1. Если вы вошли в режим восстановления, обновите консоль.
-1. Ваша консоль, скорее всего, превратилась в брик. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp){:target="_blank"} (англ.), [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw){:target="_blank"} (рус.)
+1. Ваша консоль, скорее всего, превратилась в брик. Вы можете обратиться за поддержкой [сюда](http://customfw.xyz/contacts){:target="_blank"}
 
 ## Черный экран при загрузке SysNAND после установки b9s
 
