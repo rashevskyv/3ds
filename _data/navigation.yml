@@ -30,6 +30,8 @@ main:
     url: /site-navigation
   - title: "Пожертвования"
     url: http://customfw.xyz/donations
+  - title: "Связаться с нами"
+    url: http://customfw.xyz/contacts
             
 addons:
   - title: "FAQ для непрошитых"
