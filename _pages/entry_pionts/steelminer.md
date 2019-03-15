@@ -27,7 +27,7 @@ Steelhax - новая первичная точка входа для 3DS. С е
 
 ### Часть III - Создание взломанного сохранения 
 
-1. Перейдите на сайт [https://bruteforcemovable.com](https://bruteforcemovable.com){:target='_blank'}
+1. Перейдите на сайт [https://bruteforcemovable.com/steelhax/](https://bruteforcemovable.com/steelhax/){:target='_blank'}
 1. Пролистайте вниз до "**Section III - Creating the Save File**"
 1. Загрузите созданный ранее `movable.sed` на сайт
 	* Не удаляйте его по завершению, он нам еще понадобится
