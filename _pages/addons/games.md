@@ -70,7 +70,7 @@ author_profile: true
 
 ### Установка с помощью ПК и QR-кода
 
-1. Скачайте [архив](https://fex.net/383178975756?fileId=732062868){:target="_blank"} со скриптом 
+1. Скачайте [архив](files/nginx_qr_cia_install_standalone.zip){:target="_blank"} со скриптом 
 1. Распакуйте его в удобную папку и запустите `create_CIA_dir.bat`
 	* Cкрипт создаст папку `D:/3ds/cia`
 1. Запустите сервер ngnix, запустив `start.bat`
