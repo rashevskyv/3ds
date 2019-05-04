@@ -88,6 +88,12 @@ author_profile: true
 	+ Нажмите {% include inc/btn.txt btn="B" %} для отмены установки тикетов из CDN.
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из FBI
 
+Если после восстановления тикетов игры так и не появились, восстановите их с помощью программы [faketik](https://github.com/ihaveamac/faketik/releases/latest){:target="_blank"}. 
+1. Поместите программу в папку `3ds`
+1. Запустите [Homebrew Launcher](launch-hbl){:target="_blank"}
+1. Запустите faketik 
+	* Интернет на приставке должен быть включен 
+
 ### Часть V - Удаление образа CTRTransfer
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки {% include inc/btn.txt btn="START" %} при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку {% include inc/btn.txt btn="A" %} для выбора "GodMode9" при выполнении этих инструкций. 
