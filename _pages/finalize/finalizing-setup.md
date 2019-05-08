@@ -55,10 +55,10 @@ author_profile: true
 ### Часть IV - Запуск HBL
 
 {% include /inc/hbl.txt content="Homebrew Launcher" %}
-1. Выберите из списка "ctr-no-timeoffset" и запустите его
+1. Выберите из списка "**ctr-no-timeoffset**" и запустите его
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы выставить смещение между RTC и системными часами в 0
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
-1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в Homebrew Launcher
+1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в **Homebrew Launcher**
 
 ### Часть V - Установка CIA
 

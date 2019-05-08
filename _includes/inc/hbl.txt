@@ -6,6 +6,6 @@
 1. Нажмите {% include inc/btn.txt btn="B" %}, чтобы продолжить
 1. Нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню Rosalina
 1. Нажмите {% include inc/btn.txt btn="B" %} для выхода из главного меню Rosalina
-1. Нажмите {% include inc/btn.txt btn="HOME" %}, затем закройте приложение Загружаемая игра (Download Play), наведя на него курсор и нажав кнопку {% include inc/btn.txt btn="X" %}
-1. Запустите приложение Загружаемая игра
-1. Консоль должна загрузиться в {{ include.content }}
+1. Нажмите {% include inc/btn.txt btn="HOME" %}, затем закройте приложение **Загружаемая игра** (Download Play), наведя на него курсор и нажав кнопку {% include inc/btn.txt btn="X" %}
+1. Запустите приложение **Загружаемая игра**
+1. Консоль должна загрузиться в **{{ include.content }}**
