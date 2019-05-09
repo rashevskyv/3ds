@@ -29,7 +29,7 @@ author_profile: true
 Для перешифровки игр необходима OC Windows
 {: .notice--warning}
 
-{% include youtube.html id="mVYPjzQq2lM" %}
+{% include youtube.html id="sXKvf-ymrXI" %}
 
 ## Что понадобится
 
