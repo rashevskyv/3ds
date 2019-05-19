@@ -12,7 +12,7 @@
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы восстановить запрет на запись
 1. Удерживая {% include inc/btn.txt btn="R" %} нажмите {% include inc/btn.txt btn="B" %} для того, чтобы извлечь SD-карту
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `<date>_<serialnumber>_sysnand_###.bin`, `<date>_<serialnumber>_sysnand_###.bin.sha`, `essential.exefs` и `boot9.bin` из папки `/gm9/out/` на SD-карте в безопасное место на вашем компьютере
+1. Скопируйте `<date>_<serialnumber>_sysnand_###.bin`, `<date>_<serialnumber>_sysnand_###.bin.sha`, `essential.exefs` (если есть) и `boot9.bin` (если есть) из папки `/gm9/out/` на SD-карте в безопасное место на вашем компьютере
 	+ Сделайте несколько резервных копий в нескольких местах (например в облачном хранилище)
 	+ Эти бэкапы позволят восстановить консоль, если впоследствии что-то пойдёт не так
 1. После копирования удалите `<YYMMDD>_<serialnumber>_sysnand_###.bin` из папки `/gm9/out/` на SD-карте
