@@ -41,6 +41,7 @@ author_profile: true
 ### Часть II - CTRTransfer
 
 {% include inc/launch_godmode9.txt console="" %}
+1. Нажмите {% include inc/btn.txt btn="HOME" %}, чтобы открыть меню GodeMode9
 1. Выберите "**Scripts...**"
 1. Выберите "**GM9Megascript**"
 1. Выберите "**CTRNAND trnsfer...**"
