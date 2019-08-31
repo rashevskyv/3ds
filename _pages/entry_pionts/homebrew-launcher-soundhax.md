@@ -17,18 +17,12 @@ author_profile: true
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-## Что понадобится
-
-* Последняя версия [SoundHax](http://soundhax.com/){:target="_blank"} *(для вашего устройства, версии ПО и региона)*
-* [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
-* Свежая версия {% include /inc/files/3dssdfiles.txt %}
-
 ## Инструкция
 
 1. Выключите консоль
 1. Вставьте SD-карту из **приставки** в компьютер
-1. Скопируйте Soundhax `.m4a` в корень вашей SD-карты
-1. Скопируйте *otherapp payload* в корень вашей SD-карты и замените им уже имеющийся там `otherapp.bin`
+1. Скопируйте [SoundHax](http://soundhax.com/){:target="_blank"} *(для вашего устройства, версии ПО и региона)* `.m4a` в корень вашей SD-карты
+{% include /inc/payload.txt %}
 1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
