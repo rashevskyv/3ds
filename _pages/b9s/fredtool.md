@@ -16,6 +16,7 @@ author_profile: true
     * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
     * Если папки *Nintendo DSiWare* нет, создайте её
 1. Скопируйте файл `42383841.bin`, находящийся в архиве `fredtool_output.zip` по пути `output/hax/` в папку `Nintendo DSiWare`
+1. Скопируйте папку `private`, находящуюся в архиве `[Frogminer_save.zip](https://github.com/zoogie/Frogminer/releases/latest){:target='_blank'}` в корень вашей карты памяти с заменой
 1. Верните SD-карту обратно в консоль
 1. Включите приставку 
 1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"

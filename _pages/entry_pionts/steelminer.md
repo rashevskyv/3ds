@@ -1,15 +1,11 @@
 ---
-title: Homebrew Menu (используя Steelminer)
+title: Steelminer
 permalink: /steelminer.html
 author_profile: true
 ---
 {% include toc title="Разделы" %}
 
 Steelhax - новая первичная точка входа для 3DS. С её помощью можно получить доступ к Homebrew Launcher и уже из него установить кастомную прошивку. Самое приятное, что использование этой уязвимости абсолютно бесплатно. 
-
-## Что понадобится 
-
-* Если ваша прошивка ниже, чем {% include /vars/sys_version.txt %}, вам придётся [обновить вашу прошивку](update-system#%D1%87%D0%B0%D1%81%D1%82%D1%8C-ii---%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B){:target="_blank"} до последней, иначе вы не сможете зайти в eShop
 
 ## Инструкция 
 
