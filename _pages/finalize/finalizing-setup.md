@@ -68,26 +68,15 @@ author_profile: true
 1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-### Часть VI - Восстановление Download Play
-
-Только для тех, кто взламывал приставку через метод [Frogminer](frogminer){:target="_blank"}. Если вы не из числа этих людей - переходите к следующей части
-
-Вы должны находится в Homebrew Launcher!
-{: .notice--info}
-
-1. Запустите "**Frogtool**"
-1. Выберите "**RESTORE clean DS Download Play**"
-1. Перезагрузите приставку
-
-### Часть VII - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть VIII - Создание резервной копии (бекап) SysNAND
+### Часть VII - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть IX - Дополнительные материалы
+### Часть VIII - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 

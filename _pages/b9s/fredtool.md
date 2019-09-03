@@ -16,7 +16,7 @@ author_profile: true
     * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
     * Если папки *Nintendo DSiWare* нет, создайте её
 1. Скопируйте файл `42383841.bin`, находящийся в архиве `fredtool_output.zip` по пути `output/hax/` в папку `Nintendo DSiWare`
-1. Скопируйте папку `private`, находящуюся в архиве `[Frogminer_save.zip](https://github.com/zoogie/Frogminer/releases/latest){:target='_blank'}` в корень вашей карты памяти с заменой
+1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Верните SD-карту обратно в консоль
 1. Включите приставку 
 1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
@@ -28,11 +28,13 @@ author_profile: true
 
 **Возможные ошибки: **
 * Чёрный экран вместо запуска Flipnote Studio может свидетельствовать о том, что приставка уже прошита. Чтобы проверить, нажмите одновременно {% include inc/btn.txt btn="L" %} + {% include inc/btn.txt btn="DOWN" %} + {% include inc/btn.txt btn="SELECT" %}. Если откроется меню Rosalina, то приставка прошита, можете сразу следовать к [завершению установки](finalizing-setup)
-* Ошибка при старте программы может говорить о том, что у вас повреждена карта памяти, либо скачан неверный otherapp.bin. 
+* Бирюзовый экран возникает при проблемах с картой памяти. Отформатируйте карту памяти через [SDFormatter](https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip){:target='_blank'}. Не забудьте перед этим скопировать содержимое карты памяти на ПК, а после форматирования вернуть обратно
+
 
 ## Часть II - Flipnote Studio
 
 1. Следуйте [это инструкции](https://zoogie.github.io/web/flipnote_directions/){:target='_blank'} для того, чтобы запустить b9stool
+ * Если рожица не появляется, перезакиньте  
 1. Выберите "**Install boot9strap**" кнопкой {% include inc/btn.txt btn="A" %}, подтвердите ваши действия, зажав одновременно {% include inc/btn.txt btn="START" %} и {% include inc/btn.txt btn="SELECT" %}
 1. Когда увидите надпись "Done!", нажмите кнопку {% include inc/btn.txt btn="HOME" %}, затем подтвердите выход, нажав на "ОК". Приставка выключится
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
