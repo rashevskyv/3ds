@@ -34,6 +34,7 @@ author_profile: true
 ## Часть II - Flipnote Studio
 
 1. Следуйте [это инструкции](https://zoogie.github.io/web/flipnote_directions/){:target='_blank'} для того, чтобы запустить b9stool
+ * Если рожица не появляется, перезакиньте {% include /inc/files/3dssdfiles.txt %} на карту памяти
 1. Выберите "**Install boot9strap**" кнопкой {% include inc/btn.txt btn="A" %}, подтвердите ваши действия, зажав одновременно {% include inc/btn.txt btn="START" %} и {% include inc/btn.txt btn="SELECT" %}
 1. Когда увидите надпись "Done!", нажмите кнопку {% include inc/btn.txt btn="HOME" %}, затем подтвердите выход, нажав на "ОК". Приставка выключится
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
