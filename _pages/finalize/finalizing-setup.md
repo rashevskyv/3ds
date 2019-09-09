@@ -43,7 +43,7 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-## Часть III - Восстановление работы меню Подключения Nintendo DS
+### Часть III - Восстановление работы меню Подключения Nintendo DS
 
 Эта часть только для тех, кто прошивал методом Steelminer! Если вы прошивали другим методом, пропустите эту часть
 
@@ -56,7 +56,7 @@ author_profile: true
 1. Выберите "**Карта SD**" (SD Card) и нажмите на "**Nintendo DSi™**"
 1. Выберите "**Копировать**", затем нажмите "**ОК**"
 
-### Часть III - Обновление системы
+### Часть IV - Обновление системы
 
 {% include /inc/if_emunand.txt %}
 
@@ -65,7 +65,7 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть IV - Запуск HBL
+### Часть V - Запуск HBL
 
 {% include /inc/hbl.txt content="Homebrew Launcher" %}
 1. Выберите из списка "**ctr-no-timeoffset**" и запустите его
@@ -73,7 +73,7 @@ author_profile: true
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
 1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в **Homebrew Launcher**
 
-### Часть V - Установка CIA
+### Часть VI - Установка CIA
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`
@@ -81,15 +81,15 @@ author_profile: true
 1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VII - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть VII - Создание резервной копии (бекап) SysNAND
+### Часть VIII - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть VIII - Дополнительные материалы
+### Часть IX - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 
