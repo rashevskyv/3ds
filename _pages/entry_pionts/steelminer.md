@@ -32,6 +32,7 @@ Steelhax - новая первичная точка входа для 3DS. С е
     * Если папки *Nintendo DSiWare* нет, создайте её
     * Если в папке *Nintendo DSiWare* есть файлы, переместите их на ПК 
 1. Скопируйте файл `F00D43D5.bin`, находящийся в архиве `tadmuffin_out.zip` по пути `output\Usa_Europe_Japan_Korea\` в папку `Nintendo DSiWare`
+    * В консоли в папке `Nintendo DSiWare` должен оказаться файл `F00D43D5.bin`, а не папки его содержащие
 1. Верните SD-карту обратно в консоль
 1. Включите приставку 
 1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
