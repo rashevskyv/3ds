@@ -23,7 +23,6 @@ author_profile: true
 {: .notice--danger}
 
 {% include inc/transfer.txt %}
-
 	
 ### Часть VI - Региональные настройки
 

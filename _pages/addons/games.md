@@ -19,7 +19,8 @@ author_profile: true
 
 1. [В нашем облаке](https://fex.net/s/zsba8xf){:target="_blank"}
 1. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
-1. [3dscia](http://www.3dscia.com/)
+1. [3dscia](http://www.3dscia.com/){:target="_blank"}
+1. [Канал в telegram qreeShop3DS](https://t.me/s/qreeShop3DS){:target="_blank"}
 1. [Конвертировать .3DS-ромы в .CIA](godmode9-usage#%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%B7-3ds-%D0%B2-cia){:target="_blank"}
 
 # Установка приложений
@@ -115,16 +116,13 @@ author_profile: true
 
 1. Запустите FBI
 1. Выберите пункт "**Remote Install**", а затем "**Recive URLs over the network**" 
-1. Запускаем [Boop](https://github.com/miltoncandelero/Boop/releases/latest){:target="_blank"}.exe
-1. В графе **3DS IP Adres**s введите IP, написанный на нижнем экране приставки. 
+1. Запускаем [Boop](https://github.com/DD2XAlpha/PC_FBIServer/releases/latest){:target="_blank"}.exe
+1. В графе **3DS IP Adress** введите IP, написанный на нижнем экране приставки. 
 1. Убедитесь, что в графе "**Computer IP Adress**" указан именно ваш локальный IP (обратитесь в [Google](http://bfy.tw/D0PN){:target="_blank"}, если не знаете как его узнать)
-1. Перетащите CIA, которые вы хотите установить в приставку в окно программы, либо выберите их, нажав на кнопку "**Pick files**"
-1. Нажмите на кнопку "**BOOP**"
+1. Выберите CIA нажав на кнопку "**Select single CIA file**", или на "**Select folder for Queuing**" для выбора папки с файлами
+1. Нажмите на кнопку "**Start**"
 1. На нижнем экране 3DS должны появиться две кнопки. Нажмите на {% include inc/btn.txt btn="A" %} для подтверждения установки. 
-  + Если кнопки не появились, убедитесь, что в программе стоит верный IP и нажмите кнопку "**BOOP**". Может понадобится несколько попыток
-
-Если при установке возникает ошибка, попробуйте предыдущую версию программы BOOP 
-{: .notice--warning}
+  + Если кнопки не появились, убедитесь, что в программе стоит верный IP и нажмите кнопку "**Start**". Может понадобится несколько попыток
 
 Важно понимать, что скорость установки программ таким способом не очень высокая и ограничивается примерно 500KBps для old3ds и 1.5Mbps для New. 
 {: .notice--info}
