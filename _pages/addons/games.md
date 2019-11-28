@@ -112,11 +112,11 @@ author_profile: true
 1. Выберите пункт "**Remote Install**", а затем "**Scan QR code**" 
 1. Отсканируйте необходимый QR-код 
 	
-### Установка с помощью программы BOOP
+### Установка с помощью программы FBI Server
 
 1. Запустите FBI
 1. Выберите пункт "**Remote Install**", а затем "**Recive URLs over the network**" 
-1. Запускаем [Boop](https://github.com/DD2XAlpha/PC_FBIServer/releases/latest){:target="_blank"}.exe
+1. Запускаем [FBI Server](https://github.com/DD2XAlpha/PC_FBIServer/releases/latest){:target="_blank"}.exe
 1. В графе **3DS IP Adress** введите IP, написанный на нижнем экране приставки. 
 1. Убедитесь, что в графе "**Computer IP Adress**" указан именно ваш локальный IP (обратитесь в [Google](http://bfy.tw/D0PN){:target="_blank"}, если не знаете как его узнать)
 1. Выберите CIA нажав на кнопку "**Select single CIA file**", или на "**Select folder for Queuing**" для выбора папки с файлами
