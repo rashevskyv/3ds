@@ -15,15 +15,11 @@ Steelhax - новая первичная точка входа для 3DS. С е
 {: .text-center}
 {: .notice--info}-->
 
-### Часть I - Обновление системы
-
-{% include /inc/sys_update.txt %}
-
-## Часть II - Получение ID0
+## Часть I - Получение ID0
 
 {% include /inc/id0_movable.txt %}
 
-### Часть III - BannerBomb 
+### Часть II - BannerBomb 
 
 1. Перейдите на сайт [https://bb3.bruteforcemovable.com/](https://bb3.bruteforcemovable.com/){:target='_blank'} на вашем ПК
 1. Нажмите на кнопку "**Choose File**" и выберите `movable.sed`, его мы получали ранее 
