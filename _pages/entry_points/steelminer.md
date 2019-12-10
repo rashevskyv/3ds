@@ -15,7 +15,11 @@ Steelhax - новая первичная точка входа для 3DS. С е
 {: .text-center}
 {: .notice--info}-->
 
-## Часть I - Получение ID0
+### Часть I - Обновление системы
+
+{% include /inc/sys_update.txt %}
+
+## Часть II - Получение ID0
 
 {% include /inc/id0_movable.txt %}
 

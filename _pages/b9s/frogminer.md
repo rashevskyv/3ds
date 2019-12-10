@@ -13,7 +13,7 @@ author_profile: true
 1. Выберите "**INJECT patched DS Download Play**" и нажмите {% include inc/btn.txt btn="A" %}
 1. Выберите "**Boot patched DS Download Play**" и нажмите {% include inc/btn.txt btn="A" %}
 	* Этот шаг может занять время, будьте терпеливы
-1. по окончанию инжекта вы автоматически загрузится в японскую версию Flipnote Studio
+1. По окончанию инжекта вы автоматически загрузится в японскую версию Flipnote Studio
 
 	![]({{ "/images/screenshots/flipnote.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}

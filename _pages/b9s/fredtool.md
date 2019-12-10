@@ -30,7 +30,6 @@ author_profile: true
 * Чёрный экран вместо запуска Flipnote Studio может свидетельствовать о том, что приставка уже прошита. Чтобы проверить, нажмите одновременно {% include inc/btn.txt btn="L" %} + {% include inc/btn.txt btn="DOWN" %} + {% include inc/btn.txt btn="SELECT" %}. Если откроется меню Rosalina, то приставка прошита, можете сразу следовать к [завершению установки](finalizing-setup)
 * Бирюзовый экран возникает при проблемах с картой памяти. Отформатируйте карту памяти через [SDFormatter](https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip){:target='_blank'}. Не забудьте перед этим скопировать содержимое карты памяти на ПК, а после форматирования вернуть обратно
 
-
 ## Часть II - Flipnote Studio
 
 1. Следуйте [это инструкции](https://zoogie.github.io/web/flipnote_directions/){:target='_blank'} для того, чтобы запустить b9stool
