@@ -31,7 +31,7 @@ author_profile: true
   + Убедитесь, что приставка **выключена**!!!
 1. На несколько секунд зажмите кнопки {% include inc/btn.txt btn="START" %} + {% include inc/btn.txt btn="SELECT" %} + {% include inc/btn.txt btn="X" %} + {% include inc/btn.txt btn="POWER"%}, затем отпустите всё, кроме {% include inc/btn.txt btn="START"%}
   + Может потребоваться несколько попыток
-1. Если эксплойт сработал, запустится SafeB9SInstaller
+1. Если эксплойт сработал, запустите SafeB9SInstaller
 	+ **Если все ещё не получается:** 
 		1. Переименуйте `boot.firm` в корне SD-карты в `_boot.firm`
 		1. Скопируйте в корень SD-карты `SafeB9SInstaller.firm`, который сейчас находится в папке `/luma/payloads/` и переименуйте его в `boot.firm`

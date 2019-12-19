@@ -28,7 +28,7 @@ author_profile: true
 ## Часть II - Удаление Luma3DS
 
 1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"}, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки приставки
-1. Перейдите в `[1:] SYSNAND CTRNAND —> title —> 00040138 —> 0000002 —> content`
+1. Перейдите в `[1:] SYSNAND CTRNAND —> title —> 00040138 —> 20000002 —> content`
 1. Нажмите {% include inc/btn.txt btn="A" %} на файле `????????.app` и выберите **NCCH image option —> Mount image to drive**, нажмите {% include inc/btn.txt btn="A" %}
 1. Перейдите в `exefs`
 1. Нажмите {% include inc/btn.txt btn="A" %} на файле `.firm` и выберите **Copy to 0:/gm9/out**, нажмите {% include inc/btn.txt btn="A" %}
