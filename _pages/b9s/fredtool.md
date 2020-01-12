@@ -21,6 +21,7 @@ author_profile: true
 1. Включите приставку 
 1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
 1. Выберите "**Карта SD**" (SD Card) и нажмите на "**Haxxxxxxxxx!**"
+ * Если рожица не появляется, перезакиньте {% include /inc/files/3dssdfiles.txt %} на карту памяти
 1. Выберите "**Копировать**", затем нажмите "**ОК**"
 1. Вернитесь на первую страницу Системных настроек 
 1. Перейдите в "**Интернет-настройки**" (Internet Settings) -> "**Подключения Nintendo DS**" (Nintendo DS Connections) и нажмите "**ОК**"
@@ -33,7 +34,6 @@ author_profile: true
 ## Часть II - Flipnote Studio
 
 1. Следуйте [это инструкции](https://zoogie.github.io/web/flipnote_directions/){:target='_blank'} для того, чтобы запустить b9stool
- * Если рожица не появляется, перезакиньте {% include /inc/files/3dssdfiles.txt %} на карту памяти
 1. Выберите "**Install boot9strap**" кнопкой {% include inc/btn.txt btn="A" %}, подтвердите ваши действия, зажав одновременно {% include inc/btn.txt btn="START" %} и {% include inc/btn.txt btn="SELECT" %}
 1. Когда увидите надпись "Done!", нажмите кнопку {% include inc/btn.txt btn="HOME" %}, затем подтвердите выход, нажав на "ОК". Приставка выключится
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
