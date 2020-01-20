@@ -18,6 +18,7 @@ author_profile: true
 На приставку можно установить игры только в формате `.cia`. Игры в других фарматах нужно предварительно сконвертировать. 
 
 1. [В нашем облаке](https://fex.net/s/zsba8xf){:target="_blank"}
+1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
 1. [3dscia](http://www.3dscia.com/){:target="_blank"}
 1. [Канал в telegram qreeShop3DS](https://t.me/s/qreeShop3DS){:target="_blank"}
