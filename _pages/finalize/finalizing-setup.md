@@ -70,7 +70,7 @@ author_profile: true
 
 ### Часть V - Запуск HBL
 
-{% include /inc/hbl.txt content="Homebrew Launcher" %}
+{% include /inc/hbl.txt content='**Загружаемая игра (Download Play)**' icon=', нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
 1. Выберите из списка "**ctr-no-timeoffset**" и запустите его
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы выставить смещение между RTC и системными часами в 0
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
@@ -84,15 +84,19 @@ author_profile: true
 1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-### Часть VII - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VII - Настройка Homebrew Launcher
+
+{% include /inc/hbl.txt content='**the homebrew launcher**' icon=', нажав на <img src="/images/icons/hbl-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
+
+### Часть VIII - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть VIII - Создание резервной копии (бекап) SysNAND
+### Часть IX - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть IX - Дополнительные материалы
+### Часть X - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 

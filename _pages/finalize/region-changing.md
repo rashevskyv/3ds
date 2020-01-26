@@ -23,15 +23,20 @@ author_profile: true
 {: .notice--danger}
 
 {% include inc/transfer.txt %}
+
+### Часть VI - CTRNAND Luma3DS и очистка SD-карты 
+
+{% include /inc/ctrnand_luma_cleansd.txt %}
+
 	
-### Часть VI - Региональные настройки
+### Часть VII - Региональные настройки
 
 1. Откройте **Системные настройки (System settings)**
 1. Перейдите в "**Прочие настройки**" (Other Settings), затем "**Профиль**" (Profile), затем "**Настройки региона**" (Region Settings)
 1. Выберите страну из вашего нового региона
 1. При появлении запроса о штате указывать его не нужно
 
-### Часть VII - Обновление системы
+### Часть VIII - Обновление системы
 
 {% include /inc/sys_update.txt %}
 

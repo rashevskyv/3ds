@@ -30,7 +30,7 @@ author_profile: true
 
 ### Часть III - Запуск Homebrew Launcher
 
-{% include /inc/hbl.txt content="Homebrew Launcher" %}
+{% include /inc/hbl.txt content='**Загружаемая игра (Download Play)**' icon=', нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
 
 ### Часть IV - Установка CIA
 
