@@ -22,6 +22,7 @@ author_profile: true
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads){:target="_blank"}
 1. [3dscia](http://www.3dscia.com/){:target="_blank"}
+1. [downloadroms.io](https://www.downloadroms.io/roms/){:target="_blank"}
 1. [recoleccionjuegos3ds.blogspot.com](http://recoleccionjuegos3ds.blogspot.com){:target="_blank"}
 1. [nintendo.moy.su](http://nintendo.moy.su/){:target="_blank"}
 1. [Канал в telegram qreeShop3DS](https://t.me/s/qreeShop3DS){:target="_blank"}

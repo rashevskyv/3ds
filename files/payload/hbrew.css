@@ -4,15 +4,16 @@
 }
 
 .content {
+    transition: all .1s ease-in;
 	margin: 0 auto;
 	width:fit-content;
 }
 
 .firmware-form {
-	font-size:18px;
-	padding: 20px 30px;
-	background: #F0F0F0;
-	border-radius: 12px;
+        font-size:18px;
+        padding: 20px 30px;
+        background: #F0F0F0;
+        border-radius: 12px;
 }
 .firmware-form select, button {
 	height: 35px;
@@ -21,7 +22,7 @@
 	border: 1px solid #000000;
 	background: #ffffff;
 	color: #000000;
-	padding: 5px;
+    padding: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 7px;
@@ -56,4 +57,10 @@
 .wrap-def {
 	margin-left: 5px;
 	top: 6px;
+}
+
+.firmware-form button:hover {
+  background-color: #999;
+  color: #FFF;
+
 }

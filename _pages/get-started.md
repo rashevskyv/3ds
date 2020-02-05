@@ -4,6 +4,8 @@ permalink: /get-started.html
 author_profile: true
 ---
 
+{% include toc title="Разделы" %}
+
 Эта страница содержит инструкции по установке boot9strap на *не взломанную* 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе [обновление до boot9strap](a9lh-to-b9s){:target="_blank"}.
 
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](http://customfw.xyz/h2testw-windows){:target="_blank"}, [F3 (Linux)](http://customfw.xyz/f3-linux){:target="_blank"}, или [F3X (Mac)](http://customfw.xyz/f3x-mac){:target="_blank"}!
@@ -28,7 +30,7 @@ ___
 {: .text-center}
 {: .notice--info}
 
-#### Таблица версий
+### Таблица версий
 
 Для всех консолей, любой версии прошивки можно использовать [NTRBootHax](ntrboot){:target="_blank"} или [Steelminer](steelminer){:target="_blank"}, даже если они не указаны в таблице! Для первого понадобится совместимый флеш-картридж, но этот метод наиболее простой, для второго - обновиться до последней версии системного ПО и этот метод комплексный и более сложный. <br><br>**Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до {% include /vars/sys_version.txt %} через Системные настройки, а затем воспользовавшись методом [Steelminer](steelminer){:target="_blank"}. Этот метод не требует дополнительных вложений**
 {: .notice--warning}
