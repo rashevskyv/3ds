@@ -57,6 +57,7 @@ author_profile: true
 1. Зажмите {% include inc/btn.txt btn="R" %} и нажмите {% include inc/btn.txt btn="START" %}, чтобы выключить приставку 
 1. Вставьте в ПК SD-карту приставки
 1. Распакуйте `QuickSetup.7z` на ПК
+2. Запустите командную стоку и введите в неё `pip install pycryptodome`
 1. Переместите файл `movable.sed`, который находится на карте памяти приставки по адресу `/gm9/out` в папку `QuickSetup`
 
 ## Часть II - Конвертация игр
