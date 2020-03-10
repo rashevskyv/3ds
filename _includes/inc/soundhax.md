@@ -23,5 +23,5 @@
         </div>
         <button id="download" class="round group" href="poop">Скачать M4A</button>
     </div>
-    <script src="https://soundhax.com/js/jquery-3.1.1.min.js"></script>
-    <script src="https://soundhax.com/js/scripts.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
