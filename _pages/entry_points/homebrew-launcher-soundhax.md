@@ -23,7 +23,7 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту из **приставки** в компьютер
 {% include /inc/soundhax.md %}
-{% include /inc/payload.txt payload_name="`otherapp.bin`" %}
+{% include /inc/payload.txt payload_name="otherapp.bin" %}
 1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
