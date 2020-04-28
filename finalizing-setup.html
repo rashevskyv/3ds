@@ -353,14 +353,13 @@
   <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
       <li><a href="#часть-i---настройка-luma3ds" id="markdown-toc-часть-i---настройка-luma3ds">Часть I - Настройка Luma3DS</a></li>
       <li><a href="#часть-ii---подготовительные-работы" id="markdown-toc-часть-ii---подготовительные-работы">Часть II - Подготовительные работы</a></li>
-      <li><a href="#часть-iii---восстановление-работы-меню-подключения-nintendo-ds" id="markdown-toc-часть-iii---восстановление-работы-меню-подключения-nintendo-ds">Часть III - Восстановление работы меню Подключения Nintendo DS</a></li>
-      <li><a href="#часть-iv---обновление-системы" id="markdown-toc-часть-iv---обновление-системы">Часть IV - Обновление системы</a></li>
-      <li><a href="#часть-v---запуск-hbl" id="markdown-toc-часть-v---запуск-hbl">Часть V - Запуск HBL</a></li>
-      <li><a href="#часть-vi---установка-cia" id="markdown-toc-часть-vi---установка-cia">Часть VI - Установка CIA</a></li>
-      <li><a href="#часть-vii---настройка-homebrew-launcher" id="markdown-toc-часть-vii---настройка-homebrew-launcher">Часть VII - Настройка Homebrew Launcher</a></li>
-      <li><a href="#часть-viii---ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-viii---ctrnand-luma3ds-и-очистка-sd-карты">Часть VIII - CTRNAND Luma3DS и очистка SD-карты</a></li>
-      <li><a href="#часть-ix---создание-резервной-копии-бекап-sysnand" id="markdown-toc-часть-ix---создание-резервной-копии-бекап-sysnand">Часть IX - Создание резервной копии (бекап) SysNAND</a></li>
-      <li><a href="#часть-x---дополнительные-материалы" id="markdown-toc-часть-x---дополнительные-материалы">Часть X - Дополнительные материалы</a></li>
+      <li><a href="#часть-iii---обновление-системы" id="markdown-toc-часть-iii---обновление-системы">Часть III - Обновление системы</a></li>
+      <li><a href="#часть-iv---запуск-hbl" id="markdown-toc-часть-iv---запуск-hbl">Часть IV - Запуск HBL</a></li>
+      <li><a href="#часть-v---установка-cia" id="markdown-toc-часть-v---установка-cia">Часть V - Установка CIA</a></li>
+      <li><a href="#часть-vi---настройка-homebrew-launcher" id="markdown-toc-часть-vi---настройка-homebrew-launcher">Часть VI - Настройка Homebrew Launcher</a></li>
+      <li><a href="#часть-vii---ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-vii---ctrnand-luma3ds-и-очистка-sd-карты">Часть VII - CTRNAND Luma3DS и очистка SD-карты</a></li>
+      <li><a href="#часть-viii---создание-резервной-копии-бекап-sysnand" id="markdown-toc-часть-viii---создание-резервной-копии-бекап-sysnand">Часть VIII - Создание резервной копии (бекап) SysNAND</a></li>
+      <li><a href="#часть-ix---дополнительные-материалы" id="markdown-toc-часть-ix---дополнительные-материалы">Часть IX - Дополнительные материалы</a></li>
     </ul>
   </li>
 </ul>
@@ -447,25 +446,7 @@
   <li>Включите консоль</li>
 </ol>
 
-<h3 id="часть-iii---восстановление-работы-меню-подключения-nintendo-ds">Часть III - Восстановление работы меню Подключения Nintendo DS</h3>
-
-<p>Эта часть только для тех, кто прошивал методом Steelminer! Если вы прошивали другим методом, пропустите эту часть</p>
-
-<ol>
-  <li>Отключите приставку</li>
-  <li>Вставьте карту памяти в ПК</li>
-  <li>Перейдите в папку <code class="highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
-    <ul>
-      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
-    </ul>
-  </li>
-  <li>Скопируйте файл <code class="highlighter-rouge">42383841.bin</code>, находящийся в архиве <code class="highlighter-rouge">fredtool_output.zip</code> по пути <code class="highlighter-rouge">output/clean/</code> в папку <code class="highlighter-rouge">Nintendo DSiWare</code> с заменой</li>
-  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
-  <li>Выберите “<strong>Карта SD</strong>” (SD Card) и нажмите на “<strong>Nintendo DSi™</strong>”</li>
-  <li>Выберите “<strong>Копировать</strong>”, затем нажмите “<strong>ОК</strong>”</li>
-</ol>
-
-<h3 id="часть-iv---обновление-системы">Часть IV - Обновление системы</h3>
+<h3 id="часть-iii---обновление-системы">Часть III - Обновление системы</h3>
 
 <div class="notice--info">
 <p>Если, прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND, и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела <a href="move-emunand" target="_blank">перенос EmuNAND</a>, перед выполнением этой части. Помните, что EmuNAND может быть только на уже прошитой приставке. Если вы прошиваете приставку в первый раз, у вас <strong>точно</strong> нет EmuNAND!
@@ -497,7 +478,7 @@
   </li>
 </ol>
 
-<h3 id="часть-v---запуск-hbl">Часть V - Запуск HBL</h3>
+<h3 id="часть-iv---запуск-hbl">Часть IV - Запуск HBL</h3>
 
 <ol>
   <li>Запустите приложение <strong>Загружаемая игра (Download Play)</strong>, нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px" />
@@ -526,7 +507,7 @@
   <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для возвращения в <strong>Homebrew Launcher</strong></li>
 </ol>
 
-<h3 id="часть-vi---установка-cia">Часть VI - Установка CIA</h3>
+<h3 id="часть-v---установка-cia">Часть V - Установка CIA</h3>
 
 <ol>
   <li>Запустите FBI</li>
@@ -536,7 +517,7 @@
   <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" /> для возврата в меню Home</li>
 </ol>
 
-<h3 id="часть-vii---настройка-homebrew-launcher">Часть VII - Настройка Homebrew Launcher</h3>
+<h3 id="часть-vi---настройка-homebrew-launcher">Часть VI - Настройка Homebrew Launcher</h3>
 
 <ol>
   <li>Запустите приложение <strong>the homebrew launcher</strong>, нажав на <img src="/images/icons/hbl-icon.png" alt="соответствующую иконку" height="24px" width="24px" />
@@ -558,7 +539,7 @@
   <li>Консоль должна загрузиться в <strong>Homebrew Launcher</strong></li>
 </ol>
 
-<h3 id="часть-viii---ctrnand-luma3ds-и-очистка-sd-карты">Часть VIII - CTRNAND Luma3DS и очистка SD-карты</h3>
+<h3 id="часть-vii---ctrnand-luma3ds-и-очистка-sd-карты">Часть VII - CTRNAND Luma3DS и очистка SD-карты</h3>
 
 <p class="notice--info">Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</p>
 
@@ -584,7 +565,7 @@
 
 <p>Можете удалить лишние файлы вручную, если таковые остались</p>
 
-<h3 id="часть-ix---создание-резервной-копии-бекап-sysnand">Часть IX - Создание резервной копии (бекап) SysNAND</h3>
+<h3 id="часть-viii---создание-резервной-копии-бекап-sysnand">Часть VIII - Создание резервной копии (бекап) SysNAND</h3>
 
 <ol>
   <li>Нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" /> для вызова меню</li>
@@ -618,7 +599,7 @@
   </li>
 </ol>
 
-<h3 id="часть-x---дополнительные-материалы">Часть X - Дополнительные материалы</h3>
+<h3 id="часть-ix---дополнительные-материалы">Часть IX - Дополнительные материалы</h3>
 
 <p>Теперь ваша приставка прошита и вы можете пользоваться всеми благами кастомной прошивки</p>
 
