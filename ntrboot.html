@@ -1,0 +1,724 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>ntrboot - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="ntrboot">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/ntrboot.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/ntrboot.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ntrboot">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">ntrboot
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#общая-информация" id="markdown-toc-общая-информация">Общая информация</a></li>
+  <li><a href="#список-совместимых-флеш-картриджей" id="markdown-toc-список-совместимых-флеш-картриджей">Список совместимых флеш-картриджей</a></li>
+  <li><a href="#прошивка-ntrboot-на-не-прошитой-3ds" id="markdown-toc-прошивка-ntrboot-на-не-прошитой-3ds">Прошивка ntrboot (на не прошитой 3DS)</a></li>
+  <li><a href="#прошивка-ntrboot-с-привлечением-прошитой-3ds" id="markdown-toc-прошивка-ntrboot-с-привлечением-прошитой-3ds">Прошивка ntrboot (с привлечением прошитой 3DS)</a></li>
+  <li><a href="#прошивка-ntrboot-nds" id="markdown-toc-прошивка-ntrboot-nds">Прошивка ntrboot (NDS)</a></li>
+  <li><a href="#прошивка-ntrboot-dsi" id="markdown-toc-прошивка-ntrboot-dsi">Прошивка ntrboot (DSi)</a></li>
+  <li><a href="#флеш-картридж-с-уже-прошитым-ntrboot" id="markdown-toc-флеш-картридж-с-уже-прошитым-ntrboot">Флеш-картридж с уже прошитым ntrboot</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<h2 id="общая-информация">Общая информация</h2>
+
+<p class="notice--success">Если вы уже прошили ntrboot на ваш флеш-картридж, вы можете перейти к странице <a href="installing-boot9strap-ntrboot" target="_blank">Установка boot9strap (ntrboot)</a> для получения инструкций об установке b9s в приставку.</p>
+
+<p>Для установки boot9strap при помощи ntrboot требуется совместимый NDS / DSi флеш-картридж, на который можно прошить ntrboot. Имейте ввиду, что некоторые производители флеш-картриджей продают их уже с прошитым ntrboot.</p>
+
+<p>Несмотря на то, что сам ntrboot работает вне зависимости от версии системного ПО приставки, ntrboot flasher (программа, с помощью которой идет установка ntrboot на флеш-картридж) работает на определённой версии прошивки, которая зависит от типа картриджа, на который происходит установка. Это означает, что некоторые картриджи можно прошить лишь на определённой версии системного ПО, если у вас не прошитая консоль. В случае с прошитой приставкой версия прошивки системы значения не имеет.</p>
+
+<p>Имейте в виду, что картриджи с так называемой “Time Bomb” (немалая часть DSTT-клонов по истечению определённой даты на системных часах приставки перестают работать) так же не смогут запускать <code class="highlighter-rouge">.*nds-файлы</code> после срабатывания “бомбы”. Один из способов это обойти - перевести внутренние часы приставки на несколько лет назад.</p>
+
+<p>Картриджи могут отличаться цветом корпуса, поэтому внимательно смотрите на наклейку. Обращайте внимание на сайт, указанный на наклейке. Рынок переполнен клонами китайских клонов, поэтому не удивляйтесь, если флеш-картридж, который должен работать - не работает. Возможно у вас клон, либо в картридже установлен чип, который в данный момент не поддерживается.</p>
+
+<p>Важно понимать, что у флеш-картриджа своя SD-карта, а у приставки своя и консоль не имеет никакого доступа к SD-карте картриджа, то есть ничего не может с неё читать и ничего не может на неё записывать. Так же у каждого картриджа есть своё собственное ядро, которое необходимо скачать с сайта, указанного на корпусе картриджа, или найти где-нибудь ещё. Ядро нужно записывать в корень SD-карты картриджа. Перед тем, как шить во флеш-картридж ntrboot, закиньте на SD-карту картриджа ядро и убедитесь, что картридж работает и запускает игры и программы в формате <code class="highlighter-rouge">.nds</code> и только после этого приступайте к прошивке.</p>
+
+<p>Файлы для ntrboot и любые другие файлы нужно скидывать на SD-карту <strong>приставки</strong>, если не указано иное!</p>
+
+<p>Общее представление по использованию картриджа можно получить <a href="r4">здесь</a></p>
+
+<h2 id="список-совместимых-флеш-картриджей">Список совместимых флеш-картриджей</h2>
+
+<table><colgroup> <col style="width: 20%;" span="1" /> <col style="width: 12%;" span="1" /> <col style="width: 8%;" span="1" /> <col style="width: 8%;" span="1" /> <col style="width: 8%;" span="1" /> <col style="width: 44%;" span="1" /> </colgroup>
+<thead>
+<tr>
+<th style="text-align: center; font-weight: bold;">Картридж</th>
+<th style="text-align: center; font-weight: bold;">Внешний вид</th>
+<th style="text-align: center; font-weight: bold;">Версия 3DS</th>
+<th style="text-align: center; font-weight: bold;">Версия DSi</th>
+<th style="text-align: center; font-weight: bold;">Версия NDS</th>
+<th style="text-align: center; font-weight: bold;">Примечания</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th style="text-align: center; font-weight: bold;" colspan="6"><em>Acekard 2i</em></th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br /><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank"><img src="/images/ru.png" /><br />
+₽1600</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard_small.png" /></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;4.3.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.4</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">Может запускать DS-игры на взломаной приставке даже с установленным ntrboot и не требует удаления последнего.</td>
+</tr>
+<tr>
+  <td style="text-align: center; font-weight: bold;">Gateway Blue<br /></td>
+  <td style="text-align: center;"><a href="/images/flashcarts/gateway.png"><img src="/images/flashcarts/gateway_small.png" /></a></td>
+  <td style="text-align: center;"><em>4.1.0 - 4.5.0</em></td>
+  <td style="text-align: center;"><em>&le;1.4.5</em></td>
+  <td style="text-align: center;"><em>Все</em></td>
+  <td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+  <td style="text-align: center; font-weight: bold;"><a href="http://ace3ds.com">Ace3DS Plus</a><br /></td>
+  <td style="text-align: center;"><a href="/images/flashcarts/aceplus.png"><img src="/images/flashcarts/aceplus_small.png" /></a></td>
+  <td style="text-align: center;"><em>11.6.0</em></td>
+  <td style="text-align: center;"><em>&le;1.4.5</em></td>
+  <td style="text-align: center;"><em>Все</em></td>
+  <td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+  <td style="text-align: center; font-weight: bold;">R4i Ultra</td>
+  <td style="text-align: center;"><a href="/images/flashcarts/ultra.png"><img src="/images/flashcarts/ultra_small.png" /></a></td>
+  <td style="text-align: center;"><em>&le;4.3.0</em></td>
+  <td style="text-align: center;"><em>&le;1.4.5</em></td>
+  <td style="text-align: center;"><em>Все</em></td>
+  <td style="text-align: center;">Аппаратный клон Acekard 2i&nbsp;</td>
+</tr>
+<tr>
+<th style="text-align: center; font-weight: bold;" colspan="6"><em>DSTT</em></th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">DSTT<br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=157" target="blank">$9.99</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/dstt.png"><img src="/images/flashcarts/dstt_small.png" /></a>&nbsp;<a href="/images/flashcarts/dstt2.png"><img src="/images/flashcarts/dstt2_small.png" /></a></td>
+<td style="text-align: center;"><em>?</em></td>
+<td style="text-align: center;"><em>?</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">Только модели с определенными <a href="https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42" target="blank">чипами памяти</a> совместимы с ntrboot</td>
+</tr><tr>
+<th style="text-align: center; font-weight: bold;" colspan="6"><em><a name="r4isdhc"></a>R4i SDHC family</em></th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">
+<p><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></p>
+</td>
+<td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-dc.png"><img src="/images/flashcarts/r4isdhc-dc_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">Все картриджи R4i SDHC family одинаковые<br /><br />"<strong>Timebomb</strong>":<br /><strong>3.9b</strong>: 3.09.19</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">
+	<a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br /><br />
+	Цена:<br />
+	<a href="http://www.nds-card.com/ProShow.asp?ProID=490" target="blank">$9.99</a><br />
+	<a href="https://www.avito.ru/rostov-na-donu/igry_pristavki_i_programmy/r4i_sdhc_gold_pro_dlya_3dsds_ntrboot_991825030" target="blank"><img src="/images/ru.png" /><br />₽950</a><br />
+	<a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png" /><br />
+₽1200</a>
+</td>
+<td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp_small.png" /></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">Все картриджи R4i SDHC family одинаковые<br /><br />"<strong>Timebomb</strong>":<br /><strong>3.9b</strong>: 3.09.19</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">
+<p>Все картриджи R4i SDHC family одинаковые</p>
+<p>"<strong>Timebomb</strong>":<br /><strong>1.87</strong>: 3.09.19</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=574" target="blank">$15.99</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">
+<p>Все картриджи R4i SDHC family одинаковые</p>
+<p>Картридж продается с предустановленным ntrboot<br /><br />"<strong>Timebomb</strong>":<br /><strong>1.87</strong>: 3.09.19</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
+<td style="text-align: center;"><p><a href="/images/flashcarts/r4isdhc-lite.png"><img src="/images/flashcarts/r4isdhc-lite_small.png" /></a></p></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">Все картриджи R4i SDHC family одинаковые. Поддерживаются картриджи <strong>только</strong> с иконкой игры &quot;Touch! Bomberman Land&quot;<br />
+  <br />"<strong>Timebomb</strong>":<br /><strong>3.9b</strong>: 3.09.19</td>
+</tr>
+<tr>
+<th style="text-align: center; font-weight: bold;" colspan="6"><em>R4i Gold 3DS</em></th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br /><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank"><img src="/images/ru.png" /><br />
+₽1600</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">R4 iGold 3DS Deluxe "Starter"</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/starter.png"><img src="/images/flashcarts/starter_small.png" /></a>&nbsp;<a href="/images/flashcarts/starter_b.png"><img src="/images/flashcarts/starter_b_small.png" /></a></td>
+<td style="text-align: center;"><em>4.1.0 - 4.5.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+  <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">R4i Gold 3DS</a></td>
+  <td style="text-align: center;"><a href="/images/flashcarts/r4igold.png"><img src="/images/flashcarts/r4igold_small.png" /></a></td>
+  <td style="text-align: center;"><em>4.1.0 - 4.5.0</em></td>
+  <td style="text-align: center;"><em>&le;1.4.5</em></td>
+  <td style="text-align: center;"><em>Все</em></td>
+  <td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">R4 3D Revolution</td>
+<td style="text-align: center;"><a href="/images/flashcarts/3d_rev.png"><img src="/images/flashcarts/3d_rev_small.png" /></a></td>
+<td style="text-align: center;"><em>?</em></td>
+<td style="text-align: center;"><em>?</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">Аппаратный клон R4i Gold 3DS RTS ревизии HW A6</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/infinity.png"><img src="/images/flashcarts/infinity_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<th style="text-align: center; font-weight: bold;" colspan="6"><em>Картриджи с аппаратным переключателем</em></th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/r4ids-e.htm" target="blank">R4i Gold 3DS Plus</a><br /><br />Цена:<br />
+<a href="http://www.nds-card.com/ProShow.asp?ProID=575" target="blank">$19.99</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/r4igold3ds+.png"><img src="/images/flashcarts/r4igold3ds+_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;"><em>Не требует перепрошивки. Для смены режима работы используйте переключатель на плате.</em></td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"><a href="https://gbatemp.net/threads/review-ace3ds-x.487871/" target="blank">Ace3DS X</a><br /><br />Цена:<br />
+<a href="http://3ds-flashcard.com/home/65-ace3ds-x-supports-3dsds-mode.html" target="blank">$40.99</a></td>
+<td style="text-align: center;"><a href="/images/flashcarts/ace3dsx.png"><img src="/images/flashcarts/ace3dsx_small.png" /></a></td>
+<td style="text-align: center;"><em>&le;11.13.0</em></td>
+<td style="text-align: center;"><em>&le;1.4.5</em></td>
+<td style="text-align: center;"><em>Все</em></td>
+<td style="text-align: center;"><em>Не требует перепрошивки. Для смены режима работы используйте переключатель на плате.</em></td>
+</tr>
+</tbody>
+</table>
+
+<p>Убедитесь, что ваш картридж корректно запускается. Убедитесь в наличии ядра или прошивки на SD-карте вашего флеш-картриджа. За подробностями обратитесь к инструкции флеш-картриджа.</p>
+
+<p>Обратите внимание, что конкретные методы могут иметь дополнительные сведения о совместимости.</p>
+
+<p>Этот эксплойт, вне зависимости от метода прошивки, требует наличия небольшого магнита, если целевая консоль имеет складную конструкцию (любая консоль семейства 3DS кроме old 2DS с переключателем режима ожидания). Это необходимо, потому что эксплойт требует ввести консоль в режим ожидания, сохранив при этом доступ к кнопкам.</p>
+
+<p class="notice--info">Чтобы проверить работоспособность магнита, приложите его к кнопкам <img src="/images/buttons/A.png" alt="(A)" /><img src="/images/buttons/B.png" alt="(B)" /><img src="/images/buttons/X.png" alt="(X)" /><img src="/images/buttons/Y.png" alt="(Y)" /> или рядом с ними, когда консоль включена. Проверьте, включает ли он режим ожидания. Если это так, то оба экрана будут выключаться, пока магнит находится на этом месте.</p>
+
+<p>Обратите внимание, что флеш-картридж не сможет использоваться для своих стандартных функций, пока на нем установлен эксплойт ntrboot (кроме Acekard 2i, который сохраняет функционал, <em>но только на консолях 3DS с кастомной прошивкой</em>). Картридж даже не будет отображаться в меню приставки. В конце инструкций по прошивке ntrboot есть дополнительные шаги, чтобы по окончанию удалить его с флеш-картриджа.</p>
+
+<p class="notice--danger">Обратите внимание, что в некоторых редких случаях процесс прошивки может <strong>брикнуть</strong> поддельный флеш-картридж и навсегда сделать его нерабочим. Это маловероятно, но тем не менее поддерживаются только оригинальные флеш-картриджи из списка. Чтобы уменьшить вероятность получения поддельного картриджа, рекомендуется использовать проверенный сайт для покупки флеш-картриджа (например <a href="http://www.nds-card.net/" target="_blank">NDS Card</a>)</p>
+
+<p>Некоторые картриджи имеют разные корпуса и наклейки, но являются полностью аппаратно совместимыми. Такие объединены в одну группу и имеют общее превью.</p>
+
+<hr />
+
+<h2 id="прошивка-ntrboot-на-не-прошитой-3ds">Прошивка ntrboot (на не прошитой 3DS)</h2>
+
+<p><a href="flashing-ntrboot-3ds-single-system">Этот метод</a> не требует ничего кроме одной не прошитой консоли 3DS и совместимого флеш-картриджа. Суть метода в запуске флешера формата <code class="highlighter-rouge">*.nds</code> через флеш-картридж. Поэтому в первую очередь необходимо, чтобы флеш-картридж виделся и запускался на вашей 3DS. Некоторые флеш-картриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии.</p>
+
+<p>Этот метод не совершенен и иногда с его помощью не прошиваются флеш-картриджи, которые прошиваются без проблем <a href="https://3ds.customfw.xyz/ntrboot#прошивка-ntrboot-с-привлечением-прошитой-3ds" target="_blank">этим методом</a>.</p>
+
+<h2 id="прошивка-ntrboot-с-привлечением-прошитой-3ds">Прошивка ntrboot (с привлечением прошитой 3DS)</h2>
+
+<p><a href="flashing-ntrboot-3ds-multi-system">Этот метод</a> требует временный доступ ко второй консоли семейства 3DS с установленной кастомной прошивкой и b9s (если у вас a9lh, то вы не сможете запустить инсталлер, <a href="a9lh-to-b9s" target="_blank">переходите на boot9strap</a>). Метод не требует, чтобы выбранный картридж был совместим с какой-либо определенной прошивкой.</p>
+
+<h2 id="прошивка-ntrboot-nds">Прошивка ntrboot (NDS)</h2>
+
+<p><a href="flashing-ntrboot-nds">Этот метод</a> требует временного доступа к Nintendo DS или Nintendo DS Lite, совместимой с вашим флеш-картриджем. Суть метода в запуске флешера формата <code class="highlighter-rouge">*.nds</code> через флеш-картридж. Поэтому в первую очередь необходимо, чтобы флеш-картридж виделся и запускался на вашей 3DS. Некоторые флеш-картриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии.</p>
+
+<p>Этот метод не совершенен и иногда с его помощью не прошиваются флеш-картриджи, которые прошиваются без проблем <a href="https://3ds.customfw.xyz/ntrboot#прошивка-ntrboot-с-привлечением-прошитой-3ds" target="_blank">этим методом</a>.</p>
+
+<h2 id="прошивка-ntrboot-dsi">Прошивка ntrboot (DSi)</h2>
+
+<p><a href="flashing-ntrboot-dsi">Этот метод</a> требует временного доступа к Nintendo DSi, совместимой с вашим флеш-картриджем. Суть метода в запуске флешера формата <code class="highlighter-rouge">*.nds</code> через флеш-картридж. Поэтому в первую очередь необходимо, чтобы флеш-картридж виделся и запускался на вашей 3DS. Некоторые флеш-картриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии.</p>
+
+<p>Этот метод не совершенен и иногда с его помощью не прошиваются картриджи, которые прошиваются без проблем <a href="https://3ds.customfw.xyz/ntrboot#прошивка-ntrboot-с-привлечением-прошитой-3ds" target="_blank">этим методом</a>.</p>
+
+<h2 id="флеш-картридж-с-уже-прошитым-ntrboot">Флеш-картридж с уже прошитым ntrboot</h2>
+
+<p>Имея на руках такой картридж, можно сразу переходить к <a href="installing-boot9strap-ntrboot">установке boot9strap</a> в приставку, минуя установку ntrboot на флеш-картридж.</p>
+
+<p>Так же одним из вариантов может быть покупка подходящего флеш-картриджа по указанным ссылкам с просьбой к продавцу о прошивке ntrboot. В большинстве случаев продавец идет на встречу и прошивает загрузчик в картридж. Если вы купили картридж с уже прошитым ntrboot, можно сразу переходить к <a href="installing-boot9strap-ntrboot">установке boot9strap</a>.</p>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

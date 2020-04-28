@@ -1,1 +1,0 @@
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} (`boot9strap-x.x.zip`; **не** devkit-файл, **не** ntr-файл и **не** devkit-ntr-файл)

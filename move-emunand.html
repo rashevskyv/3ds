@@ -1,0 +1,721 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Перенос EmuNAND в SysNAND - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Перенос EmuNAND в SysNAND">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/move-emunand.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/move-emunand.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Перенос EmuNAND в SysNAND">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Перенос EmuNAND в SysNAND
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
+  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
+      <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
+      <li><a href="#часть-ii---бэкап-сохранений-dsiware-из-sysnand" id="markdown-toc-часть-ii---бэкап-сохранений-dsiware-из-sysnand">Часть II - Бэкап сохранений DSiWare из SysNAND</a></li>
+      <li><a href="#часть-iii---бэкап-сохранений-gba-vc" id="markdown-toc-часть-iii---бэкап-сохранений-gba-vc">Часть III - Бэкап сохранений GBA VC</a></li>
+      <li><a href="#часть-iv---копирование-emunand-в-sysnand" id="markdown-toc-часть-iv---копирование-emunand-в-sysnand">Часть IV - Копирование EmuNAND в SysNAND</a></li>
+      <li><a href="#часть-v---восстановление-сохранений-dsiware" id="markdown-toc-часть-v---восстановление-сохранений-dsiware">Часть V - Восстановление сохранений DSiWare</a></li>
+      <li><a href="#часть-vi---восстановление-сохранений-gba-vc" id="markdown-toc-часть-vi---восстановление-сохранений-gba-vc">Часть VI - Восстановление сохранений GBA VC</a></li>
+      <li><a href="#часть-vii---создание-резервной-копии-бекап-sysnand" id="markdown-toc-часть-vii---создание-резервной-копии-бекап-sysnand">Часть VII - Создание резервной копии (бекап) SysNAND</a></li>
+      <li><a href="#часть-viii---форматирование-sd-карты" id="markdown-toc-часть-viii---форматирование-sd-карты">Часть VIII - Форматирование SD-карты</a></li>
+    </ul>
+  </li>
+  <li><a href="#завершение-установки" id="markdown-toc-завершение-установки">Завершение установки.</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p>Этот дополнительный раздел содержит информацию о переносе содержимого EmuNAND в новый SysNAND с кастомной прошивкой, с последующим удалением раздела, содержащего EmuNAND. Помните, что RedNAND и EmuNAND - немного разные реализации <a href="http://3dbrew.org/wiki/NAND_Redirection" target="_blank">одного и того же</a>.</p>
+
+<p>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</p>
+
+<p class="notice--danger"><strong>Для продолжения, у вас уже ДОЛЖНА быть установлена Luma3DS и boot9strap</strong></p>
+
+<h2 id="что-понадобится">Что понадобится</h2>
+
+<ul>
+  <li>Существующий EmuNAND</li>
+  <li>Свежая версия <a href="https://github.com/d0k3/GodMode9/releases/latest" target="_blank">GodMode9</a></li>
+  <li>Свежая версия <a href="fbi" target="_blank">FBI</a></li>
+</ul>
+
+<h2 id="инструкция">Инструкция</h2>
+
+<h3 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h3>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Скопируйте <code class="highlighter-rouge">GodMode9.firm</code> из <code class="highlighter-rouge">.zip-архива</code> GodMode9 в папку <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте</li>
+  <li>Скопируйте папку <code class="highlighter-rouge">gm9</code> из <code class="highlighter-rouge">.zip-архива</code> <code class="highlighter-rouge">GodMode9</code> в корень SD-карты</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+</ol>
+
+<h3 id="часть-ii---бэкап-сохранений-dsiware-из-sysnand">Часть II - Бэкап сохранений DSiWare из SysNAND</h3>
+
+<p>Если у вас нет игр DSiWare или важных для вас сохранений, пропустите эту часть.</p>
+
+<ol>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" /> на <strong>исходной 3DS</strong> во время включения приставки
+    <ul>
+      <li>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</li>
+    </ul>
+  </li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
+    </ul>
+  </li>
+  <li>Перейдите в <code class="highlighter-rouge">[2:] SYSNAND TWLN</code> -&gt; <code class="highlighter-rouge">title</code></li>
+  <li>Удерживая <img src="/images/buttons/R.png" alt="(R)" />, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы выбрать папку <code class="highlighter-rouge">00030004</code>, затем выберите “Copy to 0:/gm9/out”
+    <ul>
+      <li>Этот процесс может занять некоторое время, если у вас много DSiWare игр</li>
+    </ul>
+  </li>
+  <li>Дважды нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+</ol>
+
+<h3 id="часть-iii---бэкап-сохранений-gba-vc">Часть III - Бэкап сохранений GBA VC</h3>
+
+<p class="notice--info">Если у вас нет игр GBA VC или важных для вас сохранений, пропустите эту часть.</p>
+
+<p class="notice--info">Обратите внимание, что эти действия не требуется выполнять для любых других типов Virtual Console (GBC, NES и т. д.)</p>
+
+<p class="notice--info">Сохранение будет скопировано в папку <code class="highlighter-rouge">/gm9/out/</code> на SD-карте с именем <code class="highlighter-rouge">&lt;TitleID&gt;.gbavc.sav</code>.</p>
+
+<p class="notice--info">Чтобы идентифицировать Title ID в имени файла <code class="highlighter-rouge">&lt;TitleID&gt;.gbavc.sav</code>, вы можете посмотреть список всех установленных игр и соответствующих им Title ID. Выделите диск <code class="highlighter-rouge">[A:] SYSNAND SD</code>, затем удерживая <img src="/images/buttons/R.png" alt="(R)" />, нажмите <img src="/images/buttons/A.png" alt="(A)" /> и выберите “Search for titles”.</p>
+
+<p>Выполните действия ниже для каждой игры GBA VC, для сохранений которых вы хотите создать бэкап:</p>
+<ol>
+  <li>Запустите игру GBA VC</li>
+  <li>
+    <p>Выйдите из игры GBA VC</p>
+  </li>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" /> на <strong>исходной 3DS</strong> во время включения приставки
+    <ul>
+      <li>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</li>
+    </ul>
+  </li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
+    </ul>
+  </li>
+  <li>Перейдите в <code class="highlighter-rouge">[S:] SYSNAND VIRTUAL</code></li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы выбрать файл <code class="highlighter-rouge">agbsave.bin</code></li>
+  <li>Выберите “AGBSAVE options…”</li>
+  <li>Выберите “Dump GBA VC save”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+  <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки</li>
+</ol>
+
+<h3 id="часть-iv---копирование-emunand-в-sysnand">Часть IV - Копирование EmuNAND в SysNAND</h3>
+
+<ol>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" /> на <strong>исходной 3DS</strong> во время включения приставки
+    <ul>
+      <li>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</li>
+    </ul>
+  </li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
+    </ul>
+  </li>
+  <li>Перейдите в <code class="highlighter-rouge">[E:] EMUNAND VIRTUAL</code></li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы выбрать файл <code class="highlighter-rouge">nand.bin</code>, затем выберите “NAND image options…”, затем “Restore SysNAND (safe)”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND и введите указанную комбинацию кнопок
+    <ul>
+      <li>Это действие не перезапишет установленный boot9strap</li>
+    </ul>
+  </li>
+  <li>Введите указанную комбинацию кнопок чтобы разрешить запись в SysNAND (lvl1)
+    <ul>
+      <li>Этот процесс займет некоторое время</li>
+    </ul>
+  </li>
+  <li>Когда процесс завершится, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для продолжения</li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, если появится запрос, чтобы не восстанавливать запрет на запись в раздел</li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+</ol>
+
+<h3 id="часть-v---восстановление-сохранений-dsiware">Часть V - Восстановление сохранений DSiWare</h3>
+
+<p class="notice--info">Если вы не создавали бэкап сохранений DSiWare ранее, пропустите эту часть.</p>
+
+<ol>
+  <li>Перейдите в <code class="highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="highlighter-rouge">gm9</code> -&gt; <code class="highlighter-rouge">out</code></li>
+  <li>Нажмите <img src="/images/buttons/Y.png" alt="(Y)" />, выбрав папку <code class="highlighter-rouge">00030004</code> чтобы скопировать ее</li>
+  <li>Дважды нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+  <li>Перейдите в <code class="highlighter-rouge">[2:] SYSNAND TWLN</code> -&gt; <code class="highlighter-rouge">title</code></li>
+  <li>Нажмите <img src="/images/buttons/Y.png" alt="(Y)" /> чтобы вставить папку <code class="highlighter-rouge">00030004</code></li>
+  <li>Выберите “Copy path(s)”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок</li>
+  <li>Выберите “Overwrite file(s)”
+    <ul>
+      <li>Этот процесс может занять некоторое время, если у вас много DSiWare игр</li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, если появится запрос, чтобы не восстанавливать запрет на запись в раздел</li>
+  <li>Дважды нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+</ol>
+
+<h3 id="часть-vi---восстановление-сохранений-gba-vc">Часть VI - Восстановление сохранений GBA VC</h3>
+
+<p class="notice--info">Если вы не создавали бэкап сохранений GBA VC ранее, пропустите эту часть.</p>
+
+<p class="notice--info">Чтобы идентифицировать Title ID в имени файла <code class="highlighter-rouge">&lt;TitleID&gt;.gbavc.sav</code>, вы можете посмотреть список всех установленных игр и соответствующих им Title ID. Удерживая <img src="/images/buttons/R.png" alt="(R)" />, нажмите <img src="/images/buttons/A.png" alt="(A)" /> в главном меню GodeMode9, затем выберите “Search for titles”.</p>
+
+<ol>
+  <li>Удерживая <img src="/images/buttons/R.png" alt="(R)" />, нажмите <img src="/images/buttons/START.png" alt="(START)" /> чтобы выключить консоль</li>
+  <li>Загрузитесь в SysNAND консоли</li>
+  <li>Выполните нижеуказанные действия для каждой игры GBA VC, для которой вы хотите восстановить сохранения из резервной копии:
+    <ul>
+      <li>Запустите игру GBA VC</li>
+      <li>Выйдите из игры GBA VC</li>
+      <li>Включите консоль кнопкой питания, держа нажатой кнопку <img src="/images/buttons/START.png" alt="(START)" />, чтобы запустить меню Luma3DS chainloader</li>
+      <li>Запустите GodMode9, нажав кнопку <img src="/images/buttons/A.png" alt="(A)" /></li>
+      <li>Перейдите в <code class="highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="highlighter-rouge">gm9</code></li>
+      <li>Нажмите <img src="/images/buttons/Y.png" alt="(Y)" /> чтобы скопировать файл сохранения <code class="highlighter-rouge">&lt;TitleID&gt;.gbavc.sav</code>, который вы хотите восстановить</li>
+      <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+      <li>Перейдите в <code class="highlighter-rouge">[S:] SYSNAND VIRTUAL</code></li>
+      <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы выбрать файл <code class="highlighter-rouge">agbsave.bin</code></li>
+      <li>Выберите “AGBSAVE options…”</li>
+      <li>Выберите “Inject GBA VC save”</li>
+      <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+      <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки</li>
+      <li>Запустите игру GBA VC</li>
+      <li>Выйдите из игры GBA VC</li>
+    </ul>
+  </li>
+  <li>Запустите GodMode9, держа нажатой кнопку <img src="/images/buttons/START.png" alt="(START)" /> во время загрузки</li>
+</ol>
+
+<h3 id="часть-vii---создание-резервной-копии-бекап-sysnand">Часть VII - Создание резервной копии (бекап) SysNAND</h3>
+
+<ol>
+  <li>Нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" /> для вызова меню</li>
+  <li>Выберите “<strong>Scripts…</strong>”</li>
+  <li>Выберите “<strong>GM9Megascript</strong>”</li>
+  <li>Выберите “<strong>Backup Options</strong>”</li>
+  <li>Выберите “<strong>SysNAND Backup</strong>”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения
+    <ul>
+      <li>Этот процесс займет некоторое время</li>
+      <li>При возникновении ошибки, убедитесь, что на карте свободно не менее 1,3 Гб</li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, чтобы вернуться в главное меню</li>
+  <li>Выберите “<strong>Exit</strong>”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы восстановить запрет на запись</li>
+  <li>Удерживая <img src="/images/buttons/R.png" alt="(R)" /> нажмите <img src="/images/buttons/B.png" alt="(B)" /> для того, чтобы извлечь SD-карту</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Скопируйте <code class="highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code>, <code class="highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin.sha</code>, <code class="highlighter-rouge">essential.exefs</code> (если есть) и <code class="highlighter-rouge">boot9.bin</code> (если есть) из папки <code class="highlighter-rouge">/gm9/out/</code> на SD-карте в безопасное место на вашем компьютере
+    <ul>
+      <li>Сделайте несколько резервных копий в нескольких местах (например в облачном хранилище)</li>
+      <li>Эти бэкапы позволят восстановить консоль, если впоследствии что-то пойдёт не так</li>
+    </ul>
+  </li>
+  <li>После копирования удалите <code class="highlighter-rouge">&lt;YYMMDD&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> из папки <code class="highlighter-rouge">/gm9/out/</code> на SD-карте</li>
+  <li>Верните карту памяти в приставку
+    <ul>
+      <li>Кнопка <img src="/images/buttons/START.png" alt="(START)" /> перезагрузит приставку</li>
+    </ul>
+  </li>
+  <li><strong>Сделайте резервную копию всех файлов на SD-карте, поскольку в следующих шагах карта будет отформатирована.</strong></li>
+</ol>
+
+<h3 id="часть-viii---форматирование-sd-карты">Часть VIII - Форматирование SD-карты</h3>
+
+<ol>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" /> для вызова меню</li>
+  <li>Выберите “More…”</li>
+  <li>Выберите “SD format menu”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
+  <li>Выберите “No EmuNAND”</li>
+  <li>Выберите “Auto”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы подтвердить метку <code class="highlighter-rouge">GM9SD</code>
+    <ul>
+      <li>При желании вы можете ввести другую метку для SD-карты</li>
+    </ul>
+  </li>
+  <li>При появлении запроса, введите указанную комбинацию кнопок</li>
+  <li>Удерживая <img src="/images/buttons/R.png" alt="(R)" /> нажмите <img src="/images/buttons/B.png" alt="(B)" /> для того, чтобы извлечь SD-карту</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Скопируйте на нее файлы, которые вы сохранили несколько шагов назад
+    <ul>
+      <li>Убедитесь, что вы заменили <code class="highlighter-rouge">boot.firm</code> его версией из сохраненных ранее файлов</li>
+    </ul>
+  </li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы смонтировать SD-карту</li>
+  <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" />, чтобы перезагрузиться</li>
+</ol>
+
+<p class="notice--info">Если после включения экран остаётся чёрным, перейдите к разделу с <a href="troubleshooting#Черный-экран-при-загрузке-sysnand" target="_blank">проблемами и их решениями</a></p>
+
+<p class="notice--info">Если у вас пропали все игры, но в настройках они есть, подсвеченные серым цветом - у вас поломались тикеты. Починить можно обратившись к разделу <a href="https://3ds.customfw.xyz/troubleshooting#игры-пропали-из-меню-home-и-в-настройках-они-серые" target="_blank">Проблемы и их решения</a></p>
+
+<hr />
+
+<h2 class="notice--success" id="завершение-установки"><a href="finalizing-setup">Завершение установки</a>.</h2>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

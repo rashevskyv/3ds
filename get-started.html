@@ -1,0 +1,533 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Начнем - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Начнем">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/get-started.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/get-started.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Начнем">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Начнем
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#таблица-версий" id="markdown-toc-таблица-версий">Таблица версий</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p>Эта страница содержит инструкции по установке boot9strap на <em>не взломанную</em> 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе <a href="a9lh-to-b9s" target="_blank">обновление до boot9strap</a>.</p>
+
+<p>Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью <a href="http://customfw.xyz/h2testw-windows" target="_blank">H2testw (Windows)</a>, <a href="http://customfw.xyz/f3-linux" target="_blank">F3 (Linux)</a>, или <a href="http://customfw.xyz/f3x-mac" target="_blank">F3X (Mac)</a>!</p>
+
+<p>Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: <a href="file-extensions-windows" target="_blank">Расширения файлов (Windows)</a>!</p>
+
+<p class="notice--warning">Если на приставке нет важных для вас данных, то я крайне рекомендую произвести форматирование <a href="clean_sd#i-Форматирование-приставки">приставки</a> и <a href="clean_sd#ii-Форматирование-sd-карты">SD-карты</a> перед началом взлома. <strong>Помните, что форматирование уничтожит все ваши данные на приставке и SD-карте. Делайте его только в том случае, если на приставке и карте нет ничего важного!</strong></p>
+
+<hr />
+
+<p>Столбцы “С” и “По” обозначают границы диапазона. Это означает, к примеру, что диапазон “с 9.0.0 по 9.2.0” включает в себя 9.0.0, 9.1.0 и 9.2.0.</p>
+
+<p>Последнее число вашей версии системы (после дефиса) относится к версии браузера. Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число говорит о том, что браузер установлен. В настоящее время все New 3DS и New 2DS имеют браузер!</p>
+
+<p>Например, если у вас версия прошивки “5.0.0-<strong>0</strong>E”, необходимо выбрать ячейку на пересечении колонки “Без браузера” и ряда “С 5.0.0 по 5.1.0” так как версия системы находится в этом диапазоне и в системе не установлен браузер.</p>
+
+<p class="notice--success">Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).</p>
+
+<p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/system-version.png" alt="" target="_blank" /></p>
+
+<h3 id="таблица-версий">Таблица версий</h3>
+
+<p class="notice--warning">Для всех консолей, любой версии прошивки можно использовать <a href="ntrboot" target="_blank">NTRBootHax</a> или <a href="steelminer" target="_blank">Steelminer</a>, даже если они не указаны в таблице! Для первого понадобится совместимый флеш-картридж, но этот метод наиболее простой, для второго - обновиться до последней версии системного ПО и этот метод комплексный и более сложный. <br /><br /><strong>Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до 11.13.0 через Системные настройки, а затем воспользовавшись методом <a href="steelminer" target="_blank">Steelminer</a>. Этот метод не требует дополнительных вложений</strong></p>
+
+<table>
+  <colgroup>
+    <col span="1" style="width: 5%;" />
+    <col span="1" style="width: 5%;" />
+    <col span="1" style="width: 38%;" />
+    <col span="1" style="width: 38%;" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">С</th>
+      <th style="text-align: center; font-weight: bold;">По</th>
+      <th style="text-align: center; font-weight: bold;">Браузера нет</th>
+      <th style="text-align: center; font-weight: bold;">Браузер есть</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+	  <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
+	</tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.13.0</td>
+      <td style="text-align: center;" colspan="2"><a href="steelminer">Steelminer</a><br /><b>(не требует вложения денег)</b></td>
+    </tr>
+</tbody>
+</table>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

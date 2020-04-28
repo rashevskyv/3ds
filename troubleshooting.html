@@ -1,0 +1,756 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Проблемы и их решения - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Проблемы и их решения">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/troubleshooting.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/troubleshooting.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Проблемы и их решения">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Проблемы и их решения
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#dsids-игры-не-работают-на-прошитой-приставке" id="markdown-toc-dsids-игры-не-работают-на-прошитой-приставке">DSi/DS игры не работают на прошитой приставке</a>    <ul>
+      <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится:</a></li>
+      <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>        <ul>
+          <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
+          <li><a href="#часть-ii---исправление-twl" id="markdown-toc-часть-ii---исправление-twl">Часть II - Исправление TWL</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#ошибка-failed-to-apply-1-firm-patches" id="markdown-toc-ошибка-failed-to-apply-1-firm-patches">Ошибка “Failed to apply 1 FIRM patche(s)”</a></li>
+  <li><a href="#пропали-все-игры-на-стартовом-экране-хотя-место-на-карте-они-так-и-занимают-а-в-настройках-на-них-серые-кресты" id="markdown-toc-пропали-все-игры-на-стартовом-экране-хотя-место-на-карте-они-так-и-занимают-а-в-настройках-на-них-серые-кресты">Пропали все игры на стартовом экране, хотя место на карте они так и занимают, а в настройках на них серые кресты</a></li>
+  <li><a href="#я-потерял-все-данные-на-sd-карте-что-нужно-делать-чтобы-восстановить-работоспособность" id="markdown-toc-я-потерял-все-данные-на-sd-карте-что-нужно-делать-чтобы-восстановить-работоспособность">Я потерял все данные на SD-карте. Что нужно делать, чтобы восстановить работоспособность?</a></li>
+  <li><a href="#черный-экран-при-загрузке-sysnand" id="markdown-toc-черный-экран-при-загрузке-sysnand">Черный экран при загрузке SysNAND</a></li>
+  <li><a href="#черный-экран-при-загрузке-sysnand-после-установки-b9s" id="markdown-toc-черный-экран-при-загрузке-sysnand-после-установки-b9s">Черный экран при загрузке SysNAND после установки b9s</a></li>
+  <li><a href="#не-запускается-ни-один-пейлоадер-сразу-запускается-консоль" id="markdown-toc-не-запускается-ни-один-пейлоадер-сразу-запускается-консоль">Не запускается ни один пейлоадер. Сразу запускается консоль</a></li>
+  <li><a href="#игры-выкидывает-с-ошибкой" id="markdown-toc-игры-выкидывает-с-ошибкой">Игры выкидывает с ошибкой</a></li>
+  <li><a href="#3ds-не-включается-после-обновления-через-luma3ds-updater---загорается-синий-диод-и-тухнет" id="markdown-toc-3ds-не-включается-после-обновления-через-luma3ds-updater---загорается-синий-диод-и-тухнет">3DS не включается после обновления через Luma3DS Updater - загорается синий диод и тухнет</a>    <ul>
+      <li><a href="#способ-i---ctrnand" id="markdown-toc-способ-i---ctrnand">Способ I - CTRNAND</a></li>
+      <li><a href="#способ-ii---перебор" id="markdown-toc-способ-ii---перебор">Способ II - Перебор</a></li>
+    </ul>
+  </li>
+  <li><a href="#голубой-экран-при-загрузке-bootrom-error" id="markdown-toc-голубой-экран-при-загрузке-bootrom-error">Голубой экран при загрузке (bootrom error)</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p>Если ваша консоль не загружается, найдите раздел, соответствующий вашей проблеме, и следуйте его инструкциям. После решения возникшей проблемы, вернитесь к основному руководству
+(Этот раздел весьма обширный, воспользуйтесь Ctrl+F для поиска своей проблемы)</p>
+
+<p>Если решения вашей проблемы здесь не оказалось, то загрузите содержимое всех .log файлов из корня SD-карты на <a href="https://gist.github.com/" target="_blank">Gist</a>, а затем обращайтесь за помощью, детально описав проблему и испробованные способы решения.</p>
+
+<p>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</p>
+
+<h2 id="dsids-игры-не-работают-на-прошитой-приставке">DSi/DS игры не работают на прошитой приставке</h2>
+
+<h3 id="что-понадобится">Что понадобится:</h3>
+
+<ul>
+  <li>Свежая версия <a href="https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest">TWLFix-CFW</a> <em>(<code class="highlighter-rouge">.3dsx-файл</code>)</em></li>
+</ul>
+
+<h3 id="инструкция">Инструкция</h3>
+
+<h4 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h4>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Создайте папку <code class="highlighter-rouge">3ds</code> в корне SD-карты, если таковой нет</li>
+  <li>Скопируйте <code class="highlighter-rouge">TWLFix-CFW.3dsx</code> в папку <code class="highlighter-rouge">/3ds/</code> на SD-карте</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+</ol>
+
+<h4 id="часть-ii---исправление-twl">Часть II - Исправление TWL</h4>
+
+<ol>
+  <li>Запустите Homebrew Launcher</li>
+  <li>Выберите TWLFix-CFW в списке homebrew</li>
+  <li>Нажмите (A), чтобы удалить повреждённые тайтлы TWL</li>
+  <li>Нажмите (Start) для перезагрузки</li>
+  <li>Выполните обновление системы, зайдя в Системные настройки, затем “Прочие настройки”, затем листайте вправо до конца и выберите пункт “Обновление”
+    <ul>
+      <li>Обновление увидит, что системные тайтлы TWL были удалены, и заново скачает и установит их</li>
+    </ul>
+  </li>
+  <li>После завершения обновления нажмите “OK” для перезагрузки</li>
+</ol>
+
+<h2 id="ошибка-failed-to-apply-1-firm-patches">Ошибка “Failed to apply 1 FIRM patche(s)”</h2>
+
+<ol>
+  <li>Обновите <a href="update-luma3ds" target="_blank">Luma3DS</a>.</li>
+</ol>
+
+<h2 id="пропали-все-игры-на-стартовом-экране-хотя-место-на-карте-они-так-и-занимают-а-в-настройках-на-них-серые-кресты">Пропали все игры на стартовом экране, хотя место на карте они так и занимают, а в настройках на них серые кресты</h2>
+
+<p>Нужно восстановить тикеты с помощью программы <a href="https://github.com/ihaveamac/faketik/releases/latest" target="_blank">faketik</a>.</p>
+<ol>
+  <li>Поместите программу в папку <code class="highlighter-rouge">3ds</code></li>
+  <li>Запустите <a href="launch-hbl" target="_blank">Homebrew Launcher</a></li>
+  <li>Запустите faketik
+    <ul>
+      <li>Интернет на приставке должен быть включен</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="я-потерял-все-данные-на-sd-карте-что-нужно-делать-чтобы-восстановить-работоспособность">Я потерял все данные на SD-карте. Что нужно делать, чтобы восстановить работоспособность?</h2>
+
+<p>Воспользуйтесь <a href="clean_sd" target="_blank">этой</a> инструкцией</p>
+
+<h2 id="черный-экран-при-загрузке-sysnand">Черный экран при загрузке SysNAND</h2>
+
+<ol>
+  <li>Попробуйте загрузиться без SD-карты, а затем верните ее в консоль
+    <ol>
+      <li>Выключите консоль</li>
+      <li>Извлеките SD-карту из консоли</li>
+      <li>Включите консоль</li>
+      <li>Когда появится меню Home, вставьте SD-карту обратно в консоль</li>
+      <li>Если это сработало, вам следует очистить данные меню Home:
+        <ol>
+          <li>Отключите устройство</li>
+          <li><a href="/godmode9-usage#запуск-godmode9" target="_blank">Запустите GodMode9</a>, держа нажатой кнопку <img src="/images/buttons/START.png" alt="(START)" /> во время загрузки</li>
+          <li>Нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" /> для запуска меню</li>
+          <li>Выберите “<strong>Scripts…</strong>”</li>
+          <li>Выберите “<strong>GM9Megascript</strong>”</li>
+          <li>Выберите “<strong>Scripts from Plailect’s Guide</strong>”</li>
+          <li>Выберите <strong>“Remove extdata</strong>”</li>
+          <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+          <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок</li>
+          <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+          <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, чтобы вернуться в главное меню</li>
+          <li>Выберите “<strong>Exit</strong>”</li>
+          <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы восстановить запрет на запись, если появится запрос</li>
+          <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки приставки</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>Попробуйте включить устройство без каких-либо картриджей (включая флеш-картриджи)</li>
+  <li>Если у вас есть хардмод и резервная копия NAND, прошейте бэкап обратно в SysNAND</li>
+  <li>Попробуйте загрузиться в режим восстановления и обновить систему
+    <ol>
+      <li>Выключите консоль</li>
+      <li>Зажмите <img src="/images/buttons/L.png" alt="(L)" />+<img src="/images/buttons/R.png" alt="(R)" />+<img src="/images/buttons/A.png" alt="(A)" />+<img src="/images/buttons/UP.png" alt="(UP)" /></li>
+      <li>Включите консоль</li>
+      <li>Если вы вошли в режим восстановления, обновите консоль.</li>
+    </ol>
+  </li>
+  <li>Ваша консоль, скорее всего, превратилась в брик. Вы можете обратиться за поддержкой <a href="http://customfw.xyz/contacts" target="_blank">сюда</a></li>
+</ol>
+
+<h2 id="черный-экран-при-загрузке-sysnand-после-установки-b9s">Черный экран при загрузке SysNAND после установки b9s</h2>
+
+<ol>
+  <li>Убедитесь, что у вас установлен рабочий загрузчик
+    <ul>
+      <li>Проверьте, есть ли в корне SD-карты файл <code class="highlighter-rouge">boot.firm</code>.</li>
+    </ul>
+  </li>
+  <li>Попробуйте сбросить настройки Luma3DS
+    <ol>
+      <li>Удалите файл <code class="highlighter-rouge">/luma/config.bin</code> с SD-карты</li>
+      <li>Выберите нужные настройки при запуске</li>
+    </ol>
+  </li>
+  <li>Попробуйте запустить GodMode9
+    <ul>
+      <li>Для устройства с Luma3DS, зажмите <img src="/images/buttons/START.png" alt="(START)" /> при включении</li>
+    </ul>
+  </li>
+  <li>Попробуйте очистить данные меню Home <a href="#черный-экран-при-загрузке-sysnand">этим способом</a></li>
+  <li>Попробуйте включить устройство без каких-либо картриджей (включая флеш-картриджи)</li>
+  <li>Если вы понижали прошивку через Gateway, то убедитесь, что у вас установлена самая последняя версия Luma3DS (не ниже 6.2.3)</li>
+  <li>Если версия вашего NAND между 3.0.0 и 4.5.0, проделайте следующие действия:
+    <ul>
+      <li>Убедитесь, что используете самую свежую версию Luma 3DS (6.6, или выше)</li>
+      <li>Скачайте <a href="http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056" target="_blank">этот файл</a> и переименуйте его в <code class="highlighter-rouge">native.firm</code></li>
+      <li>Скачайте <a href="http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk" target="_blank">этот файл</a></li>
+      <li>Скопируйте <code class="highlighter-rouge">native.firm</code> и <code class="highlighter-rouge">cetk</code> в папку <code class="highlighter-rouge">/luma/</code> на SD-карте</li>
+      <li>Если у вас Luma3DS версии 7.1 или ниже, переименуйте <code class="highlighter-rouge">native.firm</code> в <code class="highlighter-rouge">firmware.bin</code></li>
+      <li>После обновления прошивки удалите оба этих файла</li>
+    </ul>
+  </li>
+  <li>Попробуйте выполнить <a href="ctrtransfer" target="_blank">CTRTransfer</a></li>
+  <li>Вы можете обратиться за поддержкой на канал <a href="https://discord.gg/MWxPgEp" target="_blank">Nintendo Homebrew в Discord</a> (англ.), или <a href="http://vk.com/3ds_cfw" target="_blank">группу 3DS_CFW вконтакте</a> (рус.).</li>
+</ol>
+
+<h2 id="не-запускается-ни-один-пейлоадер-сразу-запускается-консоль">Не запускается ни один пейлоадер. Сразу запускается консоль</h2>
+
+<ul>
+  <li>Убедитесь, что на карте памяти лежит пейлоадер, соответствующий типу установленного взлома - .firm для b9s и .bin для a9lh</li>
+  <li>Для luma3ds ниже версии 7, следует в начале имени пейлоадера писать кнопку, отвечающую за его вызов. Например, переименовав decrypt9.bin в x_decrypt9.bin, вы сможете запустить Decrypt9WIP, зажав <img src="/images/buttons/X.png" alt="(X)" /> при включении консоли</li>
+  <li>Если вы уверены, что все у вас правильно, а пейлоадер все равно не запускается, сделайте резервную копию всех файлов на SD-карте и <a href="https://3ds.customfw.xyz/clean_sd#ii-форматирование-sd-карты" target="_blank">отформатируйте</a> её, а затем верните все файлы обратно и попробуйте еще раз</li>
+  <li>Попробуйте другую карту памяти</li>
+</ul>
+
+<h2 id="игры-выкидывает-с-ошибкой">Игры выкидывает с ошибкой</h2>
+
+<p class="text-center"><img src="/images/screenshots/error.png" alt="" target="_blank" /></p>
+
+<ul>
+  <li>Обратите внимание на значение строки <strong>Exception type</strong>. <code class="highlighter-rouge">data abort</code> и <code class="highlighter-rouge">prefetch abort</code> означают что точно проблемы с SD-картой. Скопируйте всю информацию со старой карты на новую, предварительно <a href="clean_sd#ii-форматирование-sd-карты" target="_blank">отформатировав</a> новую SD-карту.</li>
+</ul>
+
+<p>В иных случаях:</p>
+
+<ul>
+  <li>
+    <p>Если такая ошибка на только что установленной игре, попробуйте следующее:</p>
+
+    <ol>
+      <li>Запустите <a href="fbi" target="_blank">FBI</a></li>
+      <li>Перейдите в меню “<strong>Titles</strong>”</li>
+      <li>Выберите свою игру и нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+      <li>Выберите “<strong>Import seed</strong>”</li>
+    </ol>
+  </li>
+  <li>
+    <p>Если у вас приставка линейки New, убедитесь, что в настройках Luma3DS отключен разгон:</p>
+
+    <ol>
+      <li>Выключите приставку</li>
+      <li>Включите консоль с зажатым <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+      <li>Отключите разгон:
+        <ul>
+          <li>Установите значение поля <strong>New 3DS CPU</strong> в положение <strong>Off</strong></li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Иногда такая ошибка может возникать при запуске игры чужого региона. Если игра работала, но вдруг перестала после очередного обновления, или установки DLC - скорее всего причина именно в не родном регионе. Можно обмануть игру, воспользовавшись <a href="lumalocales" target="_blank">lumalocale switcher</a></p>
+  </li>
+  <li>
+    <p>Если вышеперечисленное не помогло - у вас проблемы с картой. Скопируйте с неё все данные на ПК, <a href="clean_sd#ii-форматирование-sd-карты" target="_blank">отформатируйте карту</a>, верните данные на место. Не помогло? Пробуйте с другой картой.</p>
+  </li>
+</ul>
+
+<h2 id="3ds-не-включается-после-обновления-через-luma3ds-updater---загорается-синий-диод-и-тухнет">3DS не включается после обновления через Luma3DS Updater - загорается синий диод и тухнет</h2>
+
+<p>Вы установили Luma3DS на несовместимый boot
+Сперва попробуем определить boot какой версии прошит в приставку</p>
+
+<h4 id="способ-i---ctrnand">Способ I - CTRNAND</h4>
+
+<p class="notice--info">Если прошивка выполнялась по этому гайду , то в CTRNAND приставки должны были быть скопированы файлы прошивки. Следовательно, вынув КП из приставки и запустив 3DS, вы сможете запустить Luma и увидеть её версию, из чего легко сделать вывод о том, какой загрузчик стоит в системе.</p>
+
+<ol>
+  <li>Отключите 3DS</li>
+  <li>Достаньте КП из приставки</li>
+  <li>Загрузите приставку с зажатой кнопкой <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+  <li>Обратите внимание на первую строчку, там написана версия Luma3DS
+    <ul>
+      <li>Если Luma3DS меньше, или равна 7.0.5, то у вас a9lh - выполняйте указания из этой инструкции, чтобы перейти на b9s актуальной версии</li>
+      <li>Если Luma3DS 7.1, то у вас b9s 1.0 и нужно <a href="updating-b9s" target="_blank">обновить его до актуальной версии</a></li>
+      <li>Если версия Luma3DS выше, или равна 8.0, у вас b9s 1.2 или выше. Можете <a href="updating-b9s" target="_blank">обновить его до актуальной версии</a>, если вы не знаете какая именно у вас стоит сейчас</li>
+    </ul>
+
+    <p class="text-center notice--info"><img src="/images/screenshots/luma.png" alt="" target="_blank" /></p>
+  </li>
+</ol>
+
+<h4 id="способ-ii---перебор">Способ II - Перебор</h4>
+
+<p class="notice--info">Этот метод для тех, кто по каким-то причинам не стал устанавливать Luma3DS в CTRNAND, либо для тех, кто обновился до b9s 1.0 в момент его выхода и обновил Luma3DS через Luma3DS Updater</p>
+
+<ol>
+  <li>Выключаем консоль</li>
+  <li>Вставляем SD-карту из приставки в компьютер</li>
+  <li>Качаем <a href="https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5" target="_blank">Luma3DS 7.0.5</a></li>
+  <li>Копируем <code class="highlighter-rouge">arm9loaderhax.bin</code> из архива <code class="highlighter-rouge">Luma3DSv7.0.5.7z</code> в корень карты памяти с заменой</li>
+  <li>Возвращаем карту памяти в консоль</li>
+  <li>Пробуем запустить приставку.</li>
+  <li>Если сработало и приставка запустилась, то у вас a9lh - <a href="a9lh-to-b9s" target="_blank">перейдите на b9s актуальной версии</a>.
+    <ul>
+      <li>Если не сработало, двигаемся дальше</li>
+    </ul>
+  </li>
+  <li>Качаем <a href="https://github.com/AuroraWright/Luma3DS/releases/tag/v7.1" target="_blank">Luma3DS 7.1</a></li>
+  <li>Копируем <code class="highlighter-rouge">boot.firm</code> из архива <code class="highlighter-rouge">Luma3DSv7.1.7z</code> в корень карты памяти с заменой</li>
+  <li>Возвращаем карту памяти в консоль</li>
+  <li>Пробуем запустить приставку.</li>
+  <li>Если сработало и приставка запустилась, то у вас b9s 1.0 и нужно обновить его до актуальной версии по инструкции (updating-b9s)
+    <ul>
+      <li>Если не сработало, двигаемся дальше</li>
+    </ul>
+  </li>
+  <li>Качаем свежую версию <a href="https://github.com/AuroraWright/Luma3DS/releases/latest" target="_blank">Luma3DS</a> (<code class="highlighter-rouge">7z</code>-архив)</li>
+  <li>Копируем <code class="highlighter-rouge">boot.firm</code> из <code class="highlighter-rouge">7z-архива</code> Luma3DS в корень SD-карты с заменой</li>
+  <li>Возвращаем SD-карту в консоль</li>
+  <li>Пробуем запустить приставку.</li>
+  <li>Если сработало и приставка запустилась, то у вас b9s или выше и самая последняя версия Luma3DS. Можете <a href="updating-b9s" target="_blank">обновить b9s до актуальной версии</a>, если вы не знаете какая именно у вас стоит сейчас
+    <ul>
+      <li>Если ничего не помогло, попробуйте выполнить <a href="ctrtransfer" target="_blank">CTRTransfer</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="голубой-экран-при-загрузке-bootrom-error">Голубой экран при загрузке (bootrom error)</h2>
+
+<ol>
+  <li>У вас брик
+    <ul>
+      <li>Если вы делали хардмод, попробуйте его отпаять полностью</li>
+    </ul>
+  </li>
+  <li>Попробуйте найти <a href="ntrboot" target="_blank">ntrboot-совместимый флешкартридж</a> или сделать <a href="https://gbatemp.net/threads/414498/">хардмод</a></li>
+  <li>Попробуйте восстановить работоспособность приставки следуя <a href="https://vk.com/doc10514103_533978468?hash=448a7bfba08e26e419&amp;dl=c63a95a301efbf7e26">этой инструкции</a>”</li>
+</ol>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>
