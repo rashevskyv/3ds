@@ -57,17 +57,7 @@ ___
       <td style="text-align: center;" colspan="2"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
 	</tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
-      <td style="text-align: center;"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
-      <td style="text-align: center;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.2.0</td>
-      <td style="text-align: center; font-weight: bold;">2.2.0</td>
-      <td style="text-align: center;" colspan="2"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
     </tr>

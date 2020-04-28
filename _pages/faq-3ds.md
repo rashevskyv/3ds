@@ -27,7 +27,7 @@ author_profile: true
 **О:** Да, можно. Luma пропатчена на запуск игр любого региона. Нет, за это не забанят. 
 
 ### **В:** Можно ли запускать игры от DS?       
-**О:** Да, можно, с помощью [специального флеш-картриджа](r4){:target="_blank"}, например R4 или его аналога. С внутренней памяти можно через [TWiLightMenu++ и nds-bootstrap](https://vk.com/@vulpesvulpeos-faq-po-twilightmenu-i-nds-bootstrap){:target="_blank"}, но этот метод работает плохо. 
+**О:** Да, можно, с помощью [специального флеш-картриджа](r4){:target="_blank"}, например R4 или его аналога. С внутренней памяти можно через [TWiLightMenu++ и nds-bootstrap](https://vk.com/@vulpesvulpeos-faq-po-twilightmenu-i-nds-bootstrap){:target="_blank"}
 
 ### **В:** Запустится ли R4 или его аналог на моей приставке?       
 **О:** Попробуйте сами. Если не запускается, выполните инструкции по [ссылке](troubleshooting#dsids-игры-не-работают-на-прошитой-приставке){:target="_blank"}

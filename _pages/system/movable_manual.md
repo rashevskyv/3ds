@@ -149,7 +149,7 @@ ___
 В этом методе мы полностью полагаемся на силу сообщества и будем использовать ресурсы и время волонтёров, которые помогают безвозмездно взлому консолей незнакомых людей. 
 
 1. Распакуйте `zip-архив` с seedminer на ваш ПК
-1. Перейдите на сайт [https://bruteforcemovable.com/](https://bruteforcemovable.com/){:target='_blank'}.
+1. Перейдите на сайт [https://seedminer.hacks.guide/steelhax/](https://seedminer.hacks.guide/steelhax/){:target='_blank'}.
 1. В поле "**Your friend code**" введите свой *код друга* (friend code)
 	* Посмотреть свой код друга можно в **Списке друзей** (Friend List)
 1. В поле "**Your ID0**" введите свой [*ID0*](steelminer#получение-id0)

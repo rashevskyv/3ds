@@ -18,7 +18,8 @@
         </div>
         <div class="btn-group firmware">
             <span>Версия системного ПО:</span>
-            <button class="group" id="pre5.0">3.0.0 - 4.5.0</button>
+            <button class="group" id="v2.1and2.2">2.1.0 - 2.2.0</button>
+            <button class="group" id="v3.xand4.x">3.0.0 - 4.5.0</button>
             <button class="group" id="post5.0">5.0.0 - 11.3.0</button>
         </div>
         <button id="download" class="round group" href="poop">Скачать M4A</button>
