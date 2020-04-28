@@ -46,20 +46,7 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-### Часть III - Восстановление работы меню Подключения Nintendo DS
-
-Эта часть только для тех, кто прошивал методом Steelminer! Если вы прошивали другим методом, пропустите эту часть
-
-1. Отключите приставку
-1. Вставьте карту памяти в ПК 
-1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
-    * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
-1. Скопируйте файл `42383841.bin`, находящийся в архиве `fredtool_output.zip` по пути `output/clean/` в папку `Nintendo DSiWare` с заменой
-1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
-1. Выберите "**Карта SD**" (SD Card) и нажмите на "**Nintendo DSi™**"
-1. Выберите "**Копировать**", затем нажмите "**ОК**"
-
-### Часть IV - Обновление системы
+### Часть III - Обновление системы
 
 {% include /inc/if_emunand.txt %}
 
@@ -68,7 +55,7 @@ author_profile: true
 
 {% include /inc/sys_update.txt %}
 
-### Часть V - Запуск HBL
+### Часть IV - Запуск HBL
 
 {% include /inc/hbl.txt content='**Загружаемая игра (Download Play)**' icon=', нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
 1. Выберите из списка "**ctr-no-timeoffset**" и запустите его
@@ -76,7 +63,7 @@ author_profile: true
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
 1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в **Homebrew Launcher**
 
-### Часть VI - Установка CIA
+### Часть V - Установка CIA
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`
@@ -84,19 +71,19 @@ author_profile: true
 1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-### Часть VII - Настройка Homebrew Launcher
+### Часть VI - Настройка Homebrew Launcher
 
 {% include /inc/hbl.txt content='**the homebrew launcher**' icon=', нажав на <img src="/images/icons/hbl-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
 
-### Часть VIII - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VII - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть IX - Создание резервной копии (бекап) SysNAND
+### Часть VIII - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть X - Дополнительные материалы
+### Часть IX - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 
