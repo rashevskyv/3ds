@@ -9,6 +9,9 @@ author_profile: true
 Если у вас не работает кнопка одна из кнопок: {% include inc/btn.txt btn="L" %}, {% include inc/btn.txt btn="R" %}, {% include inc/btn.txt btn="UP" %} или {% include inc/btn.txt btn="A" %}, то воспользуйтесь [другим методом](fredtool) для продолжения взлома.
 {: .notice--danger}
 
+Используйте карту на 4Gb или больше, иначе эксплойт может не работать! Карта должна быть в формате [FAT32](http://customfw.xyz/format_sd){:target="_blank"}!
+{: .notice--warning}
+
 ### Часть I - Подготовительная работа
 
 1. Откройте [unSAFE_MODE-bb3 tool](https://usm.bruteforcemovable.com/) на вашем ПК
