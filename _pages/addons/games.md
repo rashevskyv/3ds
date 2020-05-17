@@ -22,10 +22,8 @@ author_profile: true
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [3dscia](http://www.3dscia.to/){:target="_blank"}
 1. [ziperto.com](https://www.ziperto.com/nintendo/3ds-roms/3ds-cia/){:target="_blank"}
-1. [downloadroms.io](https://www.downloadroms.io/roms/){:target="_blank"}
 1. [recoleccionjuegos3ds.blogspot.com](http://recoleccionjuegos3ds.blogspot.com){:target="_blank"}
 1. [nintendo.moy.su](http://nintendo.moy.su/){:target="_blank"}
-1. [Канал в telegram qreeShop3DS](https://t.me/s/qreeShop3DS){:target="_blank"}
 1. [Конвертировать .3DS-ромы в .CIA](godmode9-usage#%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%B7-3ds-%D0%B2-cia){:target="_blank"}
 
 # Установка приложений
