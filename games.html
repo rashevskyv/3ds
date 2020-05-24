@@ -1,0 +1,664 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Установка приложений - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Установка приложений">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/games.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/games.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Установка приложений">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Установка приложений
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#теоретическая-часть" id="markdown-toc-теоретическая-часть">Теоретическая часть</a></li>
+  <li><a href="#где-брать-игры" id="markdown-toc-где-брать-игры">Где брать игры?</a></li>
+  <li><a href="#установка-приложений" id="markdown-toc-установка-приложений">Установка приложений</a>    <ul>
+      <li><a href="#быстрый-метод-установки" id="markdown-toc-быстрый-метод-установки">Быстрый метод установки</a></li>
+      <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
+      <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
+      <li><a href="#часть-ii---конвертация-игр" id="markdown-toc-часть-ii---конвертация-игр">Часть II - Конвертация игр</a></li>
+      <li><a href="#классический-метод-установки" id="markdown-toc-классический-метод-установки">Классический метод установки</a></li>
+      <li><a href="#что-понадобится-1" id="markdown-toc-что-понадобится-1">Что понадобится</a></li>
+      <li><a href="#установка-с-sd-карты" id="markdown-toc-установка-с-sd-карты">Установка с SD-карты</a></li>
+      <li><a href="#установка-с-пк-по-беспроводному-соединению" id="markdown-toc-установка-с-пк-по-беспроводному-соединению">Установка с ПК по беспроводному соединению</a>        <ul>
+          <li><a href="#установка-с-помощью-qr-кода" id="markdown-toc-установка-с-помощью-qr-кода">Установка с помощью QR-кода</a></li>
+          <li><a href="#установка-с-помощью-программы-fbi-server" id="markdown-toc-установка-с-помощью-программы-fbi-server">Установка с помощью программы FBI Server</a></li>
+          <li><a href="#установка-с-помощью-пк-и-qr-кода" id="markdown-toc-установка-с-помощью-пк-и-qr-кода">Установка с помощью ПК и QR-кода</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<h1 id="теоретическая-часть">Теоретическая часть</h1>
+
+<p>Установка игры - это перешифровка архива (cia) с игрой с помощью уникального для каждой консоли ключа (movable.sed) и запись его в определённом виде на карту памяти. В процессе установки помимо перешифровки создаются так же записи в базу данных консоли. Весь этот процесс происходит на самой приставке. Так как мощность приставки семейства 3DS не очень большая, а так же потому что в процессе установки происходит чтение с карты памяти и одновременно запись на неё, скорость установки редко превышает 3Мб\с. Что <strong>очень</strong> медленно. Гигабайтная игра будет устанавливаться примерно 10 минут на new 3DS XL, на old 3DS - около 15. Это значит, что для того, чтобы забить играми карту в 32Гб нам понадобится примерно 5 часов, которые уйдут на установку игр. Так же следует помнить, что установочные файлы игры, как правило, находятся на карте памяти и занимают место. То есть, чтобы установить игру размером в 4Гб, вам нужно скопировать её установщик на карту памяти и иметь еще 4Гб свободного места. Устанавливать, конечно, можно и по WiFi, что избавит от необходимости держать файл установки на карте памяти, однако, выигрыш в скорости если и будет, то очень скромный, поскольку перешифровка данных всё равно будет происходить силами системы. Метод, использующий силы консоли для перешифроки программы, мы назовём <strong>классическим</strong>.</p>
+
+<p>Очевидное решение, позволяющее избавиться от недостатков классического метода - использовать ПК для перешифровки. С помощью специального ПО и ключа (movable.sed), извлечённого из прошитой консоли, мы заранее перешифровываем содержимое архива с игрой и просто копируем его в нужные папки на карте памяти приставки. И играем. Установка одного гигабайта занимает около 2х минут. То есть карту в 32Гб мы полностью забьём минут за 15. Причём, половину времени будет занимать копирование игры на карту памяти. На деле всё немного сложнее, но лишь на самую малость. Такой метод установки мы будем называть <strong>быстрым</strong>.</p>
+
+<p>В данный момент установка быстрым методом не поддерживает установку DLC. Так же нет большого смысла использовать этот метод для установки игр размером менее 100Мб (они и так устанавливаются достаточно быстро).</p>
+
+<h1 id="где-брать-игры">Где брать игры?</h1>
+
+<p>На приставку можно установить игры только в формате <code class="highlighter-rouge">.cia</code>. Игры в других фарматах нужно предварительно сконвертировать.</p>
+
+<ol>
+  <li><a href="https://drive.google.com/drive/folders/11Jt76ZS_XuPeX9noz6AF9HROMz7YzLml?usp=sharing" target="_blank">В нашем облаке</a></li>
+  <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#" target="_blank">В хранилище AlVro</a></li>
+  <li><a href="http://www.3dscia.to/" target="_blank">3dscia</a></li>
+  <li><a href="https://www.ziperto.com/nintendo/3ds-roms/3ds-cia/" target="_blank">ziperto.com</a></li>
+  <li><a href="http://recoleccionjuegos3ds.blogspot.com" target="_blank">recoleccionjuegos3ds.blogspot.com</a></li>
+  <li><a href="http://nintendo.moy.su/" target="_blank">nintendo.moy.su</a></li>
+  <li><a href="godmode9-usage#%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%B7-3ds-%D0%B2-cia" target="_blank">Конвертировать .3DS-ромы в .CIA</a></li>
+</ol>
+
+<h1 id="установка-приложений">Установка приложений</h1>
+
+<h2 id="быстрый-метод-установки">Быстрый метод установки</h2>
+
+<p class="notice--warning">Для перешифровки игр необходима OC Windows</p>
+
+<div style="width: ; margin:0 auto;">
+
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/sXKvf-ymrXI"></iframe>
+  </div>
+</div>
+
+<h2 id="что-понадобится">Что понадобится</h2>
+
+<p class="notice--info">Если вы купили приставку у меня (в <a href="https://vk.com/nincfw" target="_blank">VK</a> или на <a href="https://shop.customfw.xyz" target="_blank">OLX</a>), то у вас уже b9s со всеми необходимыми программами. Ищите их в папке Система (System).</p>
+
+<ul>
+  <li>Установленный и рабочий <a href="updating-b9s" target="_blank">b9s</a> последней версии</li>
+  <li>Установленная и рабочая свежая версия <a href="fbi" target="_blank">FBI</a></li>
+  <li>Свежая версия <a href="https://github.com/BpyH64/QuickSetup_3DS/releases/latest" target="_blank">QuickSetup</a></li>
+</ul>
+
+<h2 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h2>
+
+<p class="notice--info">Эту часть необходимо сделать всего раз, в дальнейшем установку начинайте со второй части</p>
+
+<ol>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" />  во время включения приставки
+    <ul>
+      <li>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</li>
+    </ul>
+  </li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
+    </ul>
+  </li>
+  <li>Перейдите в “<strong>[1:] SYSNAND CTRNAND</strong>” -&gt; “<strong>private</strong>”</li>
+  <li>Поставьте курсор на <code class="highlighter-rouge">movable.sed</code> и нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Выберите “<strong>Copy to 0:/gm9/out</strong>” и нажмите <img src="/images/buttons/A.png" alt="(A)" />. Нажмите <img src="/images/buttons/A.png" alt="(A)" /> ещё раз</li>
+  <li>Зажмите <img src="/images/buttons/R.png" alt="(R)" /> и нажмите <img src="/images/buttons/START.png" alt="(START)" />, чтобы выключить приставку</li>
+  <li>Вставьте в ПК SD-карту приставки</li>
+  <li>Распакуйте <code class="highlighter-rouge">QuickSetup.7z</code> на ПК</li>
+  <li>Запустите командную стоку и введите в неё <code class="highlighter-rouge">pip install pycryptodome</code></li>
+  <li>Переместите файл <code class="highlighter-rouge">movable.sed</code>, который находится на карте памяти приставки по адресу <code class="highlighter-rouge">/gm9/out</code> в папку <code class="highlighter-rouge">QuickSetup</code></li>
+</ol>
+
+<h2 id="часть-ii---конвертация-игр">Часть II - Конвертация игр</h2>
+
+<ol>
+  <li>Поместите игры в формате <code class="highlighter-rouge">cia</code>/<code class="highlighter-rouge">3ds</code>/<code class="highlighter-rouge">cxi</code> (без шифрования), которые хотите установить, в папку <code class="highlighter-rouge">games</code> или в любую другую удобную для вас папку</li>
+  <li>Перетяните папку с играми на файл <code class="highlighter-rouge">_install.bat</code>
+    <ul>
+      <li>Либо конвертируйте по одной, просто перетягивая по одной игре на <code class="highlighter-rouge">_install.bat</code></li>
+    </ul>
+  </li>
+  <li>Ждите окончания процесса. По завершению создается папка <code class="highlighter-rouge">id1</code> которая будет содержать все необходимые файлы для вашей консоли.</li>
+  <li>Перейдите в папку <code class="highlighter-rouge">id1</code> и скопируйте её содержимое на SD карту консоли по пути <code class="highlighter-rouge">Nintendo 3DS/id0/id1/</code>. Если потребуется, согласитесь на замену
+    <ul>
+      <li>id0 и id1 - папки с длинным названием, состоящим из 16-ти символов</li>
+    </ul>
+  </li>
+  <li>Вставить SD карту в консоль и запустить FBI. Перейдите по пути <code class="highlighter-rouge">SD:/Nintendo 3DS/id0/id1/</code></li>
+  <li>Перейдите в папку <code class="highlighter-rouge">title</code>, установите курсор на <strong>&lt;current directory&gt;</strong>, выберите “<strong>Rename</strong>” и измените название папки на <code class="highlighter-rouge">title0</code>. Установите все <code class="highlighter-rouge">cia-</code>файлы, находящиеся в этой папке.</li>
+  <li>После установки всех <code class="highlighter-rouge">cia</code> нажмите кнопку <img src="/images/buttons/X.png" alt="(X)" /> (Refresh). Появится папка <code class="highlighter-rouge">title</code>, перейдите в неё, установите курсор на <strong>&lt;current directory&gt;</strong>, выберите “<strong>Delete</strong>” и подтвердите удаление</li>
+  <li>Перейдите в папку <code class="highlighter-rouge">title0</code>, установите курсор на <strong>&lt;current directory&gt;</strong>, выберите “<strong>Rename</strong>” и измените название папки на <code class="highlighter-rouge">title</code>. Подтвердите переименование.</li>
+  <li>Закройте FBI. Игра установлена</li>
+</ol>
+
+<p class="notice--info">Для конвертации формата <code class="highlighter-rouge">cia</code>/<code class="highlighter-rouge">3ds</code> в <code class="highlighter-rouge">cxi</code> (без шифрования для эмулятора Citra) перетяните папку с играми на файл <strong>_citra.bat</strong>.</p>
+
+<p class="notice--warning">Как правило, игра будет говорить о том, что данные сохранений повреждены. Большинство просто удалят повреждённые данные и создадут новые, однако ряд игр, например игры серии Pokemon, требуют удаления повреждённых сейвов вручную. Как удалять сейвы для каждой конкретной игры ищите с инструкции к игре. Например, чтобы удалить сейвы у игр серии Pokemon, нужно запустить игру, а затем зажать и удерживать кнопки <img src="/images/buttons/UP.png" alt="(UP)" /> + <img src="/images/buttons/B.png" alt="(B)" /> + <img src="/images/buttons/X.png" alt="(X)" />, пока игра не запустится и уже в игре согласится на удаление сохранений.</p>
+
+<h2 id="классический-метод-установки">Классический метод установки</h2>
+
+<h2 id="что-понадобится-1">Что понадобится</h2>
+
+<p class="notice--info">Если вы купили приставку у меня (в <a href="https://vk.com/nincfw" target="_blank">VK</a> или на <a href="https://shop.customfw.xyz" target="_blank">OLX</a>), то у вас уже b9s со всеми необходимыми программами. Ищите их в папке Система (System).</p>
+
+<ul>
+  <li>Установленный и рабочий <a href="updating-b9s" target="_blank">b9s</a> последней версии</li>
+  <li>Установленная и рабочая свежая версия <a href="fbi" target="_blank">FBI</a></li>
+</ul>
+
+<h2 id="установка-с-sd-карты">Установка с SD-карты</h2>
+
+<ol>
+  <li>Вставьте SD-карту в ПК</li>
+  <li>Создайте папку <code class="highlighter-rouge">games</code> в корне SD-карты</li>
+  <li>Вставьте SD-карту в консоль и включите её</li>
+  <li>Запустите FBI</li>
+  <li>Перейдите в папку <code class="highlighter-rouge">SD</code></li>
+  <li>Перейдите в папку <code class="highlighter-rouge">games</code></li>
+  <li>Наведите курсор на необходимую игру и нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Выберите <code class="highlighter-rouge">Install CIA</code> для установки игры, либо <code class="highlighter-rouge">Install and delete</code> для установки и автоматического последующего удаления <code class="highlighter-rouge">.cia-файла</code></li>
+  <li>По завершению установки нажмите <img src="/images/buttons/A.png" alt="(A)" /> и закройте FBI</li>
+  <li>Установленное приложение появится в меню Home.</li>
+</ol>
+
+<p class="notice--info">Можно установить все файлы из папки. Для этого следует выбрать самую верхнюю строку - <code class="highlighter-rouge">\&lt;current directory&gt;</code>, нажать на ней <img src="/images/buttons/A.png" alt="(A)" />, а затем выбрать необходимое действие.</p>
+
+<h2 id="установка-с-пк-по-беспроводному-соединению">Установка с ПК по беспроводному соединению</h2>
+
+<h3 id="установка-с-помощью-qr-кода">Установка с помощью QR-кода</h3>
+
+<p class="notice--info">Если у вас нет указанных пунктов, обновите FBI! Для этого воспользуйтесь пунктом “Update” в его меню. В случае, если FBI у вас установлен с помощью инъекции в приложение “<strong>Информация о здоровье и безопасности</strong>” (Health &amp; Safety), то при обновлении его иконка дублируется. Для того, чтобы этого избежать, восстановите приложение <a href="https://3ds.customfw.xyz/godmode9-usage#восстановление-приложения-информация-о-здоровье-и-безопасности" target="_blank">“Информация о здоровье и безопасности”</a></p>
+
+<ol>
+  <li>Запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Scan QR code</strong>”</li>
+  <li>Отсканируйте необходимый QR-код</li>
+</ol>
+
+<h3 id="установка-с-помощью-программы-fbi-server">Установка с помощью программы FBI Server</h3>
+
+<ol>
+  <li>Запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Recive URLs over the network</strong>”</li>
+  <li>Запускаем <a href="https://github.com/DD2XAlpha/PC_FBIServer/releases/latest" target="_blank">FBI Server</a>.exe</li>
+  <li>В графе <strong>3DS IP Adress</strong> введите IP, написанный на нижнем экране приставки.</li>
+  <li>Убедитесь, что в графе “<strong>Computer IP Adress</strong>” указан именно ваш локальный IP (обратитесь в <a href="http://bfy.tw/D0PN" target="_blank">Google</a>, если не знаете как его узнать)</li>
+  <li>Выберите CIA нажав на кнопку “<strong>Select single CIA file</strong>”, или на “<strong>Select folder for Queuing</strong>” для выбора папки с файлами</li>
+  <li>Нажмите на кнопку “<strong>Start</strong>”</li>
+  <li>На нижнем экране 3DS должны появиться две кнопки. Нажмите на <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения установки.
+    <ul>
+      <li>Если кнопки не появились, убедитесь, что в программе стоит верный IP и нажмите кнопку “<strong>Start</strong>”. Может понадобится несколько попыток</li>
+    </ul>
+  </li>
+</ol>
+
+<p class="notice--info">Важно понимать, что скорость установки программ таким способом не очень высокая и ограничивается примерно 500KBps для old3ds и 1.5Mbps для New.</p>
+
+<h3 id="установка-с-помощью-пк-и-qr-кода">Установка с помощью ПК и QR-кода</h3>
+
+<ol>
+  <li>Скачайте <a href="files/nginx_qr_cia_install_standalone.zip" target="_blank">архив</a> со скриптом</li>
+  <li>Распакуйте его в удобную папку и запустите <code class="highlighter-rouge">create_CIA_dir.bat</code>
+    <ul>
+      <li>Cкрипт создаст папку <code class="highlighter-rouge">D:/3ds/cia</code></li>
+    </ul>
+  </li>
+  <li>Запустите сервер ngnix, запустив <code class="highlighter-rouge">start.bat</code></li>
+  <li>Поместите игры в формате <code class="highlighter-rouge">.cia</code> или <code class="highlighter-rouge">%папка%/*.cia</code> (несколько ромов например dlc, update и т.д.) в <code class="highlighter-rouge">D:/3ds/cia</code>
+    <ul>
+      <li>файлы с японскими названиями скриптом не отображаются</li>
+      <li>кириллица автоматический меняются на транслит</li>
+    </ul>
+  </li>
+  <li>Заходим в браузере по ip-адресу вашего ПК (написан в самом верху окна ngnix (start.bat) или пишем в командной строке <code class="highlighter-rouge">ipconfig</code> в строке “IPv4-адрес” ваш ip)</li>
+  <li>На консоли запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Scan QR code</strong>”</li>
+  <li>Отсканируйте необходимый QR-код</li>
+</ol>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

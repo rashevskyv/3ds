@@ -1,0 +1,587 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>FAQ для прошитых - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="FAQ для прошитых">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/faq-3ds.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/faq-3ds.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="FAQ для прошитых">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">FAQ для прошитых
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#в-у-меня-не-работает" id="markdown-toc-в-у-меня-не-работает"><strong>В:</strong> У меня не работает</a></li>
+  <li><a href="#в-как-поставить-в-приставку-карту-большего-объема" id="markdown-toc-в-как-поставить-в-приставку-карту-большего-объема"><strong>В:</strong> Как поставить в приставку карту большего объема?</a></li>
+  <li><a href="#в-можно-ли-обновлять-системное-по-на-прошитой-консоли" id="markdown-toc-в-можно-ли-обновлять-системное-по-на-прошитой-консоли"><strong>В:</strong> Можно ли обновлять системное ПО на прошитой консоли?</a></li>
+  <li><a href="#в-как-обновить-luma3ds" id="markdown-toc-в-как-обновить-luma3ds"><strong>В:</strong> Как обновить Luma3DS?</a></li>
+  <li><a href="#в-как-устанавливать-игры-и-приложения" id="markdown-toc-в-как-устанавливать-игры-и-приложения"><strong>В:</strong> Как устанавливать игры и приложения?</a></li>
+  <li><a href="#в-можно-ли-запускать-игры-другого-региона" id="markdown-toc-в-можно-ли-запускать-игры-другого-региона"><strong>В:</strong> Можно ли запускать игры другого региона?</a></li>
+  <li><a href="#в-можно-ли-запускать-игры-от-ds" id="markdown-toc-в-можно-ли-запускать-игры-от-ds"><strong>В:</strong> Можно ли запускать игры от DS?</a></li>
+  <li><a href="#в-запустится-ли-r4-или-его-аналог-на-моей-приставке" id="markdown-toc-в-запустится-ли-r4-или-его-аналог-на-моей-приставке"><strong>В:</strong> Запустится ли R4 или его аналог на моей приставке?</a></li>
+  <li><a href="#в-как-сделать-бекап" id="markdown-toc-в-как-сделать-бекап"><strong>В:</strong> Как сделать бекап?</a></li>
+  <li><a href="#в-как-восстановить-бекап" id="markdown-toc-в-как-восстановить-бекап"><strong>В:</strong> Как восстановить бекап?</a></li>
+  <li><a href="#в-можно-ли-качать-игры-с-eshop" id="markdown-toc-в-можно-ли-качать-игры-с-eshop"><strong>В:</strong> Можно ли качать игры с eShop?</a></li>
+  <li><a href="#в-как-установить-на-консоль-игры-в-формате-3ds" id="markdown-toc-в-как-установить-на-консоль-игры-в-формате-3ds"><strong>В:</strong> Как установить на консоль игры в формате 3DS?</a></li>
+  <li><a href="#в-как-мне-перенести-свои-сохранения-с-gateway-на-консоль-для-установленных-игр" id="markdown-toc-в-как-мне-перенести-свои-сохранения-с-gateway-на-консоль-для-установленных-игр"><strong>В:</strong> Как мне перенести свои сохранения с Gateway на консоль для установленных игр?</a></li>
+  <li><a href="#в-не-забанит-ли-меня-nintendo" id="markdown-toc-в-не-забанит-ли-меня-nintendo"><strong>В:</strong> Не забанит ли меня Nintendo?</a></li>
+  <li><a href="#в-как-разбаниться" id="markdown-toc-в-как-разбаниться"><strong>В:</strong> Как разбаниться?</a></li>
+  <li><a href="#в-где-взять-localfriendcodeseed_b" id="markdown-toc-в-где-взять-localfriendcodeseed_b"><strong>В:</strong> Где взять LocalFriendcodeSeed_B?</a></li>
+  <li><a href="#в-как-вернуть-приставку-к-заводскому-состоянию" id="markdown-toc-в-как-вернуть-приставку-к-заводскому-состоянию"><strong>В:</strong> Как вернуть приставку к заводскому состоянию?</a></li>
+  <li><a href="#в-можно-ли-убрать-оповещение-об-обновлении-при-запуске" id="markdown-toc-в-можно-ли-убрать-оповещение-об-обновлении-при-запуске"><strong>В:</strong> Можно ли убрать оповещение об обновлении при запуске?</a></li>
+  <li><a href="#в-как-запустить-игру-на-русском-на-приставке-без-русского-языка-в-настройках" id="markdown-toc-в-как-запустить-игру-на-русском-на-приставке-без-русского-языка-в-настройках"><strong>В:</strong> Как запустить игру на русском на приставке без русского языка в настройках?</a></li>
+  <li><a href="#в-у-меня-уже-стоит-arm9loaderhax-нужно-ли-мне-обновляться-до-b9s" id="markdown-toc-в-у-меня-уже-стоит-arm9loaderhax-нужно-ли-мне-обновляться-до-b9s"><strong>В:</strong> У меня уже стоит arm9loaderhax, нужно ли мне обновляться до b9s?</a></li>
+  <li><a href="#в-как-мне-перейти-с-a9lh-на-boot9strap" id="markdown-toc-в-как-мне-перейти-с-a9lh-на-boot9strap"><strong>В:</strong> Как мне перейти с a9lh на boot9strap?</a></li>
+  <li><a href="#в-как-мне-обновить-boot9strap" id="markdown-toc-в-как-мне-обновить-boot9strap"><strong>В:</strong> Как мне обновить boot9strap?</a></li>
+  <li><a href="#в-у-меня-rxtoolscakecfwetc-как-мне-перейти-на-b9s" id="markdown-toc-в-у-меня-rxtoolscakecfwetc-как-мне-перейти-на-b9s"><strong>В:</strong> У меня rxtools/cakeCFW/etc, как мне перейти на b9s?</a></li>
+  <li><a href="#в-я-обновил-luma3ds-через-luma3ds-updater-и-теперь-приставка-не-включается-загорается-синий-диод-и-тухнет" id="markdown-toc-в-я-обновил-luma3ds-через-luma3ds-updater-и-теперь-приставка-не-включается-загорается-синий-диод-и-тухнет"><strong>В:</strong> Я обновил Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет.</a></li>
+  <li><a href="#в-с-какой-скоростью-работает-скачка-по-wifi" id="markdown-toc-в-с-какой-скоростью-работает-скачка-по-wifi"><strong>В:</strong> С какой скоростью работает скачка по WiFi?</a></li>
+  <li><a href="#в-я-потерял-все-данные-на-sd-карте-что-нужно-делать-чтобы-восстановить-работоспособность" id="markdown-toc-в-я-потерял-все-данные-на-sd-карте-что-нужно-делать-чтобы-восстановить-работоспособность"><strong>В:</strong> Я потерял все данные на SD-карте. Что нужно делать, чтобы восстановить работоспособность?</a></li>
+  <li><a href="#в-можно-ли-удалить-nnid-без-форматирования-устройства" id="markdown-toc-в-можно-ли-удалить-nnid-без-форматирования-устройства"><strong>В:</strong> Можно ли удалить NNID без форматирования устройства?</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p class="notice--success">Это FAQ для прошитых, дающий ответы на вопросы, которые наверняка у вас возникнут после взлома. Если вы ещё не начали взлом, ознакомьтесь с <a href="faq" target="_blank">FAQ для не прошитых</a>.</p>
+
+<h3 id="в-у-меня-не-работает"><strong>В:</strong> У меня не работает</h3>
+<p><strong>О:</strong> Ищите решение <a href="troubleshooting" target="_blank">здесь</a></p>
+
+<h3 id="в-как-поставить-в-приставку-карту-большего-объема"><strong>В:</strong> Как поставить в приставку карту большего объема?</h3>
+<p><strong>О:</strong> <a href="clean_sd#ii-форматирование-sd-карты" target="_blank">Отформатируйте</a> новую карту, затем просто скопируйте ВСЕ данные со старой карты в новую.</p>
+
+<h3 id="в-можно-ли-обновлять-системное-по-на-прошитой-консоли"><strong>В:</strong> Можно ли обновлять системное ПО на прошитой консоли?</h3>
+<p><strong>О:</strong> <a href="update-system" target="_blank">Да</a></p>
+
+<h3 id="в-как-обновить-luma3ds"><strong>В:</strong> Как обновить Luma3DS?</h3>
+<p><strong>О:</strong> Выполните инструкции по <a href="update-luma3ds" target="_blank">ссылке</a>.</p>
+
+<h3 id="в-как-устанавливать-игры-и-приложения"><strong>В:</strong> Как устанавливать игры и приложения?</h3>
+<p><strong>О:</strong> Выполните инструкции по <a href="games" target="_blank">ссылке</a>.</p>
+
+<h3 id="в-можно-ли-запускать-игры-другого-региона"><strong>В:</strong> Можно ли запускать игры другого региона?</h3>
+<p><strong>О:</strong> Да, можно. Luma пропатчена на запуск игр любого региона. Нет, за это не забанят.</p>
+
+<h3 id="в-можно-ли-запускать-игры-от-ds"><strong>В:</strong> Можно ли запускать игры от DS?</h3>
+<p><strong>О:</strong> Да, можно, с помощью <a href="r4" target="_blank">специального флеш-картриджа</a>, например R4 или его аналога. С внутренней памяти можно через <a href="https://vk.com/@vulpesvulpeos-faq-po-twilightmenu-i-nds-bootstrap" target="_blank">TWiLightMenu++ и nds-bootstrap</a></p>
+
+<h3 id="в-запустится-ли-r4-или-его-аналог-на-моей-приставке"><strong>В:</strong> Запустится ли R4 или его аналог на моей приставке?</h3>
+<p><strong>О:</strong> Попробуйте сами. Если не запускается, выполните инструкции по <a href="troubleshooting#dsids-игры-не-работают-на-прошитой-приставке" target="_blank">ссылке</a></p>
+
+<h3 id="в-как-сделать-бекап"><strong>В:</strong> Как сделать бекап?</h3>
+<p><strong>О:</strong> Выполните инструкции по <a href="godmode9-usage#nand_backup" target="_blank">ссылке</a>.</p>
+
+<h3 id="в-как-восстановить-бекап"><strong>В:</strong> Как восстановить бекап?</h3>
+<p><strong>О:</strong> Выполните инструкции по <a href="godmode9-usage#nand_restore" target="_blank">ссылке</a>.</p>
+
+<h3 id="в-можно-ли-качать-игры-с-eshop"><strong>В:</strong> Можно ли качать игры с eShop?</h3>
+<p><strong>О:</strong> Можно. Не забанят. На взломанный приставке можно делать всё, что можно делать на не взломанной, даже покупать игры.</p>
+
+<h3 id="в-как-установить-на-консоль-игры-в-формате-3ds"><strong>В:</strong> Как установить на консоль игры в формате 3DS?</h3>
+<p><strong>О:</strong> Для начала их нужно сконвертировать в CIA. Как это сделать описано <a href="godmode9-usage#convert_3ds" target="_blank">здесь</a>.</p>
+
+<h3 id="в-как-мне-перенести-свои-сохранения-с-gateway-на-консоль-для-установленных-игр"><strong>В:</strong> Как мне перенести свои сохранения с Gateway на консоль для установленных игр?</h3>
+<p><strong>О:</strong> Ознакомьтесь с <a href="https://gbatemp.net/threads/425743/" target="_blank">этим ресурсом</a> (англ.)</p>
+
+<h3 id="в-не-забанит-ли-меня-nintendo"><strong>В:</strong> Не забанит ли меня Nintendo?</h3>
+<p><strong>О:</strong> Рано или поздно - забанит. Чтобы избежать этого никогда не включайте wifi на консоли. Но если вы не станете его включать, то какая вам разница забанят вас или нет? :)</p>
+
+<h3 id="в-как-разбаниться"><strong>В:</strong> Как разбаниться?</h3>
+<p><strong>О</strong>: Вот <a href="https://gbatemp.net/threads/tutorial-how-to-unban-your-nintendo-3ds.449251/" target="_blank">инструкция по разбану</a></p>
+
+<h3 id="в-где-взять-localfriendcodeseed_b"><strong>В:</strong> Где взять LocalFriendcodeSeed_B?</h3>
+<p><strong>О</strong>: Ищите в гугле. Тут я вам не помошник</p>
+
+<h3 id="в-как-вернуть-приставку-к-заводскому-состоянию"><strong>В:</strong> Как вернуть приставку к заводскому состоянию?</h3>
+<p><strong>О:</strong> Выполните инструкции по <a href="uninstall-cfw" target="_blank">ссылке</a>.</p>
+
+<h3 id="в-можно-ли-убрать-оповещение-об-обновлении-при-запуске"><strong>В:</strong> Можно ли убрать оповещение об обновлении при запуске?</h3>
+<p><strong>О:</strong> Да, для этого нужно с включенным WiFi войти в рекавери (<img src="/images/buttons/A.png" alt="(A)" />+<img src="/images/buttons/R.png" alt="(R)" />+<img src="/images/buttons/L.png" alt="(L)" />+<img src="/images/buttons/UP.png" alt="(UP)" /> при загрузке приставки) и при запросе на обновление прошивки нажать “Отмена” (это удалит скачанный уже файл обновления), после чего приставка выключится. Затем, чтобы консоль не проверяла обновления в дальнейшем, <a href="http://en-americas-support.nintendo.com/app/answers/detail/a_id/217/~/how-to-manually-enter-dns-settings" target="_blank">прописать в настройках DNS</a> активного подключения <code class="highlighter-rouge">159.203.242.044</code> и <code class="highlighter-rouge">208.67.220.220</code>. <strong>ВАЖНО:</strong> после изменения DNS могут возникнут трудности с доступом к eShop!</p>
+
+<h3 id="в-как-запустить-игру-на-русском-на-приставке-без-русского-языка-в-настройках"><strong>В:</strong> Как запустить игру на русском на приставке без русского языка в настройках?</h3>
+<p><strong>О:</strong> Выполните инструкции по <a href="lumalocales" target="_blank">ссылке</a>.</p>
+
+<h3 id="в-у-меня-уже-стоит-arm9loaderhax-нужно-ли-мне-обновляться-до-b9s"><strong>В:</strong> У меня уже стоит arm9loaderhax, нужно ли мне обновляться до b9s?</h3>
+<p><strong>О:</strong> Да. Все современные программы работают только на b9s</p>
+
+<h3 id="в-как-мне-перейти-с-a9lh-на-boot9strap"><strong>В:</strong> Как мне перейти с a9lh на boot9strap?</h3>
+<p><strong>О</strong>: Переход с a9lh на <a href="a9lh-to-b9s" target="_blank">b9s</a></p>
+
+<h3 id="в-как-мне-обновить-boot9strap"><strong>В:</strong> Как мне обновить boot9strap?</h3>
+<p><strong>О</strong>: Обновление <a href="updating-b9s" target="_blank">b9s</a></p>
+
+<h3 id="в-у-меня-rxtoolscakecfwetc-как-мне-перейти-на-b9s"><strong>В:</strong> У меня rxtools/cakeCFW/etc, как мне перейти на b9s?</h3>
+<p><strong>О</strong>: Все прошивки использующие menuhax морально устарели и не считаются полноценным взломом по сегодняшним меркам. В первую очередь из-за того, что используют уязвимости высокого уровня и просто перенаправляют вызовы чтения NAND на карту памяти в раздел с EmuNAND. 
+<br /><br />
+Современные прошивки делают по другому. Они перехватывают управление на самом низком уровне - на уровне загрузчика и дают возможность пользоваться настоящими кастомными прошивками. 
+<br /><br />
+Да и делается все это очень просто. 
+<br /><br />
+Если вы хотите перейти на Luma3DS и современные методы взлома, просто держите в голове тот простой факт, что ваша приставка фактически не взломана. Игнорируйте название своего кастома, игнорируйте наличие эмунанда. Просто загрузитесь в SysNAND и следуйте руководству. 
+<br /><br /></p>
+
+<p>В определенный момент вам будет предложено перенести существующий EmuNAND в SysNAND. В итоге, вы получите современную прошивку с современным неслетаемым взломом, располагающуюся в SysNAND. Еще и места на карте прибавится.</p>
+
+<h3 id="в-я-обновил-luma3ds-через-luma3ds-updater-и-теперь-приставка-не-включается-загорается-синий-диод-и-тухнет"><strong>В:</strong> Я обновил Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет.</h3>
+<p><strong>О:</strong> Вы установили Luma3DS на не поддерживаемый boot. Обратитесь к разделу <a href="troubleshooting#lumaupdater" target="_blank">проблемы и их решение</a></p>
+
+<h3 id="в-с-какой-скоростью-работает-скачка-по-wifi"><strong>В:</strong> С какой скоростью работает скачка по WiFi?</h3>
+<p><strong>О:</strong> На Old3DS и 2DS в среднем - 600-800 kbps, на New - в среднем 1,5-2 mbps. Вне зависимости от карты памяти и ее класса. Все упирается в шину данных и модуль WiFi.</p>
+
+<h3 id="в-я-потерял-все-данные-на-sd-карте-что-нужно-делать-чтобы-восстановить-работоспособность"><strong>В:</strong> Я потерял все данные на SD-карте. Что нужно делать, чтобы восстановить работоспособность?</h3>
+<p><strong>О:</strong> Воспользуйтесь <a href="clean_sd" target="_blank">этой</a> инструкцией</p>
+
+<h3 id="в-можно-ли-удалить-nnid-без-форматирования-устройства"><strong>В:</strong> Можно ли удалить NNID без форматирования устройства?</h3>
+<p><strong>О:</strong> Да, почитайте <a href="godmode9-usage#rm_nnid" target="_blank">здесь</a>.</p>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

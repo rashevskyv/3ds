@@ -1,0 +1,838 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Установка boot9strap (ntrboot) - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Установка boot9strap (ntrboot)">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/installing-boot9strap-ntrboot.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/installing-boot9strap-ntrboot.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Установка boot9strap (ntrboot)">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Установка boot9strap (ntrboot)
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
+  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
+      <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
+      <li><a href="#часть-ii---ntrboot" id="markdown-toc-часть-ii---ntrboot">Часть II - ntrboot</a></li>
+      <li><a href="#часть-iii---установка-boot9strap" id="markdown-toc-часть-iii---установка-boot9strap">Часть III - Установка boot9strap</a></li>
+      <li><a href="#часть-iv---настройка-luma3ds" id="markdown-toc-часть-iv---настройка-luma3ds">Часть IV - Настройка Luma3DS</a></li>
+    </ul>
+  </li>
+  <li><a href="#удаление-ntrboot-из-флеш-картриджа" id="markdown-toc-удаление-ntrboot-из-флеш-картриджа">Удаление ntrboot из флеш-картриджа</a>    <ul>
+      <li><a href="#что-понадобится-1" id="markdown-toc-что-понадобится-1">Что понадобится</a></li>
+      <li><a href="#инструкции" id="markdown-toc-инструкции">Инструкции</a></li>
+    </ul>
+  </li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки">Следующий шаг: Завершение установки</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<h2 id="что-понадобится">Что понадобится</h2>
+
+<ul>
+  <li>Свежая версия <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="highlighter-rouge">3DSsdFiles.zip</code>)</li>
+</ul>
+
+<h2 id="инструкция">Инструкция</h2>
+
+<h3 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h3>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту из <strong>приставки</strong> в компьютер</li>
+  <li>Скопируйте <em>содержимое</em> <code class="highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+</ol>
+
+<h3 id="часть-ii---ntrboot">Часть II - ntrboot</h3>
+
+<ol>
+  <li>Используйте магнит, чтобы найти место на консоли, при постановке магнита на которое, приставка переходит в режим ожидания (ищите его в районе клавиш <img src="/images/buttons/A.png" alt="(A)" /><img src="/images/buttons/B.png" alt="(B)" /><img src="/images/buttons/X.png" alt="(X)" /><img src="/images/buttons/Y.png" alt="(Y)" />)
+    <ul>
+      <li>Этот шаг не требуется выполнять для консоли old 2DS (которая имеет переключатель режима ожидания)</li>
+    </ul>
+  </li>
+  <li>Вставьте ваш флеш-картридж с ntrboot в консоль</li>
+  <li><strong>Выключите консоль</strong></li>
+  <li>Поместите магнит на место, где срабатывает датчик режима ожидания
+    <ul>
+      <li>На консоли old 2DS вместо этого включите переключатель режима ожидания</li>
+      <li>Убедитесь, что приставка <strong>выключена</strong>!!!</li>
+    </ul>
+  </li>
+  <li>На несколько секунд зажмите кнопки <img src="/images/buttons/START.png" alt="(START)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" /> + <img src="/images/buttons/X.png" alt="(X)" /> + <img src="/images/buttons/POWER.png" alt="(POWER)" />, затем отпустите всё, кроме <img src="/images/buttons/START.png" alt="(START)" />
+    <ul>
+      <li>Может потребоваться несколько попыток</li>
+    </ul>
+  </li>
+  <li>Если эксплойт сработал, запустите SafeB9SInstaller
+    <ul>
+      <li><strong>Если все ещё не получается:</strong>
+        <ol>
+          <li>Переименуйте <code class="highlighter-rouge">boot.firm</code> в корне SD-карты в <code class="highlighter-rouge">_boot.firm</code></li>
+          <li>Скопируйте в корень SD-карты <code class="highlighter-rouge">SafeB9SInstaller.firm</code>, который сейчас находится в папке <code class="highlighter-rouge">/luma/payloads/</code> и переименуйте его в <code class="highlighter-rouge">boot.firm</code></li>
+          <li>Повторите трюк с магнитом. Теперь вы сразу автоматически загрузитесь в SafeB9SInstaller.</li>
+          <li>Выполните следующую часть (Установка boot9strap)</li>
+          <li>Удалите из корня SD-карты <code class="highlighter-rouge">boot.firm</code> (SafeB9SInstaller)</li>
+          <li><code class="highlighter-rouge">_boot.firm</code> переименуйте обратно в <code class="highlighter-rouge">boot.firm</code>.
+            <ul>
+              <li>Зачем такие сложности? Метод, который написано в гайде изначально позволяет провести всю установку не дёргая туда-сюда карту памяти.</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-iii---установка-boot9strap">Часть III - Установка boot9strap</h3>
+
+<ol>
+  <li>Дождитесь окончания всех проверок безопасности
+    <ul>
+      <li>Если вы получаете сообщение об ошибке “OTP Crypto Fail”, скачайте <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&amp;dn=aeskeydb.bin&amp;tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&amp;tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&amp;tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&amp;tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce" target="_blank"><code class="highlighter-rouge">aeskeydb.bin</code></a>, поместите этот файл в папку <code class="highlighter-rouge">/boot9strap/</code> на SD-карте и попробуйте снова</li>
+    </ul>
+  </li>
+  <li>При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap</li>
+  <li>После завершения процесса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для перезагрузки.</li>
+  <li>Уберите магнит от устройства, можете так же вытащить флеш-картридж из приставки
+    <ul>
+      <li>На old 2DS выйдите из режима сна переключателем</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-iv---настройка-luma3ds">Часть IV - Настройка Luma3DS</h3>
+
+<ol>
+  <li>Устройство загрузится в меню настройки Luma3DS
+    <ul>
+      <li>Если приставка загружается сразу в систему, то Luma3DS уже сконфигурирована и не нуждается в настройке. Чтобы попасть в меню настройки перезагрузите приставку, удерживая <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+      <li>Если при включении загорается голубой диод и тухнет, а экран остаётся черным, убедитесь, что на карте памяти есть <code class="highlighter-rouge">boot.firm</code> от Luma3DS. Если файл есть, но приставка все равно не грузится, скорее всего приставка не видит карту памяти. Возможно карта не работает, или отформатирована не правильно. Замените её, или <a href="clean_sd#ii-форматирование-sd-карты" target="_blank">отформатируйте по инструкции</a></li>
+    </ul>
+  </li>
+  <li>Нажимая <img src="/images/buttons/A.png" alt="(A)" /> выберите следующие пункты:
+    <ul>
+      <li><strong>“Enable game patching”</strong> - включает возможность использовать патчи для приложений</li>
+      <li><strong>“Show NAND or user string in System Settings”</strong> - показывает пользовательскую надпись в настройках на верхнем экране (конфигурируется через <code class="highlighter-rouge">/luma/customversion_sys.txt</code>)</li>
+      <li><strong>Splash: Before</strong> - включает сплешскрин</li>
+      <li>
+        <p>Если эти пункты уже отмечены, значит Luma3DS уже сконфигурирована, просто двигайтесь дальше</p>
+
+        <p class="text-center notice--info"><img src="/images/screenshots/luma-settings.png" alt="" target="_blank" /></p>
+      </li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" />, чтобы сохранить настройки и перезагрузиться
+    <ul>
+      <li>Если после включения экран остаётся чёрным, то перейдите к разделу <a href="troubleshooting#%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5-sysnand-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-b9s" target="_blank">проблемы и их решения</a></li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<p class="notice--success"><a href="#удаление-ntrboot-из-флеш-картриджа">Удаление ntrboot из флеш-картриджа</a></p>
+
+<p class="notice--success"><a href="finalizing-setup">Завершение установки</a></p>
+
+<hr />
+
+<h2 id="удаление-ntrboot-из-флеш-картриджа">Удаление ntrboot из флеш-картриджа</h2>
+
+<p>Это дополнительный раздел, который позволяет вернуть флеш-картридж в исходное состояние (чтобы использовать флеш-картридж для его стандартных функций).</p>
+
+<p>Обратите внимание, что Acekard 2i сохраняет возможность запускать <code class="highlighter-rouge">.nds</code> файлы, пока на нем установлен эксплойт ntrboot. Это относится только к случаю, когда Acekard 2i используется на 3DS с установленной кастомной прошивкой! Пока эксплойт ntrboot установлен на Acekard 2i, флеш-картридж не может запускать <code class="highlighter-rouge">.nds</code> файлы на не прошитых консолях NDS, NDSL, DSi, или 3DS.</p>
+
+<p>Не приступайте к этой части, пока вы не выполнили остальные инструкции на этой странице.</p>
+
+<h3 id="что-понадобится-1">Что понадобится</h3>
+
+<ul>
+  <li>Свежая версия <a href="https://github.com/ntrteam/ntrboot_flasher/releases/latest" target="_blank">ntrboot_flasher</a></li>
+  <li>Резервная копия прошивки, соответствующая вашему флеш-картриджу
+    <ul>
+      <li>Обратите внимание, что если вы следовали инструкции <a href="https://3ds.customfw.xyz/flashing-ntrboot-3ds-multi-system">Прошивка ntrboot (с привлечением прошитой 3DS)</a>, резервная копия уже существует в нужном месте, и скачивать её не требуется</li>
+      <li>Если вы не знаете HW revision вашего флеш-картриджа, просто попробуйте их все. Только правильная версия позволит запустить флеш-картридж из меню HOME, но прошивка неправильной версии не испортит картридж:</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <colgroup>
+    <col span="1" style="width: 27%;" />
+    <col span="1" style="width: 11%;" />
+    <col span="1" style="width: 12%;" />
+    <col span="1" style="width: 50%;" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Флешкартридж</th>
+      <th style="text-align: center; font-weight: bold;">HW revision</th>
+      <th style="text-align: center; font-weight: bold;">Внешний вид</th>
+      <th style="text-align: center; font-weight: bold;">Прошивка для восстановления</th>
+    </tr>
+    <tr>
+      <th colspan="4" style="text-align: center; font-weight: bold;"><em>Acekard 2i</em></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" rowspan="2"><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">Acekard 2i</a><br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=160" target="blank">$20.99</a><br /><a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_fleshka_acekard_2i_dlya_nintendo_ds_544116629" target="blank"><img src="/images/ru.png" /><br />
+      ₽1600</a></td>
+      <td style="text-align: center;"> HW 81</td>
+      <td style="text-align: center;" rowspan="2"><a href="/images/flashcarts/acekard.png"><img src="/images/flashcarts/acekard_small.png" /></a>&nbsp;<a href="/images/flashcarts/acekard2.png"><img src="/images/flashcarts/acekard2_small.png" /></a></td>
+      <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:71ce385a1d65e28719c419fe58d171a4873501ff&amp;dn=Acekard%5F2i%5F%28HW%5F81%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">Acekard_2i_(HW_81)-Flashrom.zip</a></i></td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">HW 44</td>
+      <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:d04bd19e15bf8600ccef6540bdbd043846888132&amp;dn=Acekard%5F2i%5F%28HW%5F44%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">Acekard_2i_(HW_44)-Flashrom.zip</a></i></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">R4i Ultra</td>
+      <td style="text-align: center;">-</td>
+      <td style="text-align: center;"><a href="/images/flashcarts/ultra.png"><img src="/images/flashcarts/ultra_small.png" /></a></td>
+      <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:e2a080eb70b92d3127ffea2a5be6bbdb1928a438&amp;dn=R4i%5FUltra-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Ultra-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	<th style="text-align: center; font-weight: bold;" colspan="4"><em>DSTT</em></th>
+	</tr>  
+    <tr>
+      <td style="text-align: center; font-weight: bold;">DSTT<br /><br />Цена:<br /><a href="http://www.nds-card.com/ProShow.asp?ProID=157" target="blank">$9.99</a></td>
+      <td style="text-align: center;">-</td>
+      <td style="text-align: center;"><a href="/images/flashcarts/dstt.png"><img src="/images/flashcarts/dstt_small.png" /></a>&nbsp;<a href="/images/flashcarts/dstt2.png"><img src="/images/flashcarts/dstt2_small.png" /></a></td>
+      <td style="text-align: center;"><i>Отсутствует</i></td>
+    </tr>	
+	<tr>
+	<th style="text-align: center; font-weight: bold;" colspan="4"><em>R4i SDHC family</em></th>
+	</tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><p><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX</a></p>
+</td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-dc.png"><img src="/images/flashcarts/r4isdhc-dc_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:be5b27b85dcb8a696191a1eddef478f7ab346e06&amp;dn=R4iSDHC%5FDual-Core%5F20XX-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4iSDHC_Dual-Core_20XX-Flashrom.zip</a></i><br />
+	    Все картриджи r4i SDHC 20XX одинаковые</td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><p><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Dual-Core 20XX </a><br />с установленным b9s<br />
+        и магнитом<br /></p></td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-dc.png"><img src="/images/flashcarts/r4isdhc-dc_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i>- <a href="magnet:?xt=urn:btih:be5b27b85dcb8a696191a1eddef478f7ab346e06&amp;dn=R4iSDHC%5FDual-Core%5F20XX-Flashrom.zip&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&amp;tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&amp;tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&amp;tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&amp;tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&amp;tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce" target="blank">R4isdhc_com_-_Dual-Core_RTS.zip</a></i><br />
+	    Все картриджи r4i SDHC 20XX одинаковые</td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><a href="http://www.r4isdhc.com" target="blank">R4iSDHC.com Gold Pro RTS 20XX</a><br />
+	    <br />
+	    Цена:<br />
+	    <a href="http://www.nds-card.com/ProShow.asp?ProID=490" target="blank">$9.99</a><br />
+		<a href="https://www.avito.ru/rostov-na-donu/igry_pristavki_i_programmy/r4i_sdhc_gold_pro_dlya_3dsds_ntrboot_991825030" target="blank"><img src="/images/ru.png" /><br />₽950</a><br />
+	    <a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/r4i_ntrboot_kartridzh_1111381830" target="blank"><img src="/images/ru.png" /><br />
+	      ₽1200</a></td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-gp.png"><img src="/images/flashcarts/r4isdhc-gp_small.png" /></a>&nbsp;<a href="/images/flashcarts/r4isdhc-gp2.png"><img src="/images/flashcarts/r4isdhc-gp2_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:f41aeb6b88a986bb0c5246c53132f3b82052f58b&amp;dn=R4iSDHC%5FGOLD%5FPro%5F20XX-Flashrom.zip&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&amp;tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&amp;tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&amp;tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&amp;tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&amp;tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce" target="blank">R4iSDHC_GOLD_Pro_20XX-Flashrom.zip</a></i><br />
+	    Все картриджи r4i SDHC 20XX одинаковые</td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/aboute.asp" target="blank">R4i-SDHC.com 3DS RTS</a><br />
+	    <br />
+	    Цена:<br />
+	    <a href="http://www.nds-card.com/ProShow.asp?ProID=146" target="blank">$13.99</a><br /></td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_rts.png"><img src="/images/flashcarts/r4i-sdhc_rts_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:11a4a3b6dd1cef5652b49a413d8e8c662449d819&amp;dn=R4i-SDHC%5F3DS%5FRTS-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i-SDHC_3DS_RTS-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><a href="http://www.r4i-sdhc.com/B9SSector.asp" target="blank">R4i-SDHC.com 3DS B9S</a><br />
+	    <br />
+	    Цена:<br />
+	    <a href="http://www.nds-card.com/ProShow.asp?ProID=574" target="blank">$15.99</a></td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/r4i-sdhc_b9s.png"><img src="/images/flashcarts/r4i-sdhc_b9s_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:11a4a3b6dd1cef5652b49a413d8e8c662449d819&amp;dn=R4i-SDHC%5F3DS%5FRTS-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i-SDHC_3DS_RTS-Flashrom.zip</a></i><br />
+	    Картридж продается с предустановленным ntrboot</td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><a href="http://r4isdhc.com" target="blank">R4iSDHC.com RTS LITE 20XX</a><br />
+	    <br />
+	    Цена:<br />
+	    <a href="http://www.nds-card.com/ProShow.asp?ProID=450" target="blank">$13.99</a></td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/r4isdhc-lite.png"><img src="/images/flashcarts/r4isdhc-lite_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:543f90f7c50ee847af1d2152bdcbe76e7ed364e4&amp;dn=R4iSDHC%5FRTS%5FLITE%5F20XX-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4iSDHC_RTS_LITE_20XX-Flashrom.zip</a></i><br />
+	    Все картриджи r4i SDHC 20XX одинаковые</td>
+    </tr>
+	<tr>
+	<th style="text-align: center; font-weight: bold;" colspan="4"><em>R4i Gold 3DS</em></th>
+	</tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;" rowspan="3"><a href="http://r4ids.cn/" target="blank">R4i Gold 3DS RTS</a><br />
+	    <br />
+	    Цена:<br />
+	    <a href="http://www.nds-card.com/ProShow.asp?ProID=149" target="blank">$19.99</a><br />
+	    <a href="https://www.avito.ru/moskva/igry_pristavki_i_programmy/fleshkartridzh_r4i_gold_dlya_nintendo_ds_dsi_3ds_2ds_604415936" target="blank"><img src="/images/ru.png" /><br />
+	      ₽1600</a></td>
+	  <td style="text-align: center;">HW A5</td>
+	  <td style="text-align: center;" rowspan="3"><a href="/images/flashcarts/r4i_gold_rts.png"><img src="/images/flashcarts/r4i_gold_rts_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:c6dee8cc9535d58284ccb8430c9af4682c3e1efc&amp;dn=R4i%5FGold%5F3DS%5F%28HW%5FA5%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_A5)-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW A6</td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:e1675722834b870ea64ddf1ef9ca77d78db2be00&amp;dn=R4i%5FGold%5F3DS%5F%28HW%5FA6%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_A6)-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW A7</td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:d780a1fbcb83d0d3c99748c87534f77957da98ce&amp;dn=R4i%5FGold%5F3DS%5F%28HW%5FA7%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_A7)-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">R4i Gold 3DS Deluxe "Starter"</a></td>
+	  <td style="text-align: center;">-</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/starter.png"><img src="/images/flashcarts/starter_small.png" /></a>&nbsp;<a href="/images/flashcarts/starter_b.png"><img src="/images/flashcarts/starter_b_small.png" /></a></td>
+	  <td style="text-align: center;"><i>Отсутствует</i></td>
+    </tr>
+	<tr>
+	  <td rowspan="6" style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/" target="blank">R4i Gold 3DS</a></td>
+	  <td style="text-align: center;">HW 4</td>
+	  <td rowspan="6" style="text-align: center;"><a href="/images/flashcarts/r4igold.png"><img src="/images/flashcarts/r4igold_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:a742778ade94b4a0b877cc481ba0f1a4120262da&amp;dn=R4i%5FGold%5F3DS%5F%28HW%5F4%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_4)-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW 5</td>
+	  <td style="text-align: center;"><i>Отсутствует</i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW 6</td>
+	  <td style="text-align: center;"><i>Отсутствует</i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW 7</td>
+	  <td style="text-align: center;"><i>Отсутствует</i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW 8</td>
+	  <td style="text-align: center;"><i>Отсутствует</i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center;">HW D</td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:0a074dd475a26166d90ae26e313dcbc6d51cfa12&amp;dn=R4i_Gold_3DS_%28HW_D%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_D)-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;">R4 3D Revolution</td>
+	  <td style="text-align: center;">HW A6</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/3d_rev.png"><img src="/images/flashcarts/3d_rev_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:e1675722834b870ea64ddf1ef9ca77d78db2be00&amp;dn=R4i%5FGold%5F3DS%5F%28HW%5FA6%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_A6)-Flashrom.zip</a></i><br />
+	    Аппаратный клон R4i Gold 3DS RTS ревизии HW A6</td>
+    </tr>
+	<tr>
+	  <td style="text-align: center; font-weight: bold;"><a href="http://www.r4infinity.com/" target="blank">Infinity 3 R4i</a></td>
+	  <td style="text-align: center;">HW A5</td>
+	  <td style="text-align: center;"><a href="/images/flashcarts/infinity.png"><img src="/images/flashcarts/infinity_small.png" /></a></td>
+	  <td style="text-align: center;"><i><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте торрент-клиент для работы с ней."></i> - <a href="magnet:?xt=urn:btih:c6dee8cc9535d58284ccb8430c9af4682c3e1efc&amp;dn=R4i%5FGold%5F3DS%5F%28HW%5FA5%29-Flashrom.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce" target="blank">R4i_Gold_3DS_(HW_A5)-Flashrom.zip</a></i></td>
+    </tr>
+	<tr>
+	<th style="text-align: center; font-weight: bold;" colspan="4"><em>Картриджи с аппаратным переключателем</em></th>
+	</tr>
+
+    <tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.r4ids.cn/r4ids-e.htm" target="blank">R4i Gold 3DS Plus</a><br /><br />Цена:<br />
+      <a href="http://www.nds-card.com/ProShow.asp?ProID=575" target="blank">$19.99</a></td>
+      <td style="text-align: center;">-</td>
+      <td style="text-align: center;"><a href="/images/flashcarts/r4igold3ds+.png"><img src="/images/flashcarts/r4igold3ds+_small.png" /></a></td>
+      <td style="text-align: center;"><i>Не требует перепрошивки. Для смены режима работы используйте переключатель.</i></td>
+    </tr>
+	  
+	<tr>
+      <td style="text-align: center; font-weight: bold;"><a href="http://www.ace3ds.com/" target="blank">Ace3DS X</a><br /><br />Цена:<br />
+      <a href="http://3ds-flashcard.com/home/65-ace3ds-x-supports-3dsds-mode.html" target="blank">$40.99</a></td>
+      <td style="text-align: center;">-</td>
+      <td style="text-align: center;"><a href="/images/flashcarts/ace3dsx.png"><img src="/images/flashcarts/ace3dsx_small.png" /></a></td>
+      <td style="text-align: center;"><i>Не требует перепрошивки. Для смены режима работы используйте переключатель.</i></td>
+    </tr>
+	</tbody>
+</table>
+
+<h3 id="инструкции">Инструкции</h3>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Создайте папку <code class="highlighter-rouge">ntrboot</code> в корне SD-карты</li>
+  <li>Скопируйте <code class="highlighter-rouge">.bin-файл</code> из <code class="highlighter-rouge">.zip-архива</code> с резервной копией прошивки вашего флеш-картриджа в папку <code class="highlighter-rouge">/ntrboot/</code> в корне SD-карты</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Вставьте флеш-картридж в консоль</li>
+  <li>Удерживайте кнопку <img src="/images/buttons/START.png" alt="(START)" /> во время загрузки приставки, чтобы запустить luma chainloader</li>
+  <li>Запустите <strong>ntrboot_flasher</strong></li>
+  <li>Прочтите предупреждение на красном экране</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+  <li>Выберите ваш флеш-картридж
+    <ul>
+      <li>Если вашего флеш-картриджа нет в списке на верхнем экране, прочтите информацию о каждой из опций на нижнем экране, возможно вы найдете свой картридж в описании</li>
+    </ul>
+  </li>
+  <li>Выберите “<strong>Restore Flash</strong>”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить</li>
+  <li>Дождитесь окончания процесса</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для возврата в главное меню</li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" /> чтобы выключить консоль</li>
+  <li>Используйте флеш-картридж для <a href="r4#%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D0%B8%D0%B3%D1%80-%D0%BE%D1%82-nintendo-ds-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-%D0%BA%D0%B0%D1%80%D1%82%D1%80%D0%B8%D0%B4%D0%B6%D0%B0">запуска игр от Nintendo DS</a></li>
+</ol>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-завершение-установки">Следующий шаг: <a href="finalizing-setup">Завершение установки</a></h2>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>
