@@ -1,0 +1,695 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Смена региона - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Смена региона">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/region-changing.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/region-changing.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Смена региона">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Смена региона
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
+  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
+      <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
+      <li><a href="#часть-ii---ctrtransfer" id="markdown-toc-часть-ii---ctrtransfer">Часть II - CTRTransfer</a></li>
+      <li><a href="#часть-iii---запуск-homebrew-launcher" id="markdown-toc-часть-iii---запуск-homebrew-launcher">Часть III - Запуск Homebrew Launcher</a></li>
+      <li><a href="#часть-iv---переустановка-тикетов" id="markdown-toc-часть-iv---переустановка-тикетов">Часть IV - Переустановка тикетов</a></li>
+      <li><a href="#часть-v---удаление-образа-ctrtransfer" id="markdown-toc-часть-v---удаление-образа-ctrtransfer">Часть V - Удаление образа CTRTransfer</a></li>
+      <li><a href="#часть-vi---ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-vi---ctrnand-luma3ds-и-очистка-sd-карты">Часть VI - CTRNAND Luma3DS и очистка SD-карты</a></li>
+      <li><a href="#часть-vii---региональные-настройки" id="markdown-toc-часть-vii---региональные-настройки">Часть VII - Региональные настройки</a></li>
+      <li><a href="#часть-viii---обновление-системы" id="markdown-toc-часть-viii---обновление-системы">Часть VIII - Обновление системы</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p>Этот дополнительный раздел рассказывает о смене региона на вашей приставке с CFW, установленной в SysNAND. Это делается путем установки образа 9.2.0 CTRTransfer того региона, на который вы хотите перейти.</p>
+
+<p>Смена региона абсолютно не обязательна с тех пор, как в Luma3DS поддерживает запуск игр других регионов и индивидуальную <a href="lumalocales" target="_blank">эмуляцию региона для отдельных игр</a>.</p>
+
+<p class="notice--warning">Этот процесс отсоединит NNID от приставки, поскольку он больше не будет совместим с вашей консолью. NNID привязан к конкретному устройству и к его региону, поэтому перенос NNID между приставками с разными регионами невозможен без применения <a href="https://gist.githubusercontent.com/yifanlu/e80db121d38aceb8cca0e03cefd5853b/raw/3c4dd89869156ca0f945a2791e699acfdb32b510/gistfile1.txt" target="_blank">крайне сложных операций</a>.</p>
+
+<p class="notice--warning">Практика показывает, что eShop почти наверняка перестанет работать, вне зависимости от типа вашей консоли. Все же, наибольший шанс есть у Old3DS и у New3DS, которая ни разу не была привязана к eShop.</p>
+
+<p>Смена региона при помощи CTRTransfer (что используется в этом методе) по какой-то причине ломает reboot-патч. Причина этого неизвестна, но из-за этого владельцы Old 3DS теряют возможность играть в игры, требующие режим расширенной оперативной памяти (например, Monster Hunter, Super Smash Bros, и Pokémon Sun / Moon) до тех пор, пока не выполнят форматирование устройства (подробности в конце этой страницы).</p>
+
+<p>Для продолжения, у вас уже ДОЛЖНА быть установлена Luma3DS и boot9strap.</p>
+
+<p class="notice--danger">Не обращайте внимание на версию установленного системного ПО. Всё будет хорошо, даже если версия вашего ПО выше, или ниже, чем версия ПО в образе CTRTransfer.</p>
+
+<h2 id="что-понадобится">Что понадобится</h2>
+
+<ul>
+  <li>Свежая версия <a href="https://github.com/d0k3/GodMode9/releases/latest" target="_blank">GodMode9</a></li>
+  <li>Свежая версия <a href="https://github.com/Steveice10/FBI/releases/latest" target="_blank">FBI</a> (<code class="highlighter-rouge">.3dsx-файл</code>)</li>
+  <li>CTRTransfer-образ 11.5.0 для вашего устройства и региона, на который вы хотите перейти:
+    <ul>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:465f1048f81e8e5c651ce2a4d9df48fec88d1099&amp;dn=11.5.0-38E_ctrtransfer_n3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">New 3DS or 2DS - 11.5.0 - EUR - CTRTransfer</a></li>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:70f641c9f2a4933a07fac49eb7ad19451c7c8c96&amp;dn=11.5.0-38J_ctrtransfer_n3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">New 3DS or 2DS - 11.5.0 - JPN - CTRTransfer</a></li>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:c9e4de20d30b80032a5dd6f675fecb6d748f71b1&amp;dn=11.5.0-34K_ctrtransfer_n3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">New 3DS or 2DS - 11.5.0 - KOR - CTRTransfer</a></li>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:2b0a71a2523328e447938fea7b4c02ebe0b72705&amp;dn=11.5.0-38U_ctrtransfer_n3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">New 3DS or 2DS - 11.5.0 - USA - CTRTransfer</a>  <br />
+~</li>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:df0836a731778ab6ffe9a8c658400c782f0225cd&amp;dn=11.5.0-38E_ctrtransfer_o3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">Old 3DS or 2DS - 11.5.0 - EUR - CTRTransfer</a></li>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:d8913b4c0da224e8852fa2f685c41ddbce5310bc&amp;dn=11.5.0-38J_ctrtransfer_o3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">Old 3DS or 2DS - 11.5.0 - JPN - CTRTransfer</a></li>
+      <li><i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:2708089605ca47387fa64e996a699eedd18031e8&amp;dn=11.5.0-38U_ctrtransfer_o3ds.zip&amp;tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce">Old 3DS or 2DS - 11.5.0 - USA - CTRTransfer</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="инструкция">Инструкция</h2>
+
+<h3 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h3>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту из <strong>приставки</strong> в компьютер</li>
+  <li>Скопируйте папку  <code class="highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Скопируйте файл <code class="highlighter-rouge">.bin</code> из <code class="highlighter-rouge">.zip-архива</code> с CTRTransfer-образом 11.5.0 в папку <code class="highlighter-rouge">/gm9/in</code> на SD-карте</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Включите консоль</li>
+</ol>
+
+<h3 id="часть-ii---ctrtransfer">Часть II - CTRTransfer</h3>
+
+<ol>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" />  во время включения приставки
+    <ul>
+      <li>Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</li>
+    </ul>
+  </li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, чтобы открыть меню GodeMode9</li>
+  <li>Выберите “<strong>Scripts…</strong>”</li>
+  <li>Выберите “<strong>GM9Megascript</strong>”</li>
+  <li>Выберите “<strong>CTRNAND trnsfer…</strong>”</li>
+  <li>Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl2) и введите указанную комбинацию кнопок
+    <ul>
+      <li>Этот процесс займёт некоторое время</li>
+    </ul>
+  </li>
+  <li>Если появится запрос, выберите “<strong>Transfer to SysNAND</strong>”
+    <ul>
+      <li>Этот запрос отображается только если у вас есть EmuNAND</li>
+    </ul>
+  </li>
+  <li>По завершению процесса, нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Дважды нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+  <li>Выберите “<strong>Scripts from Plailect’s Guide</strong>”</li>
+  <li>Выберите “<strong>CTRTransfer Ticket Copy</strong>”</li>
+  <li>При появлении запроса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для продолжения</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, чтобы вернуться в главное меню</li>
+  <li>Выберите “<strong>Exit</strong>”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы восстановить запрет на запись</li>
+  <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки</li>
+</ol>
+
+<h3 id="часть-iii---запуск-homebrew-launcher">Часть III - Запуск Homebrew Launcher</h3>
+
+<ol>
+  <li>Запустите приложение <strong>Загружаемая игра (Download Play)</strong>, нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px" />
+    <ul>
+      <li>Если Homebrew Launcher не запустился сразу, следуйте следующей инструкции:
+        <ol>
+          <li>Нажмите <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" /> одновременно чтобы открыть меню Rosalina</li>
+          <li>Выберите “<strong>Miscellaneous options</strong>”</li>
+          <li>Выберите “<strong>Switch  the hb. title to the current app</strong>”</li>
+          <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+          <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню Rosalina</li>
+          <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" /> для выхода из главного меню Rosalina</li>
+          <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, затем закройте приложение <strong>Загружаемая игра (Download Play)</strong>, наведя на него курсор и нажав кнопку <img src="/images/buttons/X.png" alt="(X)" /></li>
+          <li>Запустите приложение <strong>Загружаемая игра (Download Play)</strong></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Консоль должна загрузиться в <strong>Homebrew Launcher</strong></li>
+</ol>
+
+<h3 id="часть-iv---переустановка-тикетов">Часть IV - Переустановка тикетов</h3>
+
+<p class="notice--info">Если скрипт, запускавшийся выше, не нашёл пользовательских тикетов на консоли, и предложил вам пропустить эту часть - так и поступите</p>
+
+<ol>
+  <li>Выберите FBI в списке Homebrew и запустите его</li>
+  <li>Выберите “<strong>gm9</strong>”</li>
+  <li>Выберите “<strong>out</strong>”</li>
+  <li>Выберите “<strong>ctrtransfer_tickets</strong>”</li>
+  <li>Выполните шаги ниже либо для папки <code class="highlighter-rouge">eshop</code> либо для папки <code class="highlighter-rouge">unknown</code>, или для обоих
+    <ul>
+      <li>Перейдите в папку</li>
+      <li>Выберите “<strong>&lt;current directory&gt;</strong>”</li>
+      <li>Выберите “<strong>Install and delete all tickets</strong>”</li>
+      <li>Ожидайте. Может показаться, что приставка зависла, просто дайте ей время.</li>
+      <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" /> для выхода из FBI</li>
+</ol>
+
+<p>Если после восстановления тикетов игры так и не появились, восстановите их с помощью программы <a href="https://github.com/ihaveamac/faketik/releases/latest" target="_blank">faketik</a>:</p>
+<ol>
+  <li>Поместите программу в папку <code class="highlighter-rouge">3ds</code></li>
+  <li>Запустите <a href="launch-hbl" target="_blank">Homebrew Launcher</a></li>
+  <li>Запустите faketik
+    <ul>
+      <li>Интернет на приставке должен быть включен</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-v---удаление-образа-ctrtransfer">Часть V - Удаление образа CTRTransfer</h3>
+
+<p class="notice--info">Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</p>
+
+<ol>
+  <li>Запустите GodMode9, держа нажатой кнопку <img src="/images/buttons/START.png" alt="(START)" /> во время загрузки</li>
+  <li>Перейдите в <code class="highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="highlighter-rouge">gm9</code></li>
+  <li>Нажмите <img src="/images/buttons/X.png" alt="(X)" />, выделив файл <code class="highlighter-rouge">.bin</code> CTRTransfer чтобы удалить его</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
+  <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки</li>
+</ol>
+
+<h3 id="часть-vi---ctrnand-luma3ds-и-очистка-sd-карты">Часть VI - CTRNAND Luma3DS и очистка SD-карты</h3>
+
+<p class="notice--info">Обратите внимание, что если у вас имеются другие файлы помимо <code class="highlighter-rouge">GodMode9.firm</code> в папке <code class="highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</p>
+
+<p>Установка Luma3DS в CTRNAND нужна лишь для того, чтобы иметь возможность запускать приставку без SD-карты. Так же будет произведена чистка карты памяти от ненужных файлов.</p>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" /> во время включения приставки</li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить</li>
+  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, чтобы попасть в меню действий</li>
+  <li>Выберите “<strong>Scripts…</strong>”</li>
+  <li>Выберите “<strong>cleanmaster</strong>”</li>
+  <li>При появлении запроса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для продолжения</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы восстановить запрет на запись</li>
+</ol>
+
+<p>После работы скрипта корень SD-карты будет выглядеть следующим образом:</p>
+
+<p class="text-center"><img src="/images/screenshots/final-file-layout.png" alt="" target="_blank" /></p>
+
+<p>Можете удалить лишние файлы вручную, если таковые остались</p>
+
+<h3 id="часть-vii---региональные-настройки">Часть VII - Региональные настройки</h3>
+
+<ol>
+  <li>Откройте <strong>Системные настройки (System settings)</strong></li>
+  <li>Перейдите в “<strong>Прочие настройки</strong>” (Other Settings), затем “<strong>Профиль</strong>” (Profile), затем “<strong>Настройки региона</strong>” (Region Settings)</li>
+  <li>Выберите страну из вашего нового региона</li>
+  <li>При появлении запроса о штате указывать его не нужно</li>
+</ol>
+
+<h3 id="часть-viii---обновление-системы">Часть VIII - Обновление системы</h3>
+
+<ol>
+  <li>Обновите прошивку консоли, зайдя в <strong>Системные настройки</strong> (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), затем листайте вправо до конца и выберите пункт “<strong>Обновление</strong>” (System Update)
+    <ul>
+      <li>Обновление не нужно делать, если вы уже делали его в процессе выполнения инструкции!</li>
+      <li>Для обновления необходимо настроенное и рабочее интернет-подключение</li>
+      <li>Обновление консоли с установленным B9S + Luma (именно то, что мы уже установили) безопасно</li>
+      <li>При появлении ошибки, поставьте в настройках подключения, в настройках DNS “<strong>Получать DNS автоматически</strong>” в положение “<strong>Да</strong>”</li>
+      <li>При появлении ошибки, убедитесь, что на приставке работает интернет. Попробуйте пересоздать подключение и перезагрузить роутер</li>
+      <li>Если вы все ещё получаете ошибку, <a href="ctrtransfer" target="_blank">выполните CTRTransfer</a> и попробуйте обновиться ещё раз</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<div class="notice--info">
+<p>Для Old 3DS и 2DS может потребоваться форматирование (используя TinyFormat или Системные настройки), иначе игры требующие режима расширенной памяти могут не заработать (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon, и т. п.).</p>
+
+<ul>
+  <li><a href="troubleshooting#dsids-%D0%B8%D0%B3%D1%80%D1%8B-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5" target="_blank">Если перестали запускать игры от DS</a></li>
+</ul>
+
+</div>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,640 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Пайка хардмода в Old 3DS - Взлом 3DS</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке boot9strap и кастомной прошивки на 3DS">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом 3DS">
+<meta property="og:title" content="Пайка хардмода в Old 3DS">
+
+
+  <link rel="canonical" href="https://3ds.customfw.xyz/making-hardmod-old3ds.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/making-hardmod-old3ds.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, xHR",
+      "url" : "https://3ds.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://3ds.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом 3DS Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://3ds.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://3ds.customfw.xyz/assets/js/main.min.js"></script>
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://3ds.customfw.xyz/">Взлом 3DS</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://nincfw.olx.ua/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/troubleshooting">Проблемы и<br>их решения</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/addons">Полезные<br>инструкции</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-system">Обновление<br>прошивки</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/soft">Список ПО</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/updating-b9s">Обновление b9s</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://3ds.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      <li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Пайка хардмода в Old 3DS">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Пайка хардмода в Old 3DS
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
+  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
+      <li><a href="#часть-i---подготавливаем-sd-переходник" id="markdown-toc-часть-i---подготавливаем-sd-переходник">Часть I - Подготавливаем SD-переходник</a></li>
+      <li><a href="#часть-ii---разбираем-консоль" id="markdown-toc-часть-ii---разбираем-консоль">Часть II - Разбираем консоль</a></li>
+      <li><a href="#часть-iii---впаиваем-провода-переходника-в-приставку" id="markdown-toc-часть-iii---впаиваем-провода-переходника-в-приставку">Часть III - Впаиваем провода переходника в приставку</a></li>
+      <li><a href="#часть-iv---снятие-дампа-nand" id="markdown-toc-часть-iv---снятие-дампа-nand">Часть IV - Снятие дампа NAND</a></li>
+    </ul>
+  </li>
+  <li><a href="#установка-boot9strap-hardmod" id="markdown-toc-установка-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p class="notice--info">Это руководство для тех, кто хочет выполнить хардмод и снять дамп NAND с Old 3DS. Руководство по внедрению bootstrap в уже снятый дамп находится <a href="installing-boot9strap-hardmod" target="_blank">здесь</a></p>
+
+<p class="notice--danger">Это сложный и опасный метод взлома. Рекомендуется в первую очередь для восстановления NAND. В данный момент есть более простой и удобный метод прошивки - <a href="ntrboot" target="_blank">ntrboot</a>.</p>
+
+<div class="notice--warning">
+<p>Для хардмода годятся далеко не все картридеры! Список совместимых и протестированных приведен ниже. Однако и здесь есть подводные камни. Например, на некоторых NAND-чипах производства TOSHIBA будут работать только кардридеры, совместимые с eMMC 5.1. Зачастую ридеры с поддержкой USB 3.0 и microsd больше, чем 128 Гб будут без проблем работать с eMMC 5.1.</p>
+<ul>
+  <li><a href="https://www.amazon.com/gp/product/B006T9B6R2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1" target="_blank">Anker® USB 3.0 (68UNMCRD-B2U): Realtek RTS5306</a></li>
+  <li><a href="https://www.amazon.com/Tek-Republic-TUC-300-Portable-Reader/dp/B00D50UNRM/ref=sr_1_fkmr0_1?s=electronics&amp;ie=UTF8&amp;qid=1423979888&amp;sr=1-1-fkmr0&amp;keywords=TekRepublic+TUC-300" target="_blank">TekRepublic TUC-300: Realtek RTS5307</a></li>
+  <li><a href="https://www.amazon.com/SanDisk-SDDR-121-A11M-MobileMate-Memory-Reader/dp/B000WR3Z3A/ref=sr_1_3?ie=UTF8&amp;qid=1426031853&amp;sr=8-3&amp;keywords=microsd+card+reader" target="_blank">SanDisk SDDR-121-A11M: GL827</a></li>
+  <li><a href="https://www.amazon.com/Transcend-Flash-Memory-Reader-TS-RDP8K/dp/B001NS0OZ4" target="_blank">Transcend P8 TS-RDP8K: ALCOR AU6476</a></li>
+  <li><a href="http://www.amazon.com/gp/product/B006T9B6R2/ref=ox_sc_act_title_1?ie=UTF8&amp;psc=1&amp;smid=A294P4X9EWVXLJ" target="_blank">Anker® USB 3.0 4-Slot card Reader(A7612): RT5301</a>
+<br /><br />
+В России и Украине проще всего достать <a href="https://www.amazon.com/Transcend-Flash-Memory-Reader-TS-RDP8K/dp/B001NS0OZ4" target="_blank">Transcend P8 TS-RDP8K</a>, но eMMC 5.1 он не поддерживает. Самый универсальный вариант - <a href="https://www.amazon.com/gp/product/B006T9B6R2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1" target="_blank">Anker® USB 3.0 (68UNMCRD-B2U)</a>, но кроме как через Amazon его не купить.</li>
+</ul>
+</div>
+
+<h2 id="что-понадобится">Что понадобится</h2>
+
+<ul>
+  <li><strong>Паяльник</strong>: один с тонким жалом</li>
+  <li><strong>Пайка</strong>: я использую паяльник и флюсосодержащий припой с соотношением олова к свинцу 60/40. Не используйте припой, содержащий кислотный флюс, так как это вызывает коррозию материнской платы и может все повредить</li>
+  <li>Паяльный флюс</li>
+  <li>Крестовая отвертка <a href="https://www.ebay.com/sch/i.html?_odkw=ph000+screwdriver&amp;_osacat=0&amp;_from=R40&amp;_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XJIS000+screwdriver.TRS1&amp;_nkw=JIS000+screwdriver&amp;_sacat=0" target="_blank">JIS #000</a><br />
+Я использую вот такой набор: <a href="https://ru.aliexpress.com/item/Screwdriver-Set-25-in-1-Torx-Screwdriver-Repair-Tool-Set-For-iPhone-Cellphone-Tablet-PC-Worldwide/32696703618.html?ws_ab_test=searchweb0_0,searchweb201602_3_10152_10065_10151_10068_5400011_5430020_5410020_10307_10303_10137_10060_10155_10154_10056_10055_10054_10059_100031_10099_10103_10102_10052_10053_10142_10107_10050_10051_10170_5380020_5390020_10084_10083_10119_5370020_10080_10082_10081_10110_10111_10112_10113_10114_10311_10312_10313_10314_10315_10078_10079_10073_10120_5420011_10125-10102_10120,searchweb201603_5,ppcSwitch_5&amp;btsid=0c9deb2d-e096-48cc-86fe-3162777cb23d&amp;algo_expid=809042af-9533-4303-8d8c-9e18df48c770-0&amp;algo_pvid=809042af-9533-4303-8d8c-9e18df48c770&amp;transAbTest=ae803_2" target="_blank">Kalaidun  25 in 1</a></li>
+  <li>Программа <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank">win32diskimager</a> на вашем компьютере</li>
+  <li>Программа <a href="https://gbatemp.net/threads/2ds-3ds-nand-checker.439170/" target="_blank">3DS NAND Checker</a></li>
+  <li><strong>Провода</strong>: Я лично рекомендую вам использовать <a href="https://ru.aliexpress.com/item/10-Meters-26AWG-UL1007-Electronic-Wire-1-3mm-PVC-26-AWG-Electronic-Cable/32776859051.html?aff_platform=aaf&amp;cpt=1501878660749&amp;sk=eub6yrrBy&amp;aff_trace_key=69239865cbdd4c2aab6f7036b8ec20dc-1501878660749-04055-eub6yrrBy" target="_blank">эти</a> провода, но если вы не хотите их покупать, можете просто использовать провода, например, вырванные из наушников.</li>
+  <li>Переходник с SD-карты на microSD</li>
+  <li>microSD картридер из списка выше</li>
+  <li>Пинцет для работы со шлейфами приставки</li>
+</ul>
+
+<p>Лично мной протестированы <a href="https://www.amazon.com/Transcend-Flash-Memory-Reader-TS-RDP8K/dp/B001NS0OZ4" target="_blank">Transcend P8 TS-RDP8K</a>, и <a href="https://www.amazon.com/gp/product/B006T9B6R2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1" target="_blank">Anker® USB 3.0 (68UNMCRD-B2U)</a>. Первый прекрасно себя показал на eMMC версии ниже, чем 5.1 (все Old3DS и OLD3DS XL), второй же является универсальным решением и полностью совместим с eMMC 5.1 и ниже. С его помощью можно прошить любую ревизию 3DS.</p>
+
+<p>Обратите внимание, что ридеры с чипсетом GL3220, GL3233, GL834 работать не будут!!!</p>
+
+<h2 id="инструкция">Инструкция</h2>
+
+<h3 id="часть-i---подготавливаем-sd-переходник">Часть I - Подготавливаем SD-переходник</h3>
+
+<ol>
+  <li>Возьмите любой ненужный <em>переходник с SD-карты на microSD</em></li>
+  <li>
+    <p>Аккуратно раскройте его ножом и отделите лицевую часть от задней</p>
+
+    <p class="notice--info">Либо можете вырезать аккуратное отверстие на лицевой части, чтобы добраться до ножек переходника</p>
+  </li>
+  <li>
+    <p>Припаяйте провода к ножкам, согласно схеме</p>
+
+    <p class="notice--info">Используйте провода разного цвета, чтобы не запутаться какой провод какому контакте соответствует. Запишите эту информацию, либо отметьте на самом проводе.</p>
+
+    <p class="notice--info">Можете откусить лишние ножки, чтобы они не мешали вам паять и не замыкали.</p>
+
+    <p class="notice--warning">Переключатель LOCK должен быть в открытом состоянии, если поставить защиту от записи, компьютер не увидит ваш переходник. Если вы потеряли переключатель LOCK на карте памяти, заклейте его скотчем.</p>
+
+    <p class="text-center notice--info"><img src="/images/sd2hm.png" alt="" target="_blank" /></p>
+  </li>
+  <li>Рекомендую оставлять не более 15см провода.</li>
+</ol>
+
+<h3 id="часть-ii---разбираем-консоль">Часть II - Разбираем консоль</h3>
+
+<ol>
+  <li>Отключите все периферийные устройства (зарядку, SD-карту, прочее) от консоли и положите их в безопасное место.</li>
+  <li>
+    <p>Переверните консоль и открутите два винта, что крепят заднюю крышку.</p>
+
+    <p class="notice--info"><strong>Примечание:</strong> Винты не откручиваются полностью, они остаются прикрепленными к задней крышке. Открепите заднюю крышку, потянув её наверх.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/1.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>После этого вам необходимо вытащить батарею из консоли</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/2.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>Теперь открутите винты, которые удерживают заднюю панель и положите их в безопасное место.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/3.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>Когда вы открутите все винты и начнете открывать крышку, вы увидите печатную плату (PCB), <strong>НЕ ПРИМЕНЯЙТЕ СИЛУ ДЛЯ ОТКРЫТИЯ ПАНЕЛИ</strong>. Под крышкой находятся два шлейфа от боковых кнопок. Аккуратно отсоедините их от материнской платы и продолжайте разбор.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/4.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>Аккуратно отсоедините WiFi- и ИК-модуль.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/5.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>Открутите винты, удерживающие аналоговый джойстик и плату картридера. Осторожно открепите защелку, которая удерживает шлейф аналога и аккуратно отложите его в сторону. Будьте предельно осторожны - защелки очень хрупкие! 
+Отогните кардридер. Нет нужды его снимать полностью. Достаточно просто приподнять его, открыв как крышку (одной частью он накрепко примонтажен к плате). При желании можно снять его совсем, отсоединив его от металлической пластины, к которой он приклеен двусторонним скотчем.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/6.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>Открутите оставшиеся винты и аккуратно отстегните отмеченные синим защелки и уберите шлейфы.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/7.png" alt="" target="_blank" /></p>
+  </li>
+  <li>
+    <p>Осоторжно переверните плату.</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/3ds/8.png" alt="" target="_blank" /></p>
+  </li>
+</ol>
+
+<h3 id="часть-iii---впаиваем-провода-переходника-в-приставку">Часть III - Впаиваем провода переходника в приставку</h3>
+
+<div class="notice--info">
+<p>Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. <strong>DAT0 (Data Zero)</strong>, <strong>CMD</strong> и <strong>CLK (CLOCK)</strong> находятся на нижней части платы. <strong>GND (Ground или заземление)</strong>, мы будем припаивать к металлическому корпусу слота для картриджей или SD-карты, который находится на верхней части материнской платы. Другие DAT-контакты (DAT1, DAT2 и DAT3) вам не потребуются, и в этом гайде вы их не найдете, однако, вы можете припаять провода и к ним, если вам нужна более высокая скорость передачи для записи и чтения NAND’а. Это опциональная операция и в этом гайде не используется, поскольку чип и так дампится достаточно быстро. Выигрыш в пару минут не стоит времени, затраченного на пайку дополнительных контактов.</p>
+
+<p class="text-center"><img src="/images/ifixit/3ds/o3ds_tp.png" alt="" target="_blank" /></p>
+
+</div>
+
+<ol>
+  <li>Нанесите флюс на кончик провода и используйте его как кисточку, нанеся флюс на контакты, к которым необходимо припаять.</li>
+  <li>
+    <p>Начните припаивать 4 провода к каждому из контактов: DAT0, CMD и CLK, а также к GND. Убедитесь, что вы припаяли всё чисто, аккуратно и к нужным точкам.</p>
+
+    <p class="notice--warning">Убедитесь, что провода, выходящие из SD-адаптера припаяны к соответствующим точкам, иначе ничего работать не будет. Для пущей надежности прозвоните их мультиметром, или любым другим прибором.</p>
+  </li>
+  <li>Соберите вашу приставку. Можете не закручивать болты, либо закрутить всего несколько. Аккуратно верните все шлейфы на место. Защелки очень хрупкие, поэтому действуйте пинцетом и будьте предельно осторожны! Можете пока не подключать аналоговый джойстик и камеру.</li>
+  <li>
+    <p>Вставьте батарею в приставку и включите ее, чтобы удостоверится в её работоспособности. На этом этапе приставка все ещё должна работать в обычном режиме.</p>
+
+    <p>Могут возникнуть следующие проблемы:</p>
+    <ul>
+      <li><strong>При включении приставки загорается синий диод, раздается щелчок из динамика, затем приставка выключается</strong> - неправильно подключены шлейфы экранов (или одного из них), переподключите их и попробуйте снова</li>
+      <li><strong>При включении на экране приставки оба экрана светятся синим</strong> - где-то замыкают провода; проверяйте пайку.</li>
+      <li><strong>Курсор быстро перемещается по экрану ВПРАВО</strong> - это из-за отключенного аналога; игнорируйте</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-iv---снятие-дампа-nand">Часть IV - Снятие дампа NAND</h3>
+
+<ol>
+  <li>Поставьте отключенную приставку на зарядку.</li>
+  <li>Вставьте припаянный переходник в кардридер и включите приставку. <strong>КАРТРИДЕР ДОЛЖЕН БЫТЬ ОТКЛЮЧЕН ОТ КОМПЬЮТЕРА!!!</strong></li>
+  <li>
+    <p>Оба экрана должны светиться синим</p>
+
+    <p class="text-center notice--info"><img src="/images/ifixit/bsod.jpg" alt="" target="_blank" /></p>
+  </li>
+  <li>На этой стадии вы уже можете считывать/записывать NAND. <strong>Не выключайте консоль и подключайте ридер в USB порт вашего компьютера.</strong></li>
+  <li><strong>ВНИМАНИЕ!</strong> Windows попросит отформатировать диск. <strong>НЕ ДЕЛАЙТЕ ЭТОГО!</strong> Нажмите “Отмена”!</li>
+  <li>На компьютере, кликните правой кнопкой мыши на значок <code class="highlighter-rouge">win32diskimage</code> и выберите «Запуск от имени администратора». Введите пароль администратора, если требуется, и программа запуститься.</li>
+  <li>Назовите файл в строке “Image file” <code class="highlighter-rouge">NAND.bin</code>. Нажмите на кнопку <strong>Read</strong> для дампа NAND на компьютер в файл <code class="highlighter-rouge">NAND.bin</code>. Процесс может занять несколько минут. Если вы хотите восстановить бэкап NAND на ваше устройство, то нажмите <strong>Write</strong>, и выберите файл вашего бекапа.</li>
+  <li>Если всё прошло успешно, то дамп NAND появится в директории, которую вы указали.</li>
+</ol>
+
+<p class="notice--warning">Желательно снять несколько копий NAND, чтобы убедиться, что бекап сделан верно. Откройте 3DS NAND Checker и нажмите любую кнопку. Программа должна тут же закрыться и сгенерировать две папки в том же каталоге, которые называются <code class="highlighter-rouge">imgs</code> и <code class="highlighter-rouge">logs</code> Перекиньте ВСЕ сделанные вами NAND-файлы в папку <code class="highlighter-rouge">imgs</code> и измените им расширение на <code class="highlighter-rouge">img</code>. Теперь, запустите программу снова и она сравнит размеры и хэши файлов, выведя результат в консоль или в файл лога (который должен появится в папке <code class="highlighter-rouge">logs</code>). Если они одинаковые, то данный файл можно использовать для инъекции b9s. Если контрольная сумма разная, проверьте пайку и делайте всё по новой.</p>
+
+<hr />
+
+<h2 class="notice--success" id="установка-boot9strap-hardmod"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></h2>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/rashevskyv" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/nincfw" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://3ds.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015719 = new Ya.Metrika2({
+                    id:50015719,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015719" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>
