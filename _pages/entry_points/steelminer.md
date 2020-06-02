@@ -42,6 +42,7 @@ Steelhax - новая первичная точка входа для 3DS. С е
 
 1. Вставьте карту памяти обратно в консоль и включите её
 1. Перейдите на сайт [https://bruteforcemovable.com/](https://bruteforcemovable.com/){:target='_blank'}
+	* Если сайт не открывается, то сгенерируйте **movable_part1.sed** с помощью [этого сайта](http://part1dumper.mechanicaldragon.xyz/){:target="_blank"}, а затем попросите помощи в [этом дискорде](https://discord.com/invite/C29hYvh){:target="_blank"} на английском языке
 1. На сайте в поле "**Your friend code**" введите свой *код друга* (friend code)
 	* Посмотреть свой код друга можно в **Списке друзей** (Friend List)
 		* Если версия вашей прошивки ниже, чем {% include /vars/sys_version.txt %} - обновите прошивку, иначе вы не сможете зайти в список друзей!
