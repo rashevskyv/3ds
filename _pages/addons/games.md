@@ -18,6 +18,7 @@ author_profile: true
 
 На приставку можно установить игры только в формате `.cia`. Игры в других фарматах нужно предварительно сконвертировать. 
 
+1. [https://3dsall.com/](https://3dsall.com/){:target="_blank"}
 1. [В нашем облаке](https://drive.google.com/drive/folders/11Jt76ZS_XuPeX9noz6AF9HROMz7YzLml?usp=sharing){:target="_blank"}
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [В облаке на YD](https://yadi.sk/d/_wdQkl2lZIha4g){:target="_blank"}
@@ -107,6 +108,16 @@ author_profile: true
 {: .notice--info}
 
 ## Установка с ПК по беспроводному соединению 
+
+### Установка с помощью программы beeShop
+
+1. Скачайте [beeShop](https://github.com/manuGMG/beeShop/releases/latest){:target="_blank"}
+1. Распакуйте его в удобную папку и запустите `beeShop.exe`
+1. На консоли запустите FBI
+1. В **beeShop** нажмите кнопку **Settings** и в открывшемся блокноте введите IP, написанный на нижнем экране приставки. 
+1. Выберите игру из списка в окне программы и нажмите **Bump**, чтобы отправить выбранную игру на приставку
+1. На нижнем экране 3DS должны появиться две кнопки. Нажмите на {% include inc/btn.txt btn="A" %} для подтверждения установки. 
+  + Если кнопки не появились, убедитесь, что в программе указан верный IP и нажмите кнопку "**Bump**". Может понадобится несколько попыток
 
 ### Установка с помощью QR-кода 
 
