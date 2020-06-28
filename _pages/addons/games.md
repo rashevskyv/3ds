@@ -14,7 +14,7 @@ author_profile: true
 
 В данный момент установка быстрым методом не поддерживает установку DLC. Так же нет большого смысла использовать этот метод для установки игр размером менее 100Мб (они и так устанавливаются достаточно быстро).
 
-## Где брать игры? 
+{% spoiler Где брать игры?  %}
 
 На приставку можно установить игры только в формате `.cia`. Игры в других фарматах нужно предварительно сконвертировать. 
 
@@ -28,6 +28,8 @@ author_profile: true
 1. [nintendo.moy.su](http://nintendo.moy.su/){:target="_blank"}
 1. [Конвертировать .3DS-ромы в .CIA](godmode9-usage#%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%B7-3ds-%D0%B2-cia){:target="_blank"}
 
+{% endspoiler %}
+
 ## Установка приложений
 
 {% spoiler Быстрый метод установки %}
@@ -35,7 +37,7 @@ author_profile: true
 Для перешифровки игр необходима OC Windows
 {: .notice--warning}
 
-{% include youtube.html id="sXKvf-ymrXI" %}
+{% include youtube.html id="sXKvf-ymrXI" %}{: style="max-width: 500px"}
 
 ### Что понадобится
 
