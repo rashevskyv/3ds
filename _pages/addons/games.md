@@ -18,8 +18,7 @@ author_profile: true
 
 На приставку можно установить игры только в формате `.cia`. Игры в других фарматах нужно предварительно сконвертировать. 
 
-1. [https://3dsall.com/](https://3dsall.com/){:target="_blank"}
-1. [В нашем облаке](https://drive.google.com/drive/folders/11Jt76ZS_XuPeX9noz6AF9HROMz7YzLml?usp=sharing){:target="_blank"}
+1. [В нашем облаке](https://drive.google.com/drive/folders/1FgyciKVc-k2ar8gS6oZjNKYAhmxwFg5R?usp=sharing){:target="_blank"}
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [В облаке на YD](https://yadi.sk/d/_wdQkl2lZIha4g){:target="_blank"}
 1. [3dscia](http://www.3dscia.to/){:target="_blank"}
