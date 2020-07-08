@@ -1,0 +1,66 @@
+:active, :hover, :focus {
+	outline: 0;
+	outline-offset: 0;
+}
+
+.content {
+    transition: all .1s ease-in;
+	margin: 0 auto;
+	width:fit-content;
+}
+
+.firmware-form {
+        font-size:18px;
+        padding: 20px 30px;
+        background: #F0F0F0;
+        border-radius: 12px;
+}
+.firmware-form select, button {
+	height: 35px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #000000;
+	background: #ffffff;
+	color: #000000;
+    padding: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 7px;
+	box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+	font-family: helvetica, serif;
+	min-width: 50px;
+	text-decoration: none;
+	vertical-align: middle;
+	margin: 5px 0;
+}
+
+.firmware-form [data-id="5"] {
+	margin-right: 20px;
+}
+
+.firmware-form button {
+	padding: 3px 15px;
+	height: 40px;
+	font-weight: bolder;
+}
+
+.wrap {
+	font-size: 35px;
+	margin: 2px;
+	position: relative;
+}
+
+.wrap-dot {
+	top: 12px;
+}
+
+.wrap-def {
+	margin-left: 5px;
+	top: 6px;
+}
+
+.firmware-form button:hover {
+  background-color: #999;
+  color: #FFF;
+
+}
