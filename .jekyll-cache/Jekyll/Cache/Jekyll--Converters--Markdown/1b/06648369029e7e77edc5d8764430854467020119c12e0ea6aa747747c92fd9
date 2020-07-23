@@ -1,0 +1,106 @@
+I"O0
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#обязательно-к-прочтению" id="markdown-toc-обязательно-к-прочтению">Обязательно к прочтению</a></li>
+  <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
+  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<h2 id="обязательно-к-прочтению">Обязательно к прочтению</h2>
+
+<p>Эта инструкция служит для полного удаления кастомной прошивки с вашего устройства, включая Boot9Strap и Luma3DS, в целях восстановления оригинального состояния консоли. Если вы удалите CFW, то прошивать приставку придётся с самого начала.</p>
+
+<p class="notice--warning">Это не повлияет на ваш NNID, любые законно приобретённые игры или сохранения этих законно приобретённых игр, если вы пропустите часть с форматированием приставки. Однако, рекомендуется все-таки отформатировать консоль.</p>
+
+<p class="notice--danger">Если вы хотите удалить кастом для решения каких то проблем - ОСТАНОВИТЕСЬ! Возможно, это лучший способ нажить новых. Обратитесь за помощью в указанные группы.</p>
+
+<p>Любые неподписанные (нелегальные) игры перестанут работать и должны быть удалены вручную перед началом этого процесса с помощью раздела Управление данными (Data Management) в Системных настройках (System Settings). Используйте <a href="https://github.com/FlagBrew/Checkpoint/releases/latest">менеджер сохранений</a> чтобы создать резервные копии любых важных для вас сохранений этих неподписанных (нелегальных) игр.</p>
+
+<p>Это не повлияет на ваш NNID, любые законно приобретенные игры или сохранения этих законно приобретенных игр.</p>
+
+<h2 id="что-понадобится">Что понадобится</h2>
+
+<ul>
+  <li>Свежая версия <a href="https://github.com/d0k3/GodMode9/releases/latest">GodMode9</a></li>
+</ul>
+
+<h2 id="инструкция">Инструкция</h2>
+
+<ol>
+  <li>Сделайте резервную копию сохранений программой <a href="https://github.com/FlagBrew/Checkpoint/releases/latest" target="_blank">Checkpoint</a>, если на приставке есть сохранения, которые вы не хотели бы потерять</li>
+  <li>Перейдите в <strong>Системные настройки</strong> &gt; <strong>Управление данными</strong> &gt; <strong>Nintendo 3DS</strong> &gt; <strong>Программы</strong></li>
+  <li>В этом списке программ удалите всё, что не связано с Nintendo и было установлено во время использования кастомной прошивки
+    <ul>
+      <li>Сюда относятся системные программы, такие как FBI, Anemone3DS, Luma Updater, Homebrew Launcher, Checkpoint и другие, а также любые игры, которые вы НЕ купили! Вы можете пропустиь этот шаг и просто отформатировать приставку после удаления взлома</li>
+    </ul>
+  </li>
+  <li>Перейдите в <strong>Управление данным</strong> &gt; <strong>DSiWare</strong></li>
+  <li>В этом списке программ удалите всё, что не связано с Nintendo и было установлено во время использования кастомной прошивки
+    <ul>
+      <li>Сюда относятся такие программы как TWiLightMenu++, а также любые игры не из eShop</li>
+      <li>Если не удалить все CFW программы в обоих секциях 3DS и DSiWare перед удалением самой CFW, то это может заблокировать доступ к меню <strong>Управление данными</strong> после удаления кастомной прошивки</li>
+    </ul>
+  </li>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Скопируйте <code class="language-plaintext highlighter-rouge">GodMode9.firm</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> GodMode9 в папку <code class="language-plaintext highlighter-rouge">/luma/payloads/</code> на SD-карте</li>
+  <li>Скопируйте папку <code class="language-plaintext highlighter-rouge">gm9</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> GodMode9 в корень SD-карты</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Запустите GodMode9, держа нажатой кнопку <img src="/images/buttons/Start.png" alt="(Start)" /> во время загрузки</li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, вам также придется исправить время в Системных настройках после завершения руководства</li>
+    </ul>
+  </li>
+  <li>Перейдите в <code class="language-plaintext highlighter-rouge">[1:] SYSNAND CTRNAND &gt; title &gt; 00040138 &gt; **x**0000002 &gt; content</code>
+    <ul>
+      <li>На консолях версии “<strong>New</strong>” вместо <strong>x</strong> будет цифра 2</li>
+      <li>На консолях версии “<strong>Old</strong>” вместо <strong>x</strong> будет цифра 0</li>
+    </ul>
+  </li>
+  <li>Выберите файл <code class="language-plaintext highlighter-rouge">.app</code></li>
+  <li>Выберите <code class="language-plaintext highlighter-rouge">NCCH Image Options</code></li>
+  <li>Выберите <code class="language-plaintext highlighter-rouge">Mount image to drive</code></li>
+  <li>В открывшемся окне перейдите в папку <code class="language-plaintext highlighter-rouge">exefs</code></li>
+  <li>В этой папке выберите файл <code class="language-plaintext highlighter-rouge">.firm</code></li>
+  <li>Выберите <strong>“Firm Image Options…</strong>”</li>
+  <li>Выберите “<strong>Boot Firm</strong>”</li>
+  <li>При появлении запроса “<strong>Decrypt before boot?</strong>” согласитесь, затем выберите “<strong>Make a copy</strong>”</li>
+  <li>Ваша консоль должна загрузиться в обычное меню HOME
+    <ul>
+      <li>Если консоль НЕ загрузилась в обычное меню HOME, то проверьте следующие пункты:</li>
+    </ul>
+    <ul>
+      <li>На консоли стоит её родной регион. Если это не так, сделайте <a href="region-changing" target="_blank">смену региона</a> родной регион консоли</li>
+      <li>Возможно консоль была забанена и на ней была выполнена процедура разбана. Если это так, верните оригинальный <code class="language-plaintext highlighter-rouge">friendcodeseed_B</code></li>
+      <li>Если вы не можете вернуть консоль к оригинальному региону, или вернуть ей оригинальный <code class="language-plaintext highlighter-rouge">friendcodeseed_B</code>, то вы не сможете удалить взлом. Если у вас есть оригинальный бекап, то просто восстановите его.</li>
+    </ul>
+  </li>
+  <li>Обновите прошивку консоли, зайдя в <strong>Системные настройки</strong> (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), затем листайте вправо до конца и выберите пункт “<strong>Обновление</strong>” (System Update)</li>
+  <li>После обновления и перезагрузки приставки взлом будет удалён</li>
+</ol>
+
+<hr />
+
+<p class="notice--success">Кастомная прошивка была полностью удалена с вашего устройства.</p>
+
+<p class="notice--info">Не забудьте скопировать на ПК резервные копии сохранений, которые вы сделали через Checkpoint!</p>
+
+<p class="notice--info">Вы можете удалить все лишние файлы и папки из корня SD-карты, кроме папок <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> и <code class="language-plaintext highlighter-rouge">DCIM</code>.</p>
+:ET

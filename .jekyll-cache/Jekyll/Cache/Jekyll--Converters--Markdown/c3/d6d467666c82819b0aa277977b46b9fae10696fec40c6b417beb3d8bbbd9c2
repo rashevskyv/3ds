@@ -1,0 +1,73 @@
+I"�)
+<h3 id="что-понадобится">Что понадобится</h3>
+
+<p class="notice--info">Если вы купили приставку у меня (в <a href="https://vk.com/nincfw" target="_blank">VK</a> или на <a href="https://shop.customfw.xyz" target="_blank">OLX</a>), то у вас уже b9s со всеми необходимыми программами. Ищите их в папке Система (System).</p>
+
+<ul>
+  <li>Установленный и рабочий <a href="updating-b9s" target="_blank">b9s</a> последней версии</li>
+  <li>Установленная и рабочая свежая версия <a href="fbi" target="_blank">FBI</a></li>
+  <li>Свежая версия <a href="https://github.com/ihaveamac/custom-install/releases/latest" target="_blank">custom-install-standalone</a></li>
+  <li>Свежая версия <a href="https://github.com/ihaveamac/custom-install/releases/latest" target="_blank">custom-install-finalize.3dsx</a></li>
+  <li><a href="files/custom-install-files.zip" target="_blank">custom-install-files</a></li>
+</ul>
+
+<h3 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h3>
+
+<p class="notice--info">Эту часть необходимо сделать всего раз, в дальнейшем установку начинайте со второй части</p>
+
+<ol>
+  <li>Запустите GodMode9, удерживая <img src="/images/buttons/START.png" alt="(START)" />  во время включения приставки
+    <ul>
+      <li>Обратите внимание, что если у вас имеются другие файлы помимо <code class="language-plaintext highlighter-rouge">GodMode9.firm</code> в папке <code class="language-plaintext highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</li>
+    </ul>
+  </li>
+  <li>Если вам предложат создать бэкап важных файлов, нажмите кнопку <img src="/images/buttons/A.png" alt="(A)" /> сделать это, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить после завершения</li>
+  <li>Если вам предложат выставить RTC дату и время, нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы сделать это, настройте дату и время, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> чтобы продолжить
+    <ul>
+      <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
+    </ul>
+  </li>
+  <li>Перейдите в “<strong>[1:] SYSNAND CTRNAND</strong>” -&gt; “<strong>private</strong>”</li>
+  <li>Поставьте курсор на <code class="language-plaintext highlighter-rouge">movable.sed</code> и нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Выберите “<strong>Copy to 0:/gm9/out</strong>” и нажмите <img src="/images/buttons/A.png" alt="(A)" />. Нажмите <img src="/images/buttons/A.png" alt="(A)" /> ещё раз</li>
+  <li>Зажмите <img src="/images/buttons/R.png" alt="(R)" /> и нажмите <img src="/images/buttons/START.png" alt="(START)" />, чтобы выключить приставку</li>
+  <li>Вставьте в ПК SD-карту приставки</li>
+  <li>Распакуйте <code class="language-plaintext highlighter-rouge">custom-install-standalone.zip</code> на ПК</li>
+  <li>Поместите <code class="language-plaintext highlighter-rouge">custom-install-finalize.3dsx</code> в папку с распакованным <code class="language-plaintext highlighter-rouge">custom-install-standalone.zip</code></li>
+  <li>Поместите содержимое архива <a href="files/custom-install-files.zip" target="_blank"><code class="language-plaintext highlighter-rouge">custom-install-files.zip</code></a> в папку с распакованным <code class="language-plaintext highlighter-rouge">custom-install-standalone.zip</code></li>
+  <li>Переместите файл <code class="language-plaintext highlighter-rouge">movable.sed</code>, который находится на карте памяти приставки по адресу <code class="language-plaintext highlighter-rouge">/gm9/out</code> в папку с распакованным <code class="language-plaintext highlighter-rouge">custom-install-standalone.zip</code></li>
+</ol>
+
+<h3 id="часть-ii---конвертация-игр">Часть II - Конвертация игр</h3>
+
+<ol>
+  <li>Запустите <code class="language-plaintext highlighter-rouge">ci-gui.exe</code></li>
+  <li>
+    <p>Выберите <code class="language-plaintext highlighter-rouge">boot9.bin</code>, <code class="language-plaintext highlighter-rouge">seeddb.bin</code> и <code class="language-plaintext highlighter-rouge">movable.sed</code>, нажав на <strong>…</strong> напротив соответствующих полей</p>
+
+    <p class="text-center notice--info"><img src="/images/ci/additionals.png" alt="" /></p>
+  </li>
+  <li>Нажмите <strong>SD root</strong>, и укажите программе корень вашей карты памяти</li>
+  <li>Нажмите <code class="language-plaintext highlighter-rouge">Add CIAs</code>, чтобы добавить отдельный CIA-файл, или <code class="language-plaintext highlighter-rouge">Add folder</code>, чтобы добавить папку с CIA-файлами</li>
+  <li>Нажмите <code class="language-plaintext highlighter-rouge">Start install</code> для начала установки игр прямо на вашу карту памяти</li>
+  <li>Ждите окончания процесса.</li>
+  <li>
+    <p>По завершению установки игр на карту памяти, вставьте карту в приставку и запустите <strong>Homebrew Launcher</strong>, нажав на <img src="/images/icons/hbl-icon.png" alt="соответствующую иконку" height="24px" width="24px" /></p>
+  </li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">id1</code> и скопируйте её содержимое на SD карту консоли по пути <code class="language-plaintext highlighter-rouge">Nintendo 3DS/id0/id1/</code>. Если потребуется, согласитесь на замену
+    <ul>
+      <li>id0 и id1 - папки с длинным названием, состоящим из 16-ти символов</li>
+    </ul>
+  </li>
+  <li>Вставить SD карту в консоль и запустить FBI. Перейдите по пути <code class="language-plaintext highlighter-rouge">SD:/Nintendo 3DS/id0/id1/</code></li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">title</code>, установите курсор на <strong>&lt;current directory&gt;</strong>, выберите “<strong>Rename</strong>” и измените название папки на <code class="language-plaintext highlighter-rouge">title0</code>. Установите все <code class="language-plaintext highlighter-rouge">cia-</code>файлы, находящиеся в этой папке.</li>
+  <li>После установки всех <code class="language-plaintext highlighter-rouge">cia</code> нажмите кнопку <img src="/images/buttons/X.png" alt="(X)" /> (Refresh). Появится папка <code class="language-plaintext highlighter-rouge">title</code>, перейдите в неё, установите курсор на <strong>&lt;current directory&gt;</strong>, выберите “<strong>Delete</strong>” и подтвердите удаление</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">title0</code>, установите курсор на <strong>&lt;current directory&gt;</strong>, выберите “<strong>Rename</strong>” и измените название папки на <code class="language-plaintext highlighter-rouge">title</code>. Подтвердите переименование.</li>
+  <li>Закройте FBI. Игра установлена</li>
+</ol>
+
+<p class="notice--info">Для конвертации формата <code class="language-plaintext highlighter-rouge">cia</code>/<code class="language-plaintext highlighter-rouge">3ds</code> в <code class="language-plaintext highlighter-rouge">cxi</code> (без шифрования для эмулятора Citra) перетяните папку с играми на файл <strong>_citra.bat</strong>.</p>
+
+<p class="notice--warning">Как правило, игра будет говорить о том, что данные сохранений повреждены. Большинство просто удалят повреждённые данные и создадут новые, однако ряд игр, например игры серии Pokemon, требуют удаления повреждённых сейвов вручную. Как удалять сейвы для каждой конкретной игры ищите с инструкции к игре. Например, чтобы удалить сейвы у игр серии Pokemon, нужно запустить игру, а затем зажать и удерживать кнопки <img src="/images/buttons/UP.png" alt="(UP)" /> + <img src="/images/buttons/B.png" alt="(B)" /> + <img src="/images/buttons/X.png" alt="(X)" />, пока игра не запустится и уже в игре согласится на удаление сохранений.</p>
+
+:ET

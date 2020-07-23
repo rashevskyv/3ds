@@ -1,0 +1,73 @@
+I"e
+<p class="notice--info">Можете использовать любой из представленных способов для установки</p>
+
+<h3 id="способ-i---установка-с-помощью-программы-beeshop-рекомендуется">Способ I - Установка с помощью программы beeShop (рекомендуется)</h3>
+
+<p class="notice--warning">Это приложение устанавливает игры с удалённого сервера и не требует их наличия на вашем ПК</p>
+
+<ol>
+  <li>Скачайте <a href="https://github.com/manuGMG/beeShop/releases/latest" target="_blank">beeShop</a></li>
+  <li>Распакуйте его в удобную папку и запустите <code class="language-plaintext highlighter-rouge">beeShop.exe</code></li>
+  <li>На консоли запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Recive URLs over the network</strong>”</li>
+  <li>В <strong>beeShop</strong> нажмите кнопку <strong>Settings</strong> и в открывшемся блокноте введите IP, написанный на нижнем экране приставки.</li>
+  <li>Выберите игру из списка в окне программы и нажмите <strong>Bump</strong>, начать скачивать выбранную игру на ПК</li>
+  <li>После окончания скачивания на нижнем экране 3DS должны появиться две кнопки. Нажмите на <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения установки.
+    <ul>
+      <li>Если кнопки не появились, убедитесь, что в программе указан верный IP и нажмите кнопку “<strong>Bump</strong>”. Может понадобится несколько попыток</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="способ-ii---установка-с-помощью-qr-кода">Способ II - Установка с помощью QR-кода</h3>
+
+<p class="notice--info">Если у вас нет указанных пунктов, обновите FBI! Для этого воспользуйтесь пунктом “Update” в его меню. В случае, если FBI у вас установлен с помощью инъекции в приложение “<strong>Информация о здоровье и безопасности</strong>” (Health &amp; Safety), то при обновлении его иконка дублируется. Для того, чтобы этого избежать, восстановите приложение <a href="https://3ds.customfw.xyz/godmode9-usage#восстановление-приложения-информация-о-здоровье-и-безопасности" target="_blank">“Информация о здоровье и безопасности”</a></p>
+
+<ol>
+  <li>Запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Scan QR code</strong>”</li>
+  <li>Отсканируйте необходимый QR-код</li>
+</ol>
+
+<h3 id="способ-iii---установка-с-помощью-программы-fbi-server">Способ III - Установка с помощью программы FBI Server</h3>
+
+<ol>
+  <li>Запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Recive URLs over the network</strong>”</li>
+  <li>Запускаем <a href="https://github.com/DD2XAlpha/PC_FBIServer/releases/latest" target="_blank">FBI Server</a>.exe</li>
+  <li>В графе <strong>3DS IP Adress</strong> введите IP, написанный на нижнем экране приставки.</li>
+  <li>Убедитесь, что в графе “<strong>Computer IP Adress</strong>” указан именно ваш локальный IP (обратитесь в <a href="http://bfy.tw/D0PN" target="_blank">Google</a>, если не знаете как его узнать)</li>
+  <li>Выберите CIA нажав на кнопку “<strong>Select single CIA file</strong>”, или на “<strong>Select folder for Queuing</strong>” для выбора папки с файлами</li>
+  <li>Нажмите на кнопку “<strong>Start</strong>”</li>
+  <li>На нижнем экране 3DS должны появиться две кнопки. Нажмите на <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения установки.
+    <ul>
+      <li>Если кнопки не появились, убедитесь, что в программе стоит верный IP и нажмите кнопку “<strong>Start</strong>”. Может понадобится несколько попыток</li>
+    </ul>
+  </li>
+</ol>
+
+<p class="notice--info">Важно понимать, что скорость установки программ таким способом не очень высокая и ограничивается примерно 500KBps для old3ds и 1.5Mbps для New.</p>
+
+<h3 id="способ-iv---установка-с-помощью-пк-и-qr-кода">Способ IV - Установка с помощью ПК и QR-кода</h3>
+
+<ol>
+  <li>Скачайте <a href="files/nginx_qr_cia_install_standalone.zip" target="_blank">архив</a> со скриптом</li>
+  <li>Распакуйте его в удобную папку и запустите <code class="language-plaintext highlighter-rouge">create_CIA_dir.bat</code>
+    <ul>
+      <li>Cкрипт создаст папку <code class="language-plaintext highlighter-rouge">D:/3ds/cia</code></li>
+    </ul>
+  </li>
+  <li>Запустите сервер ngnix, запустив <code class="language-plaintext highlighter-rouge">start.bat</code></li>
+  <li>Поместите игры в формате <code class="language-plaintext highlighter-rouge">.cia</code> или <code class="language-plaintext highlighter-rouge">%папка%/*.cia</code> (несколько ромов например dlc, update и т.д.) в <code class="language-plaintext highlighter-rouge">D:/3ds/cia</code>
+    <ul>
+      <li>файлы с японскими названиями скриптом не отображаются</li>
+      <li>кириллица автоматический меняются на транслит</li>
+    </ul>
+  </li>
+  <li>Заходим в браузере по ip-адресу вашего ПК (написан в самом верху окна ngnix (start.bat) или пишем в командной строке <code class="language-plaintext highlighter-rouge">ipconfig</code> в строке “IPv4-адрес” ваш ip)</li>
+  <li>На консоли запустите FBI</li>
+  <li>Выберите пункт “<strong>Remote Install</strong>”, а затем “<strong>Scan QR code</strong>”</li>
+  <li>Отсканируйте необходимый QR-код</li>
+</ol>
+
+:ET

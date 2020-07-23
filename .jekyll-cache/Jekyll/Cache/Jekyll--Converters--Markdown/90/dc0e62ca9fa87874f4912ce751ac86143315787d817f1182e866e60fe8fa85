@@ -1,0 +1,7 @@
+I"t
+<p>Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. <strong>DAT0 (Data Zero)</strong> и <strong>CMD</strong> находятся на нижней части платы. <strong>GND (Ground или заземление)</strong>, мы будем припаивать к металлическому корпусу слота для картриджей или SD-карты, который находится на верхней части материнской платы. <strong>CLK (CLOCK)</strong> находится там же, рядом с широким шлейфом.</p>
+
+<p class="text-center"><img src="/images/ifixit/new3dsxl/new3dsxl_tp_1.png" alt="" target="_blank" /></p>
+<p class="text-center"><img src="/images/ifixit/new3dsxl/new3dsxl_tp_2.png" alt="" target="_blank" /></p>
+
+:ET

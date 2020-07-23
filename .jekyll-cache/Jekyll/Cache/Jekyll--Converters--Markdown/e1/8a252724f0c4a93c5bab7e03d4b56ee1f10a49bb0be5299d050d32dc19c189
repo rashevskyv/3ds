@@ -1,0 +1,5 @@
+I"�
+<p>Если вы хотите заменить вашу SD-карту на более ёмкую, отформатируйте новую SD-карту в FAT32 и скопируйте на неё содержимое SD-карты приставки.</p>
+
+<p>Если размер новой SD-карты превышает 32Гб, используйте для форматирования <a href="http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm">guiformat</a> для Windows, <a href="http://gparted.org/download.php">gparted</a> для Linux, или <a href="https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac">Disk Utility</a> для Mac.</p>
+:ET

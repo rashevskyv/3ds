@@ -1,0 +1,70 @@
+I"w
+<p>В этом разделе будет расказано об использовании родных для NTR CFW чит-плагинах, которые можно скачать на просторах интернета под каждую конкретную игру.</p>
+
+<h3 id="что-понадобится">Что понадобится</h3>
+
+<ul>
+  <li>Плагин <code class="language-plaintext highlighter-rouge">&lt;pluginName&gt;.plg</code> для выбранной игры.
+    <ul>
+      <li>К сожалению одной определенной базы с чит-плагинами не существует. Вам придется самому найди этот файл. Для начала попробуйте поискать
+        <ul>
+          <li><a href="https://mega.nz/#F!aol00CSA!9MWNBJzdh3ohoPndsODoyQ!2ltTRAAR">здесь</a></li>
+          <li><a href="https://filetrip.net/folder?FrGTeKhyfA">здесь</a></li>
+          <li><a href="http://ntrplugins.shoutwiki.com/wiki/Plugins" target="_blank">здесь</a> (англ.)</li>
+          <li><a href="http://www.elotrolado.net/wiki/Cheats_para_NTR#Listado_de_trucos" target="_blank">здесь</a> (исп.)</li>
+          <li><a href="http://www.speedfly.cn/category/game/nintendo/3ds_cheat/" target="_blank">здесь</a> (кит.)</li>
+          <li>или обратиться в гугл. Запрос может выглядеть следующим образом: “название_игры cheat plg 3ds”.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h3>
+
+<ol>
+  <li>Зайдите в FBI &gt; Titles и найдите установленную игру к которой вы собираетесь применить читы</li>
+  <li>
+    <p>Запишите или запомните Title ID игры, к которой вы собираетесь применить читы (выделите игру и ищите Title ID на верхнем экране)</p>
+
+    <p class="text-center"><img src="/images/screenshots/addons/fbi_titleid.png" alt="" target="_blank" /></p>
+  </li>
+  <li>Отключите приставку</li>
+  <li>Вставьте SD-карту приставки в ПК</li>
+  <li>Создайте папку <code class="language-plaintext highlighter-rouge">plugin</code> в корне SD-карты, если ещё не создана</li>
+  <li>Создайте папку названием которой будет Title ID выбранной игры</li>
+  <li>Положите в эту папку скачанный чит-плагин для выбранной игры</li>
+  <li>Верните SD-карту в приставку</li>
+  <li>Включите консоль</li>
+</ol>
+
+<h3 id="часть-ii---запуск-bootntr-selector-и-активация-плагина">Часть II - Запуск BootNTR Selector и активация плагина</h3>
+
+<ol>
+  <li>Запустите BootNTR Selector, через несколько секунд программа закроется сама. Это значит, что все идет по плану и работает выбранная версия NTR. Проверить работает ли NTR CFW можно нажатием <img src="/images/buttons/X.png" alt="(X)" /> + <img src="/images/buttons/Y.png" alt="(Y)" />.</li>
+  <li>Запустите игру</li>
+  <li>Дождитесь геймплей</li>
+  <li>Нажмите <img src="/images/buttons/X.png" alt="(X)" /> + <img src="/images/buttons/Y.png" alt="(Y)" /> для активации меню NTR CFW</li>
+  <li>Выберите пункт “Game Plugins”</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Выберите “Activate Cheat”</li>
+  <li>Выберите читы и наслаждайтесь нечестной игрой</li>
+</ol>
+
+<h3 id="часть-iii---решение-проблем">Часть III - Решение проблем</h3>
+
+<p>Если не работает:</p>
+
+<ul>
+  <li>Используйте BootNTR Selector Mode3, если у вас Old 3DS и игра, для которой вы хотите применить чит, использует расширенную память
+    <ul>
+      <li>Проще говоря, если у вас Old 3DS и читы не работают на BootNTR Selector, попробуйте BootNTR Selector Mode3.</li>
+    </ul>
+  </li>
+  <li>Проверьте верно ли названа папка в папке <code class="language-plaintext highlighter-rouge">plugins</code>. Название вложенной папки должно совпадать с Title ID запускаемой игры</li>
+  <li>Убедитесь в том, что запускаете плагин нужного региона.</li>
+  <li>Часто плагины для n3ds и old3ds разные</li>
+  <li>Убедитесь в том, что правильно активируете чит-плагин. Часто для каждого плагина комбинация кнопок может отличаться. Иногда нужно просто нажать <img src="/images/buttons/SELECT.png" alt="(SELECT)" />. Ищите эту информацию в readme к вашему плагину.</li>
+</ul>
+
+:ET

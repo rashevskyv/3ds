@@ -1,0 +1,25 @@
+I"'
+<ol>
+  <li>Сделайте одно из двух действий:
+    <ul>
+      <li>Запустите <strong>FBI</strong>:
+        <ol>
+          <li>Зайдите в <strong>FBI</strong> &gt; <strong>Titles</strong> и найдите установленную игру к которой вы собираетесь применить читы</li>
+          <li>Запишите или запомните Title ID игры, к которой вы собираетесь применить читы (выделите игру и ищите Title ID на верхнем экране)
+ <img src="/images/screenshots/addons/fbi_titleid.png" alt="" target="_blank" /></li>
+        </ol>
+      </li>
+      <li>Запустите игру, для которой вы хотите использовать читы
+        <ol>
+          <li>Перейдите в меню Rosalina, нажатием сочетания кнопок <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+          <li>Выберите опцию “<strong>Cheats</strong>”</li>
+          <li>Вы увидите надпись “<strong>No cheats found for title %TITLE_ID%</strong>”</li>
+          <li>Запишите или запомните этот Title ID</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>В папке <code class="language-plaintext highlighter-rouge">/luma/titles/</code> создайте папку названием которой будет Title ID выбранной игры</li>
+  <li>Положите в эту папку скачанный чит для выбранной игры и назовите его <code class="language-plaintext highlighter-rouge">cheats.txt</code></li>
+</ol>
+:ET

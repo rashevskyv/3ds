@@ -1,0 +1,129 @@
+I"0/
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Содержание</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#часть-i---подготовительная-работа" id="markdown-toc-часть-i---подготовительная-работа">Часть I - Подготовительная работа</a></li>
+  <li><a href="#часть-ii---bannerbomb3" id="markdown-toc-часть-ii---bannerbomb3">Часть II - BannerBomb3</a></li>
+  <li><a href="#часть-iii---unsafe_mode" id="markdown-toc-часть-iii---unsafe_mode">Часть III - unSAFE_MODE</a></li>
+  <li><a href="#часть-iv---восстановление-настроек-wifi" id="markdown-toc-часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</a></li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p class="notice--danger">Если у вас не работает кнопка одна из кнопок: <img src="/images/buttons/L.png" alt="(L)" />, <img src="/images/buttons/R.png" alt="(R)" />, <img src="/images/buttons/UP.png" alt="(UP)" /> или <img src="/images/buttons/A.png" alt="(A)" />, то воспользуйтесь <a href="fredtool">другим методом</a> для продолжения взлома.</p>
+
+<h3 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h3>
+
+<ol>
+  <li>Откройте <a href="https://usm.bruteforcemovable.com/">unSAFE_MODE-bb3 tool</a> на вашем ПК</li>
+  <li>Нажмите на кнопку “<strong>Choose File</strong>” и выберите <code class="language-plaintext highlighter-rouge">movable.sed</code>, его мы получали ранее</li>
+  <li>Нажмите на кнопку “<strong>Download unSAFE_MODE-bb3 archive</strong>”
+    <ul>
+      <li>Вам предложат сохранить на ПК архив <code class="language-plaintext highlighter-rouge">unSAFE_MODE-bb3.zip</code>, содержащий файлы <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> и <code class="language-plaintext highlighter-rouge">usm.bin</code></li>
+    </ul>
+  </li>
+  <li>Отключите консоль</li>
+  <li>Вставьте SD-карту приставки в ПК</li>
+  <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Скопируйте <code class="language-plaintext highlighter-rouge">usm.bin</code> из архива <code class="language-plaintext highlighter-rouge">unSAFE_MODE-bb3.zip</code> в корень вашей карты памяти</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <code class="language-plaintext highlighter-rouge">movable.sed</code></li>
+      <li>Если папки <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> нет, создайте её</li>
+      <li>Если в папке <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> есть файлы, переместите их на ПК</li>
+    </ul>
+  </li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">unSAFE_MODE-bb3.zip</code>, в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
+</ol>
+
+<h3 id="часть-ii---bannerbomb3">Часть II - BannerBomb3</h3>
+
+<ol>
+  <li>Верните SD-карту обратно в консоль</li>
+  <li>Включите приставку</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card)
+    <ul>
+      <li>Экраны должны замигать <span style="color: red">красным</span>, после чего приставка загрузится на главный экран. Это означает, что эксплойт сработал и все необходимые файлы скопированы.</li>
+    </ul>
+  </li>
+  <li>Выключите приставку
+    <ul>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-iii---unsafe_mode">Часть III - unSAFE_MODE</h3>
+
+<ol>
+  <li>Если приставка всё ещё включена, выключите её
+    <ul>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+  <li>Зажмите и удерживайте следующие кнопки: <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/R.png" alt="(R)" /> + <img src="/images/buttons/UP.png" alt="(UP)" /> + <img src="/images/buttons/A.png" alt="(A)" />, а затем, не отпуская указанные кнопки, включите приставку
+    <ul>
+      <li>Когда подсветка экранов засветится, отпустите кнопки. Приставка загрузиться в режим восстановления</li>
+    </ul>
+  </li>
+</ol>
+<details class="spoiler"><summary class="spoiler-title">Наглядная демонстрация</summary><div class="spoiler-body">
+<div style="width: ; margin:0 auto;" class="text-center notice--info">
+
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/Wja1_HWXBGA"></iframe>
+  </div>
+</div>
+</div></details>
+
+<ol start="3">
+  <li>Нажмите “<strong>OK</strong>”, чтобы начать поиск точки доступа</li>
+  <li>Согласитесь с условиями пользования и нажмите <strong>ОК</strong></li>
+  <li>Поиск завершится с ошибкой <code class="language-plaintext highlighter-rouge">003-1099</code>. Так и задумано, нажмите <strong>ОК</strong></li>
+  <li>На запрос “<strong>Выполнить Интернет-настройки</strong>” (Would you like to configure Internet settings?), нажмите “<strong>Выполнить</strong>”</li>
+  <li>В появившемся меню нажмите несколько раз “<strong>Далее</strong>”, затем выберите <strong>Связь 1</strong> (Connection 1) -&gt; <strong>Изменить настройки</strong> (Change Settings) -&gt; перейдите на следующую страницу (стрелка в правой части экрана) -&gt; <strong>Настройки прокси</strong> (Proxy Settings) -&gt; <strong>Подробнее</strong> (Detailed Setup)</li>
+  <li>Когда верхний экран окрасится в <span style="color: grey">серый</span> и на нём появится сообщение <strong>B9S install SUCCESS</strong>, нажмите любую кнопку</li>
+</ol>
+
+<h3 id="часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</h3>
+
+<ol>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card)
+    <ul>
+      <li>Нижний экран должен моргнуть <span style="color: green">зелёным</span>, после чего приставка загрузится на главный экран. Это означает, что настройки WiFi восстановлены</li>
+      <li>Если вы получаете ошибку, просто удалите все точки доступа через настройки приставки (“<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Интернет-настройки</strong>” (Internet Settings) -&gt; “<strong>Настройки подключения</strong>”)</li>
+    </ul>
+  </li>
+  <li>Выключите приставку
+    <ul>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+  <li>Вставьте карту памяти в ПК</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+    </ul>
+  </li>
+  <li>Удалите файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> из папки <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
+</ol>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> <a href="finalizing-setup">Завершение установки</a></h2>
+:ET

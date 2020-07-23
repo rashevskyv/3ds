@@ -1,0 +1,85 @@
+I"M!
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#таблица-версий" id="markdown-toc-таблица-версий">Таблица версий</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<p>Эта страница содержит инструкции по установке boot9strap на <em>не взломанную</em> 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе <a href="a9lh-to-b9s" target="_blank">обновление до boot9strap</a>.</p>
+
+<p>Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью <a href="http://customfw.xyz/h2testw-windows" target="_blank">H2testw (Windows)</a>, <a href="http://customfw.xyz/f3-linux" target="_blank">F3 (Linux)</a>, или <a href="http://customfw.xyz/f3x-mac" target="_blank">F3X (Mac)</a>!</p>
+
+<p>Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: <a href="file-extensions-windows" target="_blank">Расширения файлов (Windows)</a>!</p>
+
+<p class="notice--warning">Если на приставке нет важных для вас данных, то я крайне рекомендую произвести форматирование <a href="clean_sd#i-Форматирование-приставки">приставки</a> и <a href="clean_sd#ii-Форматирование-sd-карты">SD-карты</a> перед началом взлома. <strong>Помните, что форматирование уничтожит все ваши данные на приставке и SD-карте. Делайте его только в том случае, если на приставке и карте нет ничего важного!</strong></p>
+
+<hr />
+
+<p>Столбцы “С” и “По” обозначают границы диапазона. Это означает, к примеру, что диапазон “с 9.0.0 по 9.2.0” включает в себя 9.0.0, 9.1.0 и 9.2.0.</p>
+
+<p>Последнее число вашей версии системы (после дефиса) относится к версии браузера. Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число говорит о том, что браузер установлен. В настоящее время все New 3DS и New 2DS имеют браузер!</p>
+
+<p>Например, если у вас версия прошивки “5.0.0-<strong>0</strong>E”, необходимо выбрать ячейку на пересечении колонки “Без браузера” и ряда “С 5.0.0 по 5.1.0” так как версия системы находится в этом диапазоне и в системе не установлен браузер.</p>
+
+<p class="notice--success">Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).</p>
+
+<p class="text-center notice--info"><img src="http://localhost:4000/images/screenshots/system-version.png" alt="" target="_blank" /></p>
+
+<h3 id="таблица-версий">Таблица версий</h3>
+
+<p class="notice--warning">Для всех консолей, любой версии прошивки можно использовать <a href="ntrboot" target="_blank">NTRBootHax</a> или <a href="steelminer" target="_blank">Steelminer</a>, даже если они не указаны в таблице! Для первого понадобится совместимый флеш-картридж, но этот метод наиболее простой, для второго - обновиться до последней версии системного ПО и этот метод комплексный и более сложный. <br /><br /><strong>Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до 11.13.0 через Системные настройки, а затем воспользовавшись методом <a href="steelminer" target="_blank">Steelminer</a>. Этот метод не требует дополнительных вложений</strong></p>
+
+<table>
+  <colgroup>
+    <col span="1" style="width: 5%;" />
+    <col span="1" style="width: 5%;" />
+    <col span="1" style="width: 38%;" />
+    <col span="1" style="width: 38%;" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">С</th>
+      <th style="text-align: center; font-weight: bold;">По</th>
+      <th style="text-align: center; font-weight: bold;">Браузера нет</th>
+      <th style="text-align: center; font-weight: bold;">Браузер есть</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+	  <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
+	</tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center;" colspan="2"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.13.0</td>
+      <td style="text-align: center;" colspan="2"><a href="steelminer">Steelminer</a><br /><b>(не требует вложения денег)</b></td>
+    </tr>
+</tbody>
+</table>
+:ET

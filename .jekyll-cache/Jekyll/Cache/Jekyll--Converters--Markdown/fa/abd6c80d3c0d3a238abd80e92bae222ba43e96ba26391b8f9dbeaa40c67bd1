@@ -1,0 +1,179 @@
+I"|I
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#часть-i---подготовительная-работа" id="markdown-toc-часть-i---подготовительная-работа">Часть I - Подготовительная работа</a></li>
+  <li><a href="#часть-ii---bannerbomb" id="markdown-toc-часть-ii---bannerbomb">Часть II - BannerBomb</a></li>
+  <li><a href="#часть-iii---fredtool" id="markdown-toc-часть-iii---fredtool">Часть III - Fredtool</a></li>
+  <li><a href="#часть-iv---flipnote-studio" id="markdown-toc-часть-iv---flipnote-studio">Часть IV - Flipnote Studio</a>    <ul>
+      <li><a href="#часть-v---настройка-luma3ds" id="markdown-toc-часть-v---настройка-luma3ds">Часть V - Настройка Luma3DS</a></li>
+      <li><a href="#часть-vi---восстановление-работы-меню-подключения-nintendo-ds" id="markdown-toc-часть-vi---восстановление-работы-меню-подключения-nintendo-ds">Часть VI - Восстановление работы меню Подключения Nintendo DS</a></li>
+    </ul>
+  </li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<hr />
+
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+
+<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+
+<hr />
+
+<h3 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h3>
+
+<ol>
+  <li>Перейдите на сайт <a href="https://bb3.bruteforcemovable.com/" target="_blank">https://bb3.bruteforcemovable.com/</a> на вашем ПК</li>
+  <li>Нажмите на кнопку “<strong>Choose File</strong>” и выберите <code class="language-plaintext highlighter-rouge">movable.sed</code>, его мы получали ранее</li>
+  <li>Нажмите на кнопку “<strong>Start!</strong>”
+    <ul>
+      <li>Вам предложат сохранить на ПК архив <code class="language-plaintext highlighter-rouge">tadmuffin_out.zip</code>, содержащий эксплойт, сделайте это</li>
+    </ul>
+  </li>
+  <li>Отключите консоль</li>
+  <li>Вставьте SD-карту приставки в ПК</li>
+  <li>Вставьте SD-карту приставки в ПК</li>
+  <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+      <li>Если папки <em>Nintendo DSiWare</em> нет, создайте её</li>
+      <li>Если в папке <em>Nintendo DSiWare</em> есть файлы, переместите их на ПК</li>
+    </ul>
+  </li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">tadmuffin_out.zip</code> по пути <code class="language-plaintext highlighter-rouge">output\Usa_Europe_Japan_Korea\</code> в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code>
+    <ul>
+      <li>В консоли в папке <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> должен оказаться файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code>, а не папки его содержащие</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-ii---bannerbomb">Часть II - BannerBomb</h3>
+
+<ol>
+  <li>Верните SD-карту обратно в консоль</li>
+  <li>Включите приставку</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card)
+    <ul>
+      <li>Экраны должны замигать <span style="color: magenta">пурпурным</span>, после чего приставка вылетит с ошибкой, что значит, что эксплойт сработал</li>
+    </ul>
+  </li>
+  <li>Выключите приставку
+    <ul>
+      <li>Удерживая кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+  <li>Вставьте карту памяти в ПК</li>
+  <li>В корне карты памяти появится файл <code class="language-plaintext highlighter-rouge">42383841.bin</code>, который мы будем использовать в дальнейшем</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+    </ul>
+  </li>
+  <li>Удалите файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code></li>
+</ol>
+
+<h2 id="часть-iii---fredtool">Часть III - Fredtool</h2>
+
+<ol>
+  <li>Перейдите на сайт <a href="https://fredtool.bruteforcemovable.com" target="_blank">https://fredtool.bruteforcemovable.com</a> на вашем ПК</li>
+  <li>Нажмите на кнопку “<strong>Choose File</strong>” под пунктом “<strong>Your movable.sed</strong>” и выберите <code class="language-plaintext highlighter-rouge">movable.sed</code>, его мы получали ранее</li>
+  <li>Нажмите на кнопку “<strong>Choose File</strong>” под пунктом “<strong>Your dsiware.bin</strong>” и выберите <code class="language-plaintext highlighter-rouge">42383841.bin</code> в корне вашей карты памяти</li>
+  <li>Пройдите капчу и нажмите “<strong>Start!</strong>”</li>
+  <li>После окончания работы программы, вам предложат скачать архив с модифицированной игрой</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+      <li>Если папки <em>Nintendo DSiWare</em> нет, создайте её</li>
+    </ul>
+  </li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">42383841.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">fredtool_output.zip</code> по пути <code class="language-plaintext highlighter-rouge">output/hax/</code> в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
+  <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Верните SD-карту обратно в консоль</li>
+  <li>Включите приставку</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card) и нажмите на “<strong>Haxxxxxxxxx!</strong>”
+    <ul>
+      <li>Если рожица не появляется, перезакиньте <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) на карту памяти</li>
+    </ul>
+  </li>
+  <li>Выберите “<strong>Копировать</strong>”, затем нажмите “<strong>ОК</strong>”</li>
+  <li>Вернитесь на первую страницу Системных настроек</li>
+  <li>Перейдите в “<strong>Интернет-настройки</strong>” (Internet Settings) -&gt; “<strong>Подключения Nintendo DS</strong>” (Nintendo DS Connections) и нажмите “<strong>ОК</strong>”</li>
+  <li>Если всё сделано верно, запустится японская версия Flipnote Studio</li>
+</ol>
+
+<p><strong>Возможные ошибки:</strong></p>
+<ul>
+  <li>Чёрный экран вместо запуска Flipnote Studio может свидетельствовать о том, что приставка уже прошита. Чтобы проверить, нажмите одновременно <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" />. Если откроется меню Rosalina, то приставка прошита, можете сразу следовать к <a href="finalizing-setup">завершению установки</a></li>
+  <li>Бирюзовый экран возникает при проблемах с картой памяти. Отформатируйте карту памяти через <a href="https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip" target="_blank">SDFormatter</a>. Не забудьте перед этим скопировать содержимое карты памяти на ПК, а после форматирования вернуть обратно</li>
+</ul>
+
+<h2 id="часть-iv---flipnote-studio">Часть IV - Flipnote Studio</h2>
+
+<ol>
+  <li>Следуйте <a href="https://zoogie.github.io/web/flipnote_directions/" target="_blank">это инструкции</a> для того, чтобы запустить b9stool</li>
+  <li>Выберите “<strong>Install boot9strap</strong>” кнопкой <img src="/images/buttons/A.png" alt="(A)" />, подтвердите ваши действия, зажав одновременно <img src="/images/buttons/START.png" alt="(START)" /> и <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+  <li>Когда увидите надпись “Done!”, нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" />, затем подтвердите выход, нажав на “ОК”. Приставка выключится
+    <ul>
+      <li>При необходимости выключите консоль принудительно, удерживая кнопку питания</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-v---настройка-luma3ds">Часть V - Настройка Luma3DS</h3>
+
+<ol>
+  <li>Устройство загрузится в меню настройки Luma3DS
+    <ul>
+      <li>Если приставка загружается сразу в систему, то Luma3DS уже сконфигурирована и не нуждается в настройке. Чтобы попасть в меню настройки перезагрузите приставку, удерживая <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+      <li>Если при включении загорается голубой диод и тухнет, а экран остаётся черным, убедитесь, что на карте памяти есть <code class="language-plaintext highlighter-rouge">boot.firm</code> от Luma3DS. Если файл есть, но приставка все равно не грузится, скорее всего приставка не видит карту памяти. Возможно карта не работает, или отформатирована не правильно. Замените её, или <a href="clean_sd#ii-форматирование-sd-карты" target="_blank">отформатируйте по инструкции</a></li>
+    </ul>
+  </li>
+  <li>Нажимая <img src="/images/buttons/A.png" alt="(A)" /> выберите следующие пункты:
+    <ul>
+      <li><strong>“Enable game patching”</strong> - включает возможность использовать патчи для приложений</li>
+      <li><strong>“Show NAND or user string in System Settings”</strong> - показывает пользовательскую надпись в настройках на верхнем экране (конфигурируется через <code class="language-plaintext highlighter-rouge">/luma/customversion_sys.txt</code>)</li>
+      <li><strong>Splash: Before</strong> - включает сплешскрин</li>
+      <li>
+        <p>Если эти пункты уже отмечены, значит Luma3DS уже сконфигурирована, просто двигайтесь дальше</p>
+
+        <p class="text-center notice--info"><img src="/images/screenshots/luma-settings.png" alt="" target="_blank" /></p>
+      </li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" />, чтобы сохранить настройки и перезагрузиться
+    <ul>
+      <li>Если после включения экран остаётся чёрным, то перейдите к разделу <a href="troubleshooting#%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5-sysnand-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-b9s" target="_blank">проблемы и их решения</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-vi---восстановление-работы-меню-подключения-nintendo-ds">Часть VI - Восстановление работы меню Подключения Nintendo DS</h3>
+
+<ol>
+  <li>Отключите приставку, если она включена</li>
+  <li>Вставьте карту памяти в ПК</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+    </ul>
+  </li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">42383841.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">fredtool_output.zip</code> по пути <code class="language-plaintext highlighter-rouge">output/clean/</code> в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> с заменой</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card) и нажмите на “<strong>Nintendo DSi™</strong>”</li>
+  <li>Выберите “<strong>Копировать</strong>”, затем нажмите “<strong>ОК</strong>”</li>
+</ol>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> <a href="finalizing-setup">Завершение установки</a></h2>
+:ET

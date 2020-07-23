@@ -1,0 +1,28 @@
+I"�	
+<h3 id="что-понадобится">Что понадобится</h3>
+
+<p class="notice--info">Если вы купили приставку у меня (в <a href="https://vk.com/nincfw" target="_blank">VK</a> или на <a href="https://shop.customfw.xyz" target="_blank">OLX</a>), то у вас уже b9s со всеми необходимыми программами. Ищите их в папке Система (System).</p>
+
+<ul>
+  <li>Установленный и рабочий <a href="updating-b9s" target="_blank">b9s</a> последней версии</li>
+  <li>Установленная и рабочая свежая версия <a href="fbi" target="_blank">FBI</a></li>
+</ul>
+
+<h3 id="установка-с-sd-карты">Установка с SD-карты</h3>
+
+<ol>
+  <li>Вставьте SD-карту в ПК</li>
+  <li>Создайте папку <code class="language-plaintext highlighter-rouge">games</code> в корне SD-карты</li>
+  <li>Вставьте SD-карту в консоль и включите её</li>
+  <li>Запустите FBI</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">SD</code></li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">games</code></li>
+  <li>Наведите курсор на необходимую игру и нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Выберите <code class="language-plaintext highlighter-rouge">Install CIA</code> для установки игры, либо <code class="language-plaintext highlighter-rouge">Install and delete</code> для установки и автоматического последующего удаления <code class="language-plaintext highlighter-rouge">.cia-файла</code></li>
+  <li>По завершению установки нажмите <img src="/images/buttons/A.png" alt="(A)" /> и закройте FBI</li>
+  <li>Установленное приложение появится в меню Home.</li>
+</ol>
+
+<p class="notice--info">Можно установить все файлы из папки. Для этого следует выбрать самую верхнюю строку - <code class="language-plaintext highlighter-rouge">\&lt;current directory&gt;</code>, нажать на ней <img src="/images/buttons/A.png" alt="(A)" />, а затем выбрать необходимое действие.</p>
+
+:ET

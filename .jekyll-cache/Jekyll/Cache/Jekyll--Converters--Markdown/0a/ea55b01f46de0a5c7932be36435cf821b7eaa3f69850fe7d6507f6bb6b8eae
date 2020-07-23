@@ -1,0 +1,80 @@
+I"8
+<p>В этом случае движок читов встроен прямо в прошивку и запускается из меню Rosalina. Используемые читы полностью совместимы с таковыми от картриджа Gateway и не совместимы с NTR CFW. Такой вариант более простой и удобный в использовании, поскольку не предполагает запуска сторонней прошивки перед запуском игры.</p>
+
+<h3 id="что-понадобится">Что понадобится</h3>
+
+<ul>
+  <li>Свежая версия программы <a href="https://github.com/FlagBrew/Checkpoint/releases/latest" target="_blank">Checkpoint</a> (<code class="language-plaintext highlighter-rouge">cia</code>-файл)</li>
+  <li>Текстовый файл с читами для выбранной игры
+    <ul>
+      <li>Наиболее полная база читов находится <a href="https://www.max-cheats.com/ShowCategory.php?CategoryID=12" target="_blank">здесь</a>. Но подойдут любые читы, совместимые с Gateway.</li>
+      <li>Будьте внимательны! Читы Action Replay <strong>не будут работать!!!</strong> Убедитесь, что скачанный вами чит формата Gateshark, то есть совместим с Gateway!</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="подготовительные-работы">Подготовительные работы</h3>
+
+<ol>
+  <li><a href="/update-luma3ds" target="_blank">Обновите Luma3DS</a> до последней версии</li>
+</ol>
+
+<h3 id="часть-i---загрузка-читов">Часть I - Загрузка читов</h3>
+
+<details class="spoiler"><summary class="spoiler-title">Способ I - автоматически, через программу Checkpoint</summary><div class="spoiler-body">
+<p>База читов в Sharkive не полная, бывает, что некоторых игр в ней нет, зато они есть в других базах. В таком случае добавьте отсутствующие читы вручную</p>
+
+<ol>
+  <li>Установите <a href="https://github.com/FlagBrew/Checkpoint/releases/latest" target="_blank">Checkpoint</a> через <a href="fbi#часть-iv---установка-cia" target="_blank">FBI</a></li>
+  <li>Запустите игру, для которой хотите скачать чит, игра должна создать файл сохранения, поэтому поиграйте в неё немного</li>
+  <li>Запустите <a href="https://github.com/FlagBrew/Checkpoint/releases/latest" target="_blank">Checkpoint</a></li>
+  <li>Выделите игру, для которой хотите скачать читы и нажмите на нижнем экране кнопку “<strong>Cheats</strong>”</li>
+  <li>Выделите необходимые читы (кнопкой <img src="/images/buttons/Y.png" alt="(Y)" /> можно выделить все доступные читы)</li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, а затем <img src="/images/buttons/A.png" alt="(A)" />, чтобы сохранить выбранные читы на карте памяти</li>
+  <li>Проделайте эту часть для каждой игры, для которой намерены скачать чит и закрыть программу, а потом переходите к следующей <a href="#часть-ii---использование-читов">части</a></li>
+</ol>
+
+</div></details>
+
+<details class="spoiler"><summary class="spoiler-title">Способ II - установка читов вручную</summary><div class="spoiler-body">
+<ol>
+  <li>Сделайте одно из двух действий:
+    <ul>
+      <li>Запустите <strong>FBI</strong>:
+        <ol>
+          <li>Зайдите в <strong>FBI</strong> &gt; <strong>Titles</strong> и найдите установленную игру к которой вы собираетесь применить читы</li>
+          <li>Запишите или запомните Title ID игры, к которой вы собираетесь применить читы (выделите игру и ищите Title ID на верхнем экране)
+ <img src="/images/screenshots/addons/fbi_titleid.png" alt="" target="_blank" /></li>
+        </ol>
+      </li>
+      <li>Запустите игру, для которой вы хотите использовать читы
+        <ol>
+          <li>Перейдите в меню Rosalina, нажатием сочетания кнопок <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+          <li>Выберите опцию “<strong>Cheats</strong>”</li>
+          <li>Вы увидите надпись “<strong>No cheats found for title %TITLE_ID%</strong>”</li>
+          <li>Запишите или запомните этот Title ID</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>В папке <code class="language-plaintext highlighter-rouge">/luma/titles/</code> создайте папку названием которой будет Title ID выбранной игры</li>
+  <li>Положите в эту папку скачанный чит для выбранной игры и назовите его <code class="language-plaintext highlighter-rouge">cheats.txt</code></li>
+</ol>
+</div></details>
+
+<h3 id="часть-ii---использование-читов">Часть II - Использование читов</h3>
+
+<ol>
+  <li>Запустите выбранную игру</li>
+  <li>Дождитесь геймплея и перейдите в меню Rosalina, нажатием сочетания кнопок <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" /></li>
+  <li>Выберите пункт “<strong>Cheats…</strong>”</li>
+  <li>Поставьте галочку напротив нужных читов</li>
+  <li>Закройте меню Rosalina, нажатием кнопки <img src="/images/buttons/B.png" alt="(B)" /> несколько раз
+    <ul>
+      <li>Если вместо списка читов вы видите надпись “<strong>No cheats found for title %TITLE_ID%</strong>”, вы скорее всего перепутали Title ID игры, либо не положили <code class="language-plaintext highlighter-rouge">cheats.txt</code> в соответствующую папку</li>
+      <li>Если вместо списка читов вы видите надпись “<strong>No suitable title found</strong>”, вы запускаете читы из системного приложения</li>
+      <li>Если какой-то чит-код при выборе загарается красным - он не будет работать, поскольку адресует в неправильный регион памяти приставки</li>
+    </ul>
+  </li>
+</ol>
+:ET
