@@ -1,6 +1,0 @@
-I"N
-<p>Вы будете паять близко к чипу NAND. Припаивать мы будем 4 основных контакта. <strong>DAT0 (Data Zero)</strong>, <strong>CMD</strong> и <strong>GND (Ground или заземление)</strong> находятся на нижней части платы. <strong>CLK (CLOCK)</strong> на противоположной. Землю будем монтировать к корпусу слота для картриджей.</p>
-
-<p class="text-center"><img src="/images/ifixit/new3ds/new3ds_tp.png" alt="" target="_blank" /></p>
-
-:ET
