@@ -1,0 +1,17 @@
+Новая версия Luma3DS Updater позволяет работать с boot9strap, путем загрузки и распаковки последнего Luma3DS `boot.firm`, а так же умеет обновлять Luma в CTRNAND. Если перед установкой новой версии не удалить старую, у вас в системе будет два апдейтера одновременно.
+{: .notice--info}
+
+1. Сначала нужно удалить старый Luma3DS Updater, если он установлен (если не установлен, перейдите к следующему пункту):
+	1. Запустите FBI
+	1. Перейдите в `Titles`
+	1. Выберите существующий Luma3DS Updater кнопкой {% include inc/btn.txt btn="A" %}
+	1. Выберите опцию "Delete Title And Ticket" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
+	
+		Если вы не можете найти Luma Updater в меню `Titles`, удалите его через Системные настройки (System Settings), Управление данными (Data Managment), Nintendo 3DS, Программы (Software)
+		{: .notice--info}
+
+	1. Нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню
+1. Перейдите в `SD` -> `cias`
+1. Выберите `lumaupdater.cia`
+1. Выберите "Install CIA", затем нажмите {% include inc/btn.txt btn="A" %} для подтверждения
+1. Нажмите {% include inc/btn.txt btn="HOME" %} для выхода из FBI
