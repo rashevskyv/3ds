@@ -272,3 +272,19 @@ summary {
 li > p {
     margin-top: 0;
 }
+
+.author__urls-wrapper {
+  button {
+    height: 50px !important;
+    min-width: 100px !important;
+  }
+}
+
+
+.toc__menu {
+  /* hide sub sub links on small screens*/
+  li > ul li {
+    display: block;
+  }
+}
+
