@@ -19,7 +19,7 @@
 
 
 
-<title>Установка и использование тем - Взлом 3DS</title>
+<title>Установка boot9strap (New-Browserhax) - Взлом 3DS</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом 3DS">
-<meta property="og:title" content="Установка и использование тем">
+<meta property="og:title" content="Установка boot9strap (New-Browserhax)">
 
 
-  <link rel="canonical" href="https://3ds.customfw.xyz/themes.html">
-  <meta property="og:url" content="https://3ds.customfw.xyz/themes.html">
+  <link rel="canonical" href="https://3ds.customfw.xyz/browserhax.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/browserhax.html">
 
 
 
@@ -329,14 +329,14 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Установка и использование тем">
+    <meta itemprop="headline" content="Установка boot9strap (New-Browserhax)">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Установка и использование тем
+          <h1 class="page__title" itemprop="headline">Установка boot9strap (New-Browserhax)
 </h1>
           
         </header>
@@ -346,13 +346,13 @@
         
 <aside class="sidebar__right">
 <nav class="toc">
-    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Содержание</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#описание-шагов" id="markdown-toc-описание-шагов">Описание шагов</a>    <ul>
-      <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
-      <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a></li>
-    </ul>
-  </li>
+  <li><a href="#часть-i---подготовительная-работа" id="markdown-toc-часть-i---подготовительная-работа">Часть I - Подготовительная работа</a></li>
+  <li><a href="#часть-ii---new-browserhax" id="markdown-toc-часть-ii---new-browserhax">Часть II - New-Browserhax</a></li>
+  <li><a href="#часть-iii---unsafe_mode" id="markdown-toc-часть-iii---unsafe_mode">Часть III - unSAFE_MODE</a></li>
+  <li><a href="#часть-iv---восстановление-настроек-wifi" id="markdown-toc-часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</a></li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
 </ul>
 
   </nav>
@@ -368,11 +368,9 @@
 
 <hr />
 
-<h2 id="описание-шагов">Описание шагов</h2>
+<p class="notice--danger">Если на вашей приставке не работает интернет, то воспользуйтесь <a href="usm">другим методом</a> для продолжения взлома.</p>
 
-<p>Существует два метода установки и использования тем. Первый подразумевает использование тем, созданных сообществом с помощью программы Anemone3DS, второй - позволяет использовать официальные темы и устанавливать их прямо из eShop.</p>
-
-<p>Перед тем, как использовать любой из методов, приведенных ниже, следует проделать следующие манипуляции:</p>
+<h3 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h3>
 
 <ol>
   <li>Обновите прошивку консоли, зайдя в <strong>Системные настройки</strong> (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), затем листайте вправо до конца и выберите пункт “<strong>Обновление</strong>” (System Update)
@@ -384,47 +382,112 @@
       <li>При появлении ошибки, убедитесь, что на приставке работает интернет. Попробуйте пересоздать подключение и перезагрузить роутер</li>
     </ul>
   </li>
-  <li>Запустите менеджер тем, встроенный в приставку (домик сверху слева нижнего экрана, Изменить тему).</li>
-  <li>Выбираем любую тему. Это необходимо, чтобы система создала все необходимые папки.</li>
-</ol>
-
-<p class="notice--info">Если вы купили приставку у меня (в <a href="https://vk.com/nincfw" target="_blank">VK</a> или на <a href="https://shop.customfw.xyz" target="_blank">OLX</a>), то у вас уже b9s со всеми необходимыми программами. Ищите их в папке Система (System). То есть их не нужно ставить отдельно. Просто используйте официальные темы.</p>
-
-<h3 id="что-понадобится">Что понадобится</h3>
-
-<p class="notice--info">Если вы купили приставку у меня (в <a href="https://vk.com/nincfw" target="_blank">VK</a> или на <a href="https://shop.customfw.xyz" target="_blank">OLX</a>), то у вас уже b9s со всеми необходимыми программами. Ищите их в папке Система (System).</p>
-
-<ul>
-  <li>Установленный и рабочий <a href="updating-b9s" target="_blank">b9s</a> последней версии</li>
-  <li>Установленный и рабочий <a href="fbi" target="_blank">FBI</a></li>
-  <li>Свежая версия <a href="https://github.com/astronautlevel2/Anemone3DS/releases/latest" target="_blank">Anemone3DS</a> <em>(<code class="language-plaintext highlighter-rouge">.cia</code>-файл)</em>
+  <li>Обязательно настройте корректную дату и время на вашей консоли (<strong>Системные настройки</strong> (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), <strong>Дата и Время</strong> (Date and Time))</li>
+  <li>Выключите приставку и вставьте карту памяти из неё в ПК</li>
+  <li>Скачайте <a href="https://github.com/zoogie/new-browserhax/releases/latest">new-browserhax</a> (<code class="language-plaintext highlighter-rouge">release_vX.XX.zip</code>)</li>
+  <li>Откройте скачанный архив. Внутри архива находятся три папки. Перенесите содержимое папки, соответствующей региону вашей приставки в корень карты памяти консоли
     <ul>
-      <li>Скачиваем необходимые темы с <a href="https://themeplaza.eu/themes" target="_blank">themeplaza.eu</a> или из <a href="https://3dsthemesarchive.site/" target="_blank">3dsthemesarchive.site</a></li>
-      <li>Официальные <a href="https://drive.google.com/drive/folders/12dp95NdXdg8iQCgWgV7i48vLWIoUWdyi" target="_blank">темы в формате Anemone</a></li>
+      <li>
+        <p>Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings). Буква на конце обозначает к какому региону принадлежит ваша консоль. <strong>E</strong> - Европа (EUROPE), <strong>U</strong> - США (USA), <strong>J</strong> - Япония (JAPAN)</p>
+
+        <p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/system-version.png" alt="" target="_blank" /></p>
+      </li>
     </ul>
   </li>
-</ul>
+  <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+</ol>
 
-<h3 id="инструкция">Инструкция</h3>
+<h3 id="часть-ii---new-browserhax">Часть II - New-Browserhax</h3>
 
 <ol>
-  <li>Запустите менеджер тем, встроенный в приставку (домик сверху слева нижнего экрана, Изменить тему).</li>
-  <li>Выбираем любую тему. Это необходимо, чтобы система создала все необходимые папки.</li>
-  <li>Выключите приставку, достаньте из неё SD-карту и вставьте её в компьютер.</li>
-  <li>Положите скачанные темы в папку Themes в корне SD-карты. Если такой папки нет - создайте ее.</li>
-  <li>Вставьте SD-карту обратно в приставку и включите её</li>
-  <li><a href="games" target="_blank">Устанавливаем через FBI</a> <code class="language-plaintext highlighter-rouge">Anemone3DS.cia</code></li>
-  <li>Запустите Anemone3DS.</li>
-  <li>Установите курсор на понравившуюся тему и зажмите кнопку <img src="/images/buttons/A.png" alt="(A)" />, не отпуская <img src="/images/buttons/A.png" alt="(A)" />, нажмите и удерживайте <img src="/images/buttons/UP.png" alt="(UP)" />.</li>
-  <li>Отпустите <img src="/images/buttons/A.png" alt="(A)" /> (удерживая <img src="/images/buttons/UP.png" alt="(UP)" />), начнется установка темы.
+  <li>Верните SD-карту обратно в консоль</li>
+  <li>Включите приставку</li>
+  <li>
+    <p>Запустите камеру (можно сделать одновременным нажатием на клавиши <img src="/images/buttons/L.png" alt="(L)" />+<img src="/images/buttons/R.png" alt="(R)" />)и нажмите на символ QR-кода в нижнем левом углу нижнего экрана</p>
+
+    <p class="text-center notice--info"><img src="/images/qrcode_reader.png" alt="" /></p>
+
     <ul>
-      <li>Если нужен предпросмотр - <img src="/images/buttons/Y.png" alt="(Y)" /></li>
-      <li>Программа поддерживает установку тем через QR-код. Для этого нажмите <img src="/images/buttons/R.png" alt="(R)" /> и отсканируйте QR-код выбранной темы с помощью камеры приставки.</li>
-      <li>Для выбора нескольких тем, отметьте их кнопкой <img src="/images/buttons/B.png" alt="(B)" />, затем установите их как указано выше, только вместо <img src="/images/buttons/UP.png" alt="(UP)" />, зажимайте <img src="/images/buttons/DOWN.png" alt="(DOWN)" /></li>
+      <li>Если у вас не работает камера, то откройте браузер и перейдите вручную по адресу <code class="language-plaintext highlighter-rouge">https://zoogie.github.io/web/nbhax</code></li>
     </ul>
   </li>
-  <li>Установив тему, нажимаем <img src="/images/buttons/START.png" alt="(START)" /> и нажимаем Выключить приставку (Power Off).</li>
+  <li>
+    <p>Отсканируйте QR-code</p>
+
+    <p class="text-center notice--info"><img src="/images/browserhax.png" alt="" /></p>
+  </li>
+  <li>Нажмите <strong>ОК</strong>, чтобы согласиться перейти на указанный адрес, нажмите <strong>ОК</strong>, чтобы открыть браузер</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card)
+    <ul>
+      <li>Экраны должны замигать <span style="color: red">красным</span>, после чего приставка загрузится на главный экран. Это означает, что эксплойт сработал и все необходимые файлы скопированы.</li>
+    </ul>
+  </li>
+  <li>Выключите приставку
+    <ul>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
 </ol>
+
+<h3 id="часть-iii---unsafe_mode">Часть III - unSAFE_MODE</h3>
+
+<ol>
+  <li>Если приставка всё ещё включена, выключите её
+    <ul>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+  <li>Зажмите и удерживайте следующие кнопки: <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/R.png" alt="(R)" /> + <img src="/images/buttons/UP.png" alt="(UP)" /> + <img src="/images/buttons/A.png" alt="(A)" />, а затем, не отпуская указанные кнопки, включите приставку
+    <ul>
+      <li>Когда подсветка экранов засветится, отпустите кнопки. Приставка загрузиться в режим восстановления</li>
+    </ul>
+  </li>
+</ol>
+<details class="spoiler"><summary class="spoiler-title">Наглядная демонстрация</summary><div class="spoiler-body">
+<div style="width: ; margin:0 auto;" class="text-center notice--info">
+
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/Wja1_HWXBGA"></iframe>
+  </div>
+</div>
+</div></details>
+
+<ol start="3">
+  <li>Нажмите “<strong>OK</strong>”, чтобы начать поиск точки доступа</li>
+  <li>Согласитесь с условиями пользования и нажмите <strong>ОК</strong></li>
+  <li>Поиск завершится с ошибкой <code class="language-plaintext highlighter-rouge">003-1099</code>. Так и задумано, нажмите <strong>ОК</strong></li>
+  <li>На запрос “<strong>Выполнить Интернет-настройки</strong>” (Would you like to configure Internet settings?), нажмите “<strong>Выполнить</strong>”</li>
+  <li>В появившемся меню нажмите несколько раз “<strong>Далее</strong>”, затем выберите <strong>Связь 1</strong> (Connection 1) -&gt; <strong>Изменить настройки</strong> (Change Settings) -&gt; перейдите на следующую страницу (стрелка в правой части экрана) -&gt; <strong>Настройки прокси</strong> (Proxy Settings) -&gt; <strong>Подробнее</strong> (Detailed Setup)</li>
+  <li>Когда верхний экран окрасится в <span style="color: grey">серый</span> и на нём появится сообщение <strong>B9S install SUCCESS</strong>, нажмите любую кнопку</li>
+</ol>
+
+<h3 id="часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</h3>
+
+<ol>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card)
+    <ul>
+      <li>Нижний экран должен моргнуть <span style="color: green">зелёным</span>, после чего приставка загрузится на главный экран. Это означает, что настройки WiFi восстановлены</li>
+      <li>Если вы получаете ошибку, просто удалите все точки доступа через настройки приставки (“<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Интернет-настройки</strong>” (Internet Settings) -&gt; “<strong>Настройки подключения</strong>”)</li>
+    </ul>
+  </li>
+  <li>Выключите приставку
+    <ul>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+  <li>Вставьте карту памяти в ПК</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+    </ul>
+  </li>
+  <li>Удалите файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> из папки <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
+</ol>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> <a href="finalizing-setup">Завершение установки</a></h2>
 
 				
         
