@@ -37,9 +37,9 @@ author_profile: true
     * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
 1. Удалите файл `F00D43D5.bin`
 
-## Часть III - Fredtool
+### Часть III - Fredtool
 
-1. Перейдите на сайт [https://fredtool.bruteforcemovable.com](https://fredtool.bruteforcemovable.com){:target='_blank'} на вашем ПК
+1. Перейдите на сайт [https://3ds.nhnarwhal.com/3dstools/fredtool.php](https://3ds.nhnarwhal.com/3dstools/fredtool.php){:target='_blank'} на вашем ПК
 1. Нажмите на кнопку "**Choose File**" под пунктом "**Your movable.sed**" и выберите `movable.sed`, его мы получали ранее 
 1. Нажмите на кнопку "**Choose File**" под пунктом "**Your dsiware.bin**" и выберите `42383841.bin` в корне вашей карты памяти
 1. Пройдите капчу и нажмите "**Start!**"
@@ -63,7 +63,7 @@ author_profile: true
 * Чёрный экран вместо запуска Flipnote Studio может свидетельствовать о том, что приставка уже прошита. Чтобы проверить, нажмите одновременно {% include inc/btn.txt btn="L" %} + {% include inc/btn.txt btn="DOWN" %} + {% include inc/btn.txt btn="SELECT" %}. Если откроется меню Rosalina, то приставка прошита, можете сразу следовать к [завершению установки](finalizing-setup)
 * Бирюзовый экран возникает при проблемах с картой памяти. Отформатируйте карту памяти через [SDFormatter](https://www.sdcard.org/downloads/formatter/eula_windows/SDCardFormatterv5_WinEN.zip){:target='_blank'}. Не забудьте перед этим скопировать содержимое карты памяти на ПК, а после форматирования вернуть обратно
 
-## Часть IV - Flipnote Studio
+### Часть IV - Flipnote Studio
 
 1. Следуйте [это инструкции](https://zoogie.github.io/web/flipnote_directions/){:target='_blank'} для того, чтобы запустить b9stool
 1. Выберите "**Install boot9strap**" кнопкой {% include inc/btn.txt btn="A" %}, подтвердите ваши действия, зажав одновременно {% include inc/btn.txt btn="START" %} и {% include inc/btn.txt btn="SELECT" %}
@@ -87,5 +87,5 @@ author_profile: true
 
 ___
 
-## **Следующий шаг:** [Завершение установки](finalizing-setup)
+### **Следующий шаг:** [Завершение установки](finalizing-setup)
 {: .notice--success}
