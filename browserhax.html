@@ -349,7 +349,7 @@
     <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Содержание</h4></header>
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#часть-i---подготовительная-работа" id="markdown-toc-часть-i---подготовительная-работа">Часть I - Подготовительная работа</a></li>
-  <li><a href="#часть-ii---new-browserhax" id="markdown-toc-часть-ii---new-browserhax">Часть II - New-Browserhax</a></li>
+  <li><a href="#часть-ii---browserhax" id="markdown-toc-часть-ii---browserhax">Часть II - Browserhax</a></li>
   <li><a href="#часть-iii---unsafe_mode" id="markdown-toc-часть-iii---unsafe_mode">Часть III - unSAFE_MODE</a></li>
   <li><a href="#часть-iv---восстановление-настроек-wifi" id="markdown-toc-часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</a></li>
   <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
@@ -370,7 +370,7 @@
 
 <p class="notice--danger">Если на вашей приставке не работает интернет, то воспользуйтесь <a href="usm">другим методом</a> для продолжения взлома.</p>
 
-<h3 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h3>
+<h2 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h2>
 
 <ol>
   <li>Обновите прошивку консоли, зайдя в <strong>Системные настройки</strong> (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), затем листайте вправо до конца и выберите пункт “<strong>Обновление</strong>” (System Update)
@@ -382,33 +382,47 @@
       <li>При появлении ошибки, убедитесь, что на приставке работает интернет. Попробуйте пересоздать подключение и перезагрузить роутер</li>
     </ul>
   </li>
-  <li>Обязательно настройте корректную дату и время на вашей консоли (<strong>Системные настройки</strong> (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), <strong>Дата и Время</strong> (Date and Time))</li>
-  <li>Выключите приставку и вставьте карту памяти из неё в ПК</li>
-  <li>Скачайте <a href="https://github.com/zoogie/new-browserhax/releases/latest">new-browserhax</a> (<code class="language-plaintext highlighter-rouge">release_vX.XX.zip</code>)</li>
-  <li>Откройте скачанный архив. Внутри архива находятся три папки. Перенесите содержимое папки, соответствующей региону вашей приставки в корень карты памяти консоли
+  <li>Обязательно настройте корректную дату и время на вашей консоли (“<strong>Системные настройки</strong>” (System Settings), затем “<strong>Прочие настройки</strong>” (Other Settings), “<strong>Дата и Время</strong>” (Date and Time))</li>
+  <li>Обратите внимание и запомните к какому региону относится ваша консоль. Это понадобится нам в дальнейшем
     <ul>
       <li>
-        <p>Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings). Буква на конце обозначает к какому региону принадлежит ваша консоль. <strong>E</strong> - Европа (EUROPE), <strong>U</strong> - США (USA), <strong>J</strong> - Япония (JAPAN)</p>
+        <p>Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении “<strong>Системные настройки</strong>” (System settings). Буква на конце обозначает к какому региону принадлежит ваша консоль. <strong>E</strong> - Европа (EUROPE), <strong>U</strong> - США (USA), <strong>J</strong> - Япония (JAPAN)</p>
 
         <p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/system-version.png" alt="" target="_blank" /></p>
       </li>
     </ul>
   </li>
+  <li>Выключите приставку и вставьте карту памяти из неё в ПК</li>
   <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Скачайте версию browserhax для вашего типа консоли:
+    <ul>
+      <li>Для <a href="https://github.com/zoogie/new-browserhax/releases/latest" target="_blank">New 3DS</a></li>
+      <li>Для <a href="https://github.com/zoogie/old-browserhax/releases/latest" target="_blank">Old 3DS</a></li>
+    </ul>
+  </li>
+  <li>Откройте скачанный архив. Внутри архива находятся три папки. Перенесите содержимое папки, соответствующей региону вашей приставки, в корень карты памяти консоли
+    <ul>
+      <li>Не саму папку с названием региона, а <strong>содержимое</strong> этой папки. Например, если у вас New 3DS XL японского региона, то вы качаете арпхив для New 3DS, переходите в папку JAPAN, которая находится внутри этого архива и переносите содержимое этой папки (папку <code class="language-plaintext highlighter-rouge">3ds</code> и файлы <code class="language-plaintext highlighter-rouge">browserhax_hblauncher_ropbin_payload.bin</code> и <code class="language-plaintext highlighter-rouge">arm11code.bin</code>) в корень карты памяти вашей приставки с заменой, если потребуется</li>
+    </ul>
+  </li>
 </ol>
 
-<h3 id="часть-ii---new-browserhax">Часть II - New-Browserhax</h3>
+<h2 id="часть-ii---browserhax">Часть II - Browserhax</h2>
 
 <ol>
   <li>Верните SD-карту обратно в консоль</li>
   <li>Включите приставку</li>
   <li>
-    <p>Запустите камеру (можно сделать одновременным нажатием на клавиши <img src="/images/buttons/L.png" alt="(L)" />+<img src="/images/buttons/R.png" alt="(R)" />)и нажмите на символ QR-кода в нижнем левом углу нижнего экрана</p>
+    <p>Запустите камеру (можно сделать одновременным нажатием на клавиши <img src="/images/buttons/L.png" alt="(L)" />+<img src="/images/buttons/R.png" alt="(R)" />) и нажмите на символ QR-кода в нижнем левом углу нижнего экрана</p>
 
     <p class="text-center notice--info"><img src="/images/qrcode_reader.png" alt="" /></p>
 
     <ul>
-      <li>Если у вас не работает камера, то откройте браузер и перейдите вручную по адресу <code class="language-plaintext highlighter-rouge">https://zoogie.github.io/web/nbhax</code></li>
+      <li>Если у вас не работает камера, то откройте браузер и перейдите вручную по адресу
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">https://zoogie.github.io/web/nbhax</code></li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li>
@@ -416,22 +430,32 @@
 
     <p class="text-center notice--info"><img src="/images/browserhax.png" alt="" /></p>
   </li>
-  <li>Нажмите <strong>ОК</strong>, чтобы согласиться перейти на указанный адрес, нажмите <strong>ОК</strong>, чтобы открыть браузер</li>
-  <li>Выберите “<strong>Карта SD</strong>” (SD Card)
+  <li>Нажмите <strong>ОК</strong>, чтобы согласиться перейти на указанный адрес, нажмите <strong>ОК</strong>, чтобы открыть браузер
     <ul>
-      <li>Экраны должны замигать <span style="color: red">красным</span>, после чего приставка загрузится на главный экран. Это означает, что эксплойт сработал и все необходимые файлы скопированы.</li>
+      <li>Если браузер запускается впервые, то потребуется произвести его первичную настройку</li>
     </ul>
   </li>
-  <li>Выключите приставку
+  <li>Нажмите “<strong>PROCEED TO HAXX</strong>”, чтобы запустить browserhax</li>
+  <li>Дождитесь окончания процесса взлома
     <ul>
-      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+      <li>Если экран зависнет на <span style="color: yellow; text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);">жёлтом</span> или <strong>черном</strong> дольше 30 секунд, выключите консоль, удерживая кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> 15 секунд, а затем попробуйте ещё раз</li>
+      <li>Если при запуске эксплойта браузер вылетает с ошибкой, перезагрузите приставку и пробуйте ещё раз</li>
+      <li>Если эксплойт сработает, откроется Homebrew Launcher</li>
     </ul>
   </li>
 </ol>
 
-<h3 id="часть-iii---unsafe_mode">Часть III - unSAFE_MODE</h3>
+<h2 id="часть-iii---unsafe_mode">Часть III - unSAFE_MODE</h2>
+
+<p class="notice--info">Вы должны находиться в Homebrew Launcher</p>
 
 <ol>
+  <li>Запустите slotTool
+    <ul>
+      <li>Если приставка зависла на <span style="color: red">красным</span> экране, удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> 15 секунд для отключения приставки</li>
+    </ul>
+  </li>
+  <li>Выберите “<strong>INSTALL exploit to wifi slots 1,2,3 &amp; shutdown</strong>”</li>
   <li>Если приставка всё ещё включена, выключите её
     <ul>
       <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
@@ -443,25 +467,33 @@
     </ul>
   </li>
 </ol>
+
 <details class="spoiler"><summary class="spoiler-title">Наглядная демонстрация</summary><div class="spoiler-body">
-<div style="width: ; margin:0 auto;" class="text-center notice--info">
+<div style="width: ; margin:0 auto;">
 
   <div class="ytcontainer">
     <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/Wja1_HWXBGA"></iframe>
   </div>
 </div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{: .text-center}
+{: .notice--info}
+</code></pre></div></div>
 </div></details>
 
 <ol start="3">
-  <li>Нажмите “<strong>OK</strong>”, чтобы начать поиск точки доступа</li>
+  <li>Нажмите “<strong>OK</strong>”, чтобы начать подключение к точке доступа</li>
   <li>Согласитесь с условиями пользования и нажмите <strong>ОК</strong></li>
   <li>Поиск завершится с ошибкой <code class="language-plaintext highlighter-rouge">003-1099</code>. Так и задумано, нажмите <strong>ОК</strong></li>
   <li>На запрос “<strong>Выполнить Интернет-настройки</strong>” (Would you like to configure Internet settings?), нажмите “<strong>Выполнить</strong>”</li>
-  <li>В появившемся меню нажмите несколько раз “<strong>Далее</strong>”, затем выберите <strong>Связь 1</strong> (Connection 1) -&gt; <strong>Изменить настройки</strong> (Change Settings) -&gt; перейдите на следующую страницу (стрелка в правой части экрана) -&gt; <strong>Настройки прокси</strong> (Proxy Settings) -&gt; <strong>Подробнее</strong> (Detailed Setup)</li>
-  <li>Когда верхний экран окрасится в <span style="color: grey">серый</span> и на нём появится сообщение <strong>B9S install SUCCESS</strong>, нажмите любую кнопку</li>
+  <li>В появившемся меню нажмите несколько раз “<strong>Далее</strong>”, затем выберите “<strong>Связь 1</strong>” (Connection 1) -&gt; “<strong>Изменить настройки</strong>” (Change Settings) -&gt; перейдите на следующую страницу (стрелка в правой части экрана) -&gt; “<strong>Настройки прокси</strong>” (Proxy Settings) -&gt; “<strong>Подробнее</strong>” (Detailed Setup)
+    <ul>
+      <li><a href="https://uwuu.ca/images/safemode_highlighted.png" target="_blank">Наглядное изображение</a> (англ.)</li>
+    </ul>
+  </li>
+  <li>Когда нижний экран окрасится в <span style="color: grey">серый</span>, а на верхнем на нём появится сообщение <strong>B9S install SUCCESS</strong>, нажмите любую кнопку</li>
 </ol>
 
-<h3 id="часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</h3>
+<h2 id="часть-iv---восстановление-настроек-wifi">Часть IV - Восстановление настроек WiFi</h2>
 
 <ol>
   <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
