@@ -58,12 +58,15 @@ author_profile: true
 ### Часть IV - Запуск HBL
 
 {% include /inc/hbl.txt content='**Загружаемая игра (Download Play)**' icon=', нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
+
+### Часть V - Дополнительные настройки
+
 1. Выберите из списка "**ctr-no-timeoffset**" и запустите его
 1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы выставить смещение между RTC и системными часами в 0
   + Благодаря этому мы синхронизируем часы на приставке с аппаратными часами реального времени, что в будущем нам пригодится
 1. Нажмите {% include inc/btn.txt btn="START" %} для возвращения в **Homebrew Launcher**
 
-### Часть V - Установка CIA
+### Часть VI - Установка необходимых программ
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`
@@ -71,19 +74,21 @@ author_profile: true
 1. Выберите "**Install and delete all CIAs**" и нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="HOME" %} для возврата в меню Home
 
-### Часть VI - Настройка Homebrew Launcher
+### Часть VII - Настройка Homebrew Launcher
 
 {% include /inc/hbl.txt content='**the homebrew launcher**' icon=', нажав на <img src="/images/icons/hbl-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
+1. Выберите **slotTool**
+1. Выберите "**RESTORE original wifi slots 1,2,3**", приставка перезагрузится
 
-### Часть VII - CTRNAND Luma3DS и очистка SD-карты 
+### Часть VIII- CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-### Часть VIII - Создание резервной копии (бекап) SysNAND
+### Часть IX - Создание резервной копии (бекап) SysNAND
 
 {% include /inc/sysnand_backup.txt %}
 
-### Часть IX - Дополнительные материалы
+### Часть X - Дополнительные материалы
 
 {% include /inc/finalize_addons.txt %}
 
