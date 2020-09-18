@@ -357,6 +357,7 @@
       <li><a href="#часть-v---удаление-образа-ctrtransfer" id="markdown-toc-часть-v---удаление-образа-ctrtransfer">Часть V - Удаление образа CTRTransfer</a></li>
       <li><a href="#часть-vi---ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-vi---ctrnand-luma3ds-и-очистка-sd-карты">Часть VI - CTRNAND Luma3DS и очистка SD-карты</a></li>
       <li><a href="#часть-vii---региональные-настройки" id="markdown-toc-часть-vii---региональные-настройки">Часть VII - Региональные настройки</a></li>
+      <li><a href="#часть-v---региональные-настройки" id="markdown-toc-часть-v---региональные-настройки">Часть V - Региональные настройки</a></li>
       <li><a href="#часть-viii---обновление-системы" id="markdown-toc-часть-viii---обновление-системы">Часть VIII - Обновление системы</a></li>
     </ul>
   </li>
@@ -416,7 +417,7 @@
   <li>Выключите консоль</li>
   <li>Вставьте SD-карту из <strong>приставки</strong> в компьютер</li>
   <li>Скопируйте папку  <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
-  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">.bin</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> с CTRTransfer-образом 11.5.0 в папку <code class="language-plaintext highlighter-rouge">/gm9/in</code> на SD-карте</li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">.bin</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> с CTRTransfer-образом 11.5.0 в корень SD-карты</li>
   <li>Вставьте SD-карту обратно в консоль</li>
   <li>Включите консоль</li>
 </ol>
@@ -435,24 +436,30 @@
       <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
     </ul>
   </li>
-  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, чтобы открыть меню GodeMode9</li>
-  <li>Выберите “<strong>Scripts…</strong>”</li>
-  <li>Выберите “<strong>GM9Megascript</strong>”</li>
-  <li>Выберите “<strong>CTRNAND trnsfer…</strong>”</li>
+  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, чтобы открыть меню GodeMode9
+Перейдите в <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">gm9</code></li>
   <li>Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку <img src="/images/buttons/A.png" alt="(A)" /></li>
   <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl2) и введите указанную комбинацию кнопок
+  <li>Выберите “<strong>CTRNAND options…</strong>”</li>
+  <li>Выберите “Transfer image to CTRNAND”
     <ul>
-      <li>Этот процесс займёт некоторое время</li>
+      <li>Если появится запрос, выберите “<strong>Transfer to SysNAND</strong>”</li>
     </ul>
-  </li>
-  <li>Если появится запрос, выберите “<strong>Transfer to SysNAND</strong>”
     <ul>
       <li>Этот запрос отображается только если у вас есть EmuNAND</li>
     </ul>
   </li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
+    <ul>
+      <li>Начнется процесс переноса. Дожидайтесь его окончания</li>
+    </ul>
+  </li>
   <li>По завершению процесса, нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, чтобы не восстанавливать запрет на запись, если появится запрос</li>
   <li>Дважды нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+  <li>Нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" /> для вызова меню</li>
+  <li>Выберите “<strong>Scripts…</strong>”</li>
+  <li>Выберите “<strong>GM9Megascript</strong>”</li>
   <li>Выберите “<strong>Scripts from Plailect’s Guide</strong>”</li>
   <li>Выберите “<strong>CTRTransfer Ticket Copy</strong>”</li>
   <li>При появлении запроса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для продолжения</li>
@@ -490,7 +497,7 @@
 <p class="notice--info">Если скрипт, запускавшийся выше, не нашёл пользовательских тикетов на консоли, и предложил вам пропустить эту часть - так и поступите</p>
 
 <ol>
-  <li>Выберите FBI в списке Homebrew и запустите его</li>
+  <li>Выберите <strong>FBI</strong> в списке Homebrew и запустите его</li>
   <li>Выберите “<strong>gm9</strong>”</li>
   <li>Выберите “<strong>out</strong>”</li>
   <li>Выберите “<strong>ctrtransfer_tickets</strong>”</li>
@@ -523,7 +530,7 @@
 
 <ol>
   <li>Запустите GodMode9, держа нажатой кнопку <img src="/images/buttons/START.png" alt="(START)" /> во время загрузки</li>
-  <li>Перейдите в <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">gm9</code> -&gt; <code class="language-plaintext highlighter-rouge">in</code></li>
+  <li>Перейдите в <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">gm9</code></li>
   <li>Нажмите <img src="/images/buttons/X.png" alt="(X)" />, выделив файл <code class="language-plaintext highlighter-rouge">.bin</code> CTRTransfer чтобы удалить его</li>
   <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
   <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки</li>
@@ -557,11 +564,18 @@
 
 <h3 id="часть-vii---региональные-настройки">Часть VII - Региональные настройки</h3>
 
+<h3 id="часть-v---региональные-настройки">Часть V - Региональные настройки</h3>
+
 <ol>
-  <li>Откройте <strong>Системные настройки (System settings)</strong></li>
-  <li>Перейдите в “<strong>Прочие настройки</strong>” (Other Settings), затем “<strong>Профиль</strong>” (Profile), затем “<strong>Настройки региона</strong>” (Region Settings)</li>
-  <li>Выберите страну из вашего нового региона</li>
-  <li>При появлении запроса о штате указывать его не нужно</li>
+  <li>Откройте <strong>Системные настройки</strong> (System settings)</li>
+  <li>Перейдите в “<strong>Прочие настройки</strong>” (Other Settings)</li>
+  <li>Перейдите в “<strong>Профиль</strong>” (Profile), затем “<strong>Настройки региона</strong>” (Region Settings) и выберите страну
+    <ul>
+      <li>При появлении запроса о регионе указывать его не обязательно</li>
+    </ul>
+  </li>
+  <li>Нажмите назад, чтобы вернуться в меню “<strong>Прочие настройки</strong>” (Other Settings)</li>
+  <li>Выберите “<strong>Язык</strong>”, укажите необходимый язык</li>
 </ol>
 
 <h3 id="часть-viii---обновление-системы">Часть VIII - Обновление системы</h3>
@@ -581,7 +595,7 @@
 <hr />
 
 <div class="notice--info">
-<p>Для Old 3DS и 2DS может потребоваться форматирование (используя TinyFormat или Системные настройки), иначе игры требующие режима расширенной памяти могут не заработать (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon, и т. п.).</p>
+<p>Для Old 3DS и 2DS может потребоваться форматирование (используя <strong>Системные настройки</strong> -&gt; “<strong>Прочие настройки</strong>” -&gt; “<strong>Форматирование</strong>”), иначе игры требующие режима расширенной памяти могут не заработать (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon, и т. п.).</p>
 
 <ul>
   <li><a href="troubleshooting#dsids-%D0%B8%D0%B3%D1%80%D1%8B-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%BE%D0%B9-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5" target="_blank">Если перестали запускать игры от DS</a></li>

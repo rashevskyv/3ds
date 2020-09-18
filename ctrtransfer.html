@@ -409,7 +409,7 @@
   <li>Выключите консоль</li>
   <li>Вставьте SD-карту из <strong>приставки</strong> в компьютер</li>
   <li>Скопируйте папку  <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
-  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">.bin</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> с CTRTransfer-образом 11.5.0 в папку <code class="language-plaintext highlighter-rouge">/gm9/in</code> на SD-карте</li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">.bin</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> с CTRTransfer-образом 11.5.0 в корень SD-карты</li>
   <li>Вставьте SD-карту обратно в консоль</li>
   <li>Включите консоль</li>
 </ol>
@@ -428,24 +428,30 @@
       <li>Обратите внимание, что если вы выставили RTC дату и время, то время самой приставки собьется. Исправьте его позже вручную, или синхронизируйте с <a href="finalizing-setup#часть-iv---запуск-hbl">помощью приложения “<strong>ctr-no-timeoffset</strong>”</a></li>
     </ul>
   </li>
-  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, чтобы открыть меню GodeMode9</li>
-  <li>Выберите “<strong>Scripts…</strong>”</li>
-  <li>Выберите “<strong>GM9Megascript</strong>”</li>
-  <li>Выберите “<strong>CTRNAND trnsfer…</strong>”</li>
+  <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" />, чтобы открыть меню GodeMode9
+Перейдите в <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">gm9</code></li>
   <li>Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку <img src="/images/buttons/A.png" alt="(A)" /></li>
   <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl2) и введите указанную комбинацию кнопок
+  <li>Выберите “<strong>CTRNAND options…</strong>”</li>
+  <li>Выберите “Transfer image to CTRNAND”
     <ul>
-      <li>Этот процесс займёт некоторое время</li>
+      <li>Если появится запрос, выберите “<strong>Transfer to SysNAND</strong>”</li>
     </ul>
-  </li>
-  <li>Если появится запрос, выберите “<strong>Transfer to SysNAND</strong>”
     <ul>
       <li>Этот запрос отображается только если у вас есть EmuNAND</li>
     </ul>
   </li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
+    <ul>
+      <li>Начнется процесс переноса. Дожидайтесь его окончания</li>
+    </ul>
+  </li>
   <li>По завершению процесса, нажмите <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Нажмите <img src="/images/buttons/B.png" alt="(B)" />, чтобы не восстанавливать запрет на запись, если появится запрос</li>
   <li>Дважды нажмите <img src="/images/buttons/B.png" alt="(B)" /> для возврата в главное меню</li>
+  <li>Нажмите кнопку <img src="/images/buttons/HOME.png" alt="(HOME)" /> для вызова меню</li>
+  <li>Выберите “<strong>Scripts…</strong>”</li>
+  <li>Выберите “<strong>GM9Megascript</strong>”</li>
   <li>Выберите “<strong>Scripts from Plailect’s Guide</strong>”</li>
   <li>Выберите “<strong>CTRTransfer Ticket Copy</strong>”</li>
   <li>При появлении запроса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для продолжения</li>
@@ -483,7 +489,7 @@
 <p class="notice--info">Если скрипт, запускавшийся выше, не нашёл пользовательских тикетов на консоли, и предложил вам пропустить эту часть - так и поступите</p>
 
 <ol>
-  <li>Выберите FBI в списке Homebrew и запустите его</li>
+  <li>Выберите <strong>FBI</strong> в списке Homebrew и запустите его</li>
   <li>Выберите “<strong>gm9</strong>”</li>
   <li>Выберите “<strong>out</strong>”</li>
   <li>Выберите “<strong>ctrtransfer_tickets</strong>”</li>
@@ -516,7 +522,7 @@
 
 <ol>
   <li>Запустите GodMode9, держа нажатой кнопку <img src="/images/buttons/START.png" alt="(START)" /> во время загрузки</li>
-  <li>Перейдите в <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">gm9</code> -&gt; <code class="language-plaintext highlighter-rouge">in</code></li>
+  <li>Перейдите в <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">gm9</code></li>
   <li>Нажмите <img src="/images/buttons/X.png" alt="(X)" />, выделив файл <code class="language-plaintext highlighter-rouge">.bin</code> CTRTransfer чтобы удалить его</li>
   <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
   <li>Нажмите <img src="/images/buttons/START.png" alt="(START)" /> для перезагрузки</li>
