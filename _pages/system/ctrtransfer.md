@@ -14,7 +14,7 @@ author_profile: true
 Не обращайте внимание на версию установленного системного ПО. Всё будет хорошо, даже если версия вашего ПО выше, или ниже, чем версия ПО в образе CTRTransfer.
 {: .notice--danger}
 
-{% include inc/transfer.txt %}
+{% include inc/transfer.md %}
 
 ### Часть VI - Обновление системы
 
