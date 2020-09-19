@@ -28,10 +28,7 @@ author_profile: true
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
-	
-### Часть VII - Региональные настройки
-
-###  Часть V - Региональные настройки
+###  Часть VII - Региональные настройки
 
 1. Откройте **Системные настройки** (System settings)
 1. Перейдите в "**Прочие настройки**" (Other Settings)
