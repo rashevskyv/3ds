@@ -27,6 +27,7 @@
 
 {% include inc/launch_godmode9.txt console="" %}
 1. Нажмите {% include inc/btn.txt btn="HOME" %}, чтобы открыть меню GodeMode9
+1. Перейдите в `[0:] SDCARD`
 1. Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку {% include inc/btn.txt btn="A" %}
 1. Нажмите {% include inc/btn.txt btn="A" %}
 1. Выберите "**CTRNAND options…**"
@@ -83,7 +84,7 @@
 {: .notice--info}
 
 1. Запустите GodMode9, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки
-1. Перейдите в `[0:] SDCARD` -> `gm9`
+1. Перейдите в `[0:] SDCARD`
 1. Нажмите {% include inc/btn.txt btn="X" %}, выделив файл `.bin` CTRTransfer чтобы удалить его
 1. Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
 1. Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
