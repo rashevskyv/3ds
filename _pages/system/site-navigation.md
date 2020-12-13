@@ -42,10 +42,7 @@ author_profile: true
 ### Другое
 
 + [CTRTransfer](ctrtransfer)
-+ [F3 (Linux)](http://customfw.xyz/f3-linux)
-+ [F3X (Mac)](http://customfw.xyz/f3x-mac)
 + [FAQ](faq)
-+ [H2testw (Windows)](http://customfw.xyz/h2testw-windows)
 + [ntrboot](ntrboot)
 + [Благодарности](credits)
 + [Главная страница](/)

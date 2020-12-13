@@ -6,7 +6,7 @@ author_profile: true
 
 {% include toc title="Разделы" %}
 
-Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](http://customfw.xyz/h2testw-windows){:target="_blank"}, [F3 (Linux)](http://customfw.xyz/f3-linux){:target="_blank"}, или [F3X (Mac)](http://customfw.xyz/f3x-mac){:target="_blank"}!
+Прежде чем начать, рекомендуется [проверить свою SD-карту на подлинность](https://customfw.xyz/test_sd){:target="_blank"}
 
 Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: [Расширения файлов (Windows)](file-extensions-windows){:target="_blank"}!
 
@@ -60,12 +60,12 @@ ___
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.13.0</td>
+      <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
       <td style="text-align: center;"><a href="browserhax">Homebrew Launcher (Browserhax)</a><br><b>(не требует вложения денег)</b></td>
     </tr>
-    <tr>
+    <!--<tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
       <td style="text-align: center;"><a href="steelminer">Steelminer</a><br><b>(не требует вложения денег)</b></td>
-    </tr>
+    </tr>-->
 </tbody>
 </table>
