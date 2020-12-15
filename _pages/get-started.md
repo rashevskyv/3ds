@@ -60,12 +60,12 @@ ___
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
+      <td style="text-align: center; font-weight: bold;">11.13.0</td>
       <td style="text-align: center;"><a href="browserhax">Homebrew Launcher (Browserhax)</a><br><b>(не требует вложения денег)</b></td>
     </tr>
-    <!--<tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
       <td style="text-align: center;"><a href="steelminer">Steelminer</a><br><b>(не требует вложения денег)</b></td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
