@@ -1,26 +1,23 @@
 ---
 title: Установка CFW с помощью Fredtool
-permalink: /fredtool.html
-author_profile: true
+permalink:  fredtool.html
 ---
 {% include toc title="Разделы" %}
 
 ### Часть I - Подготовительная работа 
 
-1. Перейдите на сайт [https://bb3.bruteforcemovable.com/](https://bb3.bruteforcemovable.com/){:target='_blank'} на вашем ПК
-1. Нажмите на кнопку "**Choose File**" и выберите `movable.sed`, его мы получали ранее 
-1. Нажмите на кнопку "**Start!**"
-    * Вам предложат сохранить на ПК архив `tadmuffin_out.zip`, содержащий эксплойт, сделайте это
+1. Перейдите на сайт [ BannerBomb3 DSiWare Extractor ](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php){:target='_blank'} на вашем ПК
+1. Нажмите на кнопку "**Select your movable.sed**" и выберите `movable.sed`, его мы получали ранее 
+1. Нажмите на кнопку "**Build and Download**"
+    * Вам предложат сохранить на ПК архив `BannerBomb3.zip`, содержащий эксплойт, сделайте это
 1. Отключите консоль
-1. Вставьте SD-карту приставки в ПК 
 1. Вставьте SD-карту приставки в ПК 
 1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
     * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
     * Если папки *Nintendo DSiWare* нет, создайте её
     * Если в папке *Nintendo DSiWare* есть файлы, переместите их на ПК 
-1. Скопируйте файл `F00D43D5.bin`, находящийся в архиве `tadmuffin_out.zip` по пути `output\Usa_Europe_Japan_Korea\` в папку `Nintendo DSiWare`
-    * В консоли в папке `Nintendo DSiWare` должен оказаться файл `F00D43D5.bin`, а не папки его содержащие
+1. Скопируйте файл `F00D43D5.bin`, находящийся в архиве `BannerBomb3.zip`, в папку `Nintendo DSiWare`
 
 ### Часть II - BannerBomb 
 
@@ -40,14 +37,14 @@ author_profile: true
 ### Часть III - Fredtool
 
 1. Перейдите на сайт [https://3ds.nhnarwhal.com/3dstools/fredtool.php](https://3ds.nhnarwhal.com/3dstools/fredtool.php){:target='_blank'} на вашем ПК
-1. Нажмите на кнопку "**Choose File**" под пунктом "**Your movable.sed**" и выберите `movable.sed`, его мы получали ранее 
-1. Нажмите на кнопку "**Choose File**" под пунктом "**Your dsiware.bin**" и выберите `42383841.bin` в корне вашей карты памяти
-1. Пройдите капчу и нажмите "**Start!**"
-1. После окончания работы программы, вам предложат скачать архив с модифицированной игрой 
+1. Нажмите на кнопку "**Select your movable.sed**" и выберите `movable.sed`, его мы получали ранее 
+1. Нажмите на кнопку "**Select your DSiWare Backup**" и выберите `42383841.bin` в корне вашей карты памяти
+1. Нажмите "**Verify files**". После проверки файлов нажмите "**Build and Download**" и дождитесь окончания генерации архива
+1. Скачайте сгенерированный архив
 1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
     * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
     * Если папки *Nintendo DSiWare* нет, создайте её
-1. Скопируйте файл `42383841.bin`, находящийся в архиве `fredtool_output.zip` по пути `output/hax/` в папку `Nintendo DSiWare`
+1. Скопируйте файл `42383841.bin`, находящийся в сгенерированном ранее архиве по пути `output/hax/`, в папку `Nintendo DSiWare`
 1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
 1. Верните SD-карту обратно в консоль
 1. Включите приставку 
@@ -70,22 +67,11 @@ author_profile: true
 1. Когда увидите надпись "Done!", нажмите кнопку {% include inc/btn.txt btn="HOME" %}, затем подтвердите выход, нажав на "ОК". Приставка выключится
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
   
-### Часть V - Настройка Luma3DS
-
-{% include /inc/luma_setup.txt %}
-
-### Часть VI - Восстановление работы меню Подключения Nintendo DS
-
-1. Отключите приставку, если она включена
-1. Вставьте карту памяти в ПК 
-1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
-    * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
-1. Скопируйте файл `42383841.bin`, находящийся в архиве `fredtool_output.zip` по пути `output/clean/` в папку `Nintendo DSiWare` с заменой
-1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
-1. Выберите "**Карта SD**" (SD Card) и нажмите на "**Nintendo DSi™**"
-1. Выберите "**Копировать**", затем нажмите "**ОК**"
-
 ___
 
 ### **Следующий шаг:** [Завершение установки](finalizing-setup)
 {: .notice--success}
+
+<script>
+	localStorage.setItem('fredtool', 1);
+</script>

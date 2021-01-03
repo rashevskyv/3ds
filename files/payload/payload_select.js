@@ -423,7 +423,7 @@ function getUrlFromVersion(v)
 {
     //v = (6) ["11", "10", "0", "7", "E", "OLD"]
     if (v[0] == "11" && v[1] >= "10" && v[4] == "E") {
-        return "https://bruteforcemovable.com/otherapp/"+getFilenameFromVersion(v)+".bin";
+        return "https://seedminer.hacks.guide/otherapp/"+getFilenameFromVersion(v)+".bin";
     }
     return "http://smealum.github.io/ninjhax2/JL1Xf2KFVm/otherapp/"+getFilenameFromVersion(v)+".bin";
 }

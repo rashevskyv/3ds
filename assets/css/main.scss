@@ -293,3 +293,7 @@ li > p {
   font-size: 1rem !important;
   @include breakpoint($large) {font-size: .8rem !important;}
 }
+
+.hidden {
+  display: none;
+}

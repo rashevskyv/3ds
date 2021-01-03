@@ -91,4 +91,4 @@ author_profile: true
 
 ___
 
-{% include /inc/finalize_footer.txt %}
+{% include /inc/finalize_footer.md %}

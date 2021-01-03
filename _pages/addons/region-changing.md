@@ -1,7 +1,6 @@
 ---
 title: Смена региона
 permalink: /region-changing.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

@@ -58,8 +58,6 @@ author_profile: true
 **Способ I - если у вас есть возможность запустить Homebrew Launcher на вашей приставке**
 
 {% capture notice-1 %}
-Если у вас есть возможность запустить Homebrew Launcher на приставке, что вы собираетесь прошить, обратитесь к этому способу. Подробнее об альтернативных точках входа можно [почитать здесь](homebrew-launcher-alternatives){:target='_blank'}. 
-
 [Перейти к Способу I](#способ-i---с-использованием-homebrew-launcher-на-вашей-приставке)
 {% endcapture %}
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
@@ -116,7 +114,7 @@ ___
 **Проделайте это на приставке у которой есть доступ к Homebrew Launcher:**
 1. Распакуйте `zip-архив` с seedminer на ваш ПК
 1. Скопируйте `seedstarter.3dsx` в папку "3ds" на SD-карте вашей приставки и вставьте её в консоль
-1. [Запустите Homebrew Launcher](homebrew-launcher-alternatives){:target='_blank'} и выберите seedStarter
+1. Запустите Homebrew Launcher и выберите **seedStarter**
 1. Нажмите {% include inc/btn.txt btn="B"%} для того, чтобы сделать дамп LFCS 
 1. Нажмите {% include inc/btn.txt btn="A"%}, а затем {% include inc/btn.txt btn="START"%}, чтобы выйти из программы в HBL
 1. Вставьте SD-карту приставки в компьютер
@@ -152,7 +150,7 @@ ___
 1. Перейдите на сайт [https://seedminer.hacks.guide/steelhax/](https://seedminer.hacks.guide/steelhax/){:target='_blank'}.
 1. В поле "**Your friend code**" введите свой *код друга* (friend code)
 	* Посмотреть свой код друга можно в **Списке друзей** (Friend List)
-1. В поле "**Your ID0**" введите свой [*ID0*](steelminer#получение-id0)
+1. В поле "**Your ID0**" введите свой [*ID0*](seedminer#получение-id0)
 1. Пройдите капчу и нажмите "**Go**"
 	* Время ожидания может быть разным. Может пройти и несколько секунд и несколько часов (обычно не проходит больше минуты)
 	* Если прогрессбар движется, значит страница не зависла и все идёт своим чередом

@@ -1,7 +1,6 @@
 ---
 title: Завершение установки
 permalink:  finalizing-setup.html
-author_profile: true
 ---
 
 {% include toc title="Разделы" %}
@@ -39,6 +38,7 @@ author_profile: true
 ### Часть II - Подготовительные работы
 
 Если в предыдущих пунктах вы скидывали на карту 3DSSDFiles, то переходите к следующей части. Повторно скидывать не нужно
+{: .notice--info}
 
 1. Выключите консоль
 1. Вставьте SD-карту из **приставки** в компьютер
@@ -46,11 +46,39 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
+{% capture browserhax %}
+
+#### Восстановление DNS
+
+1. Включите консоль
+1. Перейдите в "**Системные настройки**" (System Settings) -> "**Интернет-настройки**" (Internet Settings) -> "**Настройки подключения**" (Connection Settings)
+1. Нажмите на вашем активном интернет-соединении (если такового нет, добавьте) и нажмите "**Изменить настройки**" (Change Settings) -> пролистайте вправо, нажав на стрелку в правой части экрана -> "**DNS**"
+1. Выберите "**Да**" ("Yes")
+1. Нажмите "**ОК**", затем "**Сохранить**" (Save)
+	* Тест должен пройти успешно
+
+{% endcapture %}
+<div class="hidden" id="browserhax">{{ browserhax | markdownify }}</div>
+
+{% capture fredtool %}
+
+#### Восстановление работы меню Подключения Nintendo DS
+
+1. Отключите приставку, если она включена
+1. Вставьте карту памяти в ПК 
+1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
+    * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
+1. Скопируйте файл `42383841.bin`, находящийся в архиве `fredtool_output.zip` по пути `output/clean/` в папку `Nintendo DSiWare` с заменой
+1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
+1. Выберите "**Карта SD**" (SD Card) и нажмите на "**Nintendo DSi™**"
+1. Выберите "**Копировать**", затем нажмите "**ОК**"
+
+{% endcapture %}
+<div class="hidden" id="fredtool">{{ fredtool | markdownify }}</div>
+
 ### Часть III - Обновление системы
 
-{% include /inc/if_emunand.txt %}
-
-Если текущий регион вашей приставки вас не устраивает, сейчас лучшее время для того, чтобы его [сменить](region-changing){:target="_blank"}. После того, как поменяете регион, вернитесь к этому руководству, чтобы продолжить дальше. 
+Если текущий регион вашей приставки вас не устраивает, сейчас лучшее время для того, чтобы его [сменить](region-changing){:target="_blank"}. После того, как поменяете регион, вернитесь к этому руководству, чтобы продолжить дальше.
 {: .notice--warning}
 
 {% include /inc/sys_update.txt %}
@@ -80,7 +108,7 @@ author_profile: true
 1. Выберите **slotTool**
 1. Выберите "**RESTORE original wifi slots 1,2,3**", приставка перезагрузится
 
-### Часть VIII- CTRNAND Luma3DS и очистка SD-карты 
+### Часть VIII - CTRNAND Luma3DS и очистка SD-карты 
 
 {% include /inc/ctrnand_luma_cleansd.txt %}
 
@@ -94,4 +122,19 @@ author_profile: true
 
 ___
 
-{% include /inc/finalize_footer.txt %}
+{% include /inc/finalize_footer.md %}
+
+<script>
+	bh = localStorage.getItem('browserhax')
+	ft = localStorage.getItem('fredtool')
+
+	if (bh == "1") {
+		document.querySelector('#browserhax').classList.remove("hidden")
+	}
+
+	if (ft == "1") {
+		document.querySelector('#fredtool').classList.remove("hidden")
+	}
+
+	localStorage.clear();
+</script>

@@ -10,7 +10,7 @@ author_profile: true
 
 + [Завершение установки](finalizing-setup)
 + [ntrboot](ntrboot)
-+ [Homebrew Menu (используя Steelminer)](steelminer)
++ [Homebrew Menu (используя Seedminer)](seedminer)
 + [Установка CFW с помощью Frogminer](frogminer)
 + [Установка CFW с помощью UMS](ums)
 + [FAQ](faq)
@@ -22,8 +22,7 @@ author_profile: true
 
 ### Установка прошивки 
 
-+ [Homebrew Launcher (альтернативные методы запуска)](homebrew-launcher-alternatives)
-+ [Homebrew Menu (используя Steelminer)](steelminer)
++ [Homebrew Menu (используя Seedminer)](seedminer)
 + [Инструкция по использованию флеш-картриджа r4isdhc.com](r4)
 + [Использование SoundHax для запуска Homebrew Launcher](homebrew-launcher-soundhax)
 + [Завершение установки](finalizing-setup)

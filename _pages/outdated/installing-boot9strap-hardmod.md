@@ -1,6 +1,5 @@
 ---
 title: Установка boot9strap (Hardmod) #
-lang: ru
 permalink: installing-boot9strap-hardmod.html
 author_profile: true
 ---

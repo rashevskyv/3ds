@@ -11,19 +11,19 @@ author_profile: true
 
 ### Часть I - Подготовительная работа
 
-1. Откройте [unSAFE_MODE-bb3 tool](https://usm.bruteforcemovable.com/) на вашем ПК
+1. Откройте [unSAFE_MODE-bb3 tool](https://3ds.nhnarwhal.com/3dstools/unsafemode.php) на вашем ПК
 1. Нажмите на кнопку "**Choose File**" и выберите `movable.sed`, его мы получали ранее
-1. Нажмите на кнопку "**Download unSAFE_MODE-bb3 archive**"
-    * Вам предложат сохранить на ПК архив `unSAFE_MODE-bb3.zip`, содержащий файлы `F00D43D5.bin` и `usm.bin`
+1. Нажмите на кнопку "**Build and Download**"
+    * Вам предложат сохранить на ПК архив `unSAFE_MODE.zip`, содержащий файлы `F00D43D5.bin` и `usm.bin`
 1. Отключите консоль
 1. Вставьте SD-карту приставки в ПК 
 1. Скопируйте _содержимое_ `.zip-архива` {% include /inc/files/3dssdfiles.txt %} в корень вашей SD-карты
-1. Скопируйте `usm.bin` из архива `unSAFE_MODE-bb3.zip` в корень вашей карты памяти
+1. Скопируйте `usm.bin` из архива `unSAFE_MODE.zip` в корень вашей карты памяти
 1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
     * ID0 должен совпадать с тем, который мы использовали выше, при получении `movable.sed`
     * Если папки `Nintendo DSiWare` нет, создайте её
     * Если в папке `Nintendo DSiWare` есть файлы, переместите их на ПК 
-1. Скопируйте файл `F00D43D5.bin`, находящийся в архиве `unSAFE_MODE-bb3.zip`, в папку `Nintendo DSiWare`
+1. Скопируйте файл `F00D43D5.bin`, находящийся в архиве `unSAFE_MODE.zip`, в папку `Nintendo DSiWare`
 
 ### Часть II - BannerBomb3
 
