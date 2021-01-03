@@ -19,7 +19,7 @@
 
 
 
-<title>Прошивка ntrboot (DSi) - Взлом 3DS</title>
+<title>Установка boot9strap с помощью safecerthax - Взлом 3DS</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом 3DS">
-<meta property="og:title" content="Прошивка ntrboot (DSi)">
+<meta property="og:title" content="Установка boot9strap с помощью safecerthax">
 
 
-  <link rel="canonical" href="https://3ds.customfw.xyz/flashing-ntrboot-dsi.html">
-  <meta property="og:url" content="https://3ds.customfw.xyz/flashing-ntrboot-dsi.html">
+  <link rel="canonical" href="https://3ds.customfw.xyz/safecerthax.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/safecerthax.html">
 
 
 
@@ -323,14 +323,14 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Прошивка ntrboot (DSi)">
+    <meta itemprop="headline" content="Установка boot9strap с помощью safecerthax">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Прошивка ntrboot (DSi)
+          <h1 class="page__title" itemprop="headline">Установка boot9strap с помощью safecerthax
 </h1>
           
         </header>
@@ -342,13 +342,11 @@
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#что-понадобится" id="markdown-toc-что-понадобится">Что понадобится</a></li>
-  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
-      <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
-      <li><a href="#часть-ii---прошивка-ntrboot" id="markdown-toc-часть-ii---прошивка-ntrboot">Часть II - Прошивка ntrboot</a></li>
-    </ul>
-  </li>
-  <li><a href="#следующий-шаг-установка-boot9strap-ntrboot" id="markdown-toc-следующий-шаг-установка-boot9strap-ntrboot"><strong>Следующий шаг:</strong> Установка boot9strap (ntrboot)</a></li>
+  <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
+  <li><a href="#часть-ii---safecerthax-dns" id="markdown-toc-часть-ii---safecerthax-dns">Часть II - safecerthax DNS</a></li>
+  <li><a href="#часть-iii---safecerthax" id="markdown-toc-часть-iii---safecerthax">Часть III - safecerthax</a></li>
+  <li><a href="#часть-iv---установка-boot9strap" id="markdown-toc-часть-iv---установка-boot9strap">Часть IV - Установка boot9strap</a></li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
 </ul>
 
   </nav>
@@ -362,62 +360,88 @@
 
 <hr />
 
-<p>Прежде чем продолжить, убедитесь что вы прочитали всю информацию на странице <a href="ntrboot" target="_blank">ntrboot</a></p>
+<p class="notice--danger">Если у вас не работает кнопка одна из кнопок: <img src="/images/buttons/L.png" alt="(L)" />, <img src="/images/buttons/R.png" alt="(R)" />, <img src="/images/buttons/UP.png" alt="(UP)" /> или <img src="/images/buttons/A.png" alt="(A)" />, то воспользуйтесь <a href="fredtool">другим методом</a> для продолжения взлома.</p>
 
-<p>Этот метод требует временного доступа к Nintendo DSi, совместимой с вашим флеш-картриджем. Суть метода в запуске флешера формата <code class="language-plaintext highlighter-rouge">*.nds</code> через флеш-картридж. Поэтому в первую очередь необходимо, чтобы флеш-картридж виделся и запускался на вашей 3DS. Некоторые флеш-картриджи не могут быть запущены на непрошитой приставке с системным ПО, выше определенной версии. Для того, чтобы понимать подойдет ли картридж, выбранный вами, обратитесь к списку на странице <a href="ntrboot" target="_blank">ntrboot</a>.</p>
+<p class="notice--warning">Этот эксплойт предназначен только для Old 3DS, Old 3DS XL, Old 2DS и не будет работать на New 3DS, New 3DS XL, или New 2DS XL!</p>
 
-<p>Важно понимать, что у флеш-картриджа своя SD-карта, а у приставки своя и консоль не имеет никакого доступа к SD-карте картриджа, то есть ничего не может читать на неё и ничего не может на неё записывать. Так же у каждого картриджа есть своя собственная прошивка, которую необходимо скачать с сайта, указанного на корпусе картриджа, или найти в любом другом месте. Прошивку нужно записывать в корень SD-карты картриджа. Перед тем, как шить во флеш-картридж ntrboot, запишите на него прошивку и убедитесь, что картридж работает и запускает игры и программы в формате <code class="language-plaintext highlighter-rouge">.nds</code> и только после этого приступайте к прошивке.</p>
-
-<p>Этот метод не совершенен и иногда с его помощью не прошиваются картриджи, которые прошиваются без проблем <a href="flashing-ntrboot-3ds-multi-system" target="_blank">этим методом</a>.</p>
-
-<p class="notice--warning">Обратите внимание, что в некоторых редких случаях процесс прошивки может <strong>брикнуть</strong> поддельный флеш-картридж и навсегда сделать его нерабочим. Это маловероятно, но тем не менее поддерживаются только оригинальные флеш-картриджи из списка. Чтобы уменьшить вероятность получения поддельного картриджа, рекомендуется использовать проверенный сайт для покупки флеш-картриджа. Список таких сайтов есть на странице <a href="ntrboot#список-совместимых-флеш-картриджей" target="_blank">ntrboot</a>.</p>
-
-<h2 id="что-понадобится">Что понадобится</h2>
-
-<ul>
-  <li><strong>DSi</strong>: Nintendo DSi, совместимая с вашим флеш-картриджем</li>
-  <li>Свежая версия <a href="https://github.com/SciresM/boot9strap/releases/latest" target="_blank">boot9strap</a> <em>(<code class="language-plaintext highlighter-rouge">boot9strap-1.3-ntr.zip</code>)</em></li>
-  <li>Свежая версия <a href="https://github.com/jason0597/ntrboot_flasher_nds/releases/latest" target="_blank">ds_ntrboot_flasher</a></li>
-  <li><a href="ntrboot#список-совместимых-картриджей" target="_blank">Флеш-картридж, совместимый с ntrboot</a> <em>(<code class="language-plaintext highlighter-rouge">dsi</code>-версия; <strong>стандартная версия не подходит</strong>)</em></li>
-</ul>
-
-<h2 id="инструкция">Инструкция</h2>
-
-<h3 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h3>
+<h2 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h2>
 
 <ol>
-  <li>Выключите <strong>DSi</strong></li>
-  <li>Вставьте SD-карту флеш-картриджа в компьютер</li>
-  <li>Скопируйте <code class="language-plaintext highlighter-rouge">ntrboot_flasher_nds.nds</code> на SD-карту флеш-картриджа</li>
-  <li>Скопируйте <code class="language-plaintext highlighter-rouge">boot9strap_ntr.firm</code> из <code class="language-plaintext highlighter-rouge">.zip-архива</code> boot9strap в папку <code class="language-plaintext highlighter-rouge">/ntrboot/</code> в корне SD-карты флеш-картриджа</li>
-  <li>Вставьте SD-карту флеш-картриджа обратно во флеш-картридж</li>
-  <li>Вставьте ваш DS / DSi флеш-картридж, совместимый с ntrboot, в <strong>DSi</strong></li>
+  <li>Выключите приставку</li>
+  <li>Вставьте SD-карту консоли в компьютер</li>
+  <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Включите консоль</li>
 </ol>
 
-<h3 id="часть-ii---прошивка-ntrboot">Часть II - Прошивка ntrboot</h3>
+<h2 id="часть-ii---safecerthax-dns">Часть II - safecerthax DNS</h2>
 
 <ol>
-  <li>Запустите <code class="language-plaintext highlighter-rouge">ds_ntrboot_flasher_dsi.nds</code> на <strong>DSi</strong>, используя флеш-картридж</li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
-  <li>Используйте <img src="/images/buttons/UP.png" alt="(UP)" /> и <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> чтобы выбрать ваш флеш-картридж</li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Интернет-настройки</strong>” (Internet Settings) -&gt; “<strong>Настройки подключения</strong>” (Connection Settings)</li>
+  <li>Нажмите на вашем активном интернет-соединении (если такового нет, добавьте) и нажмите “<strong>Изменить настройки</strong>” (Change Settings) -&gt; пролистайте вправо, нажав на стрелку в правой части экрана -&gt; “<strong>DNS</strong>”</li>
+  <li>Выберите “<strong>Нет</strong>” (No) и нажмите “<strong>Подробнее</strong>” (Detailed Setup)</li>
+  <li>Установите  “<strong>Первичный DNS</strong>” и “<strong>Вторичный DNS</strong>” (Primary DNS and Secondary DNS) в <code class="language-plaintext highlighter-rouge">054.038.133.070</code></li>
+  <li>Нажмите “<strong>ОК</strong>”, затем “<strong>Сохранить</strong>” (Save)
     <ul>
-      <li>Ошибка “<strong>Flashcart setup failed</strong>” означает, что ваш картридж не поддерживается флешером. Ожидайте обновления, либо воспользуйтесь другими методами. Практика показывает, что метод с использованием прошитой приставки поддерживает большее количество картриджей.</li>
+      <li>Тест должен пройти успешно</li>
     </ul>
   </li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы выбрать “<strong>inject ntrboothax</strong>”</li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы выбрать “<strong>RETAIL</strong>”</li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы продолжить</li>
-  <li>Выберите “<strong>EXIT</strong>”</li>
-  <li>Извлеките флеш-картридж из <strong>DSi</strong>
+  <li>Выключите приставку</li>
+</ol>
+
+<h2 id="часть-iii---safecerthax">Часть III - safecerthax</h2>
+
+<ol>
+  <li>Если приставка всё ещё включена, выключите её
     <ul>
-      <li>Ваш картридж теперь прошит и готов к использованию для прошивки приставки
-___</li>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
+    </ul>
+  </li>
+  <li>Зажмите и удерживайте следующие кнопки: <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/R.png" alt="(R)" /> + <img src="/images/buttons/UP.png" alt="(UP)" /> + <img src="/images/buttons/A.png" alt="(A)" />, а затем, не отпуская указанные кнопки, включите приставку
+    <ul>
+      <li>Когда подсветка экранов засветится, отпустите кнопки. Приставка загрузиться в режим восстановления</li>
     </ul>
   </li>
 </ol>
 
-<h2 class="notice--success" id="следующий-шаг-установка-boot9strap-ntrboot"><strong>Следующий шаг:</strong> <a href="installing-boot9strap-ntrboot">Установка boot9strap (ntrboot)</a></h2>
+<details class="spoiler"><summary class="spoiler-title">Наглядная демонстрация</summary><div class="spoiler-body">
+<div style="max-width: 800px; margin:0 auto;">
+
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/Wja1_HWXBGA"></iframe>
+  </div>
+</div>
+</div></details>
+
+<ol start="3">
+  <li>Нажмите “<strong>OK</strong>”, чтобы согласиться на обновление и примите лицензионное соглашение
+    <ul>
+      <li>На самом деле нет никакого обновления - это часть работы эксплойта</li>
+    </ul>
+  </li>
+  <li>Нажмите “<strong>ОК</strong>”, чтобы закрыть сообщение, а затем, после того, как будет выполнена проверка подключения, на жмите “<strong>ОК</strong>”, чтобы закрыть сообщение об ошибке</li>
+  <li>Если эксплойт сработал, приставка загрузит <strong>SafeB9SInstaller</strong>
+    <ul>
+      <li>Если приставка зависла, или появилась ошибка,выключите её удерживая кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" />, а затем повторите эту часть сначала</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="часть-iv---установка-boot9strap">Часть IV - Установка boot9strap</h2>
+
+<ol>
+  <li>Дождитесь окончания всех проверок безопасности
+    <ul>
+      <li>Если вы получаете сообщение об ошибке “OTP Crypto Fail”, скачайте <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - <a href="magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&amp;dn=aeskeydb.bin&amp;tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&amp;tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&amp;tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&amp;tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&amp;tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&amp;tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce" target="_blank"><code class="language-plaintext highlighter-rouge">aeskeydb.bin</code></a>, поместите этот файл в папку <code class="language-plaintext highlighter-rouge">/boot9strap/</code> на SD-карте и попробуйте снова</li>
+    </ul>
+  </li>
+  <li>При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap</li>
+  <li>После завершения процесса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для перезагрузки.</li>
+</ol>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> <a href="finalizing-setup">Завершение установки</a></h2>
 
 				
         

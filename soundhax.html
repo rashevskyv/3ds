@@ -19,7 +19,7 @@
 
 
 
-<title>Использование SoundHax для запуска Homebrew Launcher - Взлом 3DS</title>
+<title>Использование SoundHax для установки boot9strip - Взлом 3DS</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом 3DS">
-<meta property="og:title" content="Использование SoundHax для запуска Homebrew Launcher">
+<meta property="og:title" content="Использование SoundHax для установки boot9strip">
 
 
-  <link rel="canonical" href="https://3ds.customfw.xyz/homebrew-launcher-soundhax.html">
-  <meta property="og:url" content="https://3ds.customfw.xyz/homebrew-launcher-soundhax.html">
+  <link rel="canonical" href="https://3ds.customfw.xyz/soundhax.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/soundhax.html">
 
 
 
@@ -170,12 +170,6 @@
           
             
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
           
             
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
@@ -329,14 +323,14 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Использование SoundHax для запуска Homebrew Launcher">
+    <meta itemprop="headline" content="Использование SoundHax для установки boot9strip">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Использование SoundHax для запуска Homebrew Launcher
+          <h1 class="page__title" itemprop="headline">Использование SoundHax для установки boot9strip
 </h1>
           
         </header>
@@ -349,7 +343,8 @@
     <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a></li>
-  <li><a href="#следующий-шаг-установка-boot9strap-homebrew-launcher" id="markdown-toc-следующий-шаг-установка-boot9strap-homebrew-launcher"><strong>Следующий шаг:</strong> Установка boot9strap (Homebrew Launcher)</a></li>
+  <li><a href="#установка-boot9strap" id="markdown-toc-установка-boot9strap">Установка boot9strap</a></li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
 </ul>
 
   </nav>
@@ -357,21 +352,13 @@
 
 <hr />
 
-<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.<hr />По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
 
-<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
-
-<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<br />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
 
 <hr />
 
 <p class="notice--info">Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: <a href="file-extensions-windows" target="_blank">Расширения файлов (Windows)</a>!</p>
-
-<div class="notice--warning">
-<p>Заметьте, что обновление на картридже позволяет обновить только базовые функции консоли, такие как Системные настройки, меню Home, и т. п. Приложение Звук Nintendo 3DS и сетевые функции, такие как Передача данных, Интернет-браузер, Площадь StreetPass Mii или eShop с картриджа не обновляются.
-<br /><br />
-Помните, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS <em>(&lt;3.0.0 для Old 3DS регионов EUR, JPN, KOR, и USA)</em>, сделает невозможной работу <a href="homebrew-launcher-soundhax" target="_blank">Soundhax</a>! Вам понадобится <a href="homebrew-launcher-alternatives" target="_blank">альтернативный метод</a> запуска Homebrew Launcher, либо установка boot9strap.</p>
-</div>
 
 <p class="notice--warning">Убедитесь, что на приставке включён “<strong>Беспроводной режим</strong>”! Интернет при этом подключать не обязательно.</p>
 
@@ -413,42 +400,15 @@
 
     <script src="assets/js/scripts.js"></script>
   </li>
-  <li>Укажите версию вашей приставки (OLD или NEW) и версию текущей прошивки на которой в данный момент находится ваша консоль
-    <ul>
-      <li>Версию прошивки можно посмотреть в настройках приставки. Она будет написана справа внизу на верхнем экране.</li>
-    </ul>
-
-    <link href="files/payload/hbrew.css" rel="stylesheet" type="text/css" media="all" />
-
-    <script src="files/payload/payload_select.js"></script>
-
-    <div class="content">
-     <form class="firmware-form" method="post">
-         <span>Укажите версию приставки (OLD или NEW): </span>
-         <select data-id="0" name="five"></select>
-         <span style="display: block;">Укажите версию прошивки:</span>
-         <select data-id="1" name="zero"></select><span class="wrap wrap-dot">.</span>
-         <select data-id="2" name="one"></select><span class="wrap wrap-dot">.</span>
-         <select data-id="3" name="two"></select><span class="wrap wrap-def">-</span>
-         <select data-id="4" name="three"></select>
-         <select data-id="5" name="four"></select>
-         <button type="button" onclick="updatePayload()">Скачать payload</button>
-     </form>
- </div>
-  </li>
-  <li>Сохраните полученный файл под именем <code class="language-plaintext highlighter-rouge">otherapp.bin</code> в корень вашей SD-карты, если необходимо, с заменой
-    <ul>
-      <li>Имя файла <strong>обязательно</strong> должно быть <code class="language-plaintext highlighter-rouge">otherapp.bin</code></li>
-    </ul>
-  </li>
   <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
   <li>Вставьте SD-карту обратно в консоль</li>
   <li>Включите консоль</li>
-  <li>
-    <p>Запустите приложение <strong>Звук Nintendo 3DS</strong> (Nintendo 3DS Sound)</p>
+  <li>Запустите приложение <strong>Звук Nintendo 3DS</strong> (Nintendo 3DS Sound)</li>
+</ol>
 
-    <p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/soundhax-welcome.png" alt="" target="_blank" /></p>
-  </li>
+<p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/soundhax-welcome.png" alt="" target="_blank" /></p>
+
+<ol>
   <li>Если вы никогда не запускали <strong>Звук Nintendo 3DS</strong> (Nintendo 3DS Sound) ранее и видите советы по использованию приложения, пролистайте все сообщения птички, затем закройте приложение и снова запустите его
     <ul>
       <li>В этой ситуации, при запуске Soundhax сразу, без закрытия, птичка будет появляться при каждом запуске приложения, до тех пор, пока вы не выполните этот пункт</li>
@@ -459,15 +419,26 @@
       <li>Может потребоваться несколько попыток</li>
       <li>При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова</li>
     </ul>
-
-    <p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/soundhax-launch.png" alt="" target="_blank" /></p>
   </li>
-  <li>Консоль должна загрузиться в Homebrew Launcher</li>
+</ol>
+
+<p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/soundhax-launch.png" alt="" target="_blank" /></p>
+
+<ol>
+  <li>Консоль должна загрузиться в <strong>SafeB9SInstaller</strong></li>
+</ol>
+
+<h2 id="установка-boot9strap">Установка boot9strap</h2>
+
+<ol>
+  <li>Дождитесь окончания всех проверок безопасности</li>
+  <li>При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap</li>
+  <li>После завершения процесса, нажмите <img src="/images/buttons/A.png" alt="(A)" /> для перезагрузки</li>
 </ol>
 
 <hr />
 
-<h2 class="notice--success" id="следующий-шаг-установка-boot9strap-homebrew-launcher"><strong>Следующий шаг:</strong> <a href="installing-boot9strap-homebrew-launcher">Установка boot9strap (Homebrew Launcher)</a></h2>
+<h2 class="notice--success" id="следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> <a href="finalizing-setup">Завершение установки</a></h2>
 
 				
         
@@ -518,7 +489,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

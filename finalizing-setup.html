@@ -172,12 +172,6 @@
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
           
             
@@ -358,7 +352,7 @@
       <li><a href="#часть-v---дополнительные-настройки" id="markdown-toc-часть-v---дополнительные-настройки">Часть V - Дополнительные настройки</a></li>
       <li><a href="#часть-vi---установка-необходимых-программ" id="markdown-toc-часть-vi---установка-необходимых-программ">Часть VI - Установка необходимых программ</a></li>
       <li><a href="#часть-vii---настройка-homebrew-launcher" id="markdown-toc-часть-vii---настройка-homebrew-launcher">Часть VII - Настройка Homebrew Launcher</a></li>
-      <li><a href="#часть-viii--ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-viii--ctrnand-luma3ds-и-очистка-sd-карты">Часть VIII- CTRNAND Luma3DS и очистка SD-карты</a></li>
+      <li><a href="#часть-viii---ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-viii---ctrnand-luma3ds-и-очистка-sd-карты">Часть VIII - CTRNAND Luma3DS и очистка SD-карты</a></li>
       <li><a href="#часть-ix---создание-резервной-копии-бекап-sysnand" id="markdown-toc-часть-ix---создание-резервной-копии-бекап-sysnand">Часть IX - Создание резервной копии (бекап) SysNAND</a></li>
       <li><a href="#часть-x---дополнительные-материалы" id="markdown-toc-часть-x---дополнительные-материалы">Часть X - Дополнительные материалы</a></li>
     </ul>
@@ -370,11 +364,9 @@
 
 <hr />
 
-<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.<hr />По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
 
-<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
-
-<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<br />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
 
 <hr />
 
@@ -437,7 +429,7 @@
 
 <h3 id="часть-ii---подготовительные-работы">Часть II - Подготовительные работы</h3>
 
-<p>Если в предыдущих пунктах вы скидывали на карту 3DSSDFiles, то переходите к следующей части. Повторно скидывать не нужно</p>
+<p class="notice--info">Если в предыдущих пунктах вы скидывали на карту 3DSSDFiles, то переходите к следующей части. Повторно скидывать не нужно</p>
 
 <ol>
   <li>Выключите консоль</li>
@@ -447,22 +439,43 @@
   <li>Включите консоль</li>
 </ol>
 
-<h3 id="часть-iii---обновление-системы">Часть III - Обновление системы</h3>
+<div class="hidden" id="browserhax">
+<h4 id="восстановление-dns">Восстановление DNS</h4>
 
-<div class="notice--info">
-<p>Если, прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND, и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела <a href="move-emunand" target="_blank">перенос EmuNAND</a>, перед выполнением этой части. Помните, что EmuNAND может быть только на уже прошитой приставке. Если вы прошиваете приставку в первый раз, у вас <strong>точно</strong> нет EmuNAND!
-<br /><br />
-Признаки <strong>отсутствия</strong> EmuNAND:</p>
 <ol>
-  <li><strong>EmuNAND не может быть на не прошитой приставке</strong></li>
-  <li>В Godmode9 отсутствует [E:] EMUNAND VIRTUAL</li>
-  <li>При установленном EmuNAND на SD-карте присутствуют два раздела, а не один</li>
-  <li>Версия системного ПО без карты памяти не такая, как версия системного ПО со вставленной картой памяти</li>
-  <li>Если у вас не прошитая приставка, у вас точно нет EmuNAND!!!
-<br /><br />
-Если у вас нет EmuNAND - это нормально. Просто пропустите его перенос.</li>
+  <li>Включите консоль</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Интернет-настройки</strong>” (Internet Settings) -&gt; “<strong>Настройки подключения</strong>” (Connection Settings)</li>
+  <li>Нажмите на вашем активном интернет-соединении (если такового нет, добавьте) и нажмите “<strong>Изменить настройки</strong>” (Change Settings) -&gt; пролистайте вправо, нажав на стрелку в правой части экрана -&gt; “<strong>DNS</strong>”</li>
+  <li>Выберите “<strong>Да</strong>” (“Yes”)</li>
+  <li>Нажмите “<strong>ОК</strong>”, затем “<strong>Сохранить</strong>” (Save)
+    <ul>
+      <li>Тест должен пройти успешно</li>
+    </ul>
+  </li>
 </ol>
+
 </div>
+
+<div class="hidden" id="fredtool">
+<h4 id="восстановление-работы-меню-подключения-nintendo-ds">Восстановление работы меню Подключения Nintendo DS</h4>
+
+<ol>
+  <li>Отключите приставку, если она включена</li>
+  <li>Вставьте карту памяти в ПК</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
+    <ul>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <em>movable.sed</em></li>
+    </ul>
+  </li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">42383841.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">fredtool_output.zip</code> по пути <code class="language-plaintext highlighter-rouge">output/clean/</code> в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> с заменой</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card) и нажмите на “<strong>Nintendo DSi™</strong>”</li>
+  <li>Выберите “<strong>Копировать</strong>”, затем нажмите “<strong>ОК</strong>”</li>
+</ol>
+
+</div>
+
+<h3 id="часть-iii---обновление-системы">Часть III - Обновление системы</h3>
 
 <p class="notice--warning">Если текущий регион вашей приставки вас не устраивает, сейчас лучшее время для того, чтобы его <a href="region-changing" target="_blank">сменить</a>. После того, как поменяете регион, вернитесь к этому руководству, чтобы продолжить дальше.</p>
 
@@ -546,7 +559,7 @@
   <li>Выберите “<strong>RESTORE original wifi slots 1,2,3</strong>”, приставка перезагрузится</li>
 </ol>
 
-<h3 id="часть-viii--ctrnand-luma3ds-и-очистка-sd-карты">Часть VIII- CTRNAND Luma3DS и очистка SD-карты</h3>
+<h3 id="часть-viii---ctrnand-luma3ds-и-очистка-sd-карты">Часть VIII - CTRNAND Luma3DS и очистка SD-карты</h3>
 
 <p class="notice--info">Обратите внимание, что если у вас имеются другие файлы помимо <code class="language-plaintext highlighter-rouge">GodMode9.firm</code> в папке <code class="language-plaintext highlighter-rouge">/luma/payloads/</code> на SD-карте, удержание кнопки <img src="/images/buttons/START.png" alt="(START)" /> при загрузке будет запускать “chainloader menu”, где вам нужно будет использовать D-Pad и кнопку <img src="/images/buttons/A.png" alt="(A)" /> для выбора “GodMode9” при выполнении этих инструкций.</p>
 
@@ -623,7 +636,7 @@
 <hr />
 
 <div class="notice--info">
-<p>Luma3DS Updater - программа для обновления кастомной прошивки. Запустите его чтобы проверить наличие новой версии Luma3DS. Нажмите <img src="/images/buttons/A.png" alt="(A)" />+<img src="/images/buttons/X.png" alt="(X)" />, если таковая имеется и программа установит её в систему и в CTRNAND. Версия Luma3DS в CTRNAND нужна только для того, чтобы приставка могла загружаться без SD-карты.<br /><br />Обновление Luma 3DS - это не тоже самое что обновление системы (System Update). В данный момент у вас самая свежая версия Luma3DS и обновлять её не нужно.</p>
+<p><strong>Luma3DS Updater</strong> - программа для обновления кастомной прошивки. Запустите его чтобы проверить наличие новой версии Luma3DS. Нажмите <img src="/images/buttons/A.png" alt="(A)" />+<img src="/images/buttons/X.png" alt="(X)" />, если таковая имеется и программа установит её в систему и в CTRNAND. Версия Luma3DS в CTRNAND нужна только для того, чтобы приставка могла загружаться без SD-карты.<br /><br /><strong>Обновление Luma 3DS - это не тоже самое что обновление системы (System Update). В данный момент у вас самая свежая версия Luma3DS и обновлять её не нужно.</strong></p>
 </div>
 
 <div class="notice--info">
@@ -641,8 +654,6 @@
 <p>Если размер новой SD-карты превышает 32Гб, используйте для форматирования <a href="http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm">guiformat</a> для Windows, <a href="http://gparted.org/download.php">gparted</a> для Linux, или <a href="https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac">Disk Utility</a> для Mac.</p>
 </div>
 
-<p>Если вы использовали Steelminer, то можете удалять игру с эксплойтом</p>
-
 <p class="notice--info">Для использования <a href="https://github.com/44670/BootNTR/" target="_blank">NTR CFW</a>, установите <a href="https://gbatemp.net/threads/432911/" target="_blank">BootNTR Selector</a>. Если вы не знаете что это, - не устанавливайте.</p>
 
 <p class="notice--success">Чтобы узнать, как сменить регион своей консоли, обратитесь к разделу <a href="region-changing" target="_blank">Смена региона</a>.</p>
@@ -652,6 +663,22 @@
 <p class="notice--success">Для справки об использовании различных функций Luma3DS обратитесь к её <a href="https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage" target="_blank">вики</a> (англ.).</p>
 
 <p class="notice--success">Различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться находятся <a href="addons" target="_blank">здесь</a>.</p>
+
+<script>
+	bh = localStorage.getItem('browserhax')
+	ft = localStorage.getItem('fredtool')
+
+	if (bh == "1") {
+		document.querySelector('#browserhax').classList.remove("hidden")
+	}
+
+	if (ft == "1") {
+		document.querySelector('#fredtool').classList.remove("hidden")
+	}
+
+	localStorage.clear();
+</script>
+
 
 				
         
@@ -702,7 +729,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

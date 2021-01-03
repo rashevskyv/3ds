@@ -172,12 +172,6 @@
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
           
             
@@ -343,84 +337,51 @@
       
 	  
 	  	
-        
-<aside class="sidebar__right">
-<nav class="toc">
-    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
-<ul class="toc__menu" id="markdown-toc">
-  <li><a href="#таблица-версий" id="markdown-toc-таблица-версий">Таблица версий</a></li>
-</ul>
-
-  </nav>
-</aside>
-
-<hr />
-
-<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
-
-<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
-
-<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
-
-<hr />
-
-<p>Прежде чем начать, рекомендуется <a href="https://customfw.xyz/test_sd" target="_blank">проверить свою SD-карту на подлинность</a></p>
+        <p>Прежде чем начать, рекомендуется <a href="https://customfw.xyz/test_sd" target="_blank">проверить свою SD-карту на подлинность</a></p>
 
 <p>Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: <a href="file-extensions-windows" target="_blank">Расширения файлов (Windows)</a>!</p>
 
-<p class="notice--warning">Если на приставке нет важных для вас данных, то я крайне рекомендую произвести форматирование <a href="clean_sd#i-Форматирование-приставки">приставки</a> и <a href="clean_sd#ii-Форматирование-sd-карты">SD-карты</a> перед началом взлома. <strong>Помните, что форматирование уничтожит все ваши данные на приставке и SD-карте. Делайте его только в том случае, если на приставке и карте нет ничего важного!</strong></p>
+<p class="notice--warning">Если на приставке нет важных для вас данных, то я крайне рекомендую произвести форматирование <a href="clean_sd#i-форматирование-приставки">приставки</a> и <a href="https://customfw.xyz/format_sd">SD-карты</a> перед началом взлома. <strong>Помните, что форматирование уничтожит все ваши данные на приставке и SD-карте. Делайте его только в том случае, если на приставке и карте нет ничего важного!</strong></p>
 
 <hr />
 
-<p>Столбцы “<strong>С</strong>” и “<strong>По</strong>” обозначают границы диапазона. Это означает, к примеру, что диапазон “<strong>с 9.0.0 по 9.2.0</strong>” включает в себя 9.0.0, 9.1.0 и 9.2.0.</p>
-
-<p class="notice--success">Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).</p>
+<p class="notice--success">Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении <strong>Системные настройки</strong> (System settings).</p>
 
 <p class="text-center notice--info"><img src="https://3ds.customfw.xyz/images/screenshots/system-version.png" alt="" target="_blank" /></p>
 
 <h3 id="таблица-версий">Таблица версий</h3>
 
-<p class="notice--warning">Для всех консолей, любой версии прошивки можно использовать <a href="ntrboot" target="_blank">NTRBootHax</a>, даже если они не указаны в таблице! Для первого понадобится совместимый флеш-картридж, но этот метод наиболее простой, для второго - обновиться до последней версии системного ПО. <br /><br /><strong>Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до 11.14.0 через Системные настройки, а затем воспользовавшись методом <a href="steelminer" target="_blank">Steelminer</a>. Этот метод не требует дополнительных вложений</strong></p>
+<p class="notice--warning">Для всех консолей, любой версии прошивки можно использовать <a href="ntrboot" target="_blank">NTRBootHax</a>, даже если они не указаны в таблице! Для этого понадобится совместимый флеш-картридж, но этот метод наиболее простой. <br /><br /><strong>Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до 11.14.0 через Системные настройки, а затем воспользовавшись соответствующим методом из таблицы</strong></p>
 
 <table>
   <colgroup>
-    <col span="1" style="width: 5%;" />
-    <col span="1" style="width: 5%;" />
-    <col span="1" style="width: 38%;" />
+    <col style="width: 5%;" span="1" />
+    <col style="width: 5%;" span="1" />
+    <col style="width: 38%;" span="1" />
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">С</th>
-      <th style="text-align: center; font-weight: bold;">По</th>
-      <th style="text-align: center; font-weight: bold;">Способ прошивки</th>
+      <th style="text-align: center; font-weight: bold;" rowspan="2">С</th>
+      <th style="text-align: center; font-weight: bold;" rowspan="2">По</th>
+    </tr>
+    <tr>
+      <th style="text-align: center; font-weight: bold;">Old 3DS</th>
+      <th style="text-align: center; font-weight: bold;">New 3DS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-	  <td style="text-align: center; font-weight: bold;">2.0.0</td>
-      <td style="text-align: center;"><a href="ntrboot">ntrboothax</a> или <a href="steelminer">Steelminer</a></td>
-	</tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.1.0</td>
-      <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center;"><a href="installing-boot9strap-soundhax">Установка boot9strap (Soundhax)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
+      <td style="text-align: center;" colspan="2"><a href="soundhax">Установка boot9strap с помощью Soundhax</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.13.0</td>
-      <td style="text-align: center;"><a href="browserhax">Homebrew Launcher (Browserhax)</a><br /><b>(не требует вложения денег)</b></td>
+      <td style="text-align: center; font-weight: bold;">11.14.0</td>
+      <td style="text-align: center;" rowspan="2"><a href="safecerthax">Установка boot9strap (safecerthax)</a><br /></td>
+      <td style="text-align: center;"><a href="browserhax">Установка boot9strap (через браузер)</a><br /></td>
     </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0</td>
-      <td style="text-align: center;"><a href="steelminer">Steelminer</a><br /><b>(не требует вложения денег)</b></td>
-    </tr>
-</tbody>
+  </tbody>
 </table>
 
 				
@@ -472,7 +433,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

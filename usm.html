@@ -172,12 +172,6 @@
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
           
             
@@ -360,11 +354,9 @@
 
 <hr />
 
-<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.<hr />По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
 
-<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
-
-<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<br />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
 
 <hr />
 
@@ -373,17 +365,17 @@
 <h3 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h3>
 
 <ol>
-  <li>Откройте <a href="https://usm.bruteforcemovable.com/">unSAFE_MODE-bb3 tool</a> на вашем ПК</li>
+  <li>Откройте <a href="https://3ds.nhnarwhal.com/3dstools/unsafemode.php">unSAFE_MODE-bb3 tool</a> на вашем ПК</li>
   <li>Нажмите на кнопку “<strong>Choose File</strong>” и выберите <code class="language-plaintext highlighter-rouge">movable.sed</code>, его мы получали ранее</li>
-  <li>Нажмите на кнопку “<strong>Download unSAFE_MODE-bb3 archive</strong>”
+  <li>Нажмите на кнопку “<strong>Build and Download</strong>”
     <ul>
-      <li>Вам предложат сохранить на ПК архив <code class="language-plaintext highlighter-rouge">unSAFE_MODE-bb3.zip</code>, содержащий файлы <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> и <code class="language-plaintext highlighter-rouge">usm.bin</code></li>
+      <li>Вам предложат сохранить на ПК архив <code class="language-plaintext highlighter-rouge">unSAFE_MODE.zip</code>, содержащий файлы <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> и <code class="language-plaintext highlighter-rouge">usm.bin</code></li>
     </ul>
   </li>
   <li>Отключите консоль</li>
   <li>Вставьте SD-карту приставки в ПК</li>
   <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>) в корень вашей SD-карты</li>
-  <li>Скопируйте <code class="language-plaintext highlighter-rouge">usm.bin</code> из архива <code class="language-plaintext highlighter-rouge">unSAFE_MODE-bb3.zip</code> в корень вашей карты памяти</li>
+  <li>Скопируйте <code class="language-plaintext highlighter-rouge">usm.bin</code> из архива <code class="language-plaintext highlighter-rouge">unSAFE_MODE.zip</code> в корень вашей карты памяти</li>
   <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
     <ul>
       <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <code class="language-plaintext highlighter-rouge">movable.sed</code></li>
@@ -391,7 +383,7 @@
       <li>Если в папке <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> есть файлы, переместите их на ПК</li>
     </ul>
   </li>
-  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">unSAFE_MODE-bb3.zip</code>, в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">unSAFE_MODE.zip</code>, в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
 </ol>
 
 <h3 id="часть-ii---bannerbomb3">Часть II - BannerBomb3</h3>
@@ -427,7 +419,7 @@
   </li>
 </ol>
 <details class="spoiler"><summary class="spoiler-title">Наглядная демонстрация</summary><div class="spoiler-body">
-<div style="width: ; margin:0 auto;" class="text-center notice--info">
+<div style="max-width: ; margin:0 auto;" class="text-center notice--info">
 
   <div class="ytcontainer">
     <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/Wja1_HWXBGA"></iframe>
@@ -521,7 +513,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

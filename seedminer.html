@@ -19,7 +19,7 @@
 
 
 
-<title>Steelminer - Взлом 3DS</title>
+<title>Seedminer - Взлом 3DS</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом 3DS">
-<meta property="og:title" content="Steelminer">
+<meta property="og:title" content="Seedminer">
 
 
-  <link rel="canonical" href="https://3ds.customfw.xyz/steelminer.html">
-  <meta property="og:url" content="https://3ds.customfw.xyz/steelminer.html">
+  <link rel="canonical" href="https://3ds.customfw.xyz/seedminer.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/seedminer.html">
 
 
 
@@ -170,12 +170,6 @@
           
             
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/update-luma3ds">Обновление<br>Luma3DS</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/a9lh-to-b9s">Переход с<br>a9lh на b9s</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/steelminer">Steelminer</a></li>
           
             
             <li class="masthead__menu-item"><a href="https://3ds.customfw.xyz/ntrboot">NTRBoot</a></li>
@@ -329,14 +323,14 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Steelminer">
+    <meta itemprop="headline" content="Seedminer">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Steelminer
+          <h1 class="page__title" itemprop="headline">Seedminer
 </h1>
           
         </header>
@@ -348,7 +342,7 @@
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#часть-0---можно-ли-прошить-вашу-приставку-этим-методом" id="markdown-toc-часть-0---можно-ли-прошить-вашу-приставку-этим-методом">Часть 0 - Можно ли прошить вашу приставку этим методом</a></li>
+  <li><a href="#немного-теории" id="markdown-toc-немного-теории">Немного теории</a></li>
   <li><a href="#часть-i---получение-id0" id="markdown-toc-часть-i---получение-id0">Часть I - Получение ID0</a></li>
   <li><a href="#часть-ii---подбор-уникального-ключа-приставки-movablesed" id="markdown-toc-часть-ii---подбор-уникального-ключа-приставки-movablesed">Часть II - Подбор уникального ключа приставки movable.sed</a></li>
   <li><a href="#следующий-шаг-установка-cfw-с-помощью-usm" id="markdown-toc-следующий-шаг-установка-cfw-с-помощью-usm"><strong>Следующий шаг:</strong> Установка CFW с помощью USM</a></li>
@@ -359,29 +353,19 @@
 
 <hr />
 
-<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+<div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.<hr />По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
 
-<div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
-
-<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><hr />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<hr />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
+<div class="notice--warning">Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br />Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.<hr />Соглашайтесь на замену файлов по запросу, если не указано иное. Если в гайде сказано что-то скопировать в папку, но на вашей SD-карте такой папки нет - создайте её!<br />Все манипуляции в руководстве производятся с картой память консоли, если не сказано иное!</div>
 
 <hr />
 
-<p>Steelhax - новая первичная точка входа для 3DS. С её помощью можно получить доступ к Homebrew Launcher и уже из него установить кастомную прошивку. Самое приятное, что использование этой уязвимости абсолютно бесплатно.</p>
+<p class="notice--warning">Этот метод устаревший! Не используйте его без веских причин (например, поломанные шифты консоли). Вернитесь в <a href="get-started">Начало</a> и выберите другой метод взлома!</p>
 
-<h2 id="часть-0---можно-ли-прошить-вашу-приставку-этим-методом">Часть 0 - Можно ли прошить вашу приставку этим методом</h2>
+<h2 id="немного-теории">Немного теории</h2>
 
-<p>Этим методом невозможно прошить уже прошитую приставку (что не удивительно). Кажется очевидным, однако это самая распространенная ошибка, связанная с этим методом. Поэтому первым делом мы проверяем не прошита ли уже ваша приставка.</p>
+<p>Для установки boot9strap на устройство мы воспользуемся уязвимостью, которой подвержены приложения “DSiWare”.</p>
 
-<ol>
-  <li>Нажмите одновременно <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/DOWN.png" alt="(DOWN)" /> + <img src="/images/buttons/SELECT.png" alt="(SELECT)" />. Если откроется меню Rosalina, то приставка прошита, можете сразу следовать к <a href="finalizing-setup">завершению установки</a></li>
-</ol>
-
-<p>Этот метод не сработает, если:</p>
-<ul>
-  <li>Вы удалили все файлы\отформатировали карту памяти на уже прошитой приставку. В таком случае приставка всё равно остаётся прошитой и не требует повторной перепрошивки, можете сразу следовать к <a href="finalizing-setup" target="_blank">завершению установки</a></li>
-  <li>Вы удалили <a href="uninstall-cfw.md" target="_blank">FW через gm9</a>. В таком случае вы можете заново прошить приставку только через <a href="ntrboot" target="_blank">ntrboot</a></li>
-</ul>
+<p>Для того, чтобы это провернуть, мы воспользуемся Seedminer, так называется утилита, которая подберёт ключ шифрования (movable.sed), используемый DSiWare. С помощью этого ключа мы внедрим эксплойт в совместимое DSiWare-приложение и запустим свой собственный код, благодаря которому сможем взломать консоль.</p>
 
 <h2 id="часть-i---получение-id0">Часть I - Получение ID0</h2>
 
@@ -389,9 +373,9 @@
   <li>Выключите приставку</li>
   <li>Вставьте SD-карту консоли в компьютер</li>
   <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code></li>
-  <li>В папке <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> у вас должна быть <strong>одна</strong> папка с длинным 32-х символьным названием - это и есть ваш ID0</li>
+  <li>В папке <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> у вас должна быть <strong>одна</strong> папка с длинным 32-х символьным названием - это ваш <strong>ID0</strong></li>
   <li>
-    <p>Скопируйте название этой папки (далее для простоты я буду называть название этой папки просто как ID0) в надёжное место. Далее нам оно понадобится</p>
+    <p>Скопируйте имя этой папки (далее для простоты я буду называть имя этой папки просто как ID0) в надёжное место. Далее нам оно понадобится</p>
 
     <p class="text-center notice--info"><img src="/images/seedminer/ID0.png" alt="" target="_blank" /></p>
 
@@ -415,12 +399,8 @@
 
 <ol>
   <li>Вставьте карту памяти обратно в консоль и включите её</li>
-  <li>Перейдите на сайт <a href="https://bruteforcemovable.com/" target="_blank">https://bruteforcemovable.com/</a>
-    <ul>
-      <li>Если сайт не открывается, то сгенерируйте <strong>movable_part1.sed</strong> с помощью <a href="http://part1dumper.mechanicaldragon.xyz/" target="_blank">этого сайта</a>, а затем попросите помощи в <a href="https://discord.com/invite/C29hYvh" target="_blank">этом дискорде</a> на английском языке</li>
-    </ul>
-  </li>
-  <li>На сайте в поле “<strong>Your friend code</strong>” введите свой <em>код друга</em> (friend code)
+  <li>Перейдите на сайт <a href="https://seedminer.hacks.guide/" target="_blank">https://seedminer.hacks.guide/</a></li>
+  <li>В поле “<strong>Your friend code</strong>” введите свой <em>код друга</em> (friend code) без пробелов или дефисов
     <ul>
       <li>Посмотреть свой код друга можно в <strong>Списке друзей</strong> (Friend List)
         <ul>
@@ -429,12 +409,18 @@
       </li>
     </ul>
   </li>
-  <li>На сайте в поле “<strong>Your ID0</strong>” введите свой <a href="#получение-id0"><em>ID0</em></a></li>
-  <li>Пройдите капчу и нажмите “<strong>Go</strong>”</li>
+  <li>В поле “<strong>Your ID0</strong>” введите свой <a href="#получение-id0"><em>ID0</em></a></li>
+  <li>Пройдите капчу (если она будет) и нажмите “<strong>Go</strong>”
+    <ul>
+      <li>Если после этого вы немедленно получите свой <code class="language-plaintext highlighter-rouge">movable.sed</code>, закончите эту часть</li>
+    </ul>
+  </li>
   <li>Добавьте появившийся код друга в список друзей (через Интернет; Интернет, разумеется, должен на приставке быть)</li>
+  <li>Дождитесь обновления сайта (если сайт не обновляется несколько минут, перезагрузите страницу)</li>
   <li>Нажмите “<strong>Continue</strong>”
     <ul>
       <li>Ожидайте, процесс может занять довольно много времени. Вы поставлены в очередь на майнинг, наберитесь терпения и ждите пока очередь дойдёт до вас.</li>
+      <li>Если вы ждёте более получаса, обратитесь за помощью в <a href="https://discord.gg/MWxPgEp" target="_blank">Nintendo Homebrew on Discord</a></li>
     </ul>
   </li>
   <li>Ожидайте, через время прогрессбар станет оранжевым - это значит, что ваш запрос пошёл в работу</li>
@@ -495,7 +481,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Plailect, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
