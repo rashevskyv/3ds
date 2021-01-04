@@ -1,8 +1,6 @@
 ---
 title: Форматирование приставки или SD-карты #
-lang: ru
 permalink:  clean_sd.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

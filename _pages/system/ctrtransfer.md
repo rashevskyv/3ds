@@ -1,7 +1,6 @@
 ---
 title: CTRTransfer
 permalink: /ctrtransfer.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

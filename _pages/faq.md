@@ -1,7 +1,6 @@
 ---
 title: FAQ для не прошитых
 permalink: /faq.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

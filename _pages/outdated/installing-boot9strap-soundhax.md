@@ -1,7 +1,6 @@
 ---
 title: Установка boot9strap (Soundhax)
 permalink: /installing-boot9strap-soundhax.html
-author_profile: true
 ---
 
 {% include toc title="Содержание" %}

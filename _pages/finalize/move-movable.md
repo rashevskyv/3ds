@@ -1,7 +1,6 @@
 ---
 title: Перенос данных на другую приставку  #
 permalink: /move-movable.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

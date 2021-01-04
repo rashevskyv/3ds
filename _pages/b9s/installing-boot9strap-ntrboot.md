@@ -1,8 +1,6 @@
 ---
 title: Установка boot9strap (ntrboot)
-lang: ru
 permalink: installing-boot9strap-ntrboot.html
-author_profile: true
 ---
 
 {% include toc title="Разделы" %}

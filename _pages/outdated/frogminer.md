@@ -1,7 +1,6 @@
 ---
 title: Установка CFW с помощью Frogminer
 permalink: /frogminer.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

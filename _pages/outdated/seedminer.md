@@ -1,7 +1,6 @@
 ---
 title: Seedminer
-permalink:  seedminer.html
-
+permalink: /seedminer.html
 ---
 {% include toc title="Разделы" %}
 

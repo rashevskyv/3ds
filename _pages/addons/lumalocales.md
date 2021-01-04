@@ -1,7 +1,6 @@
 ---
 title: Включение русского языка в играх на приставке не европейского региона
 permalink: lumalocales.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

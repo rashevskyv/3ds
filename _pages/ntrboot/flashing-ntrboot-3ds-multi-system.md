@@ -1,8 +1,6 @@
 ---
 title: Прошивка ntrboot (с привлечением прошитой 3DS)
-lang: ru
 permalink: flashing-ntrboot-3ds-multi-system.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

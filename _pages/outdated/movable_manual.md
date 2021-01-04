@@ -1,7 +1,6 @@
 ---
 title: Получение ключа movable.sed с помощью майнинга
 permalink: /movable_manual.html
-author_profile: true
 ---
 
 {% include toc title="Разделы" %}

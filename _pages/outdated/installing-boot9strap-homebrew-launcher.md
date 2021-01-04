@@ -1,7 +1,6 @@
 ---
 title: Установка boot9strap (Homebrew Launcher)
 permalink: installing-boot9strap-homebrew-launcher.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

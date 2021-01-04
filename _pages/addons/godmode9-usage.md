@@ -1,7 +1,6 @@
 ---
 title: Использование GodMode9 #
 permalink: /godmode9-usage.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

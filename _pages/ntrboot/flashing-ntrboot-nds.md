@@ -1,8 +1,6 @@
 ---
 title: Прошивка ntrboot (NDS)
-lang: ru
 permalink: flashing-ntrboot-nds.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

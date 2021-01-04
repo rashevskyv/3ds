@@ -1,7 +1,6 @@
 ---
 title: Обновление boot9strap
 permalink: updating-b9s.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

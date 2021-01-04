@@ -1,8 +1,6 @@
 ---
 title: Пайка хардмода в New 3DS XL #
-lang: ru
 permalink: making-hardmod-new3dsxl.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

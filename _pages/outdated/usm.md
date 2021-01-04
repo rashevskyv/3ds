@@ -1,7 +1,6 @@
 ---
 title: Установка boot9strap (USM)
 permalink: /usm.html
-author_profile: true
 ---
 
 {% include toc title="Содержание" %}

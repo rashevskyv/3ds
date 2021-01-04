@@ -1,8 +1,6 @@
 ---
 title: Пайка хардмода в Old 3DS #
-lang: ru
 permalink: making-hardmod-old3ds.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

@@ -1,7 +1,6 @@
 ---
 title: Установка и использование тем
 permalink: /themes.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

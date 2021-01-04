@@ -1,8 +1,6 @@
 ---
 title: Пайка хардмода в 2DS #
-lang: ru
 permalink: making-hardmod-2ds.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

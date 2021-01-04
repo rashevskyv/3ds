@@ -1,8 +1,6 @@
 ---
 title: Переход с A9LH на boot9strap #
-lang: ru
 permalink: a9lh-to-b9s.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

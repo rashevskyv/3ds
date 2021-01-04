@@ -1,7 +1,6 @@
 ---
 title: Установка boot9strap (Hardmod) #
 permalink: installing-boot9strap-hardmod.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

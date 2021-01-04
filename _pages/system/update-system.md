@@ -1,7 +1,6 @@
 ---
 title: Обновление системного ПО приставки
 permalink: /update-system.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

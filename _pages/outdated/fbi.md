@@ -1,7 +1,6 @@
 ---
 title: Запуск и установка FBI
 permalink: /fbi.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

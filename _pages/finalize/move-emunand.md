@@ -1,7 +1,6 @@
 ---
 title: Перенос EmuNAND в SysNAND
 permalink: /move-emunand.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

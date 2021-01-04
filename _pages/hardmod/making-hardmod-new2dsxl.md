@@ -1,8 +1,6 @@
 ---
 title: Пайка хардмода в New 2DS XL #
-lang: ru
 permalink: making-hardmod-new2dsxl.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

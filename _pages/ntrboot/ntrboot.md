@@ -1,8 +1,6 @@
 ---
 title: ntrboot
-lang: ru
 permalink: ntrboot.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

@@ -1,6 +1,6 @@
 ---
 title: Начнем
-permalink:  get-started.html
+permalink: get-started.html
 ---
 
 Прежде чем начать, рекомендуется [проверить свою SD-карту на подлинность](https://customfw.xyz/test_sd){:target="_blank"}

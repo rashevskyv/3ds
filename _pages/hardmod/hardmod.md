@@ -1,8 +1,6 @@
 ---
 title: Хардмод #
-lang: ru
 permalink: hardmod.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 

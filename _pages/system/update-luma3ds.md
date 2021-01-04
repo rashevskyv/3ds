@@ -1,7 +1,6 @@
 ---
 title: Обновление Luma3DS
 permalink: /update-luma3ds.html
-author_profile: true
 ---
 {% include toc title="Разделы" %}
 
