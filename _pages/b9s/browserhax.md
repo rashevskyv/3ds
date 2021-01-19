@@ -26,6 +26,7 @@ permalink:  browserhax.html
 ## Часть III - Browserhax
 
 1. Включите приставку 
+1. Подключитесь к интернету
 1. Запустите камеру (можно сделать одновременным нажатием на клавиши {% include inc/btn.txt btn="L" %}+{% include inc/btn.txt btn="R" %}) и нажмите на символ QR-кода в нижнем левом углу нижнего экрана 
 
 	![](/images/qrcode_reader.png)
