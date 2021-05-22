@@ -21,6 +21,12 @@ body {
     background-color: #FFFFFF !important;
 }
 
+#main {
+  @include breakpoint($x-large) {
+    max-width: 1920px;
+  }
+}
+
 .page {
   /*margin: 10px;*/
 }
