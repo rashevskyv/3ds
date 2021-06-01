@@ -53,8 +53,7 @@ ___
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
-      <td style="text-align: center;" rowspan="2"><a href="safecerthax">Установка boot9strap (safecerthax)</a><br /></td>
-      <td style="text-align: center;"><a href="browserhax">Установка boot9strap (через браузер)</a><br /></td>
+      <td style="text-align: center;" colspan="2"><a href="browserhax">Установка boot9strap (через браузер)</a><br /></td>
     </tr>
   </tbody>
 </table>

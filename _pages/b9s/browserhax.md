@@ -34,7 +34,7 @@ permalink:  browserhax.html
 	{: .notice--info}
 
 	* Если у вас не работает камера, то откройте браузер и перейдите вручную по адресу 
-		* `https://zoogie.github.io/web/nbhax-xl/`
+		* `https://zoogie.github.io/web/nbhax`
 
 1. Отсканируйте QR-code
 
@@ -43,7 +43,7 @@ permalink:  browserhax.html
 	{: .notice--info}
 
 	* При возникновении ошибки, удалите все данные браузера через его настройки
-1. Если эксплойт сработал, запустится SafeB9SInstaller
+1. Если эксплойт сработал, запустится **SafeB9SInstaller**
 
 ## Часть IV - Установка boot9strap
 
