@@ -53,7 +53,7 @@ permalink: /troubleshooting.html
 
 Нужно восстановить тикеты с помощью программы [faketik](https://github.com/ihaveamac/faketik/releases/latest){:target="_blank"}. 
 1. Поместите программу в папку `3ds`
-1. Запустите [Homebrew Launcher](launch-hbl){:target="_blank"}
+1. Запустите **Homebrew Launcher**
 1. Запустите faketik 
 	* Интернет на приставке должен быть включен 
 

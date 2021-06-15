@@ -61,6 +61,6 @@ permalink: /move-movable.html
 Если этого не случилось: 
 1. Скачайте программу [faketik](https://github.com/ihaveamac/faketik/releases/latest){:target="_blank"}:
 1. Поместите программу в папку `3ds`
-1. Запустите [Homebrew Launcher](launch-hbl){:target="_blank"}
-1. Запустите faketik 
+1. Запустите **Homebrew Launcher**
+1. Запустите [faketik](https://github.com/ihaveamac/faketik/releases/latest){:target="_blank"} 
 	* Интернет на приставке должен быть включен 
