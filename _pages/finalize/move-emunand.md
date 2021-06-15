@@ -119,7 +119,7 @@ permalink: /move-emunand.html
 	+ Нажмите {% include inc/btn.txt btn="START" %} для перезагрузки
 	+ Запустите игру GBA VC
 	+ Выйдите из игры GBA VC
-1. Запустите GodMode9, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки
+1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"} из меню чейнлоадера. Чтобы попасть в него, удерживайте нажатой кнопку {% include inc/btn.txt btn="START" %} во время включения приставки
 
 ### Часть VII - Создание резервной копии (бекап) SysNAND
 

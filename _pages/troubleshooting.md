@@ -74,7 +74,7 @@ permalink: /troubleshooting.html
     1. Когда появится меню Home, вставьте SD-карту обратно в консоль
     1. Если это сработало, вам следует очистить данные меню Home:
         1. Отключите устройство
-        1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"}, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки
+        1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"} из меню чейнлоадера. Чтобы попасть в него, удерживайте нажатой кнопку {% include inc/btn.txt btn="START" %} во время включения приставки
 		1. Нажмите кнопку {% include inc/btn.txt btn="HOME" %} для запуска меню
 		1. Выберите "**Scripts...**"
 		1. Выберите "**GM9Megascript**"

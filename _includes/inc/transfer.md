@@ -83,7 +83,7 @@
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки {% include inc/btn.txt btn="START" %} при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку {% include inc/btn.txt btn="A" %} для выбора "GodMode9" при выполнении этих инструкций. 
 {: .notice--info}
 
-1. Запустите GodMode9, держа нажатой кнопку {% include inc/btn.txt btn="START" %} во время загрузки
+1. [Запустите GodMode9](/godmode9-usage#запуск-godmode9){:target="_blank"} из меню чейнлоадера. Чтобы попасть в него, удерживайте нажатой кнопку {% include inc/btn.txt btn="START" %} во время включения приставки
 1. Перейдите в `[0:] SDCARD`
 1. Нажмите {% include inc/btn.txt btn="X" %}, выделив файл `.bin` CTRTransfer чтобы удалить его
 1. Нажмите {% include inc/btn.txt btn="A" %} для подтверждения
