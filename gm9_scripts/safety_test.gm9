@@ -1,0 +1,10 @@
+ask "!!! CAREFUL !!!\nThis script will temporarily boot the\nconsole STOCK to check if it will work\nproperly after CFW is uninstalled.\n \nYou should only be using this script\nwhile following the instructions on\n3ds.hacks.guide/uninstall-cfw.\n \nThe console will remain in 'stock mode'\nuntil it is rebooted. Note that entering\nand exiting DS mode or System Settings\nwill reboot the console.\n \nUpdating from this environment may\nlead to UNINTENDED CONSEQUENCES!\n \nContinue?"
+if chk $[ONTYPE] "N3DS"
+set D 2
+else
+set D 0
+end
+find 1:/title/00040138/$[D]0000002/content/????????.app A
+imgmount $[A]
+verify G:/exefs/.firm
+boot G:/exefs/.firm
