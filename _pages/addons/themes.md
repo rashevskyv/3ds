@@ -25,7 +25,7 @@ permalink: /themes.html
 * Установленный и рабочий [b9s](updating-b9s){:target="_blank"} последней версии 
 * Установленный и рабочий [FBI](fbi){:target="_blank"}
 * Свежая версия [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(`.cia`-файл)*
-	+ Скачиваем необходимые темы с [themeplaza.eu](https://themeplaza.eu/themes){:target="_blank"} или из [3dsthemesarchive.site](https://3dsthemesarchive.site/){:target="_blank"}
+	+ Скачиваем необходимые темы с [themeplaza.eu](https://themeplaza.eu/themes){:target="_blank"}
 	+ Официальные [темы в формате Anemone](https://drive.google.com/drive/folders/12dp95NdXdg8iQCgWgV7i48vLWIoUWdyi){:target="_blank"}
 
 ### Инструкция

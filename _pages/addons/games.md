@@ -20,7 +20,6 @@ permalink: /games.html
 1. [В нашем облаке](https://drive.google.com/drive/folders/1EwvgvHWeAJKFoyAe5-FVgubMx3005t-d){:target="_blank"}
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [В облаке на YD](https://yadi.sk/d/j408WxqR4UBzyA){:target="_blank"}
-1. [3dscia](http://www.3dscia.to/){:target="_blank"}
 1. [ziperto.com](https://www.ziperto.com/nintendo/3ds-roms/3ds-cia/){:target="_blank"}
 1. [recoleccionjuegos3ds.blogspot.com](http://recoleccionjuegos3ds.blogspot.com){:target="_blank"}
 1. [nintendo.moy.su](http://nintendo.moy.su/){:target="_blank"}
