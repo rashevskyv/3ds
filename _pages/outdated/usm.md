@@ -41,7 +41,7 @@ permalink: /usm.html
 1. Зажмите и удерживайте следующие кнопки: {% include inc/btn.txt btn="L" %} + {% include inc/btn.txt btn="R" %} + {% include inc/btn.txt btn="UP" %} + {% include inc/btn.txt btn="A" %}, а затем, не отпуская указанные кнопки, включите приставку
   + Когда подсветка экранов засветится, отпустите кнопки. Приставка загрузиться в режим восстановления
 {% spoiler Наглядная демонстрация %}
-{% include youtube.html id="Wja1_HWXBGA" %}
+{% include youtube.html id="Wja1_HWXBGA"%}
 {: .text-center}
 {: .notice--info}
 {% endspoiler %}

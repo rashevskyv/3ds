@@ -52,8 +52,12 @@ ___
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
+      <td style="text-align: center; font-weight: bold;">11.14.0</td>
       <td style="text-align: center;" colspan="2"><a href="browserhax">Установка boot9strap (через браузер)</a><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
+      <td style="text-align: center;" colspan="2"><a href="seedminer">Seedminer</a><br /></td>
     </tr>
   </tbody>
 </table>
