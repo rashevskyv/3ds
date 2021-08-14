@@ -46,6 +46,24 @@ permalink:  finalizing-setup.html
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
+{% capture usm %}
+
+#### Восстановление настроек WiFi
+
+1. Перейдите в "**Системные настройки**" (System Settings) -> "**Управление данными**" (Data Management) -> "**DSiWare**"
+1. Выберите "**Карта SD**" (SD Card)
+    * Нижний экран должен моргнуть <span style="color: green">зелёным</span>, после чего приставка загрузится на главный экран. Это означает, что настройки WiFi восстановлены
+	 * Если вы получаете ошибку, просто удалите все точки доступа через настройки приставки ("**Системные настройки**" (System Settings) -> "**Интернет-настройки**" (Internet Settings) -> "**Настройки подключения**")
+1. Выключите приставку 
+    * Удерживайте кнопку {% include inc/btn.txt btn="POWER" %} при необходимости 
+1. Вставьте карту памяти в ПК 
+1. Перейдите в папку `Nintendo 3DS > ID0 > ID1 > Nintendo DSiWare`
+    * ID0 должен совпадать с тем, который мы использовали выше, при получении *movable.sed*
+1. Удалите файл `F00D43D5.bin` из папки `Nintendo DSiWare`
+
+{% endcapture %}
+<div class="hidden" id="usm">{{ usm | markdownify }}</div>
+
 {% capture browserhax %}
 
 #### Восстановление DNS
@@ -127,6 +145,7 @@ ___
 <script>
 	bh = localStorage.getItem('browserhax')
 	ft = localStorage.getItem('fredtool')
+	usm = localStorage.getItem('usm')
 
 	if (bh == "1") {
 		document.querySelector('#browserhax').classList.remove("hidden")
@@ -136,5 +155,10 @@ ___
 		document.querySelector('#fredtool').classList.remove("hidden")
 	}
 
+	if (usm == "1") {
+		document.querySelector('#usm').classList.remove("hidden")
+	}
+
 	localStorage.clear();
 </script>
+
