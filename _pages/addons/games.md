@@ -15,7 +15,7 @@ permalink: /games.html
 
 {% spoiler Где брать игры?  %}
 
-На приставку можно установить игры только в формате `.cia`. Игры в других фарматах нужно предварительно сконвертировать. 
+На приставку можно установить игры только в формате `.cia`. Игры в других форматах нужно предварительно сконвертировать. 
 
 1. [В нашем облаке](https://drive.google.com/drive/folders/1EwvgvHWeAJKFoyAe5-FVgubMx3005t-d){:target="_blank"}
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
