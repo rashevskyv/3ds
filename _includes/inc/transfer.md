@@ -26,7 +26,6 @@
 ### Часть II - CTRTransfer
 
 {% include inc/launch_godmode9.txt console="" %}
-1. Нажмите {% include inc/btn.txt btn="HOME" %}, чтобы открыть меню GodeMode9
 1. Перейдите в `[0:] SDCARD`
 1. Выберите из списка на нижнем экране образ, подготовленный для переноса, нажав кнопку {% include inc/btn.txt btn="A" %}
 1. Нажмите {% include inc/btn.txt btn="A" %}
@@ -75,7 +74,7 @@
 Если после восстановления тикетов игры так и не появились, восстановите их с помощью программы [faketik](https://github.com/ihaveamac/faketik/releases/latest){:target="_blank"}:
 1. Поместите программу в папку `3ds`
 1. Запустите **Homebrew Launcher**
-1. Запустите faketik 
+1. Запустите **faketik** 
 	* Интернет на приставке должен быть включен 
 
 ### Часть V - Удаление образа CTRTransfer
