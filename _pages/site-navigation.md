@@ -12,8 +12,7 @@ author_profile: true
 
 * [Начнем](get-started){:target="_blank"}
 	* [Использование SoundHax для установки boot9strip](soundhax){:target="_blank"} для 1.0.0 - 11.3.0 
-	* [Установка boot9strap с помощью safecerthax](safecerthax){:target="_blank"} для Old 3DS, {% include /vars/sys_version.txt %}
-	* [Установка boot9strap с помощью браузера](browserhax){:target="_blank"} для New 3DS, {% include /vars/sys_version.txt %}
+	* [Установка boot9strap с помощью Seedminer](seedminer){:target="_blank"} для {% include /vars/sys_version.txt %}
 * [Завершение установки](finalizing-setup){:target="_blank"}
 
 ### ntrboot
