@@ -1,5 +1,6 @@
 {% capture notice-10 %}
-**Luma3DS Updater** - программа для обновления кастомной прошивки. Запустите его чтобы проверить наличие новой версии Luma3DS. Нажмите {% include inc/btn.txt btn="A" %}+{% include inc/btn.txt btn="X" %}, если таковая имеется и программа установит её в систему и в CTRNAND. Версия Luma3DS в CTRNAND нужна только для того, чтобы приставка могла загружаться без SD-карты.<br><br>**Обновление Luma 3DS - это не тоже самое что обновление системы (System Update). В данный момент у вас самая свежая версия Luma3DS и обновлять её не нужно.**
+**Universal Updater** - программа для обновления кастомной прошивки. Запустите его чтобы проверить наличие новой версии Luma3DS. Найдите на верхнем экране Luma3DS, выделите её курсором и 
+нажмите {% include inc/btn.txt btn="A" %}, выберите 'boot.firm'. После окончания закачки перезагрузите консоль. Версия Luma3DS бдет автоматически помещена и в CTRNAND єто нужно только для того, чтобы приставка могла загружаться без SD-карты.<br><br>**Обновление Luma 3DS - это не тоже самое что обновление системы (System Update). В данный момент у вас самая свежая версия Luma3DS и обновлять её не нужно.**
 {% endcapture %}
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
@@ -16,7 +17,7 @@
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
 {% capture notice-6 %}   
-Если вы хотите заменить вашу SD-карту на более ёмкую, отформатируйте новую SD-карту в FAT32 и скопируйте на неё содержимое SD-карты приставки.     
+Если вы хотите заменить вашу SD-карту на более ёмкую, [отформатируйте](https://customfw.xyz/format_sd) новую SD-карту в FAT32 и скопируйте на неё содержимое SD-карты приставки.     
 
 Если размер новой SD-карты превышает 32Гб, используйте для форматирования [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) для Windows, [gparted](http://gparted.org/download.php) для Linux, или [Disk Utility](https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) для Mac.    
 {% endcapture %}

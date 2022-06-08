@@ -9,18 +9,19 @@ permalink:  finalizing-setup.html
 
 Файл `boot.firm` - это то, что boot9strap запускает после загрузки из NAND, и этот файл может быть любым arm9-приложением. Этот файл может быть заменён когда угодно, однако Luma3DS позволяет запускать другие arm9 приложения в FIRM формате, используя свой загрузчик.
 
-Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/){:target="_blank"}, чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
+Мы используем [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases){:target="_blank"}, чтобы запускать пропатченный SysNAND напрямую.
 
-В процессе мы установим и настроим следующие программы:    
+В процессе мы установим и настроим следующие программы:      
 
-+ **FBI** *(установка	 приложений и игр в формате CIA)*
-+ **Anemone3DS** *(установка пользовательских тем)*
-+ **Checkpoint** *(резервное копирование и восстановление сохранений для игр 3DS и DS)*
-+ **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
-+ **Homerew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
-+ **ftpd** *(просто ftp-клиент для простого доступа к карте памяти без разбора приставки)*
-+ **Luma3DS Updater** *(удобное обновление CFW)*
-+ **ctr-no-timeoffset** *(программа, убирающая смещение между часами системы приставки и RTC)*
++ **[FBI](https://github.com/TheRealZora/FBI-Reloaded/releases){:target="_blank"}** - установщик приложений и игр в формате CIA
++ **[3hs](https://hshop.erista.me/3hs){:target="_blank"}** - аналог freeshop. Программа для закачки и установки игр из интернет
++ **[Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases){:target="_blank"}** - установка пользовательских тем
++ **[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases){:target="_blank"}** - резервное копирование и восстановление сохранений для игр 3DS и DS
++ **[Universal Updater](https://github.com/Universal-Team/Universal-Updater/releases){:target="_blank"}** - удобное обновление CFW
++ **[GodMode9](){:target="_blank"}** - многофункциональная утилита для работы с NAND и картриджами
++ **[Homerew Launcher Loader](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest){:target="_blank"}** - запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina
++ **[ftpd](https://github.com/mtheall/ftpd/releases){:target="_blank"}** - FTP-сервер 
++ **[lumalocalswitcher](https://github.com/Possum/LumaLocaleSwitcher/releases){:target="_blank"}** - приложение для принудительной смены локализации для конкретных игр (полезно в том случае, если у вас приставка американского или японского региона и вы хотите запустить игру, в которой есть официальный английский или русский язык)
 
 ## Что понадобится
 

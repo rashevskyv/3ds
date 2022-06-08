@@ -17,11 +17,12 @@ permalink: /games.html
 
 На приставку можно установить игры только в формате `.cia`. Игры в других форматах нужно предварительно сконвертировать. 
 
-1. [В нашем облаке](https://drive.google.com/drive/folders/1EwvgvHWeAJKFoyAe5-FVgubMx3005t-d){:target="_blank"}
+1. [В нашем облаке](https://drive.google.com/drive/folders/1Reu4zPNLOfLiHPJ30FDBPblwurdwapC0	){:target="_blank"}
 1. [В хранилище AlVro](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSmcqtzUguH-tlJ2sr6_v5rTwnlZI1wlsjnyH3Zyy4VKo-TbkHFuW_m3FjpTc3ApQxAL13lOWY9gkm/pubhtml#){:target="_blank"}
 1. [В облаке на YD](https://yadi.sk/d/j408WxqR4UBzyA){:target="_blank"}
+1. [hshop](https://hshop.erista.me/c/games){:target="_blank"}
+1. [3hs](https://hshop.erista.me/3hs){:target="_blank"}
 1. [ziperto.com](https://www.ziperto.com/nintendo/3ds-roms/3ds-cia/){:target="_blank"}
-1. [recoleccionjuegos3ds.blogspot.com](http://recoleccionjuegos3ds.blogspot.com){:target="_blank"}
 1. [nintendo.moy.su](http://nintendo.moy.su/){:target="_blank"}
 1. [Конвертировать .3DS-ромы в .CIA](godmode9-usage#%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8%D0%B7-3ds-%D0%B2-cia){:target="_blank"}
 
@@ -79,7 +80,7 @@ permalink: /games.html
 
 {% endspoiler %}
 
-{% spoiler Классический метод установки  %}
+{% spoiler Установка из карты памяти %}
 
 ### Что понадобится
 
@@ -149,6 +150,9 @@ permalink: /games.html
 1. На консоли запустите FBI
 1. Выберите пункт "**Remote Install**", а затем "**Scan QR code**" 
 1. Отсканируйте необходимый QR-код 
+
+Так же вы можете взять QR-коды с сайта [3hs](https://hshop.erista.me/3hs){:target="_blank"}
+{: .notice--info}
 
 {% endspoiler %}
 

@@ -6,7 +6,7 @@ permalink: updating-b9s.html
 
 ## Самая свежая версия b9s: {% include /vars/b9s_version.txt %}
 
-Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - перейдите на [b9s](a9lh-to-b9s){:target="_blank"}. Если вы еще не прошили приставку, вернитесь в [начало гайда](/){:target="_blank"} и прошейте. 
+Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - [перейдите на b9s](a9lh-to-b9s){:target="_blank"}. Если вы еще не прошили приставку, вернитесь в [начало гайда](/){:target="_blank"} и прошейте. 
 
 ## Что понадобится
 
@@ -78,7 +78,7 @@ permalink: updating-b9s.html
 
 {% include /inc/luma_setup.txt %}
 
-### Часть VIII - Установка Luma3DS Updater
+### Часть VIII - Установка Universal Updater
 
 {% include /inc/luma_updater.txt %}
 
