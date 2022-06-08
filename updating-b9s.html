@@ -352,7 +352,7 @@
       <li><a href="#часть-v---установка-boot9strap" id="markdown-toc-часть-v---установка-boot9strap">Часть V - Установка boot9strap</a></li>
       <li><a href="#часть-vi---обновление-luma3ds" id="markdown-toc-часть-vi---обновление-luma3ds">Часть VI - Обновление Luma3DS</a></li>
       <li><a href="#часть-vii---настройка-luma3ds" id="markdown-toc-часть-vii---настройка-luma3ds">Часть VII - Настройка Luma3DS</a></li>
-      <li><a href="#часть-viii---установка-luma3ds-updater" id="markdown-toc-часть-viii---установка-luma3ds-updater">Часть VIII - Установка Luma3DS Updater</a></li>
+      <li><a href="#часть-viii---установка-universal-updater" id="markdown-toc-часть-viii---установка-universal-updater">Часть VIII - Установка Universal Updater</a></li>
       <li><a href="#часть-ix---ctrnand-luma3ds-и-очистка-sd-карты" id="markdown-toc-часть-ix---ctrnand-luma3ds-и-очистка-sd-карты">Часть IX - CTRNAND Luma3DS и очистка SD-карты</a></li>
     </ul>
   </li>
@@ -371,13 +371,13 @@
 
 <h2 id="самая-свежая-версия-b9s-13">Самая свежая версия b9s: 1.3</h2>
 
-<p>Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - перейдите на <a href="a9lh-to-b9s" target="_blank">b9s</a>. Если вы еще не прошили приставку, вернитесь в <a href="/" target="_blank">начало гайда</a> и прошейте.</p>
+<p>Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - <a href="a9lh-to-b9s" target="_blank">перейдите на b9s</a>. Если вы еще не прошили приставку, вернитесь в <a href="/" target="_blank">начало гайда</a> и прошейте.</p>
 
 <h2 id="что-понадобится">Что понадобится</h2>
 
 <ul>
   <li>Свежая версия <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank">3DSSDFiles</a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) (<code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code>)</li>
-  <li>Свежая версия <a href="https://github.com/AuroraWright/Luma3DS/releases/latest" target="_blank">Luma3DS</a> (<code class="language-plaintext highlighter-rouge">7z</code>-архив)</li>
+  <li>Свежая версия <a href="https://github.com/LumaTeam/Luma3DS/releases/" target="_blank">Luma3DS</a> (<code class="language-plaintext highlighter-rouge">7z</code>-архив)</li>
 </ul>
 
 <h2 id="инструкция">Инструкция</h2>
@@ -504,16 +504,16 @@
   </li>
 </ol>
 
-<h3 id="часть-viii---установка-luma3ds-updater">Часть VIII - Установка Luma3DS Updater</h3>
+<h3 id="часть-viii---установка-universal-updater">Часть VIII - Установка Universal Updater</h3>
 
-<p class="notice--info">Новая версия Luma3DS Updater позволяет работать с boot9strap, путем загрузки и распаковки последнего Luma3DS <code class="language-plaintext highlighter-rouge">boot.firm</code>, а так же умеет обновлять Luma в CTRNAND. Если перед установкой новой версии не удалить старую, у вас в системе будет два апдейтера одновременно.</p>
+<p class="notice--info">Новая версия <strong>Universal Updater</strong> пришел на замену устаревшему <strong>Luma3DS Updater</strong>.</p>
 
 <ol>
   <li>Сначала нужно удалить старый Luma3DS Updater, если он установлен (если не установлен, перейдите к следующему пункту):
     <ol>
       <li>Запустите FBI</li>
       <li>Перейдите в <code class="language-plaintext highlighter-rouge">Titles</code></li>
-      <li>Выберите существующий Luma3DS Updater кнопкой <img src="/images/buttons/A.png" alt="(A)" /></li>
+      <li>Выберите существующий <strong>Luma3DS Updater</strong> кнопкой <img src="/images/buttons/A.png" alt="(A)" /></li>
       <li>
         <p>Выберите опцию “Delete Title And Ticket” и нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</p>
 
@@ -523,8 +523,8 @@
     </ol>
   </li>
   <li>Перейдите в <code class="language-plaintext highlighter-rouge">SD</code> -&gt; <code class="language-plaintext highlighter-rouge">cias</code></li>
-  <li>Выберите <code class="language-plaintext highlighter-rouge">lumaupdater.cia</code></li>
-  <li>Выберите “Install CIA”, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
+  <li>Выберите <code class="language-plaintext highlighter-rouge">Universal-Updater.cia</code></li>
+  <li>Выберите “Install and delete CIA”, затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
   <li>Нажмите <img src="/images/buttons/HOME.png" alt="(HOME)" /> для выхода из FBI</li>
 </ol>
 
@@ -559,7 +559,8 @@
 <hr />
 
 <div class="notice--info">
-<p><strong>Luma3DS Updater</strong> - программа для обновления кастомной прошивки. Запустите его чтобы проверить наличие новой версии Luma3DS. Нажмите <img src="/images/buttons/A.png" alt="(A)" />+<img src="/images/buttons/X.png" alt="(X)" />, если таковая имеется и программа установит её в систему и в CTRNAND. Версия Luma3DS в CTRNAND нужна только для того, чтобы приставка могла загружаться без SD-карты.<br /><br /><strong>Обновление Luma 3DS - это не тоже самое что обновление системы (System Update). В данный момент у вас самая свежая версия Luma3DS и обновлять её не нужно.</strong></p>
+<p><strong>Universal Updater</strong> - программа для обновления кастомной прошивки. Запустите его чтобы проверить наличие новой версии Luma3DS. Найдите на верхнем экране Luma3DS, выделите её курсором и 
+нажмите <img src="/images/buttons/A.png" alt="(A)" />, выберите ‘boot.firm’. После окончания закачки перезагрузите консоль. Версия Luma3DS бдет автоматически помещена и в CTRNAND єто нужно только для того, чтобы приставка могла загружаться без SD-карты.<br /><br /><strong>Обновление Luma 3DS - это не тоже самое что обновление системы (System Update). В данный момент у вас самая свежая версия Luma3DS и обновлять её не нужно.</strong></p>
 </div>
 
 <div class="notice--info">
@@ -572,7 +573,7 @@
 </div>
 
 <div class="notice--info">
-<p>Если вы хотите заменить вашу SD-карту на более ёмкую, отформатируйте новую SD-карту в FAT32 и скопируйте на неё содержимое SD-карты приставки.</p>
+<p>Если вы хотите заменить вашу SD-карту на более ёмкую, <a href="https://customfw.xyz/format_sd">отформатируйте</a> новую SD-карту в FAT32 и скопируйте на неё содержимое SD-карты приставки.</p>
 
 <p>Если размер новой SD-карты превышает 32Гб, используйте для форматирования <a href="http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm">guiformat</a> для Windows, <a href="http://gparted.org/download.php">gparted</a> для Linux, или <a href="https://support.apple.com/en-gb/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac">Disk Utility</a> для Mac.</p>
 </div>
