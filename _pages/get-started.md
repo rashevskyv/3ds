@@ -52,7 +52,7 @@ ___
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.15.0</td>
+      <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
       <td style="text-align: center;" colspan="2"><a href="seedminer">Seedminer</a><br /></td>
     </tr>
   </tbody>

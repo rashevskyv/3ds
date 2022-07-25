@@ -10,9 +10,18 @@ author_profile: true
 
 ### Современная цепочка
 
+#### 1.0.0 - 11.3.0
+
 * [Начнем](get-started){:target="_blank"}
-	* [Использование SoundHax для установки boot9strip](soundhax){:target="_blank"} для 1.0.0 - 11.3.0 
-	* [Установка boot9strap с помощью Seedminer](seedminer){:target="_blank"} для {% include /vars/sys_version.txt %}
+	* [Использование SoundHax для установки boot9strip](soundhax){:target="_blank"}
+* [Завершение установки](finalizing-setup){:target="_blank"}
+
+#### 11.4.0 - {% include /vars/sys_version.txt %}
+
+* [Начнем](get-started){:target="_blank"}
+	* [Seedminer](seedminer){:target="_blank"}
+	* [Установка boot9strap (USM)](usm){:target="_blank"}
+	* [Установка boot9strap с помощью Seedminer](seedminer){:target="_blank"}
 * [Завершение установки](finalizing-setup){:target="_blank"}
 
 ### ntrboot
