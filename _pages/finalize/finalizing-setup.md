@@ -1,6 +1,6 @@
 ---
 title: Завершение установки
-permalink:  finalizing-setup.html
+permalink: finalizing-setup.html
 ---
 
 {% include toc title="Разделы" %}
