@@ -12,6 +12,8 @@ main:
     url: /games
   - title: "Полезные<br>инструкции"
     url: /addons
+  - title: "Завершение установки"
+    url: /finalizing-setup
   - title: "Обновление<br>прошивки"
     url: /update-system
   - title: "Обновление<br>Luma3DS"
@@ -20,8 +22,6 @@ main:
     url: /ntrboot
   - title: "Список ПО"
     url: /soft
-  - title: "Завершение установки"
-    url: /updating-b9s
   - title: "Навигация по сайту"
     url: /site-navigation
   - title: "Пожертвования"
