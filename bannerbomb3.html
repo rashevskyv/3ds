@@ -19,7 +19,7 @@
 
 
 
-<title>Карта сайта - Взлом 3DS</title>
+<title>Установка boot9strap (BannerBomb3) - Взлом 3DS</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом 3DS">
-<meta property="og:title" content="Карта сайта">
+<meta property="og:title" content="Установка boot9strap (BannerBomb3)">
 
 
-  <link rel="canonical" href="https://3ds.customfw.xyz/site-navigation.html">
-  <meta property="og:url" content="https://3ds.customfw.xyz/site-navigation.html">
+  <link rel="canonical" href="https://3ds.customfw.xyz/bannerbomb3.html">
+  <meta property="og:url" content="https://3ds.customfw.xyz/bannerbomb3.html">
 
 
 
@@ -312,14 +312,14 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Карта сайта">
+    <meta itemprop="headline" content="Установка boot9strap (BannerBomb3)">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Карта сайта
+          <h1 class="page__title" itemprop="headline">Установка boot9strap (BannerBomb3)
 </h1>
           
         </header>
@@ -329,24 +329,12 @@
         
 <aside class="sidebar__right">
 <nav class="toc">
-    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Содержание</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#взлом-приставки" id="markdown-toc-взлом-приставки">Взлом приставки</a>    <ul>
-      <li><a href="#современная-цепочка" id="markdown-toc-современная-цепочка">Современная цепочка</a>        <ul>
-          <li><a href="#100---1130" id="markdown-toc-100---1130">1.0.0 - 11.3.0</a></li>
-          <li><a href="#1140---11160" id="markdown-toc-1140---11160">11.4.0 - 11.16.0</a></li>
-        </ul>
-      </li>
-      <li><a href="#ntrboot" id="markdown-toc-ntrboot">ntrboot</a></li>
-    </ul>
-  </li>
-  <li><a href="#полезные-инструкции" id="markdown-toc-полезные-инструкции">Полезные инструкции</a></li>
-  <li><a href="#системное" id="markdown-toc-системное">Системное</a></li>
-  <li><a href="#устаревшие-методы-взлома" id="markdown-toc-устаревшие-методы-взлома">Устаревшие методы взлома</a>    <ul>
-      <li><a href="#seedminer" id="markdown-toc-seedminer">Seedminer</a></li>
-      <li><a href="#хардмод" id="markdown-toc-хардмод">Хардмод</a></li>
-    </ul>
-  </li>
+  <li><a href="#часть-i---подготовительная-работа" id="markdown-toc-часть-i---подготовительная-работа">Часть I - Подготовительная работа</a></li>
+  <li><a href="#часть-ii---bannerbomb3" id="markdown-toc-часть-ii---bannerbomb3">Часть II - BannerBomb3</a></li>
+  <li><a href="#часть-iii---unsafe_mode" id="markdown-toc-часть-iii---unsafe_mode">Часть III - unSAFE_MODE</a></li>
+  <li><a href="#следующий-шаг-завершение-установки" id="markdown-toc-следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> Завершение установки</a></li>
 </ul>
 
   </nav>
@@ -360,121 +348,84 @@
 
 <hr />
 
-<h2 id="взлом-приставки">Взлом приставки</h2>
+<p class="notice--danger">Если у вас не работает кнопка одна из кнопок: <img src="/images/buttons/L.png" alt="(L)" />, <img src="/images/buttons/R.png" alt="(R)" />, <img src="/images/buttons/UP.png" alt="(UP)" /> или <img src="/images/buttons/A.png" alt="(A)" />, то воспользуйтесь <a href="fredtool">другим методом</a> для продолжения взлома.</p>
 
-<h3 id="современная-цепочка">Современная цепочка</h3>
+<p class="notice--warning">Этот метод не подходит для консолей тайваньского региона (TWN). Если у вас такая, воспользуйтесь <a href="https://3ds.hacks.guide/bannerbomb3-fredtool-(twn)">другим методом</a> взлома</p>
 
-<h4 id="100---1130">1.0.0 - 11.3.0</h4>
+<h3 id="часть-i---подготовительная-работа">Часть I - Подготовительная работа</h3>
 
-<ul>
-  <li><a href="get-started" target="_blank">Начнем</a>
+<ol>
+  <li>Откройте <a href="3dstools.nhnarwhal.com/#/bb3gen">Bannerbomb3 Injector</a> на вашем ПК</li>
+  <li>Нажмите на кнопку “<strong>Choose File</strong>” (“Обзор”) и выберите <code class="language-plaintext highlighter-rouge">movable.sed</code>, его мы получали ранее</li>
+  <li>Нажмите на кнопку “<strong>Build and Download</strong>”
     <ul>
-      <li><a href="soundhax" target="_blank">Использование SoundHax для установки boot9strip</a></li>
+      <li>Вам предложат сохранить на ПК архив <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code>, содержащий файлы <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> и <code class="language-plaintext highlighter-rouge">bb3.bin</code></li>
     </ul>
   </li>
-  <li><a href="finalizing-setup" target="_blank">Завершение установки</a></li>
-</ul>
-
-<h4 id="1140---11160">11.4.0 - 11.16.0</h4>
-
-<ul>
-  <li><a href="get-started" target="_blank">Начнем</a>
+  <li>Отключите консоль</li>
+  <li>Вставьте SD-карту приставки в ПК</li>
+  <li>Скопируйте <em>содержимое</em> <code class="language-plaintext highlighter-rouge">.zip-архива</code> <a href="https://github.com/rashevskyv/3ds/releases/latest" target="_blank"><code class="language-plaintext highlighter-rouge">3DSsdFiles.zip</code></a> (не делать ещё раз, если уже это делали в процессе прохождения руководства) в корень вашей SD-карты</li>
+  <li>Скопируйте <code class="language-plaintext highlighter-rouge">bb3.bin</code> из архива <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code> в корень вашей карты памяти</li>
+  <li>Перейдите в папку <code class="language-plaintext highlighter-rouge">Nintendo 3DS &gt; ID0 &gt; ID1 &gt; Nintendo DSiWare</code>
     <ul>
-      <li><a href="seedminer" target="_blank">Seedminer</a></li>
-      <li><a href="usm" target="_blank">Установка boot9strap (USM)</a></li>
-      <li><a href="seedminer" target="_blank">Установка boot9strap с помощью Seedminer</a></li>
+      <li>ID0 должен совпадать с тем, который мы использовали выше, при получении <code class="language-plaintext highlighter-rouge">movable.sed</code></li>
+      <li>Если папки <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> нет, создайте её</li>
+      <li>Если в папке <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> есть файлы, переместите их на ПК</li>
     </ul>
   </li>
-  <li><a href="finalizing-setup" target="_blank">Завершение установки</a></li>
-</ul>
+  <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code>, находящийся в архиве <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code>, в папку <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
+</ol>
 
-<h3 id="ntrboot">ntrboot</h3>
+<h3 id="часть-ii---bannerbomb3">Часть II - BannerBomb3</h3>
 
-<ul>
-  <li><a href="flashing-ntrboot-3ds-multi-system" target="_blank">Прошивка ntrboot (с привлечением прошитой 3DS)</a></li>
-  <li><a href="flashing-ntrboot-3ds-single-system" target="_blank">Прошивка ntrboot (на не прошитой 3DS)</a></li>
-  <li><a href="flashing-ntrboot-dsi" target="_blank">Прошивка ntrboot (DSi)</a></li>
-  <li><a href="flashing-ntrboot-nds" target="_blank">Прошивка ntrboot (NDS)</a></li>
-  <li><a href="ntrboot" target="_blank">ntrboot</a></li>
-  <li><a href="installing-boot9strap-ntrboot" target="_blank">Установка boot9strap (ntrboot)</a></li>
-</ul>
-
-<h2 id="полезные-инструкции">Полезные инструкции</h2>
-
-<ul>
-  <li><a href="faq-3ds" target="_blank">FAQ для прошитых</a></li>
-  <li><a href="faq" target="_blank">FAQ для не прошитых</a></li>
-  <li><a href="troubleshooting" target="_blank">Проблемы и их решения</a></li>
-  <li><a href="uninstall-cfw" target="_blank">Удаление кастомной прошивки</a></li>
-  <li><a href="addons" target="_blank">Список полезных после прошивки инструкций</a></li>
-  <li><a href="badges" target="_blank">Установка и использование жетонов (badges)</a></li>
-  <li><a href="cheats" target="_blank">Использование читов в 3DS-играх</a></li>
-  <li><a href="clean_sd" target="_blank">Форматирование приставки или SD-карты</a></li>
-  <li><a href="games" target="_blank">Установка приложений</a></li>
-  <li><a href="godmode9-usage" target="_blank">Использование GodMode9</a></li>
-  <li><a href="lumalocales" target="_blank">Включение русского языка в играх на приставке не европейского региона</a></li>
-  <li><a href="r4" target="_blank">Инструкция по использованию флеш-картриджа r4isdhc.com</a></li>
-  <li><a href="region-changing" target="_blank">Смена региона</a></li>
-  <li><a href="soft" target="_blank">Полезное ПО</a></li>
-  <li><a href="themes" target="_blank">Установка и использование тем</a></li>
-</ul>
-
-<h2 id="системное">Системное</h2>
-
-<ul>
-  <li><a href="update-system" target="_blank">Обновление системного ПО приставки</a></li>
-  <li><a href="update-luma3ds" target="_blank">Обновление Luma3DS</a></li>
-  <li><a href="move-emunand" target="_blank">Перенос EmuNAND в SysNAND</a></li>
-  <li><a href="move-movable" target="_blank">Перенос данных на другую приставку</a></li>
-  <li><a href="a9lh-to-b9s" target="_blank">Переход с A9LH на boot9strap</a></li>
-  <li><a href="ctrtransfer" target="_blank">CTRTransfer</a></li>
-  <li><a href="file-extensions-windows" target="_blank">Расширения файлов (Windows)</a></li>
-  <li><a href="otp" target="_blank">Информация об OTP</a></li>
-  <li><a href="updating-b9s" target="_blank">Обновление boot9strap</a></li>
-</ul>
-
-<h2 id="устаревшие-методы-взлома">Устаревшие методы взлома</h2>
-
-<ul>
-  <li><a href="homebrew-launcher-alternatives" target="_blank">Homebrew Launcher (альтернативные методы запуска)</a></li>
-  <li><a href="installing-boot9strap-homebrew-launcher" target="_blank">Установка boot9strap (Homebrew Launcher)</a></li>
-  <li><a href="installing-boot9strap-soundhax" target="_blank">Установка boot9strap (Soundhax)</a></li>
-  <li><a href="movable_manual" target="_blank">Получение ключа movable.sed с помощью майнинга</a></li>
-</ul>
-
-<h3 id="seedminer">Seedminer</h3>
-
-<ul>
-  <li><a href="seedminer" target="_blank">Seedminer</a>
+<ol>
+  <li>Верните SD-карту обратно в консоль</li>
+  <li>Включите приставку</li>
+  <li>Перейдите в “<strong>Системные настройки</strong>” (System Settings) -&gt; “<strong>Управление данными</strong>” (Data Management) -&gt; “<strong>DSiWare</strong>”</li>
+  <li>Выберите “<strong>Карта SD</strong>” (SD Card), загрузится <strong>BB3 multihax</strong></li>
+  <li>Нажмите “<strong>Install unSAFE_MODE</strong>”
     <ul>
-      <li><a href="usm" target="_blank">Установка boot9strap (USM)</a>
-        <ul>
-          <li><a href="fredtool" target="_blank">Установка CFW с помощью Fredtool</a></li>
-          <li><a href="frogminer" target="_blank">Установка CFW с помощью Frogminer</a></li>
-        </ul>
-      </li>
+      <li>После установки хака, приставка выключится</li>
     </ul>
   </li>
-  <li><a href="finalizing-setup" target="_blank">Завершение установки</a></li>
-</ul>
+</ol>
 
-<h3 id="хардмод">Хардмод</h3>
+<h3 id="часть-iii---unsafe_mode">Часть III - unSAFE_MODE</h3>
 
-<ul>
-  <li><a href="hardmod" target="_blank">Хардмод</a>
+<ol>
+  <li>Если приставка всё ещё включена, выключите её
     <ul>
-      <li><a href="making-hardmod-2ds" target="_blank">Пайка хардмода в 2DS</a></li>
-      <li><a href="making-hardmod-new2dsxl" target="_blank">Пайка хардмода в New 2DS XL</a></li>
-      <li><a href="making-hardmod-new3ds" target="_blank">Пайка хардмода в New 3DS</a></li>
-      <li><a href="making-hardmod-new3ds" target="_blank">Пайка хардмода в New 3DS</a></li>
-      <li><a href="making-hardmod-new3dsxl" target="_blank">Пайка хардмода в New 3DS XL</a></li>
-      <li><a href="making-hardmod-old3ds" target="_blank">Пайка хардмода в Old 3DS</a></li>
-      <li><a href="making-hardmod-old3dsxl" target="_blank">Пайка хардмода в Old 3DS XL</a></li>
+      <li>Удерживайте кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /> при необходимости</li>
     </ul>
   </li>
-  <li><a href="installing-boot9strap-hardmod" target="_blank">Установка boot9strap (Hardmod)</a></li>
-  <li><a href="finalizing-setup" target="_blank">Завершение установки</a></li>
-</ul>
+  <li>Зажмите и удерживайте следующие кнопки: <img src="/images/buttons/L.png" alt="(L)" /> + <img src="/images/buttons/R.png" alt="(R)" /> + <img src="/images/buttons/UP.png" alt="(UP)" /> + <img src="/images/buttons/A.png" alt="(A)" />, а затем, не отпуская указанные кнопки, включите приставку. Не отпускайте кнопки, покуда не включится экран</li>
+</ol>
+<details class="spoiler"><summary class="spoiler-title">Наглядная демонстрация</summary><div class="spoiler-body">
+<div style="max-width: ; min-width: 60%; margin:0 auto;" class="text-center notice--info">
+
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen="" src="https://www.youtube.com/embed/Wja1_HWXBGA"></iframe>
+  </div>
+</div>
+</div></details>
+
+<ol start="3">
+  <li>Нажмите “<strong>OK</strong>”, чтобы начать поиск точки доступа</li>
+  <li>Согласитесь с условиями пользования и нажмите <strong>ОК</strong></li>
+  <li>Поиск завершится с ошибкой <code class="language-plaintext highlighter-rouge">003-1099</code>. Так и задумано, нажмите <strong>ОК</strong></li>
+  <li>На запрос “<strong>Выполнить Интернет-настройки</strong>” (Would you like to configure Internet settings?), нажмите “<strong>Выполнить</strong>”</li>
+  <li>В появившемся меню выберите <strong>Связь 1</strong> (Connection 1) -&gt; <strong>Изменить настройки</strong> (Change Settings) -&gt; перейдите на следующую страницу (стрелка в правой части экрана) -&gt; <strong>Настройки прокси</strong> (Proxy Settings) -&gt; <strong>Подробнее</strong> (Detailed Setup)</li>
+  <li>Когда верхний экран окрасится в <span style="color: grey">серый</span> и на нём появится сообщение <strong>B9S install SUCCESS</strong>, нажмите любую кнопку</li>
+</ol>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-завершение-установки"><strong>Следующий шаг:</strong> <a href="finalizing-setup">Завершение установки</a></h2>
+
+<script>
+	localStorage.setItem('usm', 1);
+</script>
+
 
 				
         
