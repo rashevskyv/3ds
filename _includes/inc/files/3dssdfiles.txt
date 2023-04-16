@@ -1,1 +1,1 @@
-[3DSSDFiles](https://github.com/rashevskyv/3ds/releases/latest){:target="_blank"} (не делать ещё раз, если уже это делали в процессе прохождения руководства) (`3DSsdFiles.zip`)
+[`3DSsdFiles.zip`](https://github.com/rashevskyv/3ds/releases/latest){:target="_blank"} (не делать ещё раз, если уже это делали в процессе прохождения руководства)

@@ -64,5 +64,5 @@ permalink: /seedminer.html
 ___
 
 
-## **Следующий шаг:** [Установка CFW с помощью USM](usm)
+## **Следующий шаг:** [Установка CFW с помощью BannerBomb3](bannerbomb3)
 {: .notice--success}

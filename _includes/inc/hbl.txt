@@ -5,6 +5,7 @@
         1. Выберите "**Switch  the hb. title to the current app**"
         1. Нажмите {% include inc/btn.txt btn="A" %}, чтобы продолжить
         1. Нажмите {% include inc/btn.txt btn="B" %} для возврата в главное меню Rosalina
+        1. Выберите "**Save settings**" и нажмите {% include inc/btn.txt btn="A" %} для сохранения настроек
         1. Нажмите {% include inc/btn.txt btn="B" %} для выхода из главного меню Rosalina
         1. Нажмите {% include inc/btn.txt btn="HOME" %}, затем закройте приложение {{ include.content }}, наведя на него курсор и нажав кнопку {% include inc/btn.txt btn="X" %}
         1. Запустите приложение {{ include.content }}

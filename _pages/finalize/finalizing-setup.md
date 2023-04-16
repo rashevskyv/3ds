@@ -109,7 +109,6 @@ permalink: finalizing-setup.html
 ### Часть IV - Запуск HBL
 
 {% include /inc/hbl.txt content='**Загружаемая игра (Download Play)**' icon=', нажав на <img src="/images/icons/download-play-icon.png" alt="соответствующую иконку" height="24px" width="24px">' %}
-tn="START" %} для возвращения в **Homebrew Launcher**
 
 ### Часть V - Установка необходимых программ
 
@@ -144,7 +143,7 @@ ___
 <script>
 	bh = localStorage.getItem('browserhax')
 	ft = localStorage.getItem('fredtool')
-	usm = localStorage.getItem('usm')
+	usm = localStorage.getItem('bannerbomb3')
 
 	if (bh == "1") {
 		document.querySelector('#browserhax').classList.remove("hidden")
