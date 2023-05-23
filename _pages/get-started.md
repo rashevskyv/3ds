@@ -22,7 +22,7 @@ ___
 
 ### Таблица версий
 
-Для всех консолей, любой версии прошивки можно использовать [NTRBootHax](ntrboot){:target="_blank"}, даже если они не указаны в таблице! Для этого понадобится совместимый флеш-картридж, но этот метод наиболее простой. <br><br>**Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до {% include /vars/sys_version.txt %} через Системные настройки, а затем воспользовавшись соответствующим методом из таблицы**
+Для всех консолей, любой версии прошивки можно использовать [NTRBootHax](ntrboot){:target="_blank"}, даже если они не указаны в таблице! Для этого понадобится совместимый флеш-картридж, но этот метод наиболее простой. <!--<br><br>**Вы можете прошить любую приставку с любой изначальной версией системного ПО, обновив её до {% include /vars/sys_version.txt %} через Системные настройки, а затем воспользовавшись соответствующим методом из таблицы**-->
 {: .notice--warning}
 
 Если ваша приставка уже была прошита и какой-то умник удалил взлом, **вы не сможете прошить приставку никаким методом**, кроме [NTRBootHax](ntrboot){:target="_blank"}
@@ -54,6 +54,10 @@ ___
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
       <td style="text-align: center;" colspan="2"><a href="seedminer">Seedminer</a><br /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">11.17.0</td>
+      <td style="text-align: center;" colspan="2"><a href="ntrboot">NTRBootHax</a><br /></td>
     </tr>
   </tbody>
 </table>
