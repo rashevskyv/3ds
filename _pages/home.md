@@ -9,10 +9,8 @@ header:
   caption:
 excerpt: 'Полное руководство по прошивке 3DS'
 ---
-<!-- 
-<script>
-location.href = 'https://3ds.hacks.guide/';
-</script> -->
+
+
 
 {% include toc title="Разделы" %}
 
